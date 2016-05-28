@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Circles</title>
+	<link rel="stylesheet" type="text/css" href="circles.css">
+	<script type="text/javascript" src="paper-full.js"></script>
+	<script type="text/javascript" src="howler.js"></script>
+	<script type="text/paperscript" canvas="myCanvas">
+
+	var urls=["bubbles","clay","confetti","corona","dotted-spiral","flash-1","flash-2","flash-3","glimmer","moon","pinwheel","piston-1","piston-2","piston-3","prism-1	","prism-2","prism-3","splits","squiggle","strike","suspension","timer","ufo","veil","wipe","zig-zag","bubbles","clay","confetti","corona","dotted-spiral","flas	h-1","flash-2","flash-3","glimmer","moon","pinwheel","piston-1","piston-2","piston-3","prism-1","prism-2","prism-3","splits","squiggle","strike","suspension","t	imer","ufo","veil","wipe","zig-zag"];
+
+	var keys = ["q","w","e","r","t","y","u","i","o","p","a","s","d","f","g","h","j","k","l","z","x","c","v","b","n","m","й","ц","у","к","е","н","г","ш","щ","з","ф",
+	"ы","в","а","п","р","о","л","д","я","ч","с","м","и","т","ь"];
+	
+	
+function CrKeys(keys){
+	for(i=0; i<keys.length; i++){
+	if (i<26){
+		this[keys[i]]=new Constr(urls[i], randomColor());
+	} else{
+			this[keys[i]]=new ConstrRus(urls[i], randomColor());
+		}
+
+	} 
+}
+
+function randomColor(){
+	var r = Math.floor(Math.random() * 256);
+
+	var g = Math.floor(Math.random() * 256);
+
+	var b = Math.floor(Math.random() * 256);
+	return "rgb(" +r+ ", " +g+ ", " +b+ ")";
+}
+
+function Constr(urls,color){
+		this.color = color;
+		this.sound = new Howl({
+		urls:['sounds/'+urls+'.mp3']
+		});
+	}
+function ConstrRus(urls,color){
+		this.color = color;
+		this.sound = new Howl({
+		urls:['sounds/rus/'+urls+'.mp3']
+		});
+	}
+
+function onFrame(event){
+		for(var i = 0; i<circles.length;i++){
+			circles[i].fillColor.hue +=2;
+			circles[i].scale(.9);
+		}
+	}
+
+	var keyData = new CrKeys(keys);
+
+	var circles = [];
+
+	function onKeyDown(event) {
+		var key = event.key;
+		if (event.key){
+			keyData[event.key].sound.play();
+			var maxPoint = new Point (view.size.width, view.size.height);
+			var randomPoint = Point.random();
+			var point = maxPoint * randomPoint;
+			var newCircle = new Path.Circle(point, 500);
+			newCircle.fillColor = keyData[event.key].color;
+				circles.push(newCircle);
+				setTimeout( function() {newCircle.remove()} , 1000)
+				if (circles.length>40){
+					circles.splice(0,30);
+				}
+
+		}
+	
+	}
+document.addEventListener("DOMContentLoaded", console.clear());
+</script>
+</head>
+<body>
+	<!-- comment for new_style and chek changes -->
+	<!-- git -a -->
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>
