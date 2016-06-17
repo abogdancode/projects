@@ -7,7 +7,7 @@
 </head>
 <body>
 	<nav>
-		<img src="img/U-logo.png" alt="U">
+		<a href="#"><img src="img/U-logo.png" alt="U"></a>
 		<ul>
 			<li><img src="img/profile-photo-min.png" alt="U"></li>
 			<li><a href="#"><img src="img/timer.png" alt="U"></a></li>
@@ -29,7 +29,7 @@
 			    		<img class="circle" src="img/circle.png" alt="circle">	
 			    		</div>
 			    		<div>
-			    			<span>Sonic Ranners<img src="img/pencil-min.png" alt="pencil"></span>			
+			    			<span>Sonic Runners<img src="img/pencil-min.png" alt="pencil"></span>			
 				    	</div>
 			    	</div>
 			    </div>
@@ -55,8 +55,10 @@
 								<label for="club-email">Club Email</label>
 								<input name="club-email" type="email" placeholder="info@yourclub.com.au">
 							</div>
-							<div class=" column col-lg-8 col-md-8 col-sm-8">
+							<div class=" dont-match column col-lg-8 col-md-8 col-sm-8">
+								
 								<label for="confirm-club-email">Confirm Club Email</label>
+								<p id="dont-match">Emails Don't <br/>Match</p>
 								<input name="confirm-club-email" type="tel" placeholder="info@yourclub.com.au">
 							</div>
 							<p><span class="min-txt">It is important that you keep your club email address up-to date. Membership and event notifications will be sent to this address</span></p>
@@ -89,17 +91,19 @@
 						</div>
 						<div>
 							<ul>
-								<li class="ch-b-li"><input type="checkbox" name="check1" value="student-can"> </li>
-								<li class="ch-b-li"><input type="checkbox" name="check2" value="pafe-col"></li>
-								<li class="ch-b-li"><input type="checkbox" name="check3" value="gst"></li>
+								<li>
+							        <input id="cfirst" type="checkbox" name="first"  hidden checked/>
+							        <label for="cfirst">Student Can Join The Club/Society Throut This</label>
+							    </li>
+							    <li>
+							        <input id="csecond" type="checkbox" name="second" hidden checked />
+							        <label for="csecond">Page Collect</label>
+							    </li>
+							    <li>
+							        <input id="cthird" type="checkbox" name="third" hidden checked />
+							        <label for="cthird">GST? Digital Membership Cards? <a href="#"><img src="img/ques.png" alt="?"></a></label>
+							    </li>
 							</ul>
-						</div>
-						<div>
-						<ul class="labels-cb">
-							<li><label class="black" for="check1">Student Can Join The Club/Society Throut This</label></li>
-							<li><label class="black" for="check2"> Page <br/> Collect</label></li>
-							<li><label class="black" for="check3">GST? <br/> Digital Membership Cards</label></li>
-						</ul>
 						</div>
 
 						<div class="new-member">
@@ -119,7 +123,7 @@
 							<button class="button-txt" value="cancel" type="buttom">Cancel</button>
 							
 						</div>
-						
+						<ul>                
 					</form>
 				</div>
 		    </div>
