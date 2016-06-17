@@ -167,6 +167,7 @@ margin: 140px 20px 0 40px;
 }
 .create-form .dont-match, .create-form .dont-match label{
     color: red;
+    float: left;
 }
 .create-form .dont-match input{
     border-color: red;
