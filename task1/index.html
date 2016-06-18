@@ -9,10 +9,10 @@
 	<nav>
 		<a href="#"><img src="img/U-logo.png" alt="U"></a>
 		<ul>
-			<li><img src="img/profile-photo-min.png" alt="U"></li>
-			<li><a href="#"><img src="img/timer.png" alt="U"></a></li>
-			<li><a href="#"><img src="img/ring.png" alt="U"></a></li>
-			<li><a href="#"><img src="img/mass.png" alt="U"></a></li>
+			<li><img src="img/profile-photo-min.png" alt="foto"></li>
+			<li><a href="#"><img src="img/timer.png" alt="timer"></a></li>
+			<li><a href="#"><img src="img/ring.png" alt="bell"><img class="nav-labels" src="img/ring-label.png" alt="3"></a></li>
+			<li><a href="#"><img src="img/mass.png" alt="messages"><img class="nav-labels" src="img/ring-label.png" alt="3"></a></li>
 			<li><a href="#"><img src="img/loup.png" alt="Find"></a></li>
 		</ul>	
 	</nav>
@@ -55,13 +55,13 @@
 								<label for="club-email">Club Email</label>
 								<input name="club-email" type="email" placeholder="info@yourclub.com.au">
 							</div>
-							<div class=" dont-match column col-lg-8 col-md-8 col-sm-8">
+							<div class=" invalid column col-lg-8 col-md-8 col-sm-8">
 								
 								<label for="confirm-club-email">Confirm Club Email</label>
 								<p id="dont-match">Emails Don't <br/>Match</p>
 								<input name="confirm-club-email" type="tel" placeholder="info@yourclub.com.au">
 							</div>
-							<p><span class="min-txt">It is important that you keep your club email address up-to date. Membership and event notifications will be sent to this address</span></p>
+							<div><span class="min-txt">It is important that you keep your club email address up-to date. Membership and event notifications will be sent to this address</span></div>
 						</div>
 						<div class="row">
 							<div class="  column col-lg-8 col-md-8  col-sm-8">
@@ -79,7 +79,7 @@
 								<input name="club-pos" type="text" placeholder="Director, Head of Sponsotship,...">
 							</div>
 							<div class=" column col-lg-3 col-md-3 col-sm-3">
-								<label for="membership-free">Membership <br/>Free ($)</label>
+								<label for="membership-free">Membership <br/>Fee ($)</label>
 								<input class="small" name="membership-free" type="number" placeholder="$10.00">
 							</div>
 							<div class="  column col-lg-4 col-md-4 col-sm-4">
@@ -114,6 +114,7 @@
 						<div class="end">
 							<label class="black" for="add-ben">Add Benefis Of <br/>Membership</label>
 							<input class name="add-ben" type="text" placeholder="Really awesome benefit">
+							<img src="img/trash-.png" alt="trash">
 							<img src="img/add.png" alt="add">
 						</div>
 						<p><span class="min-txt">You can also sort your Benefits by drugging and dropping the list elements</span></p>

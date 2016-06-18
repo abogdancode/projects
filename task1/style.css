@@ -3,6 +3,11 @@ body{
     font-weight: normal;
     font-size: 14px;
 }
+
+textarea {
+    resize: none;
+}
+
 ul{
     list-style: none;
 }
@@ -29,6 +34,12 @@ nav ul{
 
 nav ul li{
     float:right;
+    position: relative;
+}
+nav ul li .nav-labels {
+    position: absolute; top:22%;left:55%;
+    padding: 0;
+    height: 15px;
 }
 
 nav ul li a{
@@ -43,17 +54,18 @@ nav ul li a img{
 /*enb nav ul*/
 
 /*context*/
+
 .main {
-    height:1250px;
+    height:1300px;
 }
 
 .right-bar, .left-bar, .content{
-    height:1250px;
+    height:1300px;
 }
 
 @media (max-width: 768px){
 .right-bar, .left-bar, .content{
-    height:1500px;
+    height:1550px;
     }
 }
 
@@ -107,7 +119,7 @@ margin: 140px 20px 0 40px;
 }
 
 .top-img div span img{
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 @media (min-width: 768px){
@@ -141,6 +153,14 @@ margin: 140px 20px 0 40px;
     border:none; 
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+.create-form input, select{
+    height: 40px;
+}
+
 .create-form textarea, input, select{
     display: block;
     margin: 5px auto 0 auto;
@@ -165,17 +185,17 @@ margin: 140px 20px 0 40px;
     margin: -10px 0 0 0;
     text-align: center;
 }
-.create-form .dont-match, .create-form .dont-match label{
+.create-form .invalid{
     color: red;
-    float: left;
 }
-.create-form .dont-match input{
+ .create-form .invalid label{
+    float: left;
+     color: red;
+}
+.create-form .invalid input{
     border-color: red;
 }
 
-.container-form li:nth-child(1){
-    padding-top: 5px;
-}
 
 .container-form div{
     margin: 10px 0px;
@@ -203,6 +223,11 @@ margin: 140px 20px 0 40px;
     width: 20px;
 }
 
+.container-form img[src="img/ques.png"]{
+    height:16px;
+    vertical-align: middle;
+}
+
 .container-form label{
     clear: both;
 }
@@ -211,8 +236,16 @@ margin: 140px 20px 0 40px;
     clear: left;
 }
 
+
 .container-form input[name="add-ben"]{
-    background: url(img/basket.png) no-repeat right;
+    padding-right: 20px;
+}
+
+.container-form img[src="img/trash-.png"]{
+    position: absolute; right: 3px; top: 47px;
+}
+.container-form img[src="img/trash-.png"]:hover{
+    cursor: pointer;
 }
 
 .container-form div .clear{
@@ -221,7 +254,8 @@ margin: 140px 20px 0 40px;
 
 .container-form img[src="img/add.png"]{
     float: right;
-    margin-top:10px;
+    height: 20px;
+    margin-right: 2px;
 }
 
 .container-form img[src="img/add.png"]:hover{
@@ -230,6 +264,7 @@ margin: 140px 20px 0 40px;
 
 .container-form div.end{
     margin-bottom: 30px;
+    position: relative;
 }
 
 .min-txt{
@@ -251,15 +286,17 @@ margin: 140px 20px 0 40px;
   background: linear-gradient(rgb(58,145,224), rgb(58,160,270)) rgb(58,145,224);
   transition: 0.2s;
   float:right;
+    height: 45px;
 } 
 
-.button:hover { background: linear-gradient(rgb(70,145,224)rgb(120,145,224)) rgb(58,145,224); 
+.button:hover { background: linear-gradient(rgb(70,145,224),rgb(120,145,224)) rgb(58,145,224);
 cursor:pointer;
 }
 
 .button:active { background: linear-gradient(rgb(58,145,224), rgb(58,145,224)) rgb(58,145,224);}
 
 .button-txt{
+    -moz-box-sizing: border-box;
     display: inline-block;
     text-decoration: none;
     color: #dcdcdc;
@@ -268,6 +305,7 @@ cursor:pointer;
     font-size: 16px;
     float:right;
     padding: .5em 2em;
+    height: 35px
 }
 
 .button-txt:hover{
@@ -298,7 +336,7 @@ input[type="radio"] + label::before {
     display: inline-block;
     height: 18px;
     width: 18px;
-    margin: 0 5px 0 0;
+    margin: -2px 5px 0 0;
     background-image: url(img/unchecked.png);
     background-repeat: no-repeat;
     vertical-align: middle;
