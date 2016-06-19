@@ -18,25 +18,19 @@
 	</nav>
 	<section class="main">
 		<div class="row">
-			<div class=" left-bar column col-lg-3 col-md-3 col-sm-4 col-xs-4 ">
+			<div class=" left-bar column col-lg-3 col-md-3 ">
 			
 			</div>
 
-		    <div class=" content column col-lg-10 col-md-10 col-sm-12 col-xs-12">
+		    <div class=" content column col-lg-10 col-md-10">
 			    <div class="top-img">
-			    	<div class="container-imges">
-			    		<div>
-			    		<img class="circle" src="img/circle.png" alt="circle">	
-			    		</div>
-			    		<div>
-			    			<span>Sonic Runners<img src="img/pencil-min.png" alt="pencil"></span>			
-				    	</div>
-			    	</div>
+			    		<img id="circle" src="img/circle.png" alt="circle">
+						<span id="pencil">Sonic Runners<img src="img/pencil-min.png" alt="pencil"></span>
 			    </div>
 			
 				<div class="container-form">
 					<form class="create-form" action="" name="create-page">
-						<div>
+						<div class="margin-bot">
 							<label for="club-description"> Club Description</label>
 							<textarea name="club-description"  rows="4" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."></textarea>
 						</div>
@@ -50,7 +44,9 @@
 								<label for="club-contact">Club Contact</label>
 								<input name="club-contact" type="tel" placeholder="(0)99995555">
 							</div>
+						</div>
 
+						<div class="row">
 							<div class=" column col-lg-8 col-md-8 col-sm-8">
 								<label for="club-email">Club Email</label>
 								<input name="club-email" type="email" placeholder="info@yourclub.com.au">
@@ -61,8 +57,9 @@
 								<p id="dont-match">Emails Don't <br/>Match</p>
 								<input name="confirm-club-email" type="tel" placeholder="info@yourclub.com.au">
 							</div>
-							<div><span class="min-txt">It is important that you keep your club email address up-to date. Membership and event notifications will be sent to this address</span></div>
+							<span id="important-message" class="min-txt">It is important that you keep your club email address up-to date. Membership and event notifications will be sent to this address</span>
 						</div>
+
 						<div class="row">
 							<div class="  column col-lg-8 col-md-8  col-sm-8">
 								<label for="faculty">Faculty</label>
@@ -72,23 +69,23 @@
 								<option value="Another Faculty">Another Faculty</option>
 								</select>
 							</div>
-
-
 							<div class=" clear column col-lg-8 col-md-8 col-sm-8 ">
 								<label for="club-pos">Your Club Position</label>
 								<input name="club-pos" type="text" placeholder="Director, Head of Sponsotship,...">
 							</div>
-							<div class=" column col-lg-3 col-md-3 col-sm-3">
-								<label for="membership-free">Membership <br/>Fee ($)</label>
-								<input class="small" name="membership-free" type="number" placeholder="$10.00">
+						</div>
+
+						<div class="row">
+							<div class=" column col-lg-3 col-md-3 col-sm-3 col-xs-5">
+								<label for="membership-fee">Membership <br/>Fee ($)</label>
+								<input class="small" name="membership-fee" type="number" placeholder="$10.00">
 							</div>
-							<div class="  column col-lg-4 col-md-4 col-sm-4">
+							<div class="  column col-lg-4 col-md-4 col-sm-4 col-xs-5">
 								<label class="black" for="S-U-M-D">Student Union <br/>Member Discount</label>
 								<input class="small" name="S-U-M-D" type="number" placeholder="$01.00">
 							</div>
-							
-
 						</div>
+
 						<div>
 							<ul>
 								<li>
@@ -106,7 +103,7 @@
 							</ul>
 						</div>
 
-						<div class="new-member">
+						<div class="new-member margin-bot">
 							<label for="new-member"> New Member <br/>Message</label>
 							<textarea name="new-member"  rows="4" placeholder="Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."></textarea>
 						</div>

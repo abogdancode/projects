@@ -69,9 +69,12 @@ nav ul li a img{
     }
 }
 
-@media (max-width: 992px) and (min-width: 512px){
-.right-bar{
-    margin-left: 25%;
+@media (max-width: 991px) {
+.right-bar, .left-bar{
+    display: none;
+    }
+    .content, .main{
+        height:auto;
     }
 }
 
@@ -83,6 +86,7 @@ nav ul li a img{
     background: #F5F5F5;
 }
 
+ /*top img*/
 .top-img{
     width: auto;
     height: 200px;
@@ -91,6 +95,7 @@ nav ul li a img{
     font-weight: normal;
     color: #fff;
     margin-bottom: 70px;
+    position: relative;
 }
 
 @media (min-width: 512px){
@@ -103,24 +108,23 @@ nav ul li a img{
     }
 }
 
-.top-img .circle{
+.top-img #circle{
+    position: absolute;
 height:120px;
-margin: 140px 20px 0 40px;
+left:40px; top:140px;
 }
 
 .top-img div{
     float:left;
 }
 
-.top-img div span{
+.top-img #pencil{
     display: block;
-    margin-top:150px;
+    position: absolute;
+    left: 190px; top:150px;
     border-bottom: 1px dashed #fff;
 }
-
-.top-img div span img{
-    margin-left: 20px;
-}
+/* end top img*/
 
 @media (min-width: 768px){
     .create-form .row .column:nth-child(odd) {
@@ -131,8 +135,17 @@ margin: 140px 20px 0 40px;
     }
 }
 
+.container-form div.column{
+    margin-bottom: 20px;
+}
+
+.margin-bot{
+    margin-bottom: 20px;
+}
+
 .create-form label{
-    color: green; 
+    color: green;
+    margin-bottom: 10px;
 }
 
 .create-form label.black{
@@ -146,7 +159,6 @@ margin: 140px 20px 0 40px;
 
 .container-form .small{
     width: 80px;
-    margin: 5px 0 0 0;
 }
 
  .create-form .select::-ms-expand {
@@ -157,13 +169,14 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
 }
+
 .create-form input, select{
     height: 40px;
 }
 
 .create-form textarea, input, select{
     display: block;
-    margin: 5px auto 0 auto;
+    margin-top: 10px;
     padding: 10px;
     font-family: sans-serif;
     font-weight: normal;
@@ -179,42 +192,46 @@ input[type=number]::-webkit-outer-spin-button {
     border-width:1px;
 }
 
+/*invalid block*/
 #dont-match{
-    float: right;
-    padding:0;
-    margin: -10px 0 0 0;
+    display: none;
+}
+.create-form .invalid #dont-match{
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: -30px;
     text-align: center;
 }
+
 .create-form .invalid{
     color: red;
 }
  .create-form .invalid label{
-    float: left;
      color: red;
 }
 .create-form .invalid input{
     border-color: red;
 }
+/*end invalid block*/
 
-
-.container-form div{
-    margin: 10px 0px;
+#important-message{
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
+/*checkbox li*/
 .container-form li{
     display: block;
     height:30px;
 }
 
 .container-form li a img{
-
     margin: -2px 0 0 0;
-    padding:0;
 }
 
 .container-form ul{
     float: left;
-    line-height: 0.8em;
     padding-left: 5px;
 }
 
@@ -227,29 +244,21 @@ input[type=number]::-webkit-outer-spin-button {
     height:16px;
     vertical-align: middle;
 }
-
-.container-form label{
-    clear: both;
-}
+/*end checkbox li*/
 
 .container-form .new-member{
     clear: left;
 }
-
 
 .container-form input[name="add-ben"]{
     padding-right: 20px;
 }
 
 .container-form img[src="img/trash-.png"]{
-    position: absolute; right: 3px; top: 47px;
+    position: absolute; right: 3px; top: 53px;
 }
 .container-form img[src="img/trash-.png"]:hover{
     cursor: pointer;
-}
-
-.container-form div .clear{
-    margin-bottom: 20px;
 }
 
 .container-form img[src="img/add.png"]{
@@ -305,7 +314,7 @@ cursor:pointer;
     font-size: 16px;
     float:right;
     padding: .5em 2em;
-    height: 35px
+    height: 45px;
 }
 
 .button-txt:hover{
