@@ -128,9 +128,12 @@ left:40px; top:140px;
     margin-left: 40px;
 }
 
+@media (min-width: 768px){
 #fee{
     width: 23%;
+}    
 }
+
 
 .top-img #pencil{
     font-size: 17px;
