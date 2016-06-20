@@ -191,7 +191,9 @@ input[type=number]::-webkit-outer-spin-button {
     border-color: #ccc;
     border-width:1px;
 }
-
+.container-form .create-form .row div.marg-bt {
+    margin-bottom: 10px;
+}
 /*invalid block*/
 #dont-match{
     display: none;
@@ -200,7 +202,7 @@ input[type=number]::-webkit-outer-spin-button {
     display: block;
     position: absolute;
     right: 0px;
-    top: -30px;
+    top: -15px;
     text-align: center;
 }
 
@@ -252,10 +254,11 @@ input[type=number]::-webkit-outer-spin-button {
 
 .container-form input[name="add-ben"]{
     padding-right: 20px;
+    margin-bottom: 10px;
 }
 
 .container-form img[src="img/trash-.png"]{
-    position: absolute; right: 3px; top: 53px;
+    position: absolute; right: 3px; top: 38px;
 }
 .container-form img[src="img/trash-.png"]:hover{
     cursor: pointer;
