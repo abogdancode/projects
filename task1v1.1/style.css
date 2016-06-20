@@ -308,18 +308,18 @@ input[type=number]::-webkit-outer-spin-button {
 .button {
   display: inline-block;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   text-decoration: none;
-  padding: .5em 2em;
+  padding: .1em 1em;
   outline: none;
   border-width: 2px 0;
   border-style: solid none;
   border-color: rgb(58,145,224) #000 rgb(58,145,224);
-  border-radius: 6px;
+  border-radius: 3px;
   background: linear-gradient(rgb(58,145,224), rgb(58,160,250)) rgb(58,145,224);
   transition: 0.2s;
   float:right;
-    height: 35px;
+    height: 30px;
 } 
 
 .button:hover { background: linear-gradient(rgb(70,145,224),rgb(120,145,224)) rgb(58,145,224);
@@ -335,10 +335,10 @@ cursor:pointer;
     color: #dcdcdc;
     border:none;
     background: none;
-    font-size: 16px;
+    font-size: 12px;
     float:right;
     padding: .5em 2em;
-    height: 35px;
+    height: 30px;
 }
 
 .button-txt:hover{
