@@ -1,7 +1,13 @@
+html{
+    background-color: black;
+}
+
+
 body{
-    font-family: sans-serif , verdana;
+    font-family: 'Lato', sans-serif;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 13px;
+    margin:0 25px;
 }
 
 textarea {
@@ -13,12 +19,12 @@ ul{
 }
 nav{
     background: #1565c0;
-    height: 50px;
+    height: 60px;
     padding: 0 10px 0 10px;
 }
 nav img{
-    padding-top: 5px;
-    height: 40px;
+    padding-top: 7.5px;
+    height: 45px;
     float:left;
 }
 
@@ -48,7 +54,7 @@ nav ul li a{
  }
 nav ul li a img{
     height: 20px;
-    padding-top: 15px;
+    padding-top: 20px;
 
 }
 /*enb nav ul*/
@@ -57,6 +63,7 @@ nav ul li a img{
 
 .main {
     height:1300px;
+    background-color: #fff;
 }
 
 .right-bar, .left-bar, .content{
@@ -91,10 +98,10 @@ nav ul li a img{
     width: auto;
     height: 200px;
     background: url(img/background-cont.png) no-repeat #f3f3f3 top center;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: normal;
     color: #fff;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     position: relative;
 }
 
@@ -117,8 +124,17 @@ left:40px; top:140px;
 .top-img div{
     float:left;
 }
+.top-img #pencil img{
+    margin-left: 40px;
+}
+
+#fee{
+    width: 23%;
+}
 
 .top-img #pencil{
+    font-size: 17px;
+    font-weight: normal;
     display: block;
     position: absolute;
     left: 190px; top:150px;
@@ -136,11 +152,11 @@ left:40px; top:140px;
 }
 
 .container-form div.column{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .margin-bot{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .create-form label{
@@ -178,7 +194,7 @@ input[type=number]::-webkit-outer-spin-button {
     display: block;
     margin-top: 10px;
     padding: 10px;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: normal;
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box; 
@@ -225,7 +241,7 @@ input[type=number]::-webkit-outer-spin-button {
 /*checkbox li*/
 .container-form li{
     display: block;
-    height:30px;
+    height:26px;
 }
 
 .container-form li a img{
@@ -235,6 +251,8 @@ input[type=number]::-webkit-outer-spin-button {
 .container-form ul{
     float: left;
     padding-left: 5px;
+    margin-top: 0px;
+
 }
 
 .container-form li input {
@@ -280,7 +298,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .min-txt{
-    font-size: 12px;
+    font-size: 11px;
 }
 
 /* button*/
@@ -298,7 +316,7 @@ input[type=number]::-webkit-outer-spin-button {
   background: linear-gradient(rgb(58,145,224), rgb(58,160,250)) rgb(58,145,224);
   transition: 0.2s;
   float:right;
-    height: 45px;
+    height: 35px;
 } 
 
 .button:hover { background: linear-gradient(rgb(70,145,224),rgb(120,145,224)) rgb(58,145,224);
@@ -317,7 +335,7 @@ cursor:pointer;
     font-size: 16px;
     float:right;
     padding: .5em 2em;
-    height: 45px;
+    height: 35px;
 }
 
 .button-txt:hover{
