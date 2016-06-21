@@ -8,6 +8,7 @@ body{
     font-weight: normal;
     font-size: 13px;
     margin:0 25px;
+    color: #5a5a5a;
 }
 
 textarea {
@@ -19,13 +20,24 @@ ul{
 }
 nav{
     background: #1565c0;
-    height: 60px;
+    height: 55px;
     padding: 0 10px 0 10px;
 }
+
 nav img{
     padding-top: 7.5px;
     height: 45px;
     float:left;
+}
+nav img[src="img/profile-photo-min.png"]{
+    padding-top: 5px;
+    height: 45px;
+    float:left;
+}
+
+nav img[src="img/U-logo.png"]{
+    padding-top: 10px;
+    height: 35px;
 }
 
 /*nav ul*/
@@ -42,10 +54,26 @@ nav ul li{
     float:right;
     position: relative;
 }
+
+nav ul li .nav-labels span{
+   font-size: 11px;  
+   color: #dcdcdc;
+   text-align: center;
+   margin: 5px 0 0 5px;
+
+}
+
 nav ul li .nav-labels {
-    position: absolute; top:22%;left:55%;
-    padding: 0;
-    height: 15px;
+    position: absolute; top:28%;left:52%;
+    height: 18px;
+    width: 18px;
+   
+    background-color: #FD463F;
+    border-radius: 50%;
+    border-color:   #FD463F;
+    
+    
+   
 }
 
 nav ul li a{
@@ -54,6 +82,7 @@ nav ul li a{
  }
 nav ul li a img{
     height: 20px;
+    width: 20px;
     padding-top: 20px;
 
 }
@@ -62,12 +91,12 @@ nav ul li a img{
 /*context*/
 
 .main {
-    height:1300px;
+    height:1250px;
     background-color: #fff;
 }
 
 .right-bar, .left-bar, .content{
-    height:1300px;
+    height:1250px;
 }
 
 @media (max-width: 768px){
@@ -96,12 +125,12 @@ nav ul li a img{
  /*top img*/
 .top-img{
     width: auto;
-    height: 200px;
+    height: 180px;
     background: url(img/background-cont.png) no-repeat #f3f3f3 top center;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     color: #fff;
-    margin-bottom: 100px;
+    margin-bottom: 62px;
     position: relative;
 }
 
@@ -117,15 +146,16 @@ nav ul li a img{
 
 .top-img #circle{
     position: absolute;
-height:120px;
-left:40px; top:140px;
+height:94px;
+left:43px; top:116px;
 }
 
 .top-img div{
     float:left;
 }
 .top-img #pencil img{
-    margin-left: 40px;
+    margin-left: 50px;
+    height: 17px;
 }
 
 @media (min-width: 768px){
@@ -140,7 +170,7 @@ left:40px; top:140px;
     font-weight: normal;
     display: block;
     position: absolute;
-    left: 190px; top:150px;
+    left: 162px; top:132px;
     border-bottom: 1px dashed #fff;
 }
 /* end top img*/
@@ -163,12 +193,12 @@ left:40px; top:140px;
 }
 
 .create-form label{
-    color: green;
+    color: #79bc5d;
     margin-bottom: 10px;
 }
 
 .create-form label.black{
-    color: black; 
+    color: #5a5a5a; 
 }
 
 .container-form{
@@ -193,9 +223,14 @@ input[type=number]::-webkit-outer-spin-button {
     height: 40px;
 }
 
+textarea{
+    height: 90px;
+}
+
 .create-form textarea, input, select{
     display: block;
-    margin-top: 10px;
+    color: #5a5a5a;
+    margin-top: 9px;
     padding: 10px;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
@@ -211,7 +246,7 @@ input[type=number]::-webkit-outer-spin-button {
     border-width:1px;
 }
 .container-form .create-form .row div.marg-bt {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 /*invalid block*/
 #dont-match{
@@ -247,14 +282,19 @@ input[type=number]::-webkit-outer-spin-button {
     height:26px;
 }
 
+a img{
+    border:none;
+}
+
 .container-form li a img{
-    margin: -2px 0 0 0;
+    margin: -3px 0 0 0;
 }
 
 .container-form ul{
     float: left;
-    padding-left: 5px;
-    margin-top: 0px;
+    padding-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 18px;
 
 }
 
@@ -296,7 +336,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .container-form div.end{
-    margin-bottom: 30px;
+    margin-bottom: 42px;
     position: relative;
 }
 
@@ -316,29 +356,31 @@ input[type=number]::-webkit-outer-spin-button {
   border-style: solid none;
   border-color: rgb(58,145,224) #000 rgb(58,145,224);
   border-radius: 3px;
-  background: linear-gradient(rgb(58,145,224), rgb(58,160,250)) rgb(58,145,224);
+  background-color: #3a91e0 ;
+    
   transition: 0.2s;
   float:right;
-    height: 30px;
+    height: 32px;
 } 
 
 .button:hover { background: linear-gradient(rgb(70,145,224),rgb(120,145,224)) rgb(58,145,224);
 cursor:pointer;
 }
 
-.button:active { background: linear-gradient(rgb(58,145,224), rgb(58,145,224)) rgb(58,145,224);}
+.button:active { background: linear-gradient(rgb(58,145,224), rgb(58,145,224)) rgb(58,145,224);
+}
 
 .button-txt{
     -moz-box-sizing: border-box;
     display: inline-block;
     text-decoration: none;
-    color: #dcdcdc;
+    color: #a9a9a9;
     border:none;
     background: none;
     font-size: 12px;
     float:right;
     padding: .5em 2em;
-    height: 30px;
+    height: 32px;
 }
 
 .button-txt:hover{
@@ -359,7 +401,7 @@ input[type="radio"] {
 
 input[type="checkbox"] + label, 
 input[type="radio"] + label {
-  color: black;
+  color: #5a5a5a;
   cursor: pointer;
 }
 
