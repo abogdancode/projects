@@ -12,6 +12,6 @@ $(document).ready(function(){
         $(".header .container").css({
             "transform": "translate(0%, -"+st /10+"%"
         } );
-        console.log(st);
+        
     });
 });
