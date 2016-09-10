@@ -1,0 +1,102 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.UpdateProfile_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilebutton_12 */
+#UpdateProfile_mobilebutton_12 {
+
+}
+.ui-btn.UpdateProfile_mobilebutton_12 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilelabel_2 */
+.UpdateProfile_mobilelabel_2 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* user_handle */
+.UpdateProfile_user_handle {
+	margin: 4px 0px 4px 0px;
+}
+/* user_expertise */
+.UpdateProfile_user_expertise {
+	margin: 4px 5px 4px 5px;
+}
+/* user_pitch */
+.UpdateProfile_user_pitch {
+	margin: 4px 0px 4px 0px;
+}
+/* user_seeking */
+.UpdateProfile_user_seeking {
+	margin: 4px 5px 4px 5px;
+}
+/* introEmail_input */
+.UpdateProfile_introEmail_input {
+	margin: 4px 0px 4px 0px;
+}
+/* area_selectmenu */
+.UpdateProfile_area_selectmenu {
+	margin: 4px 5px 4px 5px;
+}
+/* button_continue */
+#UpdateProfile_button_continue {
+
+}
+.ui-btn.UpdateProfile_button_continue {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.UpdateProfile_mobilefooter {
+	min-height:38px;
+}
+/* popup_expertise */
+.UpdateProfile_popup_expertise {
+
+}
+div.UpdateProfile_popup_expertise {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.UpdateProfile_popup_expertise .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* mobilelabel_4 */
+.UpdateProfile_mobilelabel_4 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* popup_seeking */
+.UpdateProfile_popup_seeking {
+
+}
+div.UpdateProfile_popup_seeking {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.UpdateProfile_popup_seeking .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* mobilelabel_3 */
+.UpdateProfile_mobilelabel_3 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}

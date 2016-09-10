@@ -1,0 +1,53 @@
+
+<!-- If you're looking for the shared template that contains -->
+<!-- the header and footer, look in html/base.html -->
+{% extends "base.html" %}
+
+{% block page_header %}
+<div class="about small-headline container-fluid">
+<div class="row">
+
+<div class="col-xs-12 text-center headline showcase">
+<div class="showcase-image" data-barley="about-headline-image" data-barley-editor="image">
+<img class="img-responsive hero" src="{{ 'images/1440x480_banner.svg' | asset_url }}"/>
+<div class="img-overlay"></div>
+
+<div class="showcase-content">
+<div class="showcase-text">
+<h1 class="title" data-barley="about-headline-title" data-barley-editor="simple">
+Always fresh, picked just for you.
+</h1>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+{% endblock %}
+
+{% block page_content %}
+
+<section class="row text-center">
+<div class="col-xs-12 prose">
+<h1 data-barley="about-title" data-barley-editor="simple">Need more fresh fruit in your life? We’ve got you covered.</h1>
+<div data-barley="about-content" data-barley-editor="advanced">
+<p>Proin ac mi feugiat, auctor nibh et, congue ante. Ut tempus dui et bibendum vulputate. Sed faucibus eros urna, in molestie leo convallis vel. Pellentesque fermentum tempor purus mollis porta. Duis vel tempus turpis. Praesent feugiat nibh non aliquam venenatis. Fusce nisi orci, lobortis in tristique id, tempus commodo sem. Pellentesque mollis, nisl vitae ornare efficitur, orci dolor hendrerit sapien, in ullamcorper mauris est et velit. Nunc at nulla eu erat rhoncus efficitur nec quis dolor. Vivamus enim velit, ultricies vel porta id, euismod at massa. Pellentesque mollis, nisl vitae ornare efficitur, orci dolor hendrerit sapien, in ullamcorper mauris est et velit. Nunc at nulla eu erat rhoncus efficitur nec quis dolor. Vivamus enim velit, ultricies vel porta id, euismod at massa.</p>
+
+<p>Pellentesque mollis, nisl vitae ornare efficitur, orci dolor hendrerit sapien, in ullamcorper mauris est et velit. Nunc at nulla eu erat rhoncus efficitur nec quis dolor. Vivamus enim velit, ultricies vel porta id, euismod at massa.</p>
+
+<p>Proin ac mi feugiat, auctor nibh et, congue ante. Ut tempus dui et bibendum vulputate. Sed faucibus eros urna, in molestie leo convallis vel. Pellentesque fermentum tempor purus mollis porta. Duis vel tempus turpis. Praesent feugiat nibh non aliquam venenatis. Fusce nisi orci, lobortis in tristique id, tempus commodo sem.</p>
+
+<p>Proin ac mi feugiat, auctor nibh et, congue ante. Ut tempus dui et bibendum vulputate. Sed faucibus eros urna, in molestie leo convallis vel. Pellentesque fermentum tempor purus mollis porta. Duis vel tempus turpis. Praesent feugiat nibh non aliquam venenatis. Fusce nisi orci, lobortis in tristique id, tempus commodo sem. Proin ac mi feugiat, auctor nibh et, congue ante. Ut tempus dui et bibendum vulputate. Sed faucibus eros urna, in molestie leo convallis vel. Pellentesque fermentum tempor purus mollis porta. Duis vel tempus turpis. Praesent feugiat nibh non aliquam venenatis. Fusce nisi orci, lobortis in tristique id, tempus commodo sem.</p>
+</div>
+</div>
+</section>
+
+<section class="row text-center">
+<a type="button" class="btn btn-lg btn-primary" href="/subscribe" data-barley="about_cta_button" data-barley-editor="link">
+GET STARTED
+</a>
+</section>
+
+{% endblock %}

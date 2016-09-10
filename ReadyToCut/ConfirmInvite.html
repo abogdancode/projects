@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)http://appery.io/app/view/a4cc3150-80d9-438a-9c96-e11154eb1f48/app/ConfirmInvite.html -->
+<html class="ui-mobile"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="http://appery.io/app/view/a4cc3150-80d9-438a-9c96-e11154eb1f48/app/ConfirmInvite.html">--><base href=".">
+        <title>
+                    CoFoundWith.me
+                </title>
+        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src &#39;self&#39; &#39;unsafe-inline&#39; *; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; *">
+        <link href="./ConfirmInvite_files/jqm.css" rel="stylesheet">
+        <link href="./ConfirmInvite_files/ios7.css" rel="stylesheet">
+        <link href="./ConfirmInvite_files/jquery.mobile.structure-1.4.5.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="./ConfirmInvite_files/CSS.css">
+        <script type="text/javascript" src="./ConfirmInvite_files/underscore.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/json2.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/sha1.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/oauth.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/contexts.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/q.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/tv4.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/localforage.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/moment.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/offline.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/appery.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/component-manager.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/entity-api.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/login.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/storage-api.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/cordova.js">
+        </script>
+        <link href="./ConfirmInvite_files/mobilebase.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="./ConfirmInvite_files/model.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/XML2JS_JS.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/CoFoundHelperJS.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/SendMail_generic_service_Impl.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/SampleImageScript.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/FileUpload.js">
+        </script>
+        <script type="text/javascript" src="./ConfirmInvite_files/service.js">
+        </script>
+    </head>
+    
+    <body class="ui-mobile-viewport ui-overlay-a gorgias-loaded">
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="padding-top: 44px; min-height: 891px;" dsid="ConfirmInvite" id="ConfirmInvite" class="type-interior ui-page ui-page-theme-a ui-page-header-fixed ui-page-active" data-theme="a" data-url="ConfirmInvite" tabindex="0">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back" data-theme="a" name="mobileheader" id="ConfirmInvite_mobileheader" class="ConfirmInvite_mobileheader ui-header ui-bar-a ui-header-fixed slidedown ui-fixed-hidden" role="banner">
+                <h1 dsid="mobileheader" class="ui-title" role="heading" aria-level="1">
+                    CoFoundWith.me
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="ConfirmInvite_mobilecontainer" name="mobilecontainer" class="ConfirmInvite_mobilecontainer ui-content ui-body-a" dsid="mobilecontainer" data-theme="a" role="main" style="min-height: 886px;">
+                <link href="./ConfirmInvite_files/ConfirmInvite.css" rel="stylesheet" type="text/css">
+                <script type="text/javascript" src="./ConfirmInvite_files/ConfirmInvite.js">
+                </script>
+                <!-- mobilebutton_119 --><!--
+                --><a data-role="button" name="mobilebutton_119" dsid="mobilebutton_119" class="ConfirmInvite_mobilebutton_119 ui-link ui-btn ui-btn-a ui-icon-none ui-btn-icon-nowhere ui-shadow ui-corner-all" id="ConfirmInvite_mobilebutton_119" data-corners="true" data-icon="none" data-iconpos="nowhere" x-apple-data-detectors="false" data-mini="false" data-theme="a" tabindex="16" role="button">
+                Back
+                </a><!--
+                --><!-- mobilelabel_120 -->
+                <div name="mobilelabel_120" id="ConfirmInvite_mobilelabel_120" dsid="mobilelabel_120" data-role="appery_label" class="ConfirmInvite_mobilelabel_120">
+                    CONFIRM INVITE
+                </div>
+                <!-- mobilelabel_10 -->
+                <div name="mobilelabel_10" id="ConfirmInvite_mobilelabel_10" dsid="mobilelabel_10" data-role="appery_label" class="ConfirmInvite_mobilelabel_10">
+                    You've chosen to invite:
+                </div>
+                <!-- mobilelabel_122 -->
+                <div name="mobilelabel_122" id="ConfirmInvite_mobilelabel_122" dsid="mobilelabel_122" data-role="appery_label" class="ConfirmInvite_mobilelabel_122">
+                    Name
+                </div>
+                <!-- mobilelabel_123 -->
+                <div name="mobilelabel_123" id="ConfirmInvite_mobilelabel_123" dsid="mobilelabel_123" data-role="appery_label" class="ConfirmInvite_mobilelabel_123">
+                    Expertise
+                </div>
+                <!-- mobilelabel_124 -->
+                <div name="mobilelabel_124" id="ConfirmInvite_mobilelabel_124" dsid="mobilelabel_124" data-role="appery_label" class="ConfirmInvite_mobilelabel_124">
+                    To connect via email.
+                </div>
+                <!-- mobilebutton_121 --><!--
+                --><a data-role="button" name="mobilebutton_121" dsid="mobilebutton_121" class="ConfirmInvite_mobilebutton_121 ui-link ui-btn ui-btn-a ui-icon-none ui-btn-icon-nowhere ui-shadow ui-corner-all" id="ConfirmInvite_mobilebutton_121" data-corners="true" data-icon="none" data-iconpos="nowhere" x-apple-data-detectors="false" data-mini="false" data-theme="a" tabindex="17" role="button">
+                INVITE
+                </a>
+            </div>
+            <!-- error_popup -->
+            <div style="display: none;" id="ConfirmInvite_error_popup-placeholder"><!-- placeholder for ConfirmInvite_error_popup --></div>
+            <!-- succ_popup -->
+            <div style="display: none;" id="ConfirmInvite_succ_popup-placeholder"><!-- placeholder for ConfirmInvite_succ_popup --></div>
+        <div class="ui-screen-hidden ui-popup-screen ui-overlay-a" id="ConfirmInvite_error_popup-screen"></div><div class="ui-popup-container ui-popup-hidden ui-popup-truncate" id="ConfirmInvite_error_popup-popup"><div data-role="popup" name="error_popup" dsid="error_popup" id="ConfirmInvite_error_popup" class="ConfirmInvite_error_popup ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-corners="true" data-dismissible="true" data-overlay-theme="a" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- error_label -->
+                    <div name="error_label" id="ConfirmInvite_error_label" dsid="error_label" data-role="appery_label" class="ConfirmInvite_error_label">
+                        Ups!
+                    </div>
+                </div>
+            </div></div><div class="ui-screen-hidden ui-popup-screen ui-overlay-a" id="ConfirmInvite_succ_popup-screen"></div><div class="ui-popup-container ui-popup-hidden ui-popup-truncate" id="ConfirmInvite_succ_popup-popup"><div data-role="popup" name="succ_popup" dsid="succ_popup" id="ConfirmInvite_succ_popup" class="ConfirmInvite_succ_popup ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-corners="true" data-dismissible="true" data-overlay-theme="a" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- succ_label -->
+                    <div name="succ_label" id="ConfirmInvite_succ_label" dsid="succ_label" data-role="appery_label" class="ConfirmInvite_succ_label">
+                        Success
+                    </div>
+                </div>
+            </div></div></div>
+    
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div><div class="qt-dropdown">
+    <input type="search" class="qt-dropdown-search" value="" placeholder="Search templates...">
+    <ul class="qt-dropdown-content">
+
+    </ul>
+    <div class="g-dropdown-toolbar">
+        <button class="g-new-template">New Template</button>
+    </div>
+</div><div id="window-resizer-tooltip"><a href="http://appery.io/app/view/a4cc3150-80d9-438a-9c96-e11154eb1f48/app/ConfirmInvite.html#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth"></span> x <span class="tooltipHeight" id="winHeight"></span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth"></span> x <span class="tooltipHeight" id="vpHeight"></span></div></body></html>

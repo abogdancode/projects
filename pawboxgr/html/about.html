@@ -1,0 +1,108 @@
+<!-- If you're looking for the shared template that contains -->
+<!-- the header and footer, look in html/base.html -->
+{% extends "base.html" %}
+
+
+
+{% block page_content %}
+<section class="row mid-content">
+ <div class="col-sm-4 col-xs-12 graphic">
+  <div class="img-wrap" data-barley="about-side-image" data-barley-editor="image">
+   <img class="img-responsive" src="{{  'images/296x296_side.svg' | asset_url }}">
+   </img>
+  </div>
+ </div>
+ <div class="col-sm-8 col-xs-12 prose">
+  <h2 class="barley_hide_outline" data-barley="about-title" data-barley-editor="simple" contenteditable="false">
+   PawBox Code of Ethics
+  </h2>
+  <div class="barley_hide_outline" data-barley="about-title-prose" data-barley-editor="advanced" contenteditable="false">
+   <p>
+    We at PawBox love our dog and cats. We cannot imagine our lives without them and this is why we  settle only for the best. Rest assured that we curate our boxes having our own pets in mind.
+    <br>
+   </p>
+   This is why we test everything inside our home first. We research and pick the products ourselves. The boxes are planned months ahead in order to offer you a high quality service that extends the experience of getting the first box.
+   <br>
+    <br>
+     PawBox loves everything natural, handmade and Eco-friendly. We love working with small businesses and pet owners with an alike mindset.
+     <br>
+      <br>
+       Our goal is to create a PawBox family that is strong and long-living. You are part of this as much as we are. Thank you for trusting us with your pets' well being, it's truly an honor.
+       <br>
+        <p>
+        </p>
+  </div>
+  <a type="button" class="btn btn-large btn-primary" href="/subscribe" data-barley="about-sub-cta" data-barley-editor="link">
+   SUBSCRIBE
+  </a>
+ </div>
+</section>
+<section class="row">
+ <div class="col-xs-12 graphic">
+  <div class="img-wrap" data-barley="about-main-image" data-barley-editor="image">
+   <img class="img-responsive" src="{{  'images/894x480_about.svg' | asset_url }}">
+   </img>
+  </div>
+ </div>
+</section>
+<section class="row">
+ <div class="col-xs-12 prose">
+  <h2 class="barley_hide_outline" data-barley="about-main-title" data-barley-editor="simple" contenteditable="false">
+   Our story...
+  </h2>
+  <div class="barley_hide_outline" data-barley="about-main-prose" data-barley-editor="advanced" contenteditable="false">
+   We are strong believers that our pets rescued us instead of the other way around. Our dog Persa and our cats Leo and Naya have shaped our whole existence and their impact is shown on every given chance. They introduced us to a world of kindness, generosity and unconditional love and for that we are forever in doubt.
+   <br>
+    While looking for a new way to spoil them (cos you just can't spoil them enough!) we realized that there is a gap in the subscription market for pets in Greece. And that's how PawBox was born. Straight out of love.
+    <br>
+     Through PawBox we wish not only to reach out to pet parents by offering a top notch service, but to find ways to ameliorate the horrible situation of strays in our country.
+     <br>
+      Join our dreams and let's make things better. Together. One paw at a time.
+      <br>
+       <br>
+        PawBox team
+  </div>
+ </div>
+</section>
+<section id="index-subsection-4" class="row subsection quotes flat-well">
+ <h2 class="barley_hide_outline" data-barley="quote-title" data-barley-editor="advanced" contenteditable="false">
+  PawBox Buzz!
+ </h2>
+ <div class="table">
+  <div class="cell">
+   <p class="quote barley_hide_outline" data-barley="quote_1" data-barley-editor="plus" contenteditable="false">
+    "Thank you very much PawBox!!!"
+   </p>
+   <h2 class="quote-source barley_hide_outline" data-barley="quote_source_1" data-barley-editor="plus" contenteditable="false">
+    @PetEatgr
+   </h2>
+   <div class="img-wrap barley_hide_outline" data-barley="quote-image-1" data-barley-editor="image" contenteditable="false">
+    <img class="img-responsive img-circle" src="{{ 'images/13133120_1752035298406810_4887317332229730255_n(1).jpg' | asset_url }}"/>
+   </div>
+  </div>
+  <div class="cell">
+   <p class="quote barley_hide_outline" data-barley="quote_2" data-barley-editor="plus" contenteditable="false">
+    "Spoiled little brats opening presents..."
+   </p>
+   <h2 class="quote-source barley_hide_outline" data-barley="quote_source_2" data-barley-editor="plus" contenteditable="false">
+    @ohhhmydog
+   </h2>
+   <div class="img-wrap barley_hide_outline" data-barley="quote-image-2" data-barley-editor="image" contenteditable="false">
+    <img class="img-responsive img-circle" src="{{ 'images/IMG_8635-2.jpg' | asset_url }}"/>
+   </div>
+  </div>
+  <div class="cell">
+   <p class="quote" data-barley="quote_3" data-barley-editor="plus">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet dolor at mi
+   </p>
+   <h2 class="quote-source" data-barley="quote_source_3" data-barley-editor="plus">
+    Kammit Halahar
+   </h2>
+   <div class="img-wrap" data-barley="quote-image-3" data-barley-editor="image">
+    <img class="img-responsive img-circle" src="{{  'images/65x65_headshot.svg' | asset_url }}">
+    </img>
+   </div>
+  </div>
+ </div>
+</section>
+{% endblock %}

@@ -1,0 +1,108 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.ConfirmInvite_mobilecontainer {
+	padding: 2px 8px 2px 8px;
+}
+/* mobilebutton_119 */
+#ConfirmInvite_mobilebutton_119 {
+
+}
+.ui-btn.ConfirmInvite_mobilebutton_119 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilelabel_120 */
+.ConfirmInvite_mobilelabel_120 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_10 */
+.ConfirmInvite_mobilelabel_10 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 14px;
+	margin: 10px 3px 20px 3px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_122 */
+.ConfirmInvite_mobilelabel_122 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_123 */
+.ConfirmInvite_mobilelabel_123 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_124 */
+.ConfirmInvite_mobilelabel_124 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilebutton_121 */
+#ConfirmInvite_mobilebutton_121 {
+
+}
+.ui-btn.ConfirmInvite_mobilebutton_121 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.ConfirmInvite_mobilefooter {
+	min-height:38px;
+}
+/* error_popup */
+.ConfirmInvite_error_popup {
+
+}
+div.ConfirmInvite_error_popup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.ConfirmInvite_error_popup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+}
+/* error_label */
+.ConfirmInvite_error_label {
+	text-decoration: none; font-weight: bold; font-style: italic; color: #dd3333; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* succ_popup */
+.ConfirmInvite_succ_popup {
+
+}
+div.ConfirmInvite_succ_popup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.ConfirmInvite_succ_popup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+}
+/* succ_label */
+.ConfirmInvite_succ_label {
+	text-decoration: none; font-weight: bold; font-style: italic; color: #33aa33; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)http://appery.io/app/view/a4cc3150-80d9-438a-9c96-e11154eb1f48/app/Main.html -->
+<html class="ui-mobile"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="http://appery.io/app/view/a4cc3150-80d9-438a-9c96-e11154eb1f48/app/Main.html">--><base href=".">
+        <title>Main</title>
+        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src &#39;self&#39; &#39;unsafe-inline&#39; *; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; *">
+        <link href="./Main_files/jqm.css" rel="stylesheet">
+        <link href="./Main_files/ios7.css" rel="stylesheet">
+        <link href="./Main_files/jquery.mobile.structure-1.4.5.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="./Main_files/CSS.css">
+        <script type="text/javascript" src="./Main_files/underscore.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/json2.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="./Main_files/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/sha1.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/oauth.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/contexts.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/q.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/tv4.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/localforage.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/moment.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/offline.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/appery.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/component-manager.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/entity-api.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/login.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/storage-api.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/cordova.js">
+        </script>
+        <link href="./Main_files/mobilebase.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="./Main_files/model.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/XML2JS_JS.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/CoFoundHelperJS.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/SendMail_generic_service_Impl.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/SampleImageScript.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/FileUpload.js">
+        </script>
+        <script type="text/javascript" src="./Main_files/service.js">
+        </script>
+    </head>
+    
+    <body class="ui-mobile-viewport ui-overlay-a gorgias-loaded">
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" dsid="Main" id="Main" class="type-interior ui-page ui-page-theme-a ui-page-active" data-theme="a" data-url="Main" tabindex="0">
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Main_mobilecontainer" name="mobilecontainer" class="Main_mobilecontainer ui-content ui-body-a" dsid="mobilecontainer" data-theme="a" role="main" style="min-height: 905px;">
+                <link href="./Main_files/Main.css" rel="stylesheet" type="text/css">
+                <script type="text/javascript" src="./Main_files/Main.js">
+                </script>
+                <!-- CFWMLogo_image -->
+                <img class="Main_CFWMLogo_image" src="./Main_files/Cofound_75.png" id="Main_CFWMLogo_image" dsid="CFWMLogo_image" name="CFWMLogo_image">
+                <!-- mobilelabel_45 -->
+                <div name="mobilelabel_45" id="Main_mobilelabel_45" dsid="mobilelabel_45" data-role="appery_label" class="Main_mobilelabel_45">
+                    8
+                </div>
+                <!-- mobilebutton_41 --><!--
+                --><a data-role="button" name="mobilebutton_41" dsid="mobilebutton_41" class="Main_mobilebutton_41 ui-link ui-btn ui-btn-a ui-icon-none ui-btn-icon-nowhere ui-shadow ui-corner-all" id="Main_mobilebutton_41" data-corners="true" data-icon="none" data-iconpos="nowhere" x-apple-data-detectors="false" data-mini="false" data-theme="a" tabindex="8" role="button">
+                Interested In Me
+                </a><!--
+                --><!-- mobilebutton_42 --><!--
+                --><a data-role="button" name="mobilebutton_42" dsid="mobilebutton_42" class="Main_mobilebutton_42 ui-link ui-btn ui-btn-a ui-icon-none ui-btn-icon-nowhere ui-shadow ui-corner-all" id="Main_mobilebutton_42" data-corners="true" data-icon="none" data-iconpos="nowhere" x-apple-data-detectors="false" data-mini="false" data-theme="a" tabindex="9" role="button">
+                Browse Cofounders
+                </a><!--
+                --><!-- mobilebutton_43 --><!--
+                --><a data-role="button" name="mobilebutton_43" dsid="mobilebutton_43" class="Main_mobilebutton_43 ui-link ui-btn ui-btn-a ui-icon-none ui-btn-icon-nowhere ui-shadow ui-corner-all" id="Main_mobilebutton_43" data-corners="true" data-icon="none" data-iconpos="nowhere" x-apple-data-detectors="false" data-mini="false" data-theme="a" tabindex="10" role="button">
+                My Profile
+                </a><!--
+                --><!-- mobileimage_46 -->
+                <img class="Main_mobileimage_46" src="./Main_files/Cofoundicon_75.png" id="Main_mobileimage_46" dsid="mobileimage_46" name="mobileimage_46">
+            </div>
+            <!-- login_popup -->
+            <div style="display: none;" id="Main_login_popup-placeholder"><!-- placeholder for Main_login_popup --></div>
+            <!-- error_popup -->
+            <div style="display: none;" id="Main_error_popup-placeholder"><!-- placeholder for Main_error_popup --></div>
+            <!-- login2_popup -->
+            <div style="display: none;" id="Main_login2_popup-placeholder"><!-- placeholder for Main_login2_popup --></div>
+        <div class="ui-screen-hidden ui-popup-screen ui-overlay-a" id="Main_login_popup-screen"></div><div class="ui-popup-container ui-popup-hidden ui-popup-truncate" id="Main_login_popup-popup"><div data-role="popup" name="login_popup" dsid="login_popup" id="Main_login_popup" class="Main_login_popup ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-corners="true" data-dismissible="true" data-overlay-theme="a" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- mobilelabel_10 -->
+                    <div name="mobilelabel_10" id="Main_mobilelabel_10" dsid="mobilelabel_10" data-role="appery_label" class="Main_mobilelabel_10">
+                        Welcome back!
+                    </div>
+                    <!-- email_label -->
+                    <div name="email_label" id="Main_email_label" dsid="email_label" data-role="appery_label" class="Main_email_label">
+                        Email
+                    </div>
+                    <!-- action_grid -->
+                    <div class="Main_action_grid_wrapper" data-wrapper-for="action_grid">
+                        <table id="Main_action_grid" class="Main_action_grid" dsid="action_grid" name="action_grid" cellpadding="0" cellspacing="0">
+                            <colgroup><col style="width:auto;">
+                            <col style="width:auto;">
+                            </colgroup><tbody><tr class="Main_action_grid_row_0">
+                                <!-- mobilegridcell_13 -->
+                                <td id="Main_mobilegridcell_13" name="mobilegridcell_13" class="Main_mobilegridcell_13" colspan="1" rowspan="1">
+                                    <div class="cell-wrapper">
+                                        <!-- LNForm_button --><!--
+                                        --><a data-role="button" name="LNForm_button" dsid="LNForm_button" class="Main_LNForm_button ui-link ui-btn ui-btn-h ui-icon-none ui-btn-icon-nowhere ui-shadow ui-corner-all" id="Main_LNForm_button" data-corners="true" data-icon="none" data-iconpos="nowhere" x-apple-data-detectors="false" data-mini="false" data-theme="h" tabindex="5" role="button">
+                                        Change Account
+                                        </a>
+                                    </div>
+                                </td>
+                                <!-- mobilegridcell_14 -->
+                                <td id="Main_mobilegridcell_14" name="mobilegridcell_14" class="Main_mobilegridcell_14" colspan="1" rowspan="1">
+                                    <div class="cell-wrapper">
+                                        <!-- proceedLogin_button --><!--
+                                        --><a data-role="button" name="proceedLogin_button" dsid="proceedLogin_button" class="Main_proceedLogin_button ui-link ui-btn ui-btn-d ui-icon-none ui-btn-icon-nowhere ui-shadow ui-corner-all" id="Main_proceedLogin_button" data-corners="true" data-icon="none" data-iconpos="nowhere" x-apple-data-detectors="false" data-mini="false" data-theme="d" tabindex="6" role="button">
+                                        Yes
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+            </div></div><div class="ui-screen-hidden ui-popup-screen ui-overlay-inherit" id="Main_error_popup-screen"></div><div class="ui-popup-container ui-popup-hidden ui-popup-truncate" id="Main_error_popup-popup"><div data-role="popup" name="error_popup" dsid="error_popup" id="Main_error_popup" class="Main_error_popup ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-corners="true" data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- errorHeader_label -->
+                    <div name="errorHeader_label" id="Main_errorHeader_label" dsid="errorHeader_label" data-role="appery_label" class="Main_errorHeader_label">
+                        Error
+                    </div>
+                    <!-- errorValue_label -->
+                    <div name="errorValue_label" id="Main_errorValue_label" dsid="errorValue_label" data-role="appery_label" class="Main_errorValue_label">
+                        Info about error
+                    </div>
+                </div>
+            </div></div><div class="ui-screen-hidden ui-popup-screen ui-overlay-a" id="Main_login2_popup-screen"></div><div class="ui-popup-container ui-popup-hidden ui-popup-truncate" id="Main_login2_popup-popup"><div data-role="popup" name="login2_popup" dsid="login2_popup" id="Main_login2_popup" class="Main_login2_popup ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-corners="true" data-dismissible="true" data-overlay-theme="a" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- welcom_label -->
+                    <div name="welcom_label" id="Main_welcom_label" dsid="welcom_label" data-role="appery_label" class="Main_welcom_label">
+                        Welcome to CoFoundWithMe application...
+                    </div>
+                </div>
+            </div></div></div>
+    
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div><div id="window-resizer-tooltip"><a href="http://appery.io/app/view/a4cc3150-80d9-438a-9c96-e11154eb1f48/app/Main.html#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth"></span> x <span class="tooltipHeight" id="winHeight"></span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth"></span> x <span class="tooltipHeight" id="vpHeight"></span></div><div class="qt-dropdown">
+    <input type="search" class="qt-dropdown-search" value="" placeholder="Search templates...">
+    <ul class="qt-dropdown-content">
+
+    </ul>
+    <div class="g-dropdown-toolbar">
+        <button class="g-new-template">New Template</button>
+    </div>
+</div></body></html>

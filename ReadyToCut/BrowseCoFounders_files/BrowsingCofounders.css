@@ -1,0 +1,176 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.BrowsingCofounders_mobilecontainer {
+	padding: 5px 10px 5px 10px;
+}
+/* mobilebutton_134 */
+#BrowsingCofounders_mobilebutton_134 {
+
+}
+.ui-btn.BrowsingCofounders_mobilebutton_134 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilelabel_135 */
+.BrowsingCofounders_mobilelabel_135 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_12 */
+.BrowsingCofounders_mobilelabel_12 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_117 */
+.BrowsingCofounders_mobilelabel_117 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_118 */
+.BrowsingCofounders_mobilelabel_118 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_119 */
+.BrowsingCofounders_mobilelabel_119 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_120 */
+.BrowsingCofounders_mobilelabel_120 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_121 */
+.BrowsingCofounders_mobilelabel_121 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_122 */
+.BrowsingCofounders_mobilelabel_122 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* button_invite */
+#BrowsingCofounders_button_invite {
+
+}
+.ui-btn.BrowsingCofounders_button_invite {
+	margin: 2px 15px 2px 15px;
+}
+/* mobileimage_136 */
+.BrowsingCofounders_mobileimage_136 {
+	margin: 4px 0px 4px 0px;
+	width: 457px; height: 100px;
+	display: block;
+}
+/* mobilelabel_157 */
+.BrowsingCofounders_mobilelabel_157 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_143 */
+.BrowsingCofounders_mobilelabel_143 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_156 */
+.BrowsingCofounders_mobilelabel_156 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_144 */
+.BrowsingCofounders_mobilelabel_144 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobileimage_140 */
+.BrowsingCofounders_mobileimage_140 {
+	margin: 4px 0px 4px 0px;
+	width: 100px; height: 100px;
+	display: block;
+}
+/* mobilefooter */
+.BrowsingCofounders_mobilefooter {
+	min-height:38px;
+}
+/* error_popup */
+.BrowsingCofounders_error_popup {
+
+}
+div.BrowsingCofounders_error_popup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.BrowsingCofounders_error_popup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+}
+/* errorHeader_label */
+.BrowsingCofounders_errorHeader_label {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* error_label */
+.BrowsingCofounders_error_label {
+	text-decoration: none; font-weight: bold; font-style: italic; color: #f34343; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* login_popup */
+.BrowsingCofounders_login_popup {
+
+}
+div.BrowsingCofounders_login_popup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.BrowsingCofounders_login_popup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+}
+/* loginInfo_label */
+.BrowsingCofounders_loginInfo_label {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}

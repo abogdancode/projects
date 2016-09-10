@@ -1,0 +1,243 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.BrowsingInterested_mobilecontainer {
+	padding: 5px 10px 5px 10px;
+}
+/* mobilebutton_134 */
+#BrowsingInterested_mobilebutton_134 {
+
+}
+.ui-btn.BrowsingInterested_mobilebutton_134 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilelabel_135 */
+.BrowsingInterested_mobilelabel_135 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_12 */
+.BrowsingInterested_mobilelabel_12 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_117 */
+.BrowsingInterested_mobilelabel_117 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_118 */
+.BrowsingInterested_mobilelabel_118 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_119 */
+.BrowsingInterested_mobilelabel_119 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_120 */
+.BrowsingInterested_mobilelabel_120 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_121 */
+.BrowsingInterested_mobilelabel_121 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_122 */
+.BrowsingInterested_mobilelabel_122 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegrid_136 */
+.BrowsingInterested_mobilegrid_136 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.BrowsingInterested_mobilegrid_136_wrapper {
+
+}
+.BrowsingInterested_mobilegrid_136 > tr > td {
+	vertical-align: top;
+}
+.BrowsingInterested_mobilegrid_136_row_0, .BrowsingInterested_mobilegrid_136_row_0 > td {
+	height: 30px
+}
+.BrowsingInterested_mobilegrid_136_row_1, .BrowsingInterested_mobilegrid_136_row_1 > td {
+	height: 0px
+}
+/* mobilegridcell_137 */
+.BrowsingInterested_mobilegridcell_137 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.BrowsingInterested_mobilegridcell_137 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilebutton_141 */
+#BrowsingInterested_mobilebutton_141 {
+
+}
+.ui-btn.BrowsingInterested_mobilebutton_141 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilegridcell_138 */
+.BrowsingInterested_mobilegridcell_138 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.BrowsingInterested_mobilegridcell_138 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* button_invite */
+#BrowsingInterested_button_invite {
+
+}
+.ui-btn.BrowsingInterested_button_invite {
+	margin: 2px 15px 2px 15px;
+}
+/* mobilegridcell_139 */
+.BrowsingInterested_mobilegridcell_139 {
+	height:0px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.BrowsingInterested_mobilegridcell_139 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_140 */
+.BrowsingInterested_mobilegridcell_140 {
+	height:0px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.BrowsingInterested_mobilegridcell_140 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobileimage_142 */
+.BrowsingInterested_mobileimage_142 {
+	margin: 4px 0px 4px 0px;
+	width: 465px; height: 100px;
+	display: block;
+}
+/* mobilefooter */
+.BrowsingInterested_mobilefooter {
+	min-height:38px;
+}
+/* mobilegrid_31 */
+.BrowsingInterested_mobilegrid_31 {
+	height: auto;
+	width:100%;
+	margin: 2px 0px 0px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.BrowsingInterested_mobilegrid_31_wrapper {
+
+}
+.BrowsingInterested_mobilegrid_31 > tr > td {
+	vertical-align: top;
+}
+.BrowsingInterested_mobilegrid_31_row_0, .BrowsingInterested_mobilegrid_31_row_0 > td {
+	height: 20px
+}
+/* mobilegridcell_32 */
+.BrowsingInterested_mobilegridcell_32 {
+	height:20px !important;
+	width:auto;
+	padding: 0px 2px 0px 2px;
+}
+.BrowsingInterested_mobilegridcell_32 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_36 */
+.BrowsingInterested_mobilelabel_36 {
+	text-decoration: underline; font-weight: bold; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 2px 0px 0px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* error_popup */
+.BrowsingInterested_error_popup {
+
+}
+div.BrowsingInterested_error_popup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.BrowsingInterested_error_popup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+}
+/* errorHeader_label */
+.BrowsingInterested_errorHeader_label {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* error_label */
+.BrowsingInterested_error_label {
+	text-decoration: none; font-weight: bold; font-style: italic; color: #f34343; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* login_popup */
+.BrowsingInterested_login_popup {
+
+}
+div.BrowsingInterested_login_popup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.BrowsingInterested_login_popup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+}
+/* loginInfo_label */
+.BrowsingInterested_loginInfo_label {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}

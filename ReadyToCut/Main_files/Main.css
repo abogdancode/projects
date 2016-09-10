@@ -1,0 +1,200 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.Main_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* CFWMLogo_image */
+.Main_CFWMLogo_image {
+	margin: 4px 0px 4px 0px;
+	width: 64px; height: 64px;
+	display: block;
+}
+/* mobilelabel_45 */
+.Main_mobilelabel_45 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilebutton_41 */
+#Main_mobilebutton_41 {
+
+}
+.ui-btn.Main_mobilebutton_41 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilebutton_42 */
+#Main_mobilebutton_42 {
+
+}
+.ui-btn.Main_mobilebutton_42 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilebutton_43 */
+#Main_mobilebutton_43 {
+
+}
+.ui-btn.Main_mobilebutton_43 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobileimage_46 */
+.Main_mobileimage_46 {
+	margin: 4px 0px 4px 0px;
+	width: 447px; height: 100px;
+	display: block;
+}
+/* mobilefooter */
+.Main_mobilefooter {
+	min-height:38px;
+}
+/* login_popup */
+.Main_login_popup {
+
+}
+div.Main_login_popup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.Main_login_popup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+}
+/* mobilelabel_10 */
+.Main_mobilelabel_10 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* email_label */
+.Main_email_label {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* action_grid */
+.Main_action_grid {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.Main_action_grid_wrapper {
+
+}
+.Main_action_grid > tr > td {
+	vertical-align: top;
+}
+.Main_action_grid_row_0, .Main_action_grid_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_13 */
+.Main_mobilegridcell_13 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Main_mobilegridcell_13 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* LNForm_button */
+#Main_LNForm_button {
+
+}
+.ui-btn.Main_LNForm_button {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilegridcell_14 */
+.Main_mobilegridcell_14 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Main_mobilegridcell_14 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* proceedLogin_button */
+#Main_proceedLogin_button {
+
+}
+.ui-btn.Main_proceedLogin_button {
+	margin: 4px 5px 4px 5px;
+}
+/* error_popup */
+.Main_error_popup {
+
+}
+div.Main_error_popup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.Main_error_popup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+}
+/* errorHeader_label */
+.Main_errorHeader_label {
+	text-decoration: none; font-weight: bold; color: #bb3333; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* errorValue_label */
+.Main_errorValue_label {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* login2_popup */
+.Main_login2_popup {
+
+}
+div.Main_login2_popup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.Main_login2_popup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+}
+/* welcom_label */
+.Main_welcom_label {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Helvetica; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+
+/*New changes*/
+
+body div.ui-page .Main_mobilecontainer {
+	background: #0f0f0f url(Img_main/Main_bg.jpg) no-repeat top center;
+}
+
+body div.Main_mobilecontainer  #Main_mobilebutton_41,
+body div.Main_mobilecontainer #Main_mobilebutton_42,
+body div.Main_mobilecontainer #Main_mobilebutton_43 {
+	background: none ;
+}

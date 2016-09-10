@@ -1,7 +1,411 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="" />
+    <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/Cofound_76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/Cofoundicon_75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/Cofound_114.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Fonts/Enigma_.TTF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Fonts/Lato-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Fonts/Lato-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/Bullet-Point-light-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/Cofound_75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/Cofoundicon_75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/no-image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/BadScript-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/Cabin-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/Cabin-BoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/Cabin-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/Cabin-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/Cabin-MediumItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/Cabin-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/Cabin-SemiBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/Cabin-SemiBoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/12524413_1762579610694994_724129171825421735_n.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/13133120_1752035298406810_4887317332229730255_n(1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/4-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/Don't_forget_to_tag_us!_pawboxgr-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/Don't_forget_to_tag_us!_pawboxgr-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/Don't_forget_to_tag_us!_pawboxgr.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/Don't_forget_to_tag_us!_pawboxgr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/IMG_8635-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/IMG_8635.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/Parcel-thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/PawBox.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/Untitled_design-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/Untitled_design.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/YNI4E0XAAS-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/YNI4E0XAAS-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/YNI4E0XAAS-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/YNI4E0XAAS.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/_MG_3699.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/banner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/bd2ab8e036704270a9ad043b3e3d2a8c-2.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/bed-1284238_640.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/bobaros-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/bobaros.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/card_Amex.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/card_DinersClub.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/card_Discover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/card_JCB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/card_Maestro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/card_Mastercard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/card_Visa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/dft1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/instax-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/instax-2.jpg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/meowbutton.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/picjumbo.com_HNCK5077-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/picjumbo.com_HNCK5077.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/product_placeholder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/term_placeholder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/variant_placeholder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/woofbox.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/BrowsingCofounders.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/BrowsingCofounders.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/CSS.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/CoFoundHelperJS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/EventEmitter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/FileUpload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/SampleImageScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/SendMail_generic_service_Impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/XML2JS_JS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/appery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/client-sdk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/component-manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/contexts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/crypto-js-md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/customEventHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/desktop.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/entity-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/get_target_platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/ios7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/jqm.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/jquery-2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/jquery-ajaxTransport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/jquery.mobile-1.4.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/jquery.mobile.structure-1.4.5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/jquery.xml2json.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/localforage-find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/localforage-setitems.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/localforage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/mapping-impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/mobilebase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/mobilebase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/oauth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/offline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/sha1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/storage-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/tv4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/underscore-query.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/BrowsingInterested.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/BrowsingInterested.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/CSS.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/CoFoundHelperJS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/EventEmitter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/FileUpload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/SampleImageScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/SendMail_generic_service_Impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/XML2JS_JS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/appery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/client-sdk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/component-manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/contexts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/crypto-js-md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/customEventHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/desktop.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/entity-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/get_target_platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/ios7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/jqm.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/jquery-2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/jquery-ajaxTransport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/jquery.mobile-1.4.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/jquery.mobile.structure-1.4.5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/jquery.xml2json.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/localforage-find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/localforage-setitems.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/localforage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/mapping-impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/mobilebase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/mobilebase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/oauth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/offline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/sha1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/storage-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/tv4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/underscore-query.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/CSS.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/CoFoundHelperJS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/ConfirmInvite.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/ConfirmInvite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/EventEmitter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/FileUpload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/SampleImageScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/SendMail_generic_service_Impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/XML2JS_JS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/appery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/client-sdk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/component-manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/contexts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/crypto-js-md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/customEventHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/desktop.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/entity-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/get_target_platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/ios7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/jqm.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/jquery-2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/jquery-ajaxTransport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/jquery.mobile-1.4.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/jquery.mobile.structure-1.4.5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/jquery.xml2json.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/localforage-find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/localforage-setitems.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/localforage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/mapping-impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/mobilebase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/mobilebase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/oauth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/offline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/sha1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/storage-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/tv4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/underscore-query.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/ConfirmInvite_files/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Fonts/desktop.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/CSS.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/CoFoundHelperJS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/EventEmitter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/FileUpload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/LandingPage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/LandingPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/SampleImageScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/SendMail_generic_service_Impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/XML2JS_JS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/appery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/client-sdk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/component-manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/contexts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/crypto-js-md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/customEventHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/desktop.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/entity-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/get_target_platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/ios7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/jqm.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/jquery-2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/jquery-ajaxTransport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/jquery.mobile-1.4.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/jquery.mobile.structure-1.4.5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/jquery.xml2json.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/localforage-find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/localforage-setitems.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/localforage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/mapping-impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/mobilebase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/mobilebase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/oauth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/offline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/sha1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/storage-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/tv4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/underscore-query.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/LandingPage_files/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/CSS.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/CoFoundHelperJS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/EventEmitter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/FileUpload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/Main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/Main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/SampleImageScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/SendMail_generic_service_Impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/XML2JS_JS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/appery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/client-sdk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/component-manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/contexts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/crypto-js-md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/customEventHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/desktop.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/entity-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/get_target_platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/ios7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/jqm.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/jquery-2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/jquery-ajaxTransport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/jquery.mobile-1.4.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/jquery.mobile.structure-1.4.5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/jquery.xml2json.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/localforage-find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/localforage-setitems.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/localforage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/mapping-impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/mobilebase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/mobilebase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/oauth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/offline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/sha1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/storage-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/tv4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/underscore-query.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/CSS.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/CoFoundHelperJS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/EventEmitter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/FileUpload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/SampleImageScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/SendMail_generic_service_Impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/UpdateProfile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/UpdateProfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/XML2JS_JS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/appery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/client-sdk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/component-manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/contexts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/crypto-js-md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/customEventHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/desktop.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/entity-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/get_target_platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/ios7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/jqm.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/jquery-2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/jquery-ajaxTransport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/jquery.mobile-1.4.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/jquery.mobile.structure-1.4.5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/jquery.xml2json.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/localforage-find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/localforage-setitems.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/localforage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/mapping-impl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/mobilebase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/mobilebase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/oauth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/offline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/sha1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/storage-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/tv4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/underscore-query.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/SetupProfile_files/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/config/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/css/ecom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/css/plugins/pikachoose/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/css/product-reviews.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/Privacy Policy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/checkout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/components/form_feedback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/customer/account.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/customer/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/customer/forgot_password.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/customer/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/customer/moment-countdown.min.js_" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/customer/order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/customer/password_reset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/customer/thank_you.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/faq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/meow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/shop/listing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/shop/product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/sold_out.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/subscribe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/subscribe_flow/products.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/subscribe_flow/progress_bar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/subscribe_flow/survey_step.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/subscribe_flow/terms.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/subscribe_flow/terms_step.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/subscribe_flow/variant_step.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/subscribe_flow/variants.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/terms_conditions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/view-cart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/html/woof.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/285x190_product.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/285x190_term.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/285x190_variant.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/296x296_side.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/300x300_eprod.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/485x375_cat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/485x485_showcase.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/65x65_headshot.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/894x480_about.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/images/944x376_slide.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/js/cart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/js/countdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/js/jquery.pikachoose.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/js/moment-countdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pawboxgr/parcel-copy-0.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="projects.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,32 +424,32 @@
     <favorites_list name="projects" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4557">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
+        <entry file="file://$PROJECT_DIR$/GammaPhotoSharingApp/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+            <state relative-caret-position="340">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/js/main.js">
+      <file leaf-file-name="Main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadyToCut/Main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="183">
+              <caret line="123" column="81" selection-start-line="123" selection-start-column="67" selection-end-line="123" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadyToCut/Main_files/Main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -71,6 +475,9 @@
         <option value="$PROJECT_DIR$/laning-pages/your-logo/index.html" />
         <option value="$PROJECT_DIR$/laning-pages/your-logo/css/style.css" />
         <option value="$PROJECT_DIR$/laning-pages/your-logo/js/main.js" />
+        <option value="$PROJECT_DIR$/ReadyToCut/Main.html" />
+        <option value="$PROJECT_DIR$/ReadyToCut/Main_files/CSS.css" />
+        <option value="$PROJECT_DIR$/ReadyToCut/Main_files/Main.css" />
       </list>
     </option>
   </component>
@@ -82,8 +489,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1375" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -111,8 +517,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,7 +547,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="your-social-network" />
+              <option name="myItemId" value="ReadyToCut" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -155,33 +561,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="laning-pages" />
+              <option name="myItemId" value="ReadyToCut" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="your-logo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laning-pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="your-logo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="Main_files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,6 +654,8 @@
       <workItem from="1467567222364" duration="3489000" />
       <workItem from="1467884466910" duration="25000" />
       <workItem from="1468739723712" duration="4198000" />
+      <workItem from="1473166647109" duration="31000" />
+      <workItem from="1473531677397" duration="2816000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -310,30 +696,49 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27523000" />
+    <option name="totallyTimeSpent" value="30370000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="0" width="1375" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16005874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18175128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18135096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -355,6 +760,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/your-social-network/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -473,19 +918,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
+    <entry file="file://$PROJECT_DIR$/pawboxgr/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4557">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="-2120">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -493,6 +929,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GammaPhotoSharingApp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadyToCut/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="123" column="81" selection-start-line="123" selection-start-column="67" selection-end-line="123" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadyToCut/Main_files/CSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadyToCut/Main_files/Main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
           <folding />
         </state>
       </provider>

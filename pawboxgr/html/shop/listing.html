@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block title %}One-Time Products{% endblock %}
+
+{% block css %}
+{{ 'css/ecom.css' | asset_url | stylesheet_tag }}
+{{ 'css/product-reviews.css' | asset_url | stylesheet_tag }}
+{% endblock %}
+
+{% block page_content %}
+<section class="row plain head listing-heading">
+  <div class="col-md-12 text-center">
+    <h1 data-barley="shop_title" data-barley-editor="plus">
+      The Shop
+    </h1>
+    <p data-barley="shop_subheading" data-barley-editor="plus">Shop our products</p>
+  </div>
+</section>
+<section class="row ecom-listing">
+      <div class="col-sm-2 col-xs-3 listing-filters">
+        <div class="filter-toggle listing-sortby">
+          <div class="navbar-toggle collapsed btn" type="button" data-toggle="collapse" data-target=".navbar-sort-by-collapse">
+            <span class="">Sort By</span>
+            <i class="indicator"></i>
+          </div>
+          <h3 class="heading">Sort By</h3>
+           <div class="collapse navbar-collapse navbar-sort-by-collapse">
+            <ul class="nav">
+              <li><a href="{{ base_url }}?sort=high" {% if sort == 'high' %}class="sortby-active"{% endif %}>Price: High to Low</a></li>
+              <li><a href="{{ base_url }}?sort=low" {% if sort == 'low' %}class="sortby-active"{% endif %}>Price: Low to High</a></li>
+              <li><a href="{{ base_url }}?sort=" {% if sort is none %}class="sortby-active"{% endif %}>Most Recent</a></li>
+            </ul>
+          </div>
+        </div>
+
+        {% if tags | length > 0 %}
+        <div class="filter-toggle listing-tags">
+          <div class="navbar-toggle collapsed btn" type="button" data-toggle="collapse" data-target=".navbar-tag-collapse">
+            <span class="">Tags</span>
+            <span class="indicator"></span>
+          </div>
+          <h3 class="heading">Tags</h3>
+          <div class="collapse navbar-collapse navbar-tag-collapse">
+            <ul class="nav">
+              {% for tag in tags %}
+              <li>
+                {% if tag.slug == category %}
+                <div class="tag-active">{{ tag.name|title }} <a href="/shop/all{% if sort %}?sort={{sort}}{% endif %}"><i class="glyphicon glyphicon-remove"></i></a></div>
+                {% else %}
+                <a href="/shop/{{ tag.slug }}{% if sort %}?sort={{sort}}{% endif %}">{{ tag.name|title }}</a>
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="col-sm-10 col-xs-9 listing-data">
+        {% paginate products by 12, page %}
+        {% set ctr = 0 %}
+        <div class="row">
+          {% for product in paged_items %}
+
+          <section class="card item col-md-4 col-sm-6 col-xs-12">
+            <a href="/shop/product/{{ product.id }}">
+              {{ product | object_img_centered(default_img_path='images/300x300_eprod.svg', index=0, css_class="img-container", weighted=True) }}
+              <div class="heading hsmall-grp name-container line-limited"><div><div>{{ product.name }}</div></div></div>
+              {% set min = product.calc_min_ecom_price() %}
+              {% set max = product.calc_max_ecom_price() %}
+
+              {% if max == min %}
+              <span class="price">{{ min | currency }}</span>
+              {% else %}
+              <span class="price">{{ min | currency }} - {{ max | currency }}</span>
+              {% endif %}
+
+              <div class="product-avg-rating">
+              {% if reviews_data and reviews_data.num_ratings[product.id] > 0 and product.reviewable %}
+                <span class="listing-product-rating product-rating" data-score="{{ reviews_data.avg_ratings[product.id] | float }}"></span>
+                <span class="product-rating-text">{{ reviews_data.num_ratings[product.id] }} Review(s)</span>
+              {% else %}
+                <span> &nbsp; </span>
+              {% endif %}
+              </div>
+            </a>
+          </section>
+          {% if loop.last %}
+        </div>
+        {% endif %}
+        {% set ctr = ctr + 1 %}
+        {% endfor %}
+        <div class="text-center">
+          {{ navigation }}
+        </div>
+        {% endpaginate %}
+      </div>
+</section>
+{% endblock %}
+
+{% block page_javascript %}
+{{ shop.listing_js() }}
+{% endblock %}
