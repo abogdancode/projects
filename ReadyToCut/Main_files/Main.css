@@ -5,18 +5,19 @@
 }
 /* mobilecontainer */
 .ui-content.Main_mobilecontainer {
-	padding: 15px 15px 15px 15px;
-}
+	 padding: 0;
+ }
 /* CFWMLogo_image */
 .Main_CFWMLogo_image {
-	margin: 4px 0px 4px 0px;
-	width: 64px; height: 64px;
+	margin: 120px auto 120px auto;
 	display: block;
+	height: 270px;
+	box-sizing: border-box;
 }
 /* mobilelabel_45 */
 .Main_mobilelabel_45 {
 	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
-	margin: 4px 0px 4px 0px;
+
 	word-wrap: break-word;
 	white-space: normal;
 }
@@ -45,7 +46,7 @@
 .Main_mobileimage_46 {
 	margin: 4px 0px 4px 0px;
 	width: 447px; height: 100px;
-	display: block;
+	display: none;
 }
 /* mobilefooter */
 .Main_mobilefooter {
@@ -189,12 +190,106 @@ div.Main_login2_popup .ui-popup-content-wrapper {
 
 /*New changes*/
 
-body div.ui-page .Main_mobilecontainer {
-	background: #0f0f0f url(Img_main/Main_bg.jpg) no-repeat top center;
+body.ui-mobile-viewport{
+	height:1296px;
+}
+.container-for-btn {
+	margin: 0 auto 0 auto;
+	width: 610px;
+
+
 }
 
-body div.Main_mobilecontainer  #Main_mobilebutton_41,
-body div.Main_mobilecontainer #Main_mobilebutton_42,
-body div.Main_mobilecontainer #Main_mobilebutton_43 {
-	background: none ;
+body div.ui-page .Main_mobilecontainer {
+	background: #0f0f0f url(Img_main/Main_bg.jpg)  no-repeat top center;
+	background-size: 750px 1296px;
+	height: 1296px;
+
+}
+
+body div.Main_mobilecontainer .container-for-btn #Main_mobilebutton_41,
+body div.Main_mobilecontainer .container-for-btn #Main_mobilebutton_42,
+body div.Main_mobilecontainer .container-for-btn #Main_mobilebutton_43 {
+	background-color: transparent;
+	margin-top: 0;
+	padding:0;
+	box-sizing: border-box;
+	border: solid #b3ebff 3px;
+	vertical-align: bottom;
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #b3ebff;
+
+
+}
+
+body div.Main_mobilecontainer .container-for-btn  #Main_mobilebutton_41 span,
+body div.Main_mobilecontainer .container-for-btn  #Main_mobilebutton_42 span{
+	display: block;
+	margin-top:135px;
+}
+
+body div.Main_mobilecontainer .container-for-btn  #Main_mobilebutton_43 span{
+	display: block;
+	margin-top: 15px;
+	margin-left: 75px;
+}
+
+body div.Main_mobilecontainer .container-for-btn  #Main_mobilebutton_41{
+	background: url(Img_main/Main_ico_1.png)  no-repeat  ;
+	width: 280px;
+	height: 260px;
+	float: left;
+	margin:0px 40px 0 0;
+	background-position: 50% 15%;
+}
+
+body div.Main_mobilecontainer .container-for-btn  #Main_mobilebutton_42{
+	background: url(Img_main/Main_ico_2.png)  no-repeat  ;
+	width: 280px;
+	height: 260px;
+	margin: 0 0 40px 0;
+	background-position: 50% 15%;
+
+}
+
+body div.Main_mobilecontainer  .container-for-btn #Main_mobilebutton_43{
+	background: url(Img_main/Main_ico_3.png)  no-repeat ;
+	background-position: 31% 42%;
+	margin: 0 0 90px 0;
+	height: 80px;
+}
+
+
+
+.lost_password_a, .found_wiht_me_a {
+	text-decoration: none;
+	color: #b3ebff !important;
+
+}
+img.main_ico_4{
+	float: left;
+	position:relative;
+	left:165px;
+	top:5px;
+}
+.co_lost_password{
+	margin-bottom: 170px;
+}
+
+.lost_password_a{
+	font-size: 28px;
+	font-family: 'Lato', sans-serif;
+	display: block;
+	text-align: center;
+}
+.found_wiht_me_a{
+	font-size: 45px;
+	font-family: Enigma;
+	display: block;
+	text-align: center;
+
+}
+.found_wiht_me_a span{
+	color: #1ea0cb!important;
 }
