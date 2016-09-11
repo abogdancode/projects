@@ -194,8 +194,9 @@ body.ui-mobile-viewport{
 	height:1296px;
 }
 .container-for-btn {
+	position: relative;
 	margin: 0 auto 0 auto;
-	width: 610px;
+	width: 600px;
 
 
 }
@@ -204,6 +205,30 @@ body div.ui-page .Main_mobilecontainer {
 	background: #0f0f0f url(Img_main/Main_bg.jpg)  no-repeat top center;
 	background-size: 750px 1296px;
 	height: 1296px;
+
+}
+
+.Main_mobilelabel_45 span{
+	display: block;
+	position: absolute;
+	left: 13px;
+	top:-4px;
+	color: #0d1c29;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-size: 50px;
+	z-index: 5;
+}
+
+.Main_mobilelabel_45{
+	position:absolute;
+	left:-27px;
+	top:-25px;
+	width: 54px;
+	height:54px;
+	background-color:#b3ebff ;
+	border-radius: 50%;
+	border: 3px solid #b3ebff;
 
 }
 
@@ -261,8 +286,12 @@ body div.Main_mobilecontainer  .container-for-btn #Main_mobilebutton_43{
 }
 
 
+.lost_password_a{
+	text-decoration: none;
+	color: #c7c7c7 !important;
+}
 
-.lost_password_a, .found_wiht_me_a {
+ .found_wiht_me_a {
 	text-decoration: none;
 	color: #b3ebff !important;
 
@@ -274,7 +303,7 @@ img.main_ico_4{
 	top:5px;
 }
 .co_lost_password{
-	margin-bottom: 170px;
+	margin-bottom: 130px;
 }
 
 .lost_password_a{
