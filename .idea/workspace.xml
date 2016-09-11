@@ -4,7 +4,7 @@
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders.html" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/BrowsingCofounders.css" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/BrowsingCofounders.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadyToCut/Main_files/Main.css" afterPath="$PROJECT_DIR$/ReadyToCut/Main_files/Main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/CSS.css" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/CSS.css" />
     </list>
     <ignored path="projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,9 +58,11 @@
       <file leaf-file-name="BrowseCoFounders.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReadyToCut/BrowseCoFounders.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="147" column="139" selection-start-line="147" selection-start-column="139" selection-end-line="147" selection-end-column="173" />
-              <folding />
+            <state relative-caret-position="443">
+              <caret line="226" column="60" selection-start-line="226" selection-start-column="60" selection-end-line="226" selection-end-column="60" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +70,8 @@
       <file leaf-file-name="BrowsingCofounders.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/BrowsingCofounders.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="275" column="17" selection-start-line="275" selection-start-column="17" selection-end-line="275" selection-end-column="17" />
+            <state relative-caret-position="-1165">
+              <caret line="304" column="24" selection-start-line="304" selection-start-column="24" selection-end-line="304" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -98,6 +100,7 @@
         <option value="$PROJECT_DIR$/ReadyToCut/Main_files/CSS.css" />
         <option value="$PROJECT_DIR$/ReadyToCut/Main.html" />
         <option value="$PROJECT_DIR$/ReadyToCut/Main_files/Main.css" />
+        <option value="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/CSS.css" />
         <option value="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders.html" />
         <option value="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/BrowsingCofounders.css" />
       </list>
@@ -110,9 +113,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1375" />
-    <option name="height" value="744" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -295,7 +298,7 @@
       <workItem from="1467884466910" duration="25000" />
       <workItem from="1468739723712" duration="4198000" />
       <workItem from="1473166647109" duration="31000" />
-      <workItem from="1473531677397" duration="29652000" />
+      <workItem from="1473531677397" duration="38039000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -336,10 +339,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57206000" />
+    <option name="totallyTimeSpent" value="65593000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1375" height="744" extended-state="1" />
+    <frame x="-7" y="0" width="1375" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18101545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -621,18 +624,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/CSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1445">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ReadyToCut/BrowseCoFounders.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="147" column="139" selection-start-line="147" selection-start-column="139" selection-end-line="147" selection-end-column="173" />
-          <folding />
+        <state relative-caret-position="443">
+          <caret line="226" column="60" selection-start-line="226" selection-start-column="60" selection-end-line="226" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/BrowsingCofounders.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="275" column="17" selection-start-line="275" selection-start-column="17" selection-end-line="275" selection-end-column="17" />
+        <state relative-caret-position="-1165">
+          <caret line="304" column="24" selection-start-line="304" selection-start-column="24" selection-end-line="304" selection-end-column="24" />
           <folding />
         </state>
       </provider>
