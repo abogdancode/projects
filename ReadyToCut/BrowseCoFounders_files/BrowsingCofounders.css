@@ -5,7 +5,9 @@
 }
 /* mobilecontainer */
 .ui-content.BrowsingCofounders_mobilecontainer {
-	padding: 5px 10px 5px 10px;
+	padding: 0;
+	background: none;
+	color: white;
 }
 /* mobilebutton_134 */
 #BrowsingCofounders_mobilebutton_134 {
@@ -16,57 +18,57 @@
 }
 /* mobilelabel_135 */
 .BrowsingCofounders_mobilelabel_135 {
-	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	/*text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
 	margin: 4px 0px 4px 0px;
 	word-wrap: break-word;
-	white-space: normal;
+	white-space: normal;*/
 }
 /* mobilelabel_12 */
 .BrowsingCofounders_mobilelabel_12 {
 	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 18px;
-	margin: 4px 0px 4px 0px;
+	/*margin: 4px 0px 4px 0px;*/
 	word-wrap: break-word;
 	white-space: normal;
 }
 /* mobilelabel_117 */
 .BrowsingCofounders_mobilelabel_117 {
 	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
-	margin: 4px 0px 4px 0px;
+	/*margin: 4px 0px 4px 0px;*/
 	word-wrap: break-word;
 	white-space: normal;
 }
 /* mobilelabel_118 */
 .BrowsingCofounders_mobilelabel_118 {
 	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
-	margin: 4px 0px 4px 0px;
+	/*margin: 4px 0px 4px 0px;*/
 	word-wrap: break-word;
 	white-space: normal;
 }
 /* mobilelabel_119 */
 .BrowsingCofounders_mobilelabel_119 {
 	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
-	margin: 4px 0px 4px 0px;
+	/*margin: 4px 0px 4px 0px;*/
 	word-wrap: break-word;
 	white-space: normal;
 }
 /* mobilelabel_120 */
 .BrowsingCofounders_mobilelabel_120 {
 	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
-	margin: 4px 0px 4px 0px;
+	/*margin: 4px 0px 4px 0px;*/
 	word-wrap: break-word;
 	white-space: normal;
 }
 /* mobilelabel_121 */
 .BrowsingCofounders_mobilelabel_121 {
 	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
-	margin: 4px 0px 4px 0px;
+	/*margin: 4px 0px 4px 0px;*/
 	word-wrap: break-word;
 	white-space: normal;
 }
 /* mobilelabel_122 */
 .BrowsingCofounders_mobilelabel_122 {
 	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
-	margin: 4px 0px 4px 0px;
+	/*margin: 4px 0px 4px 0px;*/
 	word-wrap: break-word;
 	white-space: normal;
 }
@@ -173,4 +175,113 @@ div.BrowsingCofounders_login_popup .ui-popup-content-wrapper {
 	margin: 4px 0px 4px 0px;
 	word-wrap: break-word;
 	white-space: normal;
+}
+
+
+
+/*new changes*/
+
+#BrowsingCofounders{
+	background: #0f0f0f url(../Main_files/Img_main/Main_bg.jpg)  no-repeat top center;
+	background-size: 750px 1296px;
+	height: 1296px;
+}
+
+.BrowsingCofounders_mobilecontainer{
+	position: relative;
+}
+
+.BrowsingCofounders_mobileheader{
+	background:  url(Img_BrowseCoFounders/BrowsingCofounders_1.png)  no-repeat 25% 74%;
+	background-color: transperent;
+	height: 90px;
+	border: none;
+}
+.BrowsingCofounders_mobileheader h1{
+	font-size: 45px!important;
+	font-family: Enigma;
+	display: block;
+	text-align: center;
+	margin: 0 0 0 95px !important;
+	padding: 18px 0 0 0 !important;
+
+}
+.BrowsingCofounders_mobileheader h1 span{
+	color: #1ea0cb!important;
+}
+
+.BrowsingCofounders_mobilebutton_134{
+	color:transparent !important;
+	background: transparent url(Img_BrowseCoFounders/BrowsingCofounders_2.jpg)  no-repeat center !important;
+	border: none ;
+	padding: 0;
+	margin: 0!important;
+	width:90px;
+	height: 75px;
+	position: absolute;
+	top:7px;
+	left:-1px;
+}
+
+.BrowsingCofounders_mobilecontainer .BrowsingCofounders_mobilelabel_135{
+	height: 90px;
+	background:#ebebeb;
+	color:#242627;
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 40px;
+	text-transform: uppercase!important;
+	box-sizing: border-box;
+}
+
+.BrowsingCofounders_mobilelabel_12{
+	background:transparent url(Img_BrowseCoFounders/BrowsingCofounders_3.png)  no-repeat 26% 50%;
+	box-sizing: border-box;
+	height: 145px;
+	color: #b3ebff;
+	font-size: 40px;
+	font-weight: normal;
+	position: relative;
+
+}
+
+.BrowsingCofounders_mobilelabel_12 span{
+	position: absolute;
+	left:36.5%;
+	top:33%;
+}
+
+.BrowsingCofounders_mobilelabel_117 {
+	height:75px;
+	text-align: center;
+	font-size: 38px;
+	color: #ffffff;
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: normal;
+	border-bottom: solid 7px #ebebeb;
+	background: rgba(255,255,255,0.2);
+
+}
+
+.BrowsingCofounders_mobilelabel_117 span{
+	display: block;
+	padding-top:10px;
+}
+
+.BrowsingCofounders_mobilelabel_118{
+	height:75px;
+	text-align: center;
+	font-size: 31px;
+	color: #ffffff;
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: normal;
+	background: rgba(255,255,255,0.2);
+}
+
+.BrowsingCofounders_mobilelabel_118 span{
+	display: block;
+	padding-top:16px;
 }
