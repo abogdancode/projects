@@ -4,8 +4,14 @@ $(function() {
     japps.init_menu();
     japps.showHide();
 
-   var widths = $(window).width();
-    $('video').css('width', widths);
+
+    var height_vid = $(window).height();
+
+    var widths = $(window).width();
+
+    if (widths/height_vid>1.777777777777778){
+        $('video').css('width', widths);
+    }
 
     /// for popup
     $('.open-popup-link').magnificPopup({

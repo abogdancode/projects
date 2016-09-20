@@ -609,3 +609,14 @@ top:5px;
 cursor:pointer;
 }
 
+@media (max-width: 1050px) {
+	#video video{
+		max-height: 120%;
+	}
+}
+
+@media (max-width: 800px){
+	#video video{
+		max-height: 70%;
+	}
+}
