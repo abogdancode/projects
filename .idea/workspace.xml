@@ -2,50 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/BrowsingCofounders_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/BrowsingCofounders_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/closebtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/content_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/content_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/content_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/content_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/content_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/content_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/content_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/content_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/content_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/content_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/logo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/menu_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/mission_45.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/mission_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/mission_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/speaker-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/speaker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/team/anwarulazimpatwary.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/team/content_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/team/johangunnarsson.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/team/kaihasegawa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/team/kobayashitasuku.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/img/team/omarfaruqe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/markery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/css/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/css/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/js/japps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/js/jquery.easing.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/js/jquery.magnific-popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/js/jquery.scrollto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paquebot-template/js/modernizr.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects - Ярлык.lnk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/logo_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/anwarulazimpatwary.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/content_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/johangunnarsson.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/kaihasegawa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/kobayashitasuku.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/omarfaruqe.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/BrowsingCofounders.css" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/BrowsingCofounders.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadyToCut/BrowseInterested.html" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/BrowsingInterested.css" afterPath="$PROJECT_DIR$/ReadyToCut/BrowseInterested_files/BrowsingInterested.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paquebot-template/css/stylesheet.css" afterPath="$PROJECT_DIR$/paquebot-template/css/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paquebot-template/index.html" afterPath="$PROJECT_DIR$/paquebot-template/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paquebot-template/js/japps.js" afterPath="$PROJECT_DIR$/paquebot-template/js/japps.js" />
     </list>
     <ignored path="projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,21 +44,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paquebot-template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            <state relative-caret-position="399">
+              <caret line="283" column="20" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paquebot-template/css/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/paquebot-template/css/stylesheet.css">
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paquebot-template/bootstrap/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="658" column="20" selection-start-line="658" selection-start-column="20" selection-end-line="658" selection-end-column="20" />
+            <state relative-caret-position="-6136">
+              <caret line="6" column="45718" selection-start-line="6" selection-start-column="45708" selection-end-line="6" selection-end-column="45718" />
               <folding />
             </state>
           </provider>
@@ -89,31 +79,11 @@
       <file leaf-file-name="japps.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paquebot-template/js/japps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="221">
+              <caret line="160" column="33" selection-start-line="160" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
               <folding>
-                <marker date="1474326165895" expanded="true" signature="981:990" ph="..." />
+                <marker date="1474355513629" expanded="true" signature="981:990" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="72" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -123,8 +93,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -157,10 +127,12 @@
         <option value="$PROJECT_DIR$/test vue.js/index.html" />
         <option value="$PROJECT_DIR$/test vue.js/js/script.js" />
         <option value="$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/app.js" />
-        <option value="$PROJECT_DIR$/paquebot-template/index.html" />
         <option value="E:/Kads Chowdhury/index.html" />
+        <option value="$PROJECT_DIR$/starter-paint/test.html" />
+        <option value="$PROJECT_DIR$/paquebot-template/test.html" />
         <option value="$PROJECT_DIR$/paquebot-template/js/japps.js" />
         <option value="$PROJECT_DIR$/paquebot-template/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/paquebot-template/index.html" />
       </list>
     </option>
   </component>
@@ -200,8 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,6 +187,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starter-paint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,8 +236,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paquebot-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paquebot-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paquebot-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,6 +392,7 @@
       <workItem from="1474307517237" duration="3706000" />
       <workItem from="1474313752645" duration="4207000" />
       <workItem from="1474325179567" duration="1256000" />
+      <workItem from="1474348863850" duration="14056000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -388,15 +433,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85128000" />
+    <option name="totallyTimeSpent" value="99184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22747415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -408,29 +454,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20235467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -452,21 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task1/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="217" column="19" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/your-social-network/js/main.js" />
-    <entry file="file://E:/С Лехиного компа/web/coding/TwitterBootstrap/learn-bootstrap-development-by-building-10-projects/bootstrap-development-projects-master/Project 3 - Social Network Template/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/your-social-network/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -520,13 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2120">
           <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -605,97 +609,19 @@
     <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/package.json" />
     <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/index.html" />
     <entry file="file://$PROJECT_DIR$/test vue.js/index.html" />
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/server/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/components/pages/403.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/components/pages/Admin.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/components/pages/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-654">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/components/pages/Users.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-569">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/components/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/dist/vue-auth.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/src/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/server/server.php" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/components/pages/403.vue" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/components/pages/Admin.vue" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/components/pages/Login.vue" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/components/pages/Users.vue" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/components/App.vue" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/dist/vue-auth.min.js" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/app.js" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/src/auth.js" />
     <entry file="file://$PROJECT_DIR$/paquebot-template/js/jquery.magnific-popup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
@@ -703,6 +629,53 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Kads Chowdhury/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter-paint/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paquebot-template/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -716,61 +689,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/paquebot-template/js/modernizr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1341">
+        <state relative-caret-position="-12">
           <caret line="1252" column="218" selection-start-line="1252" selection-start-column="213" selection-end-line="1252" selection-end-column="218" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Kads Chowdhury/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paquebot-template/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="72" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paquebot-template/js/japps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="221">
+          <caret line="160" column="33" selection-start-line="160" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
           <folding>
-            <marker date="1474326165895" expanded="true" signature="981:990" ph="..." />
+            <marker date="1474355513629" expanded="true" signature="981:990" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paquebot-template/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6136">
+          <caret line="6" column="45718" selection-start-line="6" selection-start-column="45708" selection-end-line="6" selection-end-column="45718" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paquebot-template/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="658" column="20" selection-start-line="658" selection-start-column="20" selection-end-line="658" selection-end-column="20" />
+        <state relative-caret-position="307">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paquebot-template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="283" column="20" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

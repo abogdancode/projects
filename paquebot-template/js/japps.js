@@ -151,19 +151,19 @@ function absolute(base, relative) {
         var fixedLogoScroll = function () {
             var top = $(this).scrollTop();
             var windowHeight = $(window).height();
-            var s1bHeight = $('.sec-two').height();
+            var s1bHeight = $('.section-2').height();
             //console.log((windowHeight * .45) + 205);
             
            
                 if (top > (windowHeight * .45) + 260) {
-                    $('.sec-two').removeClass('fixedbg');
+                    $('.section-2').removeClass('fixedbg');
                 } else {
-                    $('.sec-two').addClass('fixedbg');
+                    $('.section-2').addClass('fixedbg');
                 }
             
         }
 
-      
+        
         /** Scroll Spying **/
         var dataPanel = '';
         var sections = $('section[data-panel]');
@@ -198,3 +198,7 @@ function absolute(base, relative) {
 
     });
 })(jQuery);
+
+
+
+
