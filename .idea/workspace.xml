@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/content_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/logo_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/anwarulazimpatwary.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/content_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/johangunnarsson.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/kaihasegawa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/kobayashitasuku.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/img/team/omarfaruqe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/css/magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paquebot-template/js/jquery.magnific-popup.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paquebot-template/markery.png" afterPath="$PROJECT_DIR$/paquebot-template/markery.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paquebot-template/css/stylesheet.css" afterPath="$PROJECT_DIR$/paquebot-template/css/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paquebot-template/index.html" afterPath="$PROJECT_DIR$/paquebot-template/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paquebot-template/js/japps.js" afterPath="$PROJECT_DIR$/paquebot-template/js/japps.js" />
     </list>
     <ignored path="projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paquebot-template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="283" column="20" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
+            <state relative-caret-position="348">
+              <caret line="266" column="81" selection-start-line="266" selection-start-column="81" selection-end-line="266" selection-end-column="81" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -59,7 +42,7 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paquebot-template/css/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="1003">
               <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
               <folding />
             </state>
@@ -69,7 +52,7 @@
       <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paquebot-template/bootstrap/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6136">
+            <state relative-caret-position="17">
               <caret line="6" column="45718" selection-start-line="6" selection-start-column="45708" selection-end-line="6" selection-end-column="45718" />
               <folding />
             </state>
@@ -79,7 +62,7 @@
       <file leaf-file-name="japps.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paquebot-template/js/japps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="2720">
               <caret line="160" column="33" selection-start-line="160" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
               <folding>
                 <marker date="1474355513629" expanded="true" signature="981:990" ph="..." />
@@ -393,6 +376,7 @@
       <workItem from="1474313752645" duration="4207000" />
       <workItem from="1474325179567" duration="1256000" />
       <workItem from="1474348863850" duration="14056000" />
+      <workItem from="1474364395432" duration="2275000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -433,7 +417,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99184000" />
+    <option name="totallyTimeSpent" value="101459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -478,27 +462,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/your-social-network/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="266" column="32" selection-start-line="266" selection-start-column="32" selection-end-line="266" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/your-social-network/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2299">
-          <caret line="917" column="16" selection-start-line="917" selection-start-column="16" selection-end-line="917" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/your-social-network/groups.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="154" column="35" selection-start-line="154" selection-start-column="35" selection-end-line="154" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/your-social-network/members.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -622,16 +585,6 @@
     <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/demo/src/app.js" />
     <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/src/index.js" />
     <entry file="file://$PROJECT_DIR$/test vue.js/node_modules/@websanova/vue-auth/src/auth.js" />
-    <entry file="file://$PROJECT_DIR$/paquebot-template/js/jquery.magnific-popup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Kads Chowdhury/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -643,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,23 +610,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter-paint/test.html" />
+    <entry file="file://$PROJECT_DIR$/paquebot-template/test.html" />
+    <entry file="file://$PROJECT_DIR$/paquebot-template/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/starter-paint/test.html">
+    <entry file="file://$PROJECT_DIR$/paquebot-template/css/magnific-popup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paquebot-template/js/jquery.easing.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paquebot-template/js/jquery.magnific-popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paquebot-template/test.html">
+    <entry file="file://$PROJECT_DIR$/paquebot-template/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="-29">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -689,15 +669,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/paquebot-template/js/modernizr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="1252" column="218" selection-start-line="1252" selection-start-column="213" selection-end-line="1252" selection-end-column="218" />
+        <state relative-caret-position="379">
+          <caret line="1287" column="0" selection-start-line="1287" selection-start-column="0" selection-end-line="1287" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paquebot-template/js/japps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="2720">
           <caret line="160" column="33" selection-start-line="160" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
           <folding>
             <marker date="1474355513629" expanded="true" signature="981:990" ph="..." />
@@ -707,24 +687,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/paquebot-template/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6136">
+        <state relative-caret-position="17">
           <caret line="6" column="45718" selection-start-line="6" selection-start-column="45708" selection-end-line="6" selection-end-column="45718" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paquebot-template/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paquebot-template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="283" column="20" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
+        <state relative-caret-position="348">
+          <caret line="266" column="81" selection-start-line="266" selection-start-column="81" selection-end-line="266" selection-end-column="81" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
