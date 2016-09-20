@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paquebot-template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="193" column="6" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="6" />
+            <state relative-caret-position="227">
+              <caret line="486" column="20" selection-start-line="486" selection-start-column="20" selection-end-line="486" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -39,8 +39,8 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paquebot-template/css/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="534" column="14" selection-start-line="534" selection-start-column="14" selection-end-line="534" selection-end-column="14" />
+            <state relative-caret-position="630">
+              <caret line="514" column="1" selection-start-line="514" selection-start-column="1" selection-end-line="514" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -369,7 +369,7 @@
       <workItem from="1474313752645" duration="4207000" />
       <workItem from="1474325179567" duration="1256000" />
       <workItem from="1474348863850" duration="14056000" />
-      <workItem from="1474364395432" duration="5091000" />
+      <workItem from="1474364395432" duration="9924000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -410,7 +410,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104275000" />
+    <option name="totallyTimeSpent" value="109108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -682,8 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/paquebot-template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="193" column="6" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="6" />
+        <state relative-caret-position="227">
+          <caret line="486" column="20" selection-start-line="486" selection-start-column="20" selection-end-line="486" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -692,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/paquebot-template/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="534" column="14" selection-start-line="534" selection-start-column="14" selection-end-line="534" selection-end-column="14" />
+        <state relative-caret-position="630">
+          <caret line="514" column="1" selection-start-line="514" selection-start-column="1" selection-end-line="514" selection-end-column="1" />
           <folding />
         </state>
       </provider>
