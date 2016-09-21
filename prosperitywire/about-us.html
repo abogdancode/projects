@@ -168,18 +168,257 @@
 <script src="js/main.js"></script>
 <script type="text/javascript">
 
-	var map;
+
+
 	function initMap() {
+
+		var map;
+		var mystyle = [
+			{
+				"featureType": "water",
+				"elementType": "geometry.fill",
+				"stylers": [
+					{
+						"color": "#d3d3d3"
+					}
+				]
+			},
+			{
+				"featureType": "transit",
+				"stylers": [
+					{
+						"color": "#BABABA"
+					},
+					{
+						"visibility": "on"
+					}
+				]
+			},
+			{
+				"featureType": "road.highway",
+				"elementType": "geometry.stroke",
+				"stylers": [
+					{
+						"visibility": "on"
+					},
+					{
+						"color": "#b3b3b3"
+					}
+				]
+			},
+			{
+				"featureType": "road.highway",
+				"elementType": "geometry.fill",
+				"stylers": [
+					{
+						"color": "#ffffff"
+					}
+				]
+			},
+			{
+				"featureType": "road.local",
+				"elementType": "geometry.fill",
+				"stylers": [
+					{
+						"visibility": "on"
+					},
+					{
+						"color": "#ffffff"
+					},
+					{
+						"weight": 1
+					}
+				]
+			},
+			{
+				"featureType": "road.local",
+				"elementType": "geometry.stroke",
+				"stylers": [
+					{
+						"color": "#d7d7d7"
+					}
+				]
+			},
+			{
+				"featureType": "poi",
+				"elementType": "geometry.fill",
+				"stylers": [
+					{
+						"visibility": "on"
+					},
+					{
+						"color": "#ebebeb"
+					}
+				]
+			},
+			{
+				"featureType": "administrative",
+				"elementType": "geometry",
+				"stylers": [
+					{
+						"color": "#a7a7a7"
+					}
+				]
+			},
+			{
+				"featureType": "road.arterial",
+				"elementType": "geometry.fill",
+				"stylers": [
+					{
+						"color": "#ffffff"
+					}
+				]
+			},
+			{
+				"featureType": "road.arterial",
+				"elementType": "geometry.fill",
+				"stylers": [
+					{
+						"color": "#ffffff"
+					}
+				]
+			},
+			{
+				"featureType": "landscape",
+				"elementType": "geometry.fill",
+				"stylers": [
+					{
+						"visibility": "on"
+					},
+					{
+						"color": "#efefef"
+					}
+				]
+			},
+			{
+				"featureType": "road",
+				"elementType": "labels.text.fill",
+				"stylers": [
+					{
+						"color": "#696969"
+					}
+				]
+			},
+			{
+				"featureType": "administrative",
+				"elementType": "labels.text.fill",
+				"stylers": [
+					{
+						"visibility": "on"
+					},
+					{
+						"color": "#737373"
+					}
+				]
+			},
+			{
+				"featureType": "transit",
+				"elementType": "labels.text",
+				"stylers": [
+					{
+						"visibility": "on"
+					},
+					{
+						"color": "#545454"
+					}
+				]
+			},
+			{
+				"featureType": "transit",
+				"elementType": "labels.text.stroke",
+				"stylers": [
+					{
+						"visibility": "off"
+					}
+				]
+			},
+			{
+				"featureType": "poi",
+				"elementType": "labels.icon",
+				"stylers": [
+					{
+						"visibility": "off"
+					}
+				]
+			},
+			{
+				"featureType": "poi",
+				"elementType": "labels",
+				"stylers": [
+					{
+						"visibility": "off"
+					}
+				]
+			},
+			{
+				"featureType": "road.arterial",
+				"elementType": "geometry.stroke",
+				"stylers": [
+					{
+						"color": "#d6d6d6"
+					}
+				]
+			},
+			{
+				"featureType": "road",
+				"elementType": "labels.icon",
+				"stylers": [
+					{
+						"visibility": "off"
+					}
+				]
+			},
+			{},
+			{
+				"featureType": "poi",
+				"elementType": "geometry.fill",
+				"stylers": [
+					{
+						"color": "#dadada"
+					}
+				]
+			}
+		];
+
+
 		map = new google.maps.Map(document.getElementById('map'), {
-			center: {lat: -34.397, lng: 150.644},
-			zoom: 8
+			center: {lat: 55.9520600, lng: -3.1964800},
+			zoom: 8,
+			styles: mystyle,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
 		});
+
+		map.setOptions({styles: mystyle});
+
+	var contentString = '<div id="content">'+
+			'<div id="siteNotice">'+
+			'</div>'+
+			'<h1 id="firstHeading" class="firstHeading">Mind One Digital</h1>'+
+			'<div id="bodyContent">'+
+			'<p>Fone number, adress </p>'+
+			'</div>'+
+			'</div>';
+
+	var infowindow = new google.maps.InfoWindow({
+		content: contentString
+	});
+
+	var marker = new google.maps.Marker({
+		position: {lat: 55.9520600, lng: -3.1964800},
+		map: map,
+		title: 'Mind One Digital',
+		icon: 'markery.png'
+	});
+
+	google.maps.event.addListener(marker, 'click', function() {
+		infowindow.open(map,marker);
+	});
 	}
-	google.maps.event.addDomListener(window, 'load', initialize);
+	google.maps.event.addDomListener(window, 'load', init_map);
 </script>
 
 <script async defer
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyeGXhkHFgj0E3gDYKKDQc0tijOtIKPqM&callback=initMap">
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_PaaeRBrcAu6XBp0yMnFohVyk3TaIqqk&callback=initMap">
 </script>
 
 
