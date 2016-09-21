@@ -4000,21 +4000,21 @@ hr {
 
 
 @media only screen and (min-width: 960px){
-  .slogan__inner h2{
+  .slogan__inner .font-size-for-terms h2{
     font-size: 12pt;
   }
 
 }
 
 @media only screen and (max-width: 960px){
-  .slogan__inner h2{
+  .slogan__inner .font-size-for-terms h2{
     font-size: 2.1rem;
   }
 
 }
 
 @media only screen and (max-width: 550px){
-  .slogan__inner h2{
+  .slogan__inner .font-size-for-terms h2{
     font-size: 1.8rem;
   }
 
@@ -4058,3 +4058,13 @@ header div video{
   overflow: hidden;
 }
 
+/*--------------new alex changes for About us-------------------*/
+
+.map_container{
+  background-color: #0f0f0f;
+
+}
+#map{
+  width:100%;
+  height: 408px;
+}
