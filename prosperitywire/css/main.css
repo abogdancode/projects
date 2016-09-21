@@ -3996,8 +3996,42 @@ hr {
   }
 }
 
-/*new alex change*/
+/*------------------new alex changes to new index.html with video-------------------*/
+
+
+body {
+  width:100%;
+  overflow-x:hidden;
+}
 
 header div video{
-
+  position: absolute;
+ z-index: -1;
 }
+
+@media (min-width: 960px){
+  header div video{
+    width: 120%;
+  }
+}
+
+@media (max-width: 960px){
+  header div video{
+    height: 100%;
+  }
+}
+
+.header_bg_none{
+  background: none!important;
+}
+
+
+#viewpor_for_header{
+  padding-top: 40px;
+  background-image: url(../img/top/1.jpg)!important;
+  z-index: 2;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+}
+

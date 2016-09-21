@@ -198,4 +198,41 @@ if (
 
 }
 
+/* for video*/
+var height_vid = $(window).height();
+
+$(function() {
+
+
+
+	var widths = $(window).width();
+	alert(widths / height_vid);
+	if (widths / height_vid > 1.777777777777778) {
+		$('video').css('width', widths);
+	}
+
+
+	$('#viewpor_for_header').css('background-size', '100%' + height_vid +'px' );
+	$(window).scroll( function () {
+
+
+	});
+
+	$(document).scroll(function () {
+		var s_top = $("body").scrollTop();
+		var yes = $('#viewpor_for_header').offset().top;
+		if(s_top > yes){
+			if($('#viewpor_for_header').css('background-attachment') !=='fixed'){
+				$('#viewpor_for_header').css('background-attachment', 'fixed' );
+			}
+		}
+		if(s_top < yes){
+			if($('#viewpor_for_header').css('background-attachment') =='fixed'){
+				$('#viewpor_for_header').css('background-attachment', 'inherit' );
+			}
+
+		}
+	});
+});
+
 
