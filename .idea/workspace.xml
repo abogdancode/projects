@@ -26,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newvip/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="51">
+              <caret line="12" column="0" selection-start-line="11" selection-start-column="55" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,8 +78,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prosperitywire/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="4018" column="22" selection-start-line="4018" selection-start-column="22" selection-end-line="4018" selection-end-column="22" />
+            <state relative-caret-position="290">
+              <caret line="4011" column="3" selection-start-line="4011" selection-start-column="3" selection-end-line="4011" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -207,6 +207,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newvip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -305,7 +319,7 @@
       <workItem from="1474325179567" duration="1256000" />
       <workItem from="1474348863850" duration="14056000" />
       <workItem from="1474364395432" duration="15317000" />
-      <workItem from="1474469147652" duration="15025000" />
+      <workItem from="1474469147652" duration="16181000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -346,10 +360,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129526000" />
+    <option name="totallyTimeSpent" value="130682000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22747415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -577,14 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newvip/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prosperitywire/index_with_video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -619,10 +625,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/newvip/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="0" selection-start-line="11" selection-start-column="55" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/prosperitywire/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="4018" column="22" selection-start-line="4018" selection-start-column="22" selection-end-line="4018" selection-end-column="22" />
+        <state relative-caret-position="290">
+          <caret line="4011" column="3" selection-start-line="4011" selection-start-column="3" selection-end-line="4011" selection-end-column="3" />
           <folding />
         </state>
       </provider>

@@ -4001,22 +4001,21 @@ hr {
 
 @media only screen and (min-width: 960px){
   .slogan__inner h2{
-    font-size: 3.0rem;
-
+    font-size: 12pt;
   }
 
 }
 
 @media only screen and (max-width: 960px){
   .slogan__inner h2{
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
 
 }
 
 @media only screen and (max-width: 550px){
   .slogan__inner h2{
-    font-size: 2.0rem;
+    font-size: 1.8rem;
   }
 
 }
