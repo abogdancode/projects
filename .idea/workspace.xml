@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prosperitywire/about-us.html" afterPath="$PROJECT_DIR$/prosperitywire/about-us.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prosperitywire/css/main.css" afterPath="$PROJECT_DIR$/prosperitywire/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prosperitywire/terms-and-conditions.html" afterPath="$PROJECT_DIR$/prosperitywire/terms-and-conditions.html" />
     </list>
     <ignored path="projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,8 +47,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prosperitywire/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="4005" column="0" selection-start-line="4005" selection-start-column="0" selection-end-line="4005" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="4020" column="3" selection-start-line="4020" selection-start-column="3" selection-end-line="4020" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -302,7 +300,7 @@
       <workItem from="1474325179567" duration="1256000" />
       <workItem from="1474348863850" duration="14056000" />
       <workItem from="1474364395432" duration="15317000" />
-      <workItem from="1474469147652" duration="19987000" />
+      <workItem from="1474469147652" duration="20871000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -343,7 +341,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134488000" />
+    <option name="totallyTimeSpent" value="135372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -619,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prosperitywire/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="4005" column="0" selection-start-line="4005" selection-start-column="0" selection-end-line="4005" selection-end-column="0" />
+        <state relative-caret-position="462">
+          <caret line="4020" column="3" selection-start-line="4020" selection-start-column="3" selection-end-line="4020" selection-end-column="3" />
           <folding />
         </state>
       </provider>
