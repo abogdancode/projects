@@ -4025,10 +4025,6 @@ hr {
 
 
 
-
-
-
-
 body {
   width:100%;
   overflow-x:hidden;
@@ -4062,11 +4058,10 @@ header div video{
 
 .map_container{
   background-color: #0f0f0f;
-
 }
 #map{
   width:100%;
   height: 408px;
-  margin-bottom: -50px;
+  margin-bottom: 0;
   border-top: 5px solid #222845 ;
 }
