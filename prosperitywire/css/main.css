@@ -3996,7 +3996,38 @@ hr {
   }
 }
 
+/*------------------new alex changes for Terms and conditions only-------------------*/
+
+
+@media only screen and (min-width: 960px){
+  .slogan__inner h2{
+    font-size: 3.0rem;
+
+  }
+
+}
+
+@media only screen and (max-width: 960px){
+  .slogan__inner h2{
+    font-size: 2.3rem;
+  }
+
+}
+
+@media only screen and (max-width: 550px){
+  .slogan__inner h2{
+    font-size: 2.0rem;
+  }
+
+}
+
+
 /*------------------new alex changes to new index.html with video-------------------*/
+
+
+
+
+
 
 
 body {
