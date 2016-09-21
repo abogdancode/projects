@@ -4005,7 +4005,7 @@ body {
 }
 
 header div video{
-  position: absolute;
+  position: fixed;
  z-index: -1;
 }
 
@@ -4015,20 +4015,13 @@ header div video{
   }
 }
 
-@media (max-width: 960px){
-  header div video{
-    height: 100%;
-  }
-}
-
 .header_bg_none{
   background: none!important;
 }
 
 
-#viewpor_for_header{
-  padding-top: 40px;
-  background-image: url(../img/top/1.jpg)!important;
+#viewpor_for_section{
+  background-color: white;
   z-index: 2;
   background-repeat: no-repeat;
 

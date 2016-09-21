@@ -199,6 +199,8 @@ if (
 }
 
 /* for video*/
+
+
 var height_vid = $(window).height();
 
 $(function() {
@@ -207,11 +209,11 @@ $(function() {
 
 	var widths = $(window).width();
 	if (widths / height_vid > 1.777777777777778) {
-		$('video').css('width', widths);
+		$('#video').css('width', widths);
 	}
 
 
-	$('#viewpor_for_header').css('background-size', '100%' + height_vid +'px' );
+	/*	$('#viewpor_for_header').css('background-size', '100%' + height_vid +'px' );
 	$(window).scroll( function () {
 
 
@@ -230,8 +232,8 @@ $(function() {
 				$('#viewpor_for_header').css('background-attachment', 'inherit' );
 			}
 
-		}
-	});
+}
+});*/
 });
 
 
