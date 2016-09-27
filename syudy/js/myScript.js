@@ -1,29 +1,31 @@
 
-var count = 100;
+var count = 150;
 var segments = [];
 var symbols = [];
 
+
 for (var i = 0; i < count; i++) {
-    var radius = 10-(i/15);
+    var radius = 2+(i/15);
     var center = Point.random() * (view.size-20) +10;
     symbols[i] = new Path.Circle({
         center: center,
-        strokeColor :'black',
         vector: Point(),
         radius:radius
 
     });
+
+    symbols[i].fillColor = {
+        gradient: {
+            stops: [[{hue:60, saturation: 1, brightness: 1, alpha:1}, 0.05], [{hue:60, saturation: 0.5, brightness: 1, alpha:0.5}, 0.1], [{alpha:0},1]],
+            radial: true
+        },
+        origin: center,
+        destination: symbols[i].bounds.rightCenter
+    };
     symbols[i].radius = radius;
-    symbols[i].fillColor = 'blue';
-    symbols[i].fillColor.hue += i/3;
     symbols[i].color = symbols[i].fillColor;
     symbols[i].relationPoints =[];
     symbols[i].relations=[];
-    //if (i<=15) {
-    //    symbols[i].scale(15 / count);
-   // } else{
-    //    symbols[i].scale(i / count);
-   // }
 
     var vector = new Point({
         angle: 360 * Math.random(),
@@ -37,12 +39,6 @@ for (var i = 0; i < count; i++) {
 }
 
 var path = new Path(segments);
-
-/*for (var i = 0; i < count; i++) {
-    for (var j = 0; j < count; j++) {
-        symbols[i].relations[j] = new Path({strokeColor:'white'});
-    }
-}*/
 
 function onFrame(event) {
     for (var i = 0; i < count; i++) {
@@ -68,26 +64,17 @@ function onFrame(event) {
 
         if (j!==i){
             var dist = path.segments[i].point.getDistance(path.segments[j].point);
-            if (dist < 30) {
+           if (dist < 40) {
                 if (dist < symbols[i].radius + symbols[j].radius && dist != 0) {
                     var overlap = symbols[i].radius + symbols[j].radius - dist;
-                    var direc = (symbols[i].position -symbols[j].position).normalize(overlap * 0.015);
+                    var direc = (symbols[i].position -symbols[j].position).normalize(overlap * 0.01);
                     symbols[i].vector += direc;
                     symbols[j].vector -= direc;
-                  //  symbols[i].fillColor = 'red';
-                  //  symbols[j].fillColor = 'red';
                 }
                 var overlap = symbols[i].radius + symbols[j].radius - dist;
-                var direc = (symbols[i].position -symbols[j].position).normalize(overlap * 0.00015);
+                var direc = (symbols[i].position -symbols[j].position).normalize(overlap * 0.001);
                 symbols[i].vector += direc;
                 symbols[j].vector -= direc;
-
-
-
-                //symbols[i].relations[j].strokeColor = 'red';
-               // symbols[i].relations.add(path.segments[j].point);
-               // symbols[i].relations[j] = new Path([new Point(path.segments[i].point),new Point(path.segments[j].point)]);
-                //path2.strokeColor = 'white';
 
                 }
             }
