@@ -2,7 +2,8 @@
 var count = 150;
 var segments = [];
 var symbols = [];
-
+var goToPoint = false;
+var slow = true;
 
 for (var i = 0; i < count; i++) {
     var radius = 2+(i/15);
@@ -38,6 +39,9 @@ for (var i = 0; i < count; i++) {
    // console.log(symbols[i].position);
 }
 
+var pointMouse = new Point(view.center);
+
+console.log(pointMouse);
 var path = new Path(segments);
 
 function onFrame(event) {
@@ -71,16 +75,91 @@ function onFrame(event) {
                     symbols[i].vector += direc;
                     symbols[j].vector -= direc;
                 }
-                var overlap = symbols[i].radius + symbols[j].radius - dist;
-                var direc = (symbols[i].position -symbols[j].position).normalize(overlap * 0.001);
-                symbols[i].vector += direc;
-                symbols[j].vector -= direc;
-
+               if (!goToPoint) {
+                   var overlap = symbols[i].radius + symbols[j].radius - dist;
+                   var direc = (symbols[i].position - symbols[j].position).normalize(overlap * 0.0001);
+                   symbols[i].vector += direc;
+                   symbols[j].vector -= direc;
+               }
                 }
             }
 
        }
+
+        if (goToPoint && path1.segments.length<3){
+
+             var directToMousebig = pointMouse - item.position;
+             var directToMouse = directToMousebig.normalize(0.1);
+             item.vector+= directToMouse;
+        }
+
+        if (goToPoint && path1.segments.length>3){
+
+
+
+            var directToPathBig = item.position - path1.segments[path1.nearPointNum[i]].point;
+            var directToPath = directToPathBig.normalize(10*0.01);
+            item.vector -= directToPath;
+            if (item.vector.length>1) {
+                item.vector -= item.vector / 100;
+            }
+        }
+
+        if (slow && item.vector.length>3){
+
+                item.vector-=item.vector/100;
+            }
+
     }
 }
 
 
+
+
+
+
+var path1;
+var pathCreated = false;
+var correctPath = false;
+
+function onMouseDown(event) {
+    pointMouse = event.point;
+    if (path1) {
+        path1.selected = false;
+    }
+    path1= new Path({
+        segments: [event.point],
+       // strokeColor: 'yellow',
+       // strokeWidth: 10,
+        nearPointNum: []
+    });
+}
+function onMouseDrag(event) {
+
+    var step = event.delta;
+    path1.add(event.middlePoint);
+}
+function onMouseUp(event) {
+
+    goToPoint = !goToPoint;
+    slow = !slow;
+    if (path1.segments.length>3){
+        correctPath = true;
+    } else{
+        correctPath = false;
+    }
+
+    for (var i= 0; i <count; i++) {
+        var minDist = 9999999;
+        for (var j= 0; j <path1.segments.length-1; j++) {
+            var dist = path.segments[i].point.getDistance(path1.segments[j].point);
+            if(dist<minDist){
+                minDist = dist;
+                path1.nearPointNum[i] = j;
+            }
+
+
+        }
+    }
+
+}
