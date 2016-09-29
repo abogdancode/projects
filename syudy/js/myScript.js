@@ -218,7 +218,7 @@ if (path1.segments.length>3){
 
 }
 
-   path1.simplify(0.8);
+   //path1.simplify(0.8);
     for (var i= 0; i <count; i++) {
         var minDist = 9999999;
         for (var j= 0; j <path1.segments.length-1; j++) {
