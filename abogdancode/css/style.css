@@ -1,0 +1,155 @@
+html{
+ height: 100%;
+}
+body.home{
+ height: 100%;
+ padding-top: 50px;
+}
+
+p, h1 {
+ font-family: 'Droid Sans', sans-serif;
+}
+
+/*NAVIGATION*/
+
+.navbar {
+ background-color:#242424;
+ border-bottom:1px solid rgba(255,255,178,0.7);
+ font-family: 'Lato', sans-serif;
+}
+
+.navbar a {
+ color:#FFFFCE !important;
+}
+
+.navbar a:hover {
+ color: #FFFF7F!important;
+ background-color:#000 !important;
+
+ text-shadow: 0 10px 20px rgba(255,255,100,1);
+}
+
+.navbar-header .navbar-brand {
+ padding: 0;
+ position: absolute; left:40%;
+ width:20%;
+ font-size:1.5em;
+}
+
+
+.navbar-header a.navbar-brand:hover {
+ background-color: transparent!important;
+}
+
+
+.navbar-default .nav li.active a {
+ color:#1d1d1d !important;
+}
+
+ul.navbar-nav{
+ width:100%;
+}
+
+.img-nav{
+ height: 100px;
+ margin:0 auto;
+}
+
+.img-nav:hover{
+ box-shadow: 0 0 10px rgba(255,255,178,0.5);
+}
+
+.collapsing{
+ border:none!important;
+}
+
+@media (min-width: 768px){
+ .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+  margin: 0;
+ }
+ .navbar .float-left{
+  float: left;
+ }
+
+ .navbar .float-right{
+  float: right!important;
+ }
+}
+@media (max-width: 768px){
+
+ .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  left: 30%;
+  width: 40%;
+ }
+
+
+
+
+}
+
+
+
+
+
+/*----------------------------------------HEADER----------------------------------------------*/
+
+.header{
+ background: black;
+ position: relative;
+ height: 100%;
+}
+  .myCanvas{
+   height: 100%;
+   width:100%;
+  }
+  .header .logo {
+   position: absolute;  top: 35%;  left:32.5%;
+   box-sizing: border-box;  width: 35%;  height: 30%;
+   border: 3px solid rgba(255,255,178,0.7);
+   box-shadow: 0 0 10px rgba(255,255,178,0.5);
+
+   text-align: center; text-transform: uppercase;
+   display:table;
+
+  }
+   .header .logo .logo-cont{
+
+    display:table-cell;vertical-align:middle;
+   }
+    .header .logo .logo-cont .logo-head{
+     margin: 0 0  30px 0;
+     color: #FFFF7F;
+     font-size: 42px;
+     letter-spacing: 1.6px;
+     font-weight: 200;
+     font-family: 'Raleway', sans-serif;
+     text-align: center;
+    }
+
+    .header .logo .logo-head-2{
+     margin: 0;
+     color: #FFFFB2;
+     font-family: 'Catamaran', sans-serif;
+     font-weight: 200;
+     text-align: center;
+    }
+
+@media (max-width: 1024px) {
+
+ .header .logo {
+  left:27.5%;
+  width: 45%;
+
+ }
+}
+
+@media (max-width: 768px) {
+
+ .header .logo {
+  top :40%;left:20%;
+  width:60%;
+  height: 20%;
+ }
+}
+
+ /*---------------------------------------END HAEDER-------------------------------------------------*/

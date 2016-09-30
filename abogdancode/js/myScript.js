@@ -1,12 +1,13 @@
 
-var count = 150;
+
+var count = Math.round(view.size.width/12);
 var segments = [];
 var symbols = [];
 var goToPoint = false;
 var slow = true;
 var frolic = true;
 for (var i = 0; i < count; i++) {
-    var radius = 2+(i/15);
+    var radius = 4+(i/15);
     var center = Point.random() * (view.size-20) +10;
     symbols[i] = new Path.Circle({
         center: center,
