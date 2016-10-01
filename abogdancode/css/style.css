@@ -77,6 +77,9 @@ ul.navbar-nav{
 }
 @media (max-width: 768px){
 
+ .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent;
+ }
  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
   left: 30%;
   width: 40%;
@@ -145,10 +148,29 @@ ul.navbar-nav{
 
 @media (max-width: 768px) {
 
+ /*.header .logo .logo-cont .logo-head {
+  font-size: 23px;
+ }
+
+ .header .logo .logo-cont .logo-head-2 {
+  font-size: 17px;
+ }*/
+
  .header .logo {
   top :40%;left:20%;
   width:60%;
   height: 20%;
+ }
+}
+
+@media (max-width: 540px) {
+
+ .header .logo .logo-cont .logo-head {
+  font-size: 23px;
+ }
+
+ .header .logo .logo-cont .logo-head-2 {
+  font-size: 17px;
  }
 }
 

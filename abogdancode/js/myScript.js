@@ -1,6 +1,9 @@
-
-
+var dance;
+if (view.size.width>1024){
+    dance = true;
+}
 var count = Math.round(view.size.width/12);
+console.log(count);
 var segments = [];
 var symbols = [];
 var goToPoint = false;
@@ -95,29 +98,31 @@ function onFrame(event) {
 */
 
 
+        if(dance){
 
-       for (var j= 0; j < count; j++) {
 
-        if (j!==i){
-            var dist = path.segments[i].point.getDistance(path.segments[j].point);
-           if (dist < 40) {
-              if (dist < symbols[i].radius + symbols[j].radius && dist != 0) {
-                    var overlap = symbols[i].radius + symbols[j].radius - dist;
-                    var direc = (symbols[i].position -symbols[j].position).normalize(overlap * 0.01);
-                    symbols[i].vector += direc;
-                    symbols[j].vector -= direc;
+           for (var j= 0; j < count; j++) {
+
+            if (j!==i){
+                var dist = path.segments[i].point.getDistance(path.segments[j].point);
+               if (dist < 40) {
+                  if (dist < symbols[i].radius + symbols[j].radius && dist != 0) {
+                        var overlap = symbols[i].radius + symbols[j].radius - dist;
+                        var direc = (symbols[i].position -symbols[j].position).normalize(overlap * 0.01);
+                        symbols[i].vector += direc;
+                        symbols[j].vector -= direc;
+                    }
+                   if (frolic) {
+                       var overlap = symbols[i].radius + symbols[j].radius - dist;
+                       var direc = (symbols[i].position - symbols[j].position).normalize(overlap * 0.0005);
+                       symbols[i].vector += direc;
+                       symbols[j].vector -= direc;
+                   }
+                    }
                 }
-               if (frolic) {
-                   var overlap = symbols[i].radius + symbols[j].radius - dist;
-                   var direc = (symbols[i].position - symbols[j].position).normalize(overlap * 0.0005);
-                   symbols[i].vector += direc;
-                   symbols[j].vector -= direc;
-               }
-                }
-            }
 
-       }
-
+           }
+        }
         if (goToPoint && path1.segments.length<3){
 
              var directToMousebig = pointMouse - item.position;
