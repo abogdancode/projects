@@ -112,15 +112,20 @@ ul.navbar-nav{
    box-sizing: border-box;  width: 35%;  height: 30%;
    border: 3px solid rgba(255,255,178,0.7);
    box-shadow: 0 0 10px rgba(255,255,178,0.5);
-
+   cursor: pointer;
    text-align: center; text-transform: uppercase;
    display:table;
 
   }
    .header .logo .logo-cont{
-
     display:table-cell;vertical-align:middle;
    }
+
+   .header .logo:hover{
+    box-shadow: 0 0 20px rgba(255,255,178,1);
+    text-shadow: 0 0 10px rgba(255,255,178,1);
+   }
+
     .header .logo .logo-cont .logo-head{
      margin: 0 0  30px 0;
      color: #FFFF7F;
