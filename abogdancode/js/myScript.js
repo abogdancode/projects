@@ -159,7 +159,7 @@ function onFrame(event) {
             }
         }
     }
-    if (goToPoint || toSurround){
+    if (goToPoint || toSurround && path1){
        if (path1.alpha>0){
             path1.alpha-=0.005;
        }
