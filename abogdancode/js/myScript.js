@@ -8,9 +8,6 @@ function onResize(event){
     canHeight = view.size.height;
 }
 
-
-
-
 if (canWidth>1024){
     dance = true;
 }
@@ -19,7 +16,6 @@ if (canWidth>600&&canWidth<1024){
 }else{
     var count = Math.round(canWidth/12);
 }
-
 console.log(count);
 var segments = [];
 var symbols = [];
@@ -34,9 +30,7 @@ for (var i = 0; i < count; i++) {
         blowOut:true,
         vector: Point(),
         radius:radius
-
     });
-
     symbols[i].fillColor = {
         gradient: {
             stops: [[{hue:60, saturation: 1, brightness: 1, alpha:1}, 0.05], [{hue:60, saturation: 0.5, brightness: 1, alpha:0.5}, 0.1], [{alpha:0},1]],
@@ -55,15 +49,12 @@ for (var i = 0; i < count; i++) {
     }else{
         symbols[i].alpha = 1;
     }
-
     var vector = new Point({
         angle: 360 * Math.random(),
         length: i/200
     });
     symbols[i].vector = vector;
-
     segments[i] = [new Point(center)];
-
 }
 
 var leftTop  = new Point(canWidth*0.325-10,canHeight*0.35-10);
@@ -74,11 +65,9 @@ var leftBottom = new Point(canWidth*0.325-10,canHeight*0.65+10);
 var surround = new Path();
 surround.addSegments([[leftTop], [rightTop], [rightBottom], [leftBottom]]);
 
-
 var pointMouse = new Point(view.center);
 
 var path = new Path(segments);
-
 
 function onFrame(event) {
     for (var i = 0; i < count; i++) {
@@ -97,10 +86,7 @@ function onFrame(event) {
             item.vector.angle = -item.vector.angle;
         }
         path.segments[i].point = item.position;
-
         item.fillColor = item.color;
-
-
         if(dance){
            for (var j= 0; j < count; j++) {
 
@@ -131,7 +117,6 @@ function onFrame(event) {
              item.vector+= directToMouse;
             item.vector-=item.vector/1000;
         }
-
         if (goToPoint && path1.segments.length>3){
             var directToPathBig = item.position - path1.segments[path1.nearPointNum[i]].point;
             var directToPath = directToPathBig.normalize(10*0.01);
@@ -142,7 +127,6 @@ function onFrame(event) {
         }
 
         if (slow && item.vector.length>3){
-
                 item.vector-=item.vector/100;
             }
         if (toSurround){
@@ -174,9 +158,8 @@ function onFrame(event) {
                 item.vector -= item.vector / 100;
             }
         }
-
     }
-    if (goToPoint && path1.segments.length>3){
+    if (goToPoint || toSurround){
        if (path1.alpha>0){
             path1.alpha-=0.005;
        }
@@ -185,22 +168,13 @@ function onFrame(event) {
             [{hue:60, saturation: 0.5, brightness: 1, alpha: path1.alpha}, 0.1],
             [{alpha:0},1]];
     }
-
-
-
-
-
 }
-
-
-
-
-
 
 var path1;
 var correctPath = false;
 $( ".logo-cont" ).click(function() {
     toSurround = !toSurround;
+    goToPoint = false;
 });
 
 function onMouseDown(event) {
@@ -225,8 +199,6 @@ function onMouseDown(event) {
             strokeWidth: 10,
             nearPointNum: []
         });
-
-
 }
 function onMouseDrag(event) {
     if (!goToPoint){
@@ -262,9 +234,7 @@ if (path1.segments.length>3){
         origin: path1.segments[Math.round(path1.segments.length/2)].point
     };
     path1.smooth();
-
 }
-
     for (var i= 0; i <count; i++) {
         var minDist = 9999999;
         for (var j= 0; j <path1.segments.length-1; j++) {
@@ -273,9 +243,6 @@ if (path1.segments.length>3){
                 minDist = dist;
                 path1.nearPointNum[i] = j;
             }
-
-
         }
     }
-
 }
