@@ -32,6 +32,8 @@ p, h1 {
 /*HEADER*/
 
 .header {
+ position: relative;
+ overflow-x: hidden;
  padding: 140px 0 60px;
  background: rgba(0,0,0,0.5);
  background-size: cover;
@@ -104,8 +106,17 @@ video { display: block; }
 }
 @media(max-width:768px){
  video#bgvid {
-  height: 135%;
+  height: 100%;
   left: -40%;
+ }
+
+}
+
+@media(max-width:425px){
+ video#bgvid {
+  height: 100%;
+  left: -100%;
+
  }
 
 }
