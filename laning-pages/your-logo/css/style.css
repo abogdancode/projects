@@ -201,6 +201,12 @@ video { display: block; }
 .screenshots h1 {
  font-size:2em;
 }
+@media(max-width:425px){
+ .flipInY{
+  animation-name: none!important;
+ }
+}
+
 
 /*REVIEWS*/
 
