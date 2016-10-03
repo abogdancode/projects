@@ -16,7 +16,6 @@ if (canWidth>600&&canWidth<1024){
 }else{
     var count = Math.round(canWidth/12);
 }
-console.log(count);
 var segments = [];
 var symbols = [];
 var goToPoint = false;
@@ -68,16 +67,19 @@ surround.addSegments([[leftTop], [rightTop], [rightBottom], [leftBottom]]);
 var pointMouse = new Point(view.center);
 
 var path = new Path(segments);
-
+var countFrame =-1;
 function onFrame(event) {
+    countFrame++;
+    if (countFrame % 2 === 0) {
+
     for (var i = 0; i < count; i++) {
         var item = symbols[i];
         item.position += item.vector;
         if (item.bounds.right > canWidth) {
-            item.vector.angle = 180 -item.vector.angle;
+            item.vector.angle = 180 - item.vector.angle;
         }
         if (item.bounds.left < 0) {
-            item.vector.angle = 180 -item.vector.angle;
+            item.vector.angle = 180 - item.vector.angle;
         }
         if (item.bounds.bottom > canHeight) {
             item.vector.angle = -item.vector.angle;
@@ -87,87 +89,88 @@ function onFrame(event) {
         }
         path.segments[i].point = item.position;
         item.fillColor = item.color;
-        if(dance){
-           for (var j= 0; j < count; j++) {
+        if (dance) {
+            for (var j = 0; j < count; j++) {
 
-            if (j!==i){
-                var dist = path.segments[i].point.getDistance(path.segments[j].point);
-               if (dist < 40) {
-                  if (dist < item.radius + symbols[j].radius && dist != 0) {
-                        var overlap = item.radius + symbols[j].radius - dist;
-                        var direc = (item.position -symbols[j].position).normalize(overlap * 0.01);
-                        item.vector += direc;
-                        symbols[j].vector -= direc;
-                    }
-                   if (frolic&&!toSurround) {
-                       var overlap = item.radius + symbols[j].radius - dist;
-                       var direc = (item.position - symbols[j].position).normalize(overlap * 0.0005);
-                       item.vector += direc;
-                       symbols[j].vector -= direc;
-                   }
+                if (j !== i) {
+                    var dist = path.segments[i].point.getDistance(path.segments[j].point);
+                    if (dist < 40) {
+                        if (dist < item.radius + symbols[j].radius && dist != 0) {
+                            var overlap = item.radius + symbols[j].radius - dist;
+                            var direc = (item.position - symbols[j].position).normalize(overlap * 0.01);
+                            item.vector += direc;
+                            symbols[j].vector -= direc;
+                        }
+                        if (frolic && !toSurround) {
+                            var overlap = item.radius + symbols[j].radius - dist;
+                            var direc = (item.position - symbols[j].position).normalize(overlap * 0.0005);
+                            item.vector += direc;
+                            symbols[j].vector -= direc;
+                        }
                     }
                 }
 
-           }
+            }
         }
-        if (goToPoint && path1.segments.length<3){
+        if (goToPoint && path1.segments.length < 3) {
 
-             var directToMousebig = pointMouse - item.position;
-             var directToMouse = directToMousebig.normalize(0.1);
-             item.vector+= directToMouse;
-            item.vector-=item.vector/1000;
+            var directToMousebig = pointMouse - item.position;
+            var directToMouse = directToMousebig.normalize(0.1);
+            item.vector += directToMouse;
+            item.vector -= item.vector / 1000;
         }
-        if (goToPoint && path1.segments.length>3){
+        if (goToPoint && path1.segments.length > 3) {
             var directToPathBig = item.position - path1.segments[path1.nearPointNum[i]].point;
-            var directToPath = directToPathBig.normalize(10*0.01);
+            var directToPath = directToPathBig.normalize(10 * 0.01);
             item.vector -= directToPath;
-            if (item.vector.length>1) {
+            if (item.vector.length > 1) {
                 item.vector -= item.vector / 100;
             }
         }
 
-        if (slow && item.vector.length>3){
-                item.vector-=item.vector/100;
-            }
-        if (toSurround){
+        if (slow && item.vector.length > 3) {
+            item.vector -= item.vector / 100;
+        }
+        if (toSurround) {
 
             var numberSigment = 1;
-            if (item.position.x<0.675*canWidth&&
-                item.position.y<0.35*canHeight){
+            if (item.position.x < 0.675 * canWidth &&
+                item.position.y < 0.35 * canHeight) {
                 numberSigment = 1;
             }
-            if (item.position.x>0.675*canWidth&&
-                item.position.y<0.65*canHeight
-            ){
-                 numberSigment = 2;
+            if (item.position.x > 0.675 * canWidth &&
+                item.position.y < 0.65 * canHeight
+            ) {
+                numberSigment = 2;
             }
-            if (item.position.x>0.325*canWidth&&
-                item.position.y>0.65*canHeight
-            ){
-                 numberSigment = 3;
+            if (item.position.x > 0.325 * canWidth &&
+                item.position.y > 0.65 * canHeight
+            ) {
+                numberSigment = 3;
             }
-            if (item.position.x<0.325*canWidth&&
-                item.position.y>0.35*canHeight
-            ){
-                 numberSigment = 0;
+            if (item.position.x < 0.325 * canWidth &&
+                item.position.y > 0.35 * canHeight
+            ) {
+                numberSigment = 0;
             }
-                var directToFirst = item.position - surround.segments[numberSigment].point;
+            var directToFirst = item.position - surround.segments[numberSigment].point;
             var directToFirst = directToFirst.normalize(0.1);
             item.vector -= directToFirst;
-            if (item.vector.length>1) {
+            if (item.vector.length > 1) {
                 item.vector -= item.vector / 100;
             }
         }
     }
-    if (goToPoint || toSurround && path1){
-       if (path1.alpha>0){
-            path1.alpha-=0.005;
-       }
+    if (goToPoint || toSurround && path1) {
+        if (path1.alpha > 0) {
+            path1.alpha -= 0.005;
+        }
         path1.strokeColor.gradient.stops =
-            [[{hue:60, saturation: 1, brightness: 1, alpha: path1.alpha*2}, 0.05],
-            [{hue:60, saturation: 0.5, brightness: 1, alpha: path1.alpha}, 0.1],
-            [{alpha:0},1]];
+            [[{hue: 60, saturation: 1, brightness: 1, alpha: path1.alpha * 2}, 0.05],
+                [{hue: 60, saturation: 0.5, brightness: 1, alpha: path1.alpha}, 0.1],
+                [{alpha: 0}, 1]];
     }
+}
 }
 
 var path1;
