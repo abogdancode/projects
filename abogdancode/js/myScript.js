@@ -67,11 +67,8 @@ surround.addSegments([[leftTop], [rightTop], [rightBottom], [leftBottom]]);
 var pointMouse = new Point(view.center);
 
 var path = new Path(segments);
-var countFrame =-1;
-function onFrame(event) {
-    countFrame++;
-    if (countFrame % 2 === 0) {
 
+function onFrame(event) {
     for (var i = 0; i < count; i++) {
         var item = symbols[i];
         item.position += item.vector;
@@ -170,7 +167,6 @@ function onFrame(event) {
                 [{hue: 60, saturation: 0.5, brightness: 1, alpha: path1.alpha}, 0.1],
                 [{alpha: 0}, 1]];
     }
-}
 }
 
 var path1;
