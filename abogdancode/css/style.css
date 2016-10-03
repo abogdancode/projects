@@ -4,10 +4,34 @@ html{
 body.home{
  height: 100%;
  padding-top: 50px;
+ background: black;
+ background-attachment: fixed;
 }
 
-p, h1 {
+p {
  font-family: 'Droid Sans', sans-serif;
+}
+
+html body h1{
+ margin: 0 0  30px 0;
+ color: #FFFF7F;
+ font-size: 30px;
+ letter-spacing: 1.6px;
+ font-weight: 200;
+ font-family: 'Raleway', sans-serif;
+}
+
+html body h2{
+ margin: 0;
+ color: #FFFFB2;
+ font-size: 23px;
+ font-family: 'Catamaran', sans-serif;
+ font-weight: 200;
+}
+
+.mar-pad{
+ margin-top: -50px;
+ padding-top: 50px;
 }
 
 /*NAVIGATION*/
@@ -43,7 +67,10 @@ p, h1 {
 
 
 .navbar-default .nav li.active a {
- color:#1d1d1d !important;
+ color: #FFFF7F!important;
+ background-color:#000 !important;
+
+ text-shadow: 0 10px 20px rgba(255,255,100,1);
 }
 
 ul.navbar-nav{
@@ -178,3 +205,70 @@ ul.navbar-nav{
 }
 
  /*---------------------------------------END HAEDER-------------------------------------------------*/
+
+/*---------------------------------------PORTFOLIO-------------------------------------------------*/
+
+.portfolio-section{
+ height: 100%;
+}
+
+.portfolio-item-cont{
+ border:1px solid red;
+ height: calc(100% + 50px);
+}
+
+.item-description-cont{
+ display: table-cell;
+ vertical-align: middle;
+}
+
+.item-description{
+ display: table;
+ height: 50%;
+ position: relative;
+ top:25%;
+ padding-left: 10%;
+}
+
+.portfolio-view{
+ height: 100%;
+}
+
+.item-image-cont{
+ position: relative;
+ top: 25%;
+ display: block;
+ height: 50%;
+
+ /* Rotate */
+
+ /* Rotate Origin *//*
+ -webkit-transform-origin: 0 100%;
+ -moz-transform-origin: 0 100%;
+ -ms-transform-origin: 0 100%;
+ -o-transform-origin: 0 100%;
+ transform-origin: 0 100%;*/
+}
+
+.img-items-cont{
+ height: 100%;
+ -webkit-transform: rotate(-45deg);
+ -moz-transform: rotate(-45deg);
+ -ms-transform: rotate(-45deg);
+ -o-transform: rotate(-45deg);
+ transform: rotate(-45deg);
+}
+
+.img-items{
+height: 100%;
+ -webkit-transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -ms-transform: rotate(90deg);
+ -o-transform: rotate(90deg);
+ transform: rotate(90deg);
+}
+
+
+
+
+/*---------------------------------------END PORTFOLIO-------------------------------------------------*/
