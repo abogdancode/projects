@@ -3,15 +3,21 @@
  */
 
 $(document).ready(function(){
-    $(window).scroll(function () {
-        var st = $(this).scrollTop();
-        $("#bgvid").css({
-            "transform": "translate(0%,"+st /19+"%"
-        } );
-
-        $(".header .container").css({
-            "transform": "translate(0%, -"+st /10+"%"
-        } );
-        
-    });
+var animate = true;
+   transform();
+        $(document).scroll(function () {
+            if(animate){
+                animate = transform();
+            }
+        });
 });
+
+function transform() {
+    var s_top = $(window).scrollTop() + $(window).height() - 60;
+    var yes = $('#portfolio').offset().top;
+    if (s_top > yes) {
+        $(".img-items-cont").addClass("animation-rotate-45");
+        return false;
+    }
+    return true;
+}

@@ -240,35 +240,49 @@ ul.navbar-nav{
  display: block;
  height: 50%;
 
- /* Rotate */
-
- /* Rotate Origin *//*
- -webkit-transform-origin: 0 100%;
- -moz-transform-origin: 0 100%;
- -ms-transform-origin: 0 100%;
- -o-transform-origin: 0 100%;
- transform-origin: 0 100%;*/
 }
 
 .img-items-cont{
- height: 100%;
- -webkit-transform: rotate(-45deg);
- -moz-transform: rotate(-45deg);
- -ms-transform: rotate(-45deg);
- -o-transform: rotate(-45deg);
- transform: rotate(-45deg);
+ height: 300px;
+ width: 300px;
+ display: inline-block;
+ overflow: hidden;
+
+
+
+ transition-property: transform;
+ transition-duration: 3s;
+ box-sizing: content-box;
+ border-radius: 5px;
+ border: 3px solid rgba(255,255,178,0.7);
+ box-shadow: 0 0 30px rgba(255,255,178,0.5);
 }
 
 .img-items{
-height: 100%;
- -webkit-transform: rotate(90deg);
- -moz-transform: rotate(90deg);
- -ms-transform: rotate(90deg);
- -o-transform: rotate(90deg);
- transform: rotate(90deg);
+
+height: 425px;
+ width: 425px;
+ margin: -62px auto auto -62px;
+
+ -webkit-transform: rotate(45deg);
+ -moz-transform: rotate(45deg);
+ -ms-transform: rotate(45deg);
+ -o-transform: rotate(45deg);
+ transform: rotate(45deg);
+ transition-duration: 3s;
 }
 
 
 
 
 /*---------------------------------------END PORTFOLIO-------------------------------------------------*/
+
+/*---------------------------------------ANIMATION ----------------------------------------------------*/
+
+.animation-rotate-45{
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
