@@ -227,11 +227,27 @@ ul.navbar-nav{
  height: 50%;
  position: relative;
  top:25%;
- padding-left: 10%;
+}
+
+.item-description.item-left{
+ padding-left: 20%;
+}
+
+.item-description.item-right{
+ padding-left: 15%;
 }
 
 .portfolio-view{
  height: 100%;
+
+}
+
+.portfolio-view.item-right{
+ padding-left: 10%;
+}
+
+.portfolio-view.item-left{
+ padding-left: 20%;
 }
 
 .item-image-cont{
@@ -239,7 +255,6 @@ ul.navbar-nav{
  top: 25%;
  display: block;
  height: 50%;
-
 }
 
 .img-items-cont{
@@ -247,29 +262,27 @@ ul.navbar-nav{
  width: 300px;
  display: inline-block;
  overflow: hidden;
-
-
-
- transition-property: transform;
- transition-duration: 3s;
  box-sizing: content-box;
  border-radius: 5px;
  border: 3px solid rgba(255,255,178,0.7);
  box-shadow: 0 0 30px rgba(255,255,178,0.5);
+ transition-property: transform, margin-left, width, height;
+ -webkit-transition-duration: 2s;  -moz-transition-duration: 2s;  -ms-transition-duration: 2s;  -o-transition-duration: 2s;
+ transition-duration: 2s;
+ -webkit-transform: rotate(-45deg);  -moz-transform: rotate(-45deg);  -ms-transform: rotate(-45deg);  -o-transform: rotate(-45deg);
+ transform: rotate(-45deg);
+ margin-left: 0px;
 }
 
 .img-items{
-
 height: 425px;
  width: 425px;
  margin: -62px auto auto -62px;
-
  -webkit-transform: rotate(45deg);
  -moz-transform: rotate(45deg);
  -ms-transform: rotate(45deg);
  -o-transform: rotate(45deg);
  transform: rotate(45deg);
- transition-duration: 3s;
 }
 
 
@@ -280,9 +293,22 @@ height: 425px;
 /*---------------------------------------ANIMATION ----------------------------------------------------*/
 
 .animation-rotate-45{
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.animation-margin-left{
+  margin-left: 700px!important;
+ }
+
+.animation-margin-right{
+ margin-left: -700px!important;
+}
+
+.animation-increase{
+ width:1px!important;
+ height:1px!important;
 }

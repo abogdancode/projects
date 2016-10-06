@@ -14,13 +14,13 @@ if (canWidth>1024){
 if (canWidth>600&&canWidth<1024){
     var count = Math.round(canWidth/20);
 }else{
-    var count = Math.round(canWidth/12);
+    var count = Math.round(canWidth/17);
 }
 var segments = [];
 var symbols = [];
 var goToPoint = false;
 var slow = true;
-var frolic = true;
+var frolic = false;
 for (var i = 0; i < count; i++) {
     var radius = 4+(i/15);
     var center = Point.random() * (view.size-20) +10;
@@ -68,6 +68,8 @@ var pointMouse = new Point(view.center);
 
 var path = new Path(segments);
 
+
+
 function onFrame(event) {
     for (var i = 0; i < count; i++) {
         var item = symbols[i];
@@ -86,9 +88,9 @@ function onFrame(event) {
         }
         path.segments[i].point = item.position;
         item.fillColor = item.color;
-        if (dance) {
-            for (var j = 0; j < count; j++) {
 
+        if (dance && getInternetExplorerVersion()===-1) {
+            for (var j = 0; j < count; j++) {
                 if (j !== i) {
                     var dist = path.segments[i].point.getDistance(path.segments[j].point);
                     if (dist < 40) {
@@ -106,7 +108,6 @@ function onFrame(event) {
                         }
                     }
                 }
-
             }
         }
         if (goToPoint && path1.segments.length < 3) {
@@ -154,7 +155,7 @@ function onFrame(event) {
             var directToFirst = directToFirst.normalize(0.1);
             item.vector -= directToFirst;
             if (item.vector.length > 1) {
-                item.vector -= item.vector / 100;
+                item.vector -= item.vector / 70;
             }
         }
     }
@@ -245,3 +246,25 @@ if (path1.segments.length>3){
         }
     }
 }
+
+
+function getInternetExplorerVersion()
+{
+    var rv = -1;
+    if (navigator.appName == 'Microsoft Internet Explorer')
+    {
+        var ua = navigator.userAgent;
+        var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+        if (re.exec(ua) != null)
+            rv = parseFloat( RegExp.$1 );
+    }
+    else if (navigator.appName == 'Netscape')
+    {
+        var ua = navigator.userAgent;
+        var re  = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
+        if (re.exec(ua) != null)
+            rv = parseFloat( RegExp.$1 );
+    }
+    return rv;
+}
+
