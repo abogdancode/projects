@@ -444,8 +444,6 @@ xxxxxx<section class="benefits ">
 	};*/
 	var v = document.getElementById("video");
 
-	v.play();
-
 	 document.onclick = function() {
 	 if (v.paused) {
 	 v.play();
@@ -453,7 +451,7 @@ xxxxxx<section class="benefits ">
 	 v.pause();
 	 }
 	 };
-	document.onload = function() {
+	window.onload = function() {
 		if (v.paused) {
 			v.play();
 		} else {

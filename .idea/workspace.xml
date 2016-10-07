@@ -56,8 +56,8 @@
       <file leaf-file-name="index_with_video.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prosperitywire/index_with_video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="452" column="15" selection-start-line="452" selection-start-column="15" selection-end-line="452" selection-end-column="15" />
+            <state relative-caret-position="182">
+              <caret line="444" column="45" selection-start-line="444" selection-start-column="45" selection-end-line="444" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -330,7 +330,7 @@
       <workItem from="1475567176582" duration="22817000" />
       <workItem from="1475745832488" duration="24799000" />
       <workItem from="1475786517181" duration="389000" />
-      <workItem from="1475835472863" duration="9904000" />
+      <workItem from="1475835472863" duration="10125000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -371,7 +371,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259055000" />
+    <option name="totallyTimeSpent" value="259276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -698,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prosperitywire/index_with_video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="452" column="15" selection-start-line="452" selection-start-column="15" selection-end-line="452" selection-end-column="15" />
+        <state relative-caret-position="182">
+          <caret line="444" column="45" selection-start-line="444" selection-start-column="45" selection-end-line="444" selection-end-column="45" />
           <folding />
         </state>
       </provider>
