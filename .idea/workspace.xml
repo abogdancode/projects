@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="add abogdancode">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mindonedigital/index.html" afterPath="$PROJECT_DIR$/mindonedigital/index.html" />
     </list>
     <ignored path="projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mindonedigital/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2397">
-              <caret line="141" column="19" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
+            <state relative-caret-position="386">
+              <caret line="147" column="23" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -363,7 +363,7 @@
       <workItem from="1475745832488" duration="24799000" />
       <workItem from="1475786517181" duration="389000" />
       <workItem from="1475835472863" duration="12247000" />
-      <workItem from="1475850713265" duration="3285000" />
+      <workItem from="1475850713265" duration="3611000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -404,7 +404,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264683000" />
+    <option name="totallyTimeSpent" value="265009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -737,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mindonedigital/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="141" column="19" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
+        <state relative-caret-position="386">
+          <caret line="147" column="23" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
           <folding />
         </state>
       </provider>
