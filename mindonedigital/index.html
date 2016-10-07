@@ -143,9 +143,9 @@
 		//vid.pause();
 		//vid.play();
 
-		vid.addEventListener('touchstart', function(event) {
+		document.addEventListener('touchstart', function(event) {
 			vid.play();
-		}
+		},false);
 
 	document.touchstart = function() {
 		alert('touch');
