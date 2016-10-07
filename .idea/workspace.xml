@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="add abogdancode">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prosperitywire/css/main.css" afterPath="$PROJECT_DIR$/prosperitywire/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prosperitywire/index_with_video.html" afterPath="$PROJECT_DIR$/prosperitywire/index_with_video.html" />
     </list>
     <ignored path="projects.iws" />
@@ -47,27 +46,27 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abogdancode/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="266">
               <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_with_video.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_with_video.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prosperitywire/index_with_video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+            <state relative-caret-position="264">
+              <caret line="447" column="4" selection-start-line="447" selection-start-column="4" selection-end-line="447" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prosperitywire/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="-114">
               <caret line="4029" column="20" selection-start-line="4029" selection-start-column="20" selection-end-line="4029" selection-end-column="20" />
               <folding />
             </state>
@@ -128,8 +127,8 @@
         <option value="$PROJECT_DIR$/abogdancode/css/style.css" />
         <option value="$PROJECT_DIR$/abogdancode/js/main.js" />
         <option value="$PROJECT_DIR$/abogdancode/index.html" />
-        <option value="$PROJECT_DIR$/prosperitywire/index_with_video.html" />
         <option value="$PROJECT_DIR$/prosperitywire/css/main.css" />
+        <option value="$PROJECT_DIR$/prosperitywire/index_with_video.html" />
       </list>
     </option>
   </component>
@@ -331,7 +330,7 @@
       <workItem from="1475567176582" duration="22817000" />
       <workItem from="1475745832488" duration="24799000" />
       <workItem from="1475786517181" duration="389000" />
-      <workItem from="1475835472863" duration="8769000" />
+      <workItem from="1475835472863" duration="9033000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -372,7 +371,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257920000" />
+    <option name="totallyTimeSpent" value="258184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -673,14 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abogdancode/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/abogdancode/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -689,18 +680,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prosperitywire/index_with_video.html">
+    <entry file="file://$PROJECT_DIR$/prosperitywire/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+        <state relative-caret-position="-114">
+          <caret line="4029" column="20" selection-start-line="4029" selection-start-column="20" selection-end-line="4029" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prosperitywire/css/main.css">
+    <entry file="file://$PROJECT_DIR$/abogdancode/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="4029" column="20" selection-start-line="4029" selection-start-column="20" selection-end-line="4029" selection-end-column="20" />
+        <state relative-caret-position="266">
+          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prosperitywire/index_with_video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="447" column="4" selection-start-line="447" selection-start-column="4" selection-end-line="447" selection-end-column="4" />
           <folding />
         </state>
       </provider>
