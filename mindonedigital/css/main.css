@@ -4031,11 +4031,12 @@ body {
 header div video{
   position: fixed;
  z-index: 0;
+  min-height: 100%;
 }
 
 @media (min-width: 960px){
   header div video{
-    width: 120%;
+    width: 130%;
   }
 }
 

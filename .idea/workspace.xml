@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="add abogdancode">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mindonedigital/img/top/1.jpeg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mindonedigital/img/top/1.jpg" afterPath="$PROJECT_DIR$/mindonedigital/img/top/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mindonedigital/css/main.css" afterPath="$PROJECT_DIR$/mindonedigital/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mindonedigital/index.html" afterPath="$PROJECT_DIR$/mindonedigital/index.html" />
     </list>
     <ignored path="projects.iws" />
@@ -26,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mindonedigital/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="157" column="23" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
+            <state relative-caret-position="335">
+              <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,8 +39,8 @@
       <file leaf-file-name="index_with_video.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prosperitywire/index_with_video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="452" column="7" selection-start-line="447" selection-start-column="5" selection-end-line="452" selection-end-column="7" />
+            <state relative-caret-position="226">
+              <caret line="446" column="36" selection-start-line="446" selection-start-column="5" selection-end-line="446" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -46,8 +49,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mindonedigital/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="4031" column="18" selection-start-line="4031" selection-start-column="18" selection-end-line="4031" selection-end-column="18" />
+            <state relative-caret-position="80">
+              <caret line="4039" column="3" selection-start-line="4039" selection-start-column="3" selection-end-line="4039" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -363,7 +366,7 @@
       <workItem from="1475745832488" duration="24799000" />
       <workItem from="1475786517181" duration="389000" />
       <workItem from="1475835472863" duration="12247000" />
-      <workItem from="1475850713265" duration="6286000" />
+      <workItem from="1475850713265" duration="7029000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -404,7 +407,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267684000" />
+    <option name="totallyTimeSpent" value="268427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -721,24 +724,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mindonedigital/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="4031" column="18" selection-start-line="4031" selection-start-column="18" selection-end-line="4031" selection-end-column="18" />
+        <state relative-caret-position="80">
+          <caret line="4039" column="3" selection-start-line="4039" selection-start-column="3" selection-end-line="4039" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prosperitywire/index_with_video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="452" column="7" selection-start-line="447" selection-start-column="5" selection-end-line="452" selection-end-column="7" />
+        <state relative-caret-position="226">
+          <caret line="446" column="36" selection-start-line="446" selection-start-column="5" selection-end-line="446" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mindonedigital/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="157" column="23" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
+        <state relative-caret-position="335">
+          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding />
         </state>
       </provider>

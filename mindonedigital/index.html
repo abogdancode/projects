@@ -140,22 +140,21 @@
 <script>
 	var vid = document.getElementById("video");
 	window.onload = function() {
-		//vid.pause();
-		//vid.play();
-
+		vid.play();
 		document.addEventListener('touchstart', function(event) {
 			vid.play();
 		},false);
-
-
+		document.onclick = function() {
+			if (vid.paused) {
+				vid.play();
+			}
+		}
+	};
 	window.onscroll = function() {
-		//	vid.play();
-	};
+		if (vid.paused) {
+			vid.play();
+		}
 
-	};
-
-	document.touchstart = function() {
-		alert('touch');
 	};
 </script>
 </body>
