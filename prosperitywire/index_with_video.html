@@ -453,7 +453,13 @@ xxxxxx<section class="benefits ">
 	 v.pause();
 	 }
 	 };
-
+	document.onload = function() {
+		if (v.paused) {
+			v.play();
+		} else {
+			v.pause();
+		}
+	};
 </script>
 <script src="js/main.js"></script>
 
