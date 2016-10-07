@@ -6,6 +6,14 @@
  * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
 
+#viewpor_for_section{
+  background-color: white;
+  z-index: 2;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+
 article,
 aside,
 details,
@@ -4040,13 +4048,13 @@ header div video{
   }
 }
 
-#viewpor_for_section{
+/*#viewpor_for_section{
   background-color: white;
   z-index: 2;
   background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
-}
+}*/
 
 /*--------------new alex changes for About us-------------------*/
 
