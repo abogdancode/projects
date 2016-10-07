@@ -201,15 +201,18 @@ if (
 /* for video*/
 
 
-var height_vid = $(window).height();
+
 
 $(function() {
 
 
-
+	var height_vid = $(window).height();
 	var widths = $(window).width();
+	alert(widths  +'  '+ height_vid);
+	
 	if (widths / height_vid > 1.777777777777778) {
 		$('#video').css('width', widths);
+		alert('change');
 	}
 
 

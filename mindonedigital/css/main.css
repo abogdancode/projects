@@ -4044,7 +4044,7 @@ header div video{
 
 @media (min-width: 960px){
   header div video{
-    width: 130%;
+    width: 100%;
   }
 }
 
