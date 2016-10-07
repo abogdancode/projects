@@ -1,6 +1,9 @@
 html{
  height: 100%;
 }
+body{
+ overflow-x: hidden;
+}
 body.home{
  height: 100%;
  padding-top: 50px;
@@ -217,11 +220,6 @@ ul.navbar-nav{
  height: calc(100% + 50px);
 }
 
-.item-description-cont{
- display: table-cell;
- vertical-align: middle;
-}
-
 .item-description{
  display: table;
  height: 50%;
@@ -233,12 +231,32 @@ ul.navbar-nav{
  padding-left: 20%;
 }
 
+.item-description .logo-head{
+ /*-----------animation---------*/
+ transition-property: transform, margin-left, width, height;
+ -webkit-transition-duration: 2s;  -moz-transition-duration: 2s;  -ms-transition-duration: 2s;  -o-transition-duration: 2s;
+ transition-duration: 2s;
+}
+
+.item-description .logo-head-2{
+ /*-----------animation---------*/
+ transition-property: transform, margin-left, width, height;
+ -webkit-transition-duration: 2s;  -moz-transition-duration: 2s;  -ms-transition-duration: 2s;  -o-transition-duration: 2s;
+ transition-duration: 2s;
+}
+
 .item-description.item-right{
  padding-left: 15%;
 }
 
+.item-description-cont{
+ display: table-cell;
+ vertical-align: middle;
+}
+
 .portfolio-view{
  height: 100%;
+ overflow-x: hidden;
 
 }
 
@@ -266,12 +284,13 @@ ul.navbar-nav{
  border-radius: 5px;
  border: 3px solid rgba(255,255,178,0.7);
  box-shadow: 0 0 30px rgba(255,255,178,0.5);
+ -webkit-transform: rotate(-45deg);  -moz-transform: rotate(-45deg);  -ms-transform: rotate(-45deg);  -o-transform: rotate(-45deg);
+ transform: rotate(-45deg);
+ margin-left: 0;
+ /*-----------animation---------*/
  transition-property: transform, margin-left, width, height;
  -webkit-transition-duration: 2s;  -moz-transition-duration: 2s;  -ms-transition-duration: 2s;  -o-transition-duration: 2s;
  transition-duration: 2s;
- -webkit-transform: rotate(-45deg);  -moz-transform: rotate(-45deg);  -ms-transform: rotate(-45deg);  -o-transform: rotate(-45deg);
- transform: rotate(-45deg);
- margin-left: 0px;
 }
 
 .img-items{
@@ -311,4 +330,8 @@ height: 425px;
 .animation-increase{
  width:1px!important;
  height:1px!important;
+}
+
+.animation-increase-font{
+ font-size: 1px!important;
 }

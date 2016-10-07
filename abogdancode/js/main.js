@@ -77,6 +77,7 @@ $(document).ready(function(){
     fillingClassesArr('animation-margin-left',animate,AnimationConstr);
     fillingClassesArr('animation-increase',animate,AnimationConstr);
     fillingClassesArr('animation-margin-right',animate,AnimationConstr);
+    fillingClassesArr('animation-increase-font',animate,AnimationConstr);
 
     loopForAnimate(animate);
 
