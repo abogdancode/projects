@@ -143,9 +143,13 @@
 		//vid.pause();
 		//vid.play();
 
+		vid.addEventListener('touchstart', function(event) {
+			vid.play();
+		}
+
 	document.touchstart = function() {
 		alert('touch');
-		vid.play();
+
 	};
 	window.onscroll = function() {
 		//	vid.play();
