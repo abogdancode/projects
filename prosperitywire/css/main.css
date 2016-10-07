@@ -4033,7 +4033,7 @@ body {
 header div video{
   background: black;
   position: fixed;
- z-index: 10;
+ z-index: -1;
 }
 
 @media (min-width: 960px){

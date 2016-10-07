@@ -33,7 +33,7 @@
 	<header class="header header_bg_none">
 
 		<div class="video_top">
-			<video id="video" width="400" height="320" preload controls>
+			<video id="video" width="400" height="320" preload loop>
 				<source src="video/video_top.mp4" />
 			</video>
 		</div>
@@ -434,14 +434,18 @@ xxxxxx<section class="benefits ">
 </div>
 </div> <!--end wrapper-->
 <script>
-	var v = document.getElementById("video");
+	/*var v = document.getElementById("video");
 	v.onclick = function() {
 		if (v.paused) {
 			v.play();
 		} else {
 			v.pause();
 		}
-	};
+	};*/
+	var v = document.getElementById("video");
+
+	v.play();
+
 </script>
 <script src="js/main.js"></script>
 
