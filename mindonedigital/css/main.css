@@ -4040,6 +4040,7 @@ header div video{
   position: fixed;
  z-index: 0;
   min-height: 100%;
+
 }
 
 @media (min-width: 1200px){
@@ -4058,7 +4059,7 @@ header div video{
 @media (min-width: 700px) and (max-width: 1000px) {
   header div video {
     width: 130%;
-    bottom: 0%;
+    bottom: 0;
   }
 }
 @media (max-width: 700px) {
