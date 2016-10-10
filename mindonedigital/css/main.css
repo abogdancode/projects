@@ -2001,7 +2001,7 @@ hr {
 .header__logo {
   width: 245px;
   height: 60px;
-  background: url(../img/mindone.png) left no-repeat;
+  background: url(../img/logo1.png) left no-repeat;
   background-size: contain;
   display: inline-block;
   vertical-align: middle;
@@ -4038,46 +4038,27 @@ body {
 
 header div video{
   position: fixed;
- z-index: 0;
-  min-height: 100%;
-
+  z-index: -1;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 960px){
   header div video{
-    width: 100%;
-    bottom: 0;
+    width: 120%;
   }
 }
 
-@media (min-width: 1000px) and (max-width: 1200px) {
-  header div video {
-    width: 130%;
-    bottom: -10%;
-  }
-}
-@media (min-width: 700px) and (max-width: 1000px) {
-  header div video {
-    width: 130%;
-    bottom: 0;
-  }
-}
-@media (max-width: 700px) {
-  header div video {
-    width: auto;
-    height: 100%;
-    bottom: 0;
-  }
+.header_bg_none{
+  background: none!important;
 }
 
 
-/*#viewpor_for_section{
+#viewpor_for_section{
   background-color: white;
   z-index: 2;
   background-repeat: no-repeat;
+
   overflow: hidden;
-  position: relative;
-}*/
+}
 
 /*--------------new alex changes for About us-------------------*/
 

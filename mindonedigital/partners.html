@@ -123,6 +123,26 @@ Sign up to our affiliate announcements newsletter to get the latest information 
 </div> <!--end wrapper-->
 
 <script src="js/main.js"></script>
+<script>
+	var vid = document.getElementById("video");
+	window.onload = function() {
+		vid.play();
+		document.addEventListener('touchstart', function(event) {
+			vid.play();
+		},false);
+		document.onclick = function() {
+			if (vid.paused) {
+				vid.play();
+			}
+		}
+	};
+	window.onscroll = function() {
+		if (vid.paused) {
+			vid.play();
+		}
+
+	};
+</script>
 
 </body>
 </html>

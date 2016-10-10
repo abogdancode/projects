@@ -32,6 +32,10 @@ html body h2{
  font-weight: 200;
 }
 
+.row{
+ margin: 0;
+}
+
 .mar-pad{
  margin-top: -50px;
  padding-top: 50px;
@@ -83,6 +87,8 @@ ul.navbar-nav{
 .img-nav{
  height: 100px;
  margin:0 auto;
+ position: relative;
+ z-index: 100;
 }
 
 .img-nav:hover{
@@ -91,6 +97,11 @@ ul.navbar-nav{
 
 .collapsing{
  border:none!important;
+}
+
+.navbar-collapse.collapse.in{
+ position: relative;
+ z-index: 0;
 }
 
 @media (min-width: 768px){
@@ -124,6 +135,12 @@ ul.navbar-nav{
  }
 
 }
+@media (max-width: 540px){
+ .img-nav {
+  height: 70px;
+ }
+}
+
 
 
 
@@ -216,6 +233,7 @@ ul.navbar-nav{
 }
 
 .portfolio-item-cont{
+ overflow: hidden;
  border:1px solid red;
  height: calc(100% + 50px);
 }
@@ -228,25 +246,29 @@ ul.navbar-nav{
 }
 
 .item-description.item-left{
- padding-left: 20%;
+ padding-left: 10%;
+}
+
+.item-description.item-right{
+ padding-left: 5%;
 }
 
 .item-description .logo-head{
  /*-----------animation---------*/
- transition-property: transform, margin-left, width, height;
+ position: relative;
+ left:0;
+ transition-property: transform, left, right, font-size;
  -webkit-transition-duration: 2s;  -moz-transition-duration: 2s;  -ms-transition-duration: 2s;  -o-transition-duration: 2s;
  transition-duration: 2s;
 }
 
 .item-description .logo-head-2{
  /*-----------animation---------*/
- transition-property: transform, margin-left, width, height;
+ position: relative;
+ left:0;
+ transition-property: transform, left, right, font-size;
  -webkit-transition-duration: 2s;  -moz-transition-duration: 2s;  -ms-transition-duration: 2s;  -o-transition-duration: 2s;
  transition-duration: 2s;
-}
-
-.item-description.item-right{
- padding-left: 15%;
 }
 
 .item-description-cont{
@@ -256,7 +278,6 @@ ul.navbar-nav{
 
 .portfolio-view{
  height: 100%;
- overflow-x: hidden;
 
 }
 
@@ -265,7 +286,7 @@ ul.navbar-nav{
 }
 
 .portfolio-view.item-left{
- padding-left: 20%;
+ padding-left: 15%;
 }
 
 .item-image-cont{
@@ -288,7 +309,9 @@ ul.navbar-nav{
  transform: rotate(-45deg);
  margin-left: 0;
  /*-----------animation---------*/
- transition-property: transform, margin-left, width, height;
+ position: relative;
+ left:0;
+ transition-property: transform, left, top, width, height;
  -webkit-transition-duration: 2s;  -moz-transition-duration: 2s;  -ms-transition-duration: 2s;  -o-transition-duration: 2s;
  transition-duration: 2s;
 }
@@ -302,6 +325,53 @@ height: 425px;
  -ms-transform: rotate(45deg);
  -o-transform: rotate(45deg);
  transform: rotate(45deg);
+}
+
+
+@media (max-width: 991px) {
+ .portfolio-view {
+height: 50%;
+ }
+ .item-description {
+  top: 0;
+ }
+ .item-image-cont {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .portfolio-view.item-right{
+  padding-left: 0;
+  padding-right: 0;
+ }
+ .portfolio-view.item-left{
+  margin-top: 10%;
+  padding-left: 0;
+  padding-right: 0;
+ }
+
+ .item-description {
+  height: 30%;
+  text-align: center;
+  width: 100%;
+ }
+
+ .item-description.item-left{
+  padding: 0;
+ }
+
+ .item-description.item-right{
+  padding: 0;
+ }
+
+ .item-description.item-left .item-description-cont {
+  margin-bottom: 10%;
+  vertical-align: bottom;
+ }
+
+ .portfolio-view.item-right {
+  margin-top: 10%;
+ }
 }
 
 
@@ -319,12 +389,12 @@ height: 425px;
   transform: rotate(0deg);
 }
 
-.animation-margin-left{
-  margin-left: 700px!important;
+.animation-x-left{
+left: -700px!important;
  }
 
-.animation-margin-right{
- margin-left: -700px!important;
+.animation-x-right{
+left: 700px!important;
 }
 
 .animation-increase{

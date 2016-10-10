@@ -70,7 +70,115 @@ var path = new Path(segments);
 
 
 
+var countFr =0;
 function onFrame(event) {
+        if (!onFrameOff) {
+            frameloop()
+        }
+
+}
+
+var path1;
+var correctPath = false;
+$( ".logo-cont" ).click(function() {
+    toSurround = !toSurround;
+    goToPoint = false;
+});
+
+function onMouseDown(event) {
+    onFrame();
+    toSurround = false;
+    if(frolic){
+        frolic=false;
+    }
+    pointMouse = event.point;
+    if (path1) {
+        path1.remove();
+    }
+        path1= new Path({
+            alpha:0.5,
+            segments: [event.point],
+            strokeColor: {
+                gradient: {
+                    stops: [[{hue:60, saturation: 1, brightness: 1, alpha:1}, 0.05], [{hue:60, saturation: 0.5, brightness: 1, alpha:0.5}, 0.1], [{alpha:0},1]],
+                    radial: true
+                },
+                origin: event.point
+            },
+            strokeWidth: 10,
+            nearPointNum: []
+        });
+}
+function onMouseDrag(event) {
+    if (!goToPoint){
+        path1.addSegment(event.point);
+    }
+    if (path1.segments.length>3){
+        path1.strokeColor = {
+            gradient: {
+                stops: [[{hue:60, saturation: 1, brightness: 1, alpha:1}, 0.05], [{hue:60, saturation: 0.5, brightness: 1, alpha:0.5}, 0.1], [{alpha:0},1]],
+                radial: true
+            },
+            origin: event.point
+        };
+    }
+
+    path1.smooth();
+}
+function onMouseUp() {
+
+    goToPoint = !goToPoint;
+    slow = !slow;
+    if (path1.segments.length>3){
+        correctPath = true;
+    } else{
+        correctPath = false;
+    }
+if (path1.segments.length>3){
+    path1.strokeColor = {
+        gradient: {
+            stops: [[{hue:60, saturation: 1, brightness: 1, alpha:1}, 0.05], [{hue:60, saturation: 0.5, brightness: 1, alpha:0.5}, 0.1], [{alpha:0},1]],
+            radial: true
+        },
+        origin: path1.segments[Math.round(path1.segments.length/2)].point
+    };
+    path1.smooth();
+}
+    for (var i= 0; i <count; i++) {
+        var minDist = 9999999;
+        for (var j= 0; j <path1.segments.length-1; j++) {
+            var dist = path.segments[i].point.getDistance(path1.segments[j].point);
+            if(dist<minDist){
+                minDist = dist;
+                path1.nearPointNum[i] = j;
+            }
+        }
+    }
+}
+
+
+function getInternetExplorerVersion()
+{
+    var rv = -1;
+    if (navigator.appName == 'Microsoft Internet Explorer')
+    {
+        var ua = navigator.userAgent;
+        var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+        if (re.exec(ua) != null)
+            rv = parseFloat( RegExp.$1 );
+    }
+    else if (navigator.appName == 'Netscape')
+    {
+        var ua = navigator.userAgent;
+        var re  = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
+        if (re.exec(ua) != null)
+            rv = parseFloat( RegExp.$1 );
+    }
+    return rv;
+}
+
+function frameloop() {
+
     for (var i = 0; i < count; i++) {
         var item = symbols[i];
         item.position += item.vector;
@@ -168,103 +276,5 @@ function onFrame(event) {
                 [{hue: 60, saturation: 0.5, brightness: 1, alpha: path1.alpha}, 0.1],
                 [{alpha: 0}, 1]];
     }
+
 }
-
-var path1;
-var correctPath = false;
-$( ".logo-cont" ).click(function() {
-    toSurround = !toSurround;
-    goToPoint = false;
-});
-
-function onMouseDown(event) {
-    toSurround = false;
-    if(frolic){
-        frolic=false;
-    }
-    pointMouse = event.point;
-    if (path1) {
-        path1.remove();
-    }
-        path1= new Path({
-            alpha:0.5,
-            segments: [event.point],
-            strokeColor: {
-                gradient: {
-                    stops: [[{hue:60, saturation: 1, brightness: 1, alpha:1}, 0.05], [{hue:60, saturation: 0.5, brightness: 1, alpha:0.5}, 0.1], [{alpha:0},1]],
-                    radial: true
-                },
-                origin: event.point
-            },
-            strokeWidth: 10,
-            nearPointNum: []
-        });
-}
-function onMouseDrag(event) {
-    if (!goToPoint){
-        path1.addSegment(event.point);
-    }
-    if (path1.segments.length>3){
-        path1.strokeColor = {
-            gradient: {
-                stops: [[{hue:60, saturation: 1, brightness: 1, alpha:1}, 0.05], [{hue:60, saturation: 0.5, brightness: 1, alpha:0.5}, 0.1], [{alpha:0},1]],
-                radial: true
-            },
-            origin: event.point
-        };
-    }
-
-    path1.smooth();
-}
-function onMouseUp() {
-
-    goToPoint = !goToPoint;
-    slow = !slow;
-    if (path1.segments.length>3){
-        correctPath = true;
-    } else{
-        correctPath = false;
-    }
-if (path1.segments.length>3){
-    path1.strokeColor = {
-        gradient: {
-            stops: [[{hue:60, saturation: 1, brightness: 1, alpha:1}, 0.05], [{hue:60, saturation: 0.5, brightness: 1, alpha:0.5}, 0.1], [{alpha:0},1]],
-            radial: true
-        },
-        origin: path1.segments[Math.round(path1.segments.length/2)].point
-    };
-    path1.smooth();
-}
-    for (var i= 0; i <count; i++) {
-        var minDist = 9999999;
-        for (var j= 0; j <path1.segments.length-1; j++) {
-            var dist = path.segments[i].point.getDistance(path1.segments[j].point);
-            if(dist<minDist){
-                minDist = dist;
-                path1.nearPointNum[i] = j;
-            }
-        }
-    }
-}
-
-
-function getInternetExplorerVersion()
-{
-    var rv = -1;
-    if (navigator.appName == 'Microsoft Internet Explorer')
-    {
-        var ua = navigator.userAgent;
-        var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
-        if (re.exec(ua) != null)
-            rv = parseFloat( RegExp.$1 );
-    }
-    else if (navigator.appName == 'Netscape')
-    {
-        var ua = navigator.userAgent;
-        var re  = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
-        if (re.exec(ua) != null)
-            rv = parseFloat( RegExp.$1 );
-    }
-    return rv;
-}
-
