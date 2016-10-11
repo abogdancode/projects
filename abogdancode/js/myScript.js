@@ -85,26 +85,20 @@ $( ".logo-cont" ).click(function() {
 });
 
 function onMouseDown(event) {
-    if (!smallScreen) {
-        toSurround = false;
-        if (frolic) {
-            frolic = false;
-        }
-        pointMouse = event.point;
-        if (path1) {
-            path1.remove();
-        }
-        path1 = new Path({
-            alpha: 0.5,
+    toSurround = false;
+    if(frolic){
+        frolic=false;
+    }
+    pointMouse = event.point;
+    if (path1) {
+        path1.remove();
+    }
+        path1= new Path({
+            alpha:0.5,
             segments: [event.point],
             strokeColor: {
                 gradient: {
-                    stops: [[{hue: 60, saturation: 1, brightness: 1, alpha: 1}, 0.05], [{
-                        hue: 60,
-                        saturation: 0.5,
-                        brightness: 1,
-                        alpha: 0.5
-                    }, 0.1], [{alpha: 0}, 1]],
+                    stops: [[{hue:60, saturation: 1, brightness: 1, alpha:1}, 0.05], [{hue:60, saturation: 0.5, brightness: 1, alpha:0.5}, 0.1], [{alpha:0},1]],
                     radial: true
                 },
                 origin: event.point
@@ -112,7 +106,6 @@ function onMouseDown(event) {
             strokeWidth: 10,
             nearPointNum: []
         });
-    }
 }
 function onMouseDrag(event) {
     if (!smallScreen) {
@@ -138,37 +131,31 @@ function onMouseDrag(event) {
 }
 
 function onMouseUp() {
-    if (!smallScreen) {
-        goToPoint = !goToPoint;
-        slow = !slow;
-        if (path1.segments.length > 3) {
-            correctPath = true;
-        } else {
-            correctPath = false;
-        }
-        if (path1.segments.length > 3) {
-            path1.strokeColor = {
-                gradient: {
-                    stops: [[{hue: 60, saturation: 1, brightness: 1, alpha: 1}, 0.05], [{
-                        hue: 60,
-                        saturation: 0.5,
-                        brightness: 1,
-                        alpha: 0.5
-                    }, 0.1], [{alpha: 0}, 1]],
-                    radial: true
-                },
-                origin: path1.segments[Math.round(path1.segments.length / 2)].point
-            };
-            path1.smooth();
-        }
-        for (var i = 0; i < count; i++) {
-            var minDist = 9999999;
-            for (var j = 0; j < path1.segments.length - 1; j++) {
-                var dist = path.segments[i].point.getDistance(path1.segments[j].point);
-                if (dist < minDist) {
-                    minDist = dist;
-                    path1.nearPointNum[i] = j;
-                }
+
+    goToPoint = !goToPoint;
+    slow = !slow;
+    if (path1.segments.length>3){
+        correctPath = true;
+    } else{
+        correctPath = false;
+    }
+if (path1.segments.length>3){
+    path1.strokeColor = {
+        gradient: {
+            stops: [[{hue:60, saturation: 1, brightness: 1, alpha:1}, 0.05], [{hue:60, saturation: 0.5, brightness: 1, alpha:0.5}, 0.1], [{alpha:0},1]],
+            radial: true
+        },
+        origin: path1.segments[Math.round(path1.segments.length/2)].point
+    };
+    path1.smooth();
+}
+    for (var i= 0; i <count; i++) {
+        var minDist = 9999999;
+        for (var j= 0; j <path1.segments.length-1; j++) {
+            var dist = path.segments[i].point.getDistance(path1.segments[j].point);
+            if(dist<minDist){
+                minDist = dist;
+                path1.nearPointNum[i] = j;
             }
         }
     }
