@@ -414,6 +414,10 @@ height: 425px;
   -ms-transition-duration: 1s;
   -o-transition-duration: 1s;
   transition-duration: 1s;
+}
+ .item-description.item-left .logo-head{
+  margin-top:5%;
+
  }
  .item-description .logo-head-2{
   /*------animation--------------------------*/

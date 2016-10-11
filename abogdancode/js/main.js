@@ -109,14 +109,15 @@ $(document).ready(function(){
         event.preventDefault();
         $('html, body').animate({scrollTop:$('#portfolio').position().top-marginForNav }, 500);
     }, false);*/
+
     var initialPoint;
     var finalPoint;
     $('#myCanvas')[0].addEventListener('touchstart', function(event) {
-
+        event.preventDefault();
         initialPoint=event.changedTouches[0];
     }, false);
     $('#myCanvas')[0].addEventListener('touchend', function(event) {
-
+        event.preventDefault();
         finalPoint=event.changedTouches[0];
         var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
         if (yAbs > 20) {
@@ -125,7 +126,7 @@ $(document).ready(function(){
             }
             else{
                 $('html, body').animate({scrollTop:$('#home').position().top}, 800);
-                }
+            }
         }
     }, false);
     var animate =[];
@@ -157,4 +158,27 @@ $(document).ready(function(){
 
 
 
+/*
+function getInitialPoint(elem) {
+    elem.addEventListener('touchstart', function(event) {
+        event.preventDefault();
+        initialPoint=event.changedTouches[0];
+    }, false);
+}
 
+function getFinalPoint(elem) {
+    elem.addEventListener('touchend', function(event) {
+        event.preventDefault();
+        finalPoint=event.changedTouches[0];
+        var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
+        if (yAbs > 20) {
+            if (finalPoint.pageY < initialPoint.pageY){
+                $('html, body').animate({scrollTop:$('#portfolio').position().top-marginForNav }, 800);
+            }
+            else{
+                $('html, body').animate({scrollTop:$('#home').position().top}, 800);
+            }
+        }
+    }, false);
+}
+*/
