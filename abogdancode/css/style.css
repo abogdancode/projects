@@ -45,6 +45,15 @@ html body h2{
  padding-top: 50px;
 }
 
+@media (max-width: 768px){
+ body.home{
+  background-attachment: fixed!important;
+ }
+
+}
+
+
+
 /*NAVIGATION*/
 
 .navbar {
@@ -121,6 +130,9 @@ ul.navbar-nav{
  }
 }
 @media (max-width: 768px){
+ .navbar {
+  background-color: #0f0f0f;
+ }
 
  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: transparent;
@@ -143,6 +155,9 @@ ul.navbar-nav{
  .img-nav {
   height: 70px;
  }
+ .navbar {
+  border-bottom: none;
+ }
 }
 
 /*----------------------------------------HEADER----------------------------------------------*/
@@ -151,8 +166,10 @@ ul.navbar-nav{
  background: transparent;
  position: relative;
  height: 100%;
+ box-shadow: 0 0 30px rgba(255,255,178,0.5);
 }
   .myCanvas{
+
    box-sizing: border-box;
    height: 99%;
    width:100%;
@@ -235,8 +252,9 @@ ul.navbar-nav{
 }
 
 .portfolio-item-cont{
+ box-shadow: 0 0 30px rgba(255,255,178,0.5);
  overflow: hidden;
- border:1px solid red;
+ /*border:1px solid red;*/
  height: calc(100% + 50px);
 }
 
@@ -342,11 +360,39 @@ height: 425px;
   margin-left: auto;
   margin-right: auto;
  }
+
+ .img-items-cont {
+  /*--------animation--------------------------*/
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+ }
+ .item-description .logo-head{
+  /*------animation--------------------------*/
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+ }
+ .item-description .logo-head-2{
+  /*------animation--------------------------*/
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+ }
+
  .portfolio-view.item-right{
+  padding-bottom: 13%;
   padding-left: 0;
   padding-right: 0;
  }
  .portfolio-view.item-left{
+  padding-bottom: 10%;
   padding-left: 0;
   padding-right: 0;
  }
