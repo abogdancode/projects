@@ -173,7 +173,6 @@ ul.navbar-nav{
  background: transparent;
  position: relative;
  height: 100%;
- box-shadow: 0 0 30px rgba(255,255,178,0.5);
 }
   .myCanvas{
    box-sizing: border-box;
@@ -217,10 +216,13 @@ ul.navbar-nav{
      text-align: center;
     }
 
-@media (max-width: 1024px) {
+@media (max-width: 991px) {
  .header .logo {
   left:27.5%;
   width: 45%;
+ }
+ .header{
+  box-shadow: 0 0 30px rgba(255,255,178,0.5);
  }
 }
 
@@ -263,7 +265,6 @@ ul.navbar-nav{
 }
 
 .portfolio-item-cont{
- box-shadow: 0 0 30px rgba(255,255,178,0.5);
  overflow: hidden;
  /*border:1px solid red;*/
  height: calc(100% + 50px);
@@ -360,6 +361,10 @@ height: 425px;
 
 
 @media (max-width: 991px) {
+ .portfolio-item-cont{
+  box-shadow: 0 0 30px rgba(255,255,178,0.5);
+ }
+
  .portfolio-view {
   height: 70%;
  }
