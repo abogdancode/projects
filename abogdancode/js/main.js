@@ -70,7 +70,7 @@ function getOffsetRect(elem) {
 
 function imgResize(){
     var widthImg;
-   if($(window).width()<=736&&$(window).height<=414){
+   if($(window).width()<=736&&$(window).height()<=414){
         widthImg = $(window).height()*0.4;
    } else{
         widthImg = ($(window).width()*-0.000260416+0.53333312)*$(window).width();
@@ -103,6 +103,13 @@ function onFrameOffFun() {
 onFrameOff = false;
 var marginForNav = 50;
 $(document).ready(function(){
+
+
+    $('#myCanvas')[0].addEventListener('touchstart', function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop:$('#portfolio').position().top-marginForNav }, 500);
+    }, false);
+
     var animate =[];
     imgResize();
     fillingClassesArr('animation-rotate-45',animate,AnimationConstr);

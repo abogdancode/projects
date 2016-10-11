@@ -191,6 +191,7 @@ ul.navbar-nav{
    box-sizing: border-box;
    height: 99%;
    width:100%;
+   -webkit-overflow-scrolling:touch;
   }
   .header .logo {
    position: absolute;  top: 35%;  left:32.5%;
