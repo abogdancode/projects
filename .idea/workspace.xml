@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="add abogdancode">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abogdancode/css/style.css" afterPath="$PROJECT_DIR$/abogdancode/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abogdancode/js/main.js" afterPath="$PROJECT_DIR$/abogdancode/js/main.js" />
     </list>
     <ignored path="projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abogdancode/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/abogdancode/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+            <state relative-caret-position="300">
+              <caret line="76" column="3" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -144,8 +144,8 @@
         <option value="$PROJECT_DIR$/laning-pages/your-logo/css/style.css" />
         <option value="$PROJECT_DIR$/abogdancode/js/myScript.js" />
         <option value="$PROJECT_DIR$/abogdancode/index.html" />
-        <option value="$PROJECT_DIR$/abogdancode/js/main.js" />
         <option value="$PROJECT_DIR$/abogdancode/css/style.css" />
+        <option value="$PROJECT_DIR$/abogdancode/js/main.js" />
       </list>
     </option>
   </component>
@@ -428,7 +428,7 @@
       <workItem from="1476088338917" duration="28025000" />
       <workItem from="1476176058558" duration="2619000" />
       <workItem from="1476180262535" duration="1691000" />
-      <workItem from="1476186008047" duration="7871000" />
+      <workItem from="1476186008047" duration="8725000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -469,7 +469,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322356000" />
+    <option name="totallyTimeSpent" value="323210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -819,18 +819,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abogdancode/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/abogdancode/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="249" column="8" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abogdancode/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="76" column="3" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
           <folding />
         </state>
       </provider>

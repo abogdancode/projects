@@ -70,11 +70,11 @@ function getOffsetRect(elem) {
 
 function imgResize(){
     var widthImg;
-    if($(window).width()<=736||$(window).height<=414){
-         widthImg = $(window).height()*0.4;
-    } else{
+   if($(window).width()<=736&&$(window).height<=414){
+        widthImg = $(window).height()*0.4;
+   } else{
         widthImg = ($(window).width()*-0.000260416+0.53333312)*$(window).width();
-    }
+   }
     var widthImgCalc = widthImg*1.416666666666667;
     var marginImg = widthImg*0.2066666666666667;
     $('.img-items').css('width',widthImgCalc);
