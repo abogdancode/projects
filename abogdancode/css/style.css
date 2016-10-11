@@ -8,7 +8,11 @@ body.home{
  height: 100%;
  padding-top: 50px;
  background: black;
+ background-position: center;
  background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image: url(../img/2.jpg);
 }
 
 p {
@@ -44,7 +48,7 @@ html body h2{
 /*NAVIGATION*/
 
 .navbar {
- background-color:#242424;
+ background-color:transparent;
  border-bottom:1px solid rgba(255,255,178,0.7);
  font-family: 'Lato', sans-serif;
 }
@@ -141,15 +145,10 @@ ul.navbar-nav{
  }
 }
 
-
-
-
-
-
 /*----------------------------------------HEADER----------------------------------------------*/
 
 .header{
- background: black;
+ background: transparent;
  position: relative;
  height: 100%;
 }
@@ -228,13 +227,16 @@ ul.navbar-nav{
 
 /*---------------------------------------PORTFOLIO-------------------------------------------------*/
 
+
+
+
 .portfolio-section{
  height: 100%;
 }
 
 .portfolio-item-cont{
  overflow: hidden;
- border:1px solid red;
+ /*border:1px solid red;*/
  height: calc(100% + 50px);
 }
 
