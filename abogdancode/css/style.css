@@ -7,12 +7,7 @@ body{
 body.home{
  height: 100%;
  padding-top: 50px;
- background: black;
- background-position: center;
- background-attachment: fixed;
- background-repeat: no-repeat;
- background-size: cover;
- background-image: url(../img/2.jpg);
+
 }
 
 p {
@@ -48,11 +43,15 @@ html body h2{
  margin-top: -50px;
  padding-top: 50px;
 }
-
-@media (max-width: 768px){
- body.home{
-  background-attachment: fixed!important;
- }
+.wrapp-all{
+ height: 100%;
+ overflow-y: auto;
+ background: black;
+ background-position: center;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image: url(../img/2.jpg);
 }
 
 
