@@ -19,6 +19,10 @@ p {
  font-family: 'Droid Sans', sans-serif;
 }
 
+a:hover{
+ text-decoration: none;
+}
+
 html body h1{
  margin: 0 0  30px 0;
  color: #FFFF7F;
@@ -293,6 +297,10 @@ ul.navbar-nav{
  transition-duration: 2s;
 }
 
+.item-description .logo-head:hover{
+ text-shadow: 0 10px 20px rgba(255,255,100,1);
+}
+
 .item-description .logo-head-2{
  /*-----------animation---------*/
  position: relative;
@@ -345,6 +353,10 @@ ul.navbar-nav{
  transition-property: transform, left, top, width, height;
  -webkit-transition-duration: 2s;  -moz-transition-duration: 2s;  -ms-transition-duration: 2s;  -o-transition-duration: 2s;
  transition-duration: 2s;
+}
+
+.img-items-cont:hover{
+ box-shadow: 0 0 30px rgba(255,255,178,0.8);
 }
 
 .img-items{
