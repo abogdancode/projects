@@ -2,6 +2,7 @@ var dance;
 var canWidth = view.size.width;
 var canHeight = view.size.height;
 var toSurround = false;
+var smallScreen = true;
 
 function onResize(event){
     canWidth = view.size.width;
@@ -10,6 +11,7 @@ function onResize(event){
 
 if (canWidth>1024){
     dance = true;
+    smallScreen=false;
 }
 if (canWidth>600&&canWidth<1024){
     var count = Math.round(canWidth/20);
@@ -68,9 +70,6 @@ var pointMouse = new Point(view.center);
 
 var path = new Path(segments);
 
-
-
-var countFr =0;
 function onFrame(event) {
         if (!onFrameOff) {
             frameloop()
@@ -110,21 +109,28 @@ function onMouseDown(event) {
         });
 }
 function onMouseDrag(event) {
-    if (!goToPoint){
-        path1.addSegment(event.point);
+    if (!smallScreen) {
+        if (!goToPoint) {
+            path1.addSegment(event.point);
+        }
+        if (path1.segments.length > 3) {
+            path1.strokeColor = {
+                gradient: {
+                    stops: [[{hue: 60, saturation: 1, brightness: 1, alpha: 1}, 0.05], [{
+                        hue: 60,
+                        saturation: 0.5,
+                        brightness: 1,
+                        alpha: 0.5
+                    }, 0.1], [{alpha: 0}, 1]],
+                    radial: true
+                },
+                origin: event.point
+            };
+        }
+        path1.smooth();
     }
-    if (path1.segments.length>3){
-        path1.strokeColor = {
-            gradient: {
-                stops: [[{hue:60, saturation: 1, brightness: 1, alpha:1}, 0.05], [{hue:60, saturation: 0.5, brightness: 1, alpha:0.5}, 0.1], [{alpha:0},1]],
-                radial: true
-            },
-            origin: event.point
-        };
-    }
-
-    path1.smooth();
 }
+
 function onMouseUp() {
 
     goToPoint = !goToPoint;

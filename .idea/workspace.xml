@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="add abogdancode">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abogdancode/css/style.css" afterPath="$PROJECT_DIR$/abogdancode/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abogdancode/index.html" afterPath="$PROJECT_DIR$/abogdancode/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abogdancode/js/myScript.js" afterPath="$PROJECT_DIR$/abogdancode/js/myScript.js" />
     </list>
     <ignored path="projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abogdancode/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="833">
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myScript.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="myScript.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/abogdancode/js/myScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -143,10 +143,10 @@
         <option value="$PROJECT_DIR$/mindonedigital/partners.html" />
         <option value="$PROJECT_DIR$/mindonedigital/terms-and-conditions.html" />
         <option value="$PROJECT_DIR$/laning-pages/your-logo/css/style.css" />
-        <option value="$PROJECT_DIR$/abogdancode/js/myScript.js" />
         <option value="$PROJECT_DIR$/abogdancode/js/main.js" />
         <option value="$PROJECT_DIR$/abogdancode/css/style.css" />
         <option value="$PROJECT_DIR$/abogdancode/index.html" />
+        <option value="$PROJECT_DIR$/abogdancode/js/myScript.js" />
       </list>
     </option>
   </component>
@@ -429,7 +429,7 @@
       <workItem from="1476088338917" duration="28025000" />
       <workItem from="1476176058558" duration="2619000" />
       <workItem from="1476180262535" duration="1691000" />
-      <workItem from="1476186008047" duration="12073000" />
+      <workItem from="1476186008047" duration="14118000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -470,7 +470,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326558000" />
+    <option name="totallyTimeSpent" value="328603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -788,14 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abogdancode/js/myScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prosperitywire/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68493">
@@ -812,14 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abogdancode/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/abogdancode/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -832,6 +816,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abogdancode/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abogdancode/js/myScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
