@@ -90,7 +90,7 @@ function imgResize(){
 function onFrameOffFun() {
         var onFrameOff = false;
         var scrollTop = $(window).scrollTop() + $(window).height()-marginForNav;
-        var offsetTop = getOffset( $('#portfolio')[0]).top
+        var offsetTop = getOffset( $('#portfolio')[0]).top;
         if (scrollTop >= offsetTop*1.8) {
             onFrameOff = true;
         } else {
@@ -101,34 +101,35 @@ function onFrameOffFun() {
 }
 /*---------------------------------------- MAIN ----------------------------------------------------------------------*/
 onFrameOff = false;
+var swipeYOff = false;
 var marginForNav = 50;
 $(document).ready(function(){
 
-
-    /*$('#myCanvas')[0].addEventListener('touchstart', function(event) {
-        event.preventDefault();
-        $('html, body').animate({scrollTop:$('#portfolio').position().top-marginForNav }, 500);
-    }, false);*/
+    $('ul.nav>li').click(function() {
+        $('.navbar-collapse.in').removeClass('in');
+    });
 
     var initialPoint;
     var finalPoint;
-    $('#myCanvas')[0].addEventListener('touchstart', function(event) {
-        event.preventDefault();
-        initialPoint=event.changedTouches[0];
+    var anchorIndex = Math.round($(window).scrollTop()/($(window).height()-marginForNav));
+
+    $('body')[0].addEventListener('touchstart', function (event) {
+            initialPoint = event.changedTouches[0];
     }, false);
-    $('#myCanvas')[0].addEventListener('touchend', function(event) {
+
+
+    $('body')[0].addEventListener('touchmove', function (event) {
         event.preventDefault();
-        finalPoint=event.changedTouches[0];
-        var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
-        if (yAbs > 20) {
-            if (finalPoint.pageY < initialPoint.pageY){
-                $('html, body').animate({scrollTop:$('#portfolio').position().top-marginForNav }, 800);
-            }
-            else{
-                $('html, body').animate({scrollTop:$('#home').position().top}, 800);
-            }
+    }, false);
+
+    $('body')[0].addEventListener('touchend', function (event) {
+        if (!swipeYOff){
+            finalPoint = event.changedTouches[0];
+            getFinalPoint(anchorIndex,initialPoint,finalPoint);
+            setTimeout(swipeYOffTimePassed, 500);
         }
     }, false);
+
     var animate =[];
     imgResize();
     fillingClassesArr('animation-rotate-45',animate,AnimationConstr);
@@ -141,7 +142,8 @@ $(document).ready(function(){
 
     $(document).scroll(function () {
         loopForAnimate(animate);
-        onFrameOff = onFrameOffFun()
+        onFrameOff = onFrameOffFun();
+        anchorIndex = Math.round($(window).scrollTop()/($(window).height()-marginForNav));
     });
 
     $(window).resize(function(){
@@ -154,31 +156,30 @@ $(document).ready(function(){
 
 
 
-
-
-
-
-/*
-function getInitialPoint(elem) {
-    elem.addEventListener('touchstart', function(event) {
-        event.preventDefault();
-        initialPoint=event.changedTouches[0];
-    }, false);
-}
-
-function getFinalPoint(elem) {
-    elem.addEventListener('touchend', function(event) {
-        event.preventDefault();
-        finalPoint=event.changedTouches[0];
+function getFinalPoint(index,initialPoint,finalPoint) {
         var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
         if (yAbs > 20) {
-            if (finalPoint.pageY < initialPoint.pageY){
-                $('html, body').animate({scrollTop:$('#portfolio').position().top-marginForNav }, 800);
+            if (finalPoint.pageY < initialPoint.pageY) {
+                if(index!=3){
+                    index +=1;
+                    $('html, body').animate({scrollTop: getOffset($('.anchorForScroll')[index]).top - marginForNav}, 500);
+                    swipeYOff = true;
+                }
             }
-            else{
-                $('html, body').animate({scrollTop:$('#home').position().top}, 800);
+            else {
+                if(index!=0) {
+                    index -= 1;
+                    $('html, body').animate({scrollTop: getOffset($('.anchorForScroll')[index]).top - marginForNav}, 500);
+                    swipeYOff = true;
+                }
             }
+
         }
-    }, false);
+        return index;
 }
-*/
+
+
+function swipeYOffTimePassed() {
+    swipeYOff = false;
+}
+
