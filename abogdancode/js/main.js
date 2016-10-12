@@ -112,6 +112,8 @@ $(document).ready(function(){
     var initialPoint;
     var finalPoint;
     var anchorIndex = Math.round($(window).scrollTop()/($(window).height()-marginForNav));
+    var maxAnchorIndex = Math.round(($(document).height()-marginForNav)/($(window).height()-marginForNav))-1;
+    console.log(maxAnchorIndex);
 
     $('body')[0].addEventListener('touchstart', function (event) {
             initialPoint = event.changedTouches[0];
@@ -125,7 +127,7 @@ $(document).ready(function(){
     $('body')[0].addEventListener('touchend', function (event) {
         if (!swipeYOff){
             finalPoint = event.changedTouches[0];
-            getFinalPoint(anchorIndex,initialPoint,finalPoint);
+            getFinalPoint(anchorIndex,initialPoint,finalPoint,maxAnchorIndex);
             setTimeout(swipeYOffTimePassed, 500);
         }
     }, false);
@@ -149,18 +151,13 @@ $(document).ready(function(){
     $(window).resize(function(){
         imgResize();
     });
-
-
-
 });
 
-
-
-function getFinalPoint(index,initialPoint,finalPoint) {
+function getFinalPoint(index,initialPoint,finalPoint,maxAnchorIndex) {
         var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
         if (yAbs > 20) {
             if (finalPoint.pageY < initialPoint.pageY) {
-                if(index!=3){
+                if(index!=maxAnchorIndex){
                     index +=1;
                     $('html, body').animate({scrollTop: getOffset($('.anchorForScroll')[index]).top - marginForNav}, 500);
                     swipeYOff = true;
