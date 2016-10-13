@@ -30,7 +30,7 @@
 <body>
 <div class="wrapper page-index">
 
-	<header class="header header_bg_none">
+	<header class="header header_attach">
 
 		<div class="video_top">
 			<video loop autoplay id="video"  >
@@ -129,19 +129,28 @@ VAT Registration Number: 200477740</h2>
 <script src="js/main.js"></script>
 <script>
 	var vid = document.getElementById("video");
+	var width = window.innerWidth;
+
+	window.onresize = function() {
+		width = window.innerWidth;
+	};
 	window.onload = function() {
-		vid.play();
-		document.addEventListener('touchstart', function(event) {
+		if (width>=768){
 			vid.play();
-		},false);
-		document.onclick = function() {
-			if (vid.paused) {
+			document.addEventListener('touchstart', function(event) {
 				vid.play();
+			},false);
+			document.onclick = function() {
+				if (vid.paused) {
+					vid.play();
+				}
 			}
 		}
+
 	};
 	window.onscroll = function() {
-		if (vid.paused) {
+
+		if (vid.paused&&width>=768) {
 			vid.play();
 		}
 

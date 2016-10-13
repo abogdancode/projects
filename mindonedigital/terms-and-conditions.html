@@ -30,7 +30,7 @@
 <body>
 <div class="wrapper page-inner">
 
-	<header class="header">
+	<header class="header header_attach">
 		<div class="header__top helper">
 			<div class="header__top-left">
 				<a href="index.html" class="header__logo"></a>
@@ -237,19 +237,28 @@ End Of Terms And Conditions</h2>
 <script src="js/main.js"></script>
 <script>
 	var vid = document.getElementById("video");
+	var width = window.innerWidth;
+
+	window.onresize = function() {
+		width = window.innerWidth;
+	};
 	window.onload = function() {
-		vid.play();
-		document.addEventListener('touchstart', function(event) {
+		if (width>=768){
 			vid.play();
-		},false);
-		document.onclick = function() {
-			if (vid.paused) {
+			document.addEventListener('touchstart', function(event) {
 				vid.play();
+			},false);
+			document.onclick = function() {
+				if (vid.paused) {
+					vid.play();
+				}
 			}
 		}
+
 	};
 	window.onscroll = function() {
-		if (vid.paused) {
+
+		if (vid.paused&&width>=768) {
 			vid.play();
 		}
 
