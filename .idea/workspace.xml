@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="add abogdancode">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mindonedigital/img/top/1_1.jpeg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abogdancode/img/portfolio-items/0.jpg" afterPath="$PROJECT_DIR$/abogdancode/img/portfolio-items/0.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abogdancode/img/portfolio-items/2.jpg" afterPath="$PROJECT_DIR$/abogdancode/img/portfolio-items/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mindonedigital/img/top/1.jpg" afterPath="$PROJECT_DIR$/mindonedigital/img/top/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abogdancode/css/style.css" afterPath="$PROJECT_DIR$/abogdancode/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abogdancode/index.html" afterPath="$PROJECT_DIR$/abogdancode/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abogdancode/js/main.js" afterPath="$PROJECT_DIR$/abogdancode/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mindonedigital/css/main.css" afterPath="$PROJECT_DIR$/mindonedigital/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mindonedigital/index.html" afterPath="$PROJECT_DIR$/mindonedigital/index.html" />
     </list>
     <ignored path="projects.iws" />
@@ -35,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mindonedigital/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state relative-caret-position="165">
+              <caret line="133" column="19" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -329,7 +320,7 @@
       <workItem from="1476180262535" duration="1691000" />
       <workItem from="1476186008047" duration="25147000" />
       <workItem from="1476256441189" duration="15255000" />
-      <workItem from="1476355504202" duration="9837000" />
+      <workItem from="1476355504202" duration="10264000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -370,7 +361,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364724000" />
+    <option name="totallyTimeSpent" value="365151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1288" height="683" extended-state="0" />
@@ -748,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mindonedigital/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="165">
+          <caret line="133" column="19" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
           <folding />
         </state>
       </provider>

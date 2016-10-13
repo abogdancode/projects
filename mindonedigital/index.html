@@ -129,9 +129,9 @@
 	var vid = document.getElementById("video");
 	window.onload = function() {
 		vid.play();
-		document.addEventListener('touchstart', function(event) {
+		/*document.addEventListener('touchstart', function(event) {
 			vid.play();
-		},false);
+		},false);*/
 		document.onclick = function() {
 			if (vid.paused) {
 				vid.play();
