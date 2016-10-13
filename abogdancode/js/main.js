@@ -113,7 +113,7 @@ $(document).ready(function(){
     var finalPoint;
     var anchorIndex = Math.round($(window).scrollTop()/($(window).height()-marginForNav));
     var maxAnchorIndex = Math.round(($(document).height()-marginForNav)/($(window).height()-marginForNav))-1;
-    console.log(maxAnchorIndex);
+
 
     $('body')[0].addEventListener('touchstart', function (event) {
             initialPoint = event.changedTouches[0];

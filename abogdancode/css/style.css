@@ -7,12 +7,6 @@ body{
 body.home{
  height: 100%;
  padding-top: 50px;
- /*background: black;
- background-position: center;
- background-attachment: fixed;
- background-repeat: no-repeat;
- background-size: cover;
- background-image: url(../img/2.jpg);*/
 }
 
 .bg{
@@ -47,7 +41,7 @@ html body h1{
 html body h2{
  margin: 0;
  color: #FFFFB2;
- font-size: 23px;
+ font-size: 20px;
  font-family: 'Catamaran', sans-serif;
  font-weight: 200;
 }
@@ -297,6 +291,7 @@ ul.navbar-nav{
 
 .item-description.item-right{
  padding-left: 5%;
+ padding-right: 10%;
 }
 
 .item-description .logo-head{
@@ -480,6 +475,49 @@ height: 425px;
 
 
 /*---------------------------------------END PORTFOLIO-------------------------------------------------*/
+
+
+/*---------------------------------------ABOUT---------------------------------------------------------*/
+.about-section{
+ border:1px solid red;
+ height:100%;
+}
+
+.about-row-cont{
+ border: 1px solid green;
+ height:50%;
+}
+
+
+
+
+/*---------------------------------------END ABOUT-----------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*---------------------------------------ANIMATION ----------------------------------------------------*/
 

@@ -4038,7 +4038,7 @@ body {
 
 header div video{
   position: fixed;
-  z-index: -1;
+  z-index: 0;
 }
 
 @media (min-width: 960px){
@@ -4047,8 +4047,14 @@ header div video{
   }
 }
 
-.header_bg_none{
-  background: none!important;
+@media (max-width: 767px){
+  header div video{
+    display:none;
+  }
+}
+
+.header_attach{
+  background-attachment: fixed;
 }
 
 
@@ -4059,6 +4065,8 @@ header div video{
 
   overflow: hidden;
 }
+
+
 
 /*--------------new alex changes for About us-------------------*/
 
