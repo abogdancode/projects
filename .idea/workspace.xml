@@ -26,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mindonedigital/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+            <state relative-caret-position="403">
+              <caret line="156" column="7" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -320,7 +320,7 @@
       <workItem from="1476180262535" duration="1691000" />
       <workItem from="1476186008047" duration="25147000" />
       <workItem from="1476256441189" duration="15255000" />
-      <workItem from="1476355504202" duration="10712000" />
+      <workItem from="1476355504202" duration="10725000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -361,7 +361,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365599000" />
+    <option name="totallyTimeSpent" value="365612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1288" height="683" extended-state="0" />
@@ -739,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mindonedigital/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        <state relative-caret-position="403">
+          <caret line="156" column="7" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
           <folding />
         </state>
       </provider>
