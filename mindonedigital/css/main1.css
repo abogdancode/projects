@@ -4032,22 +4032,13 @@ hr {
 /*------------------new alex changes to new index.html with video-------------------*/
 
 body {
-    width:100%;
-    overflow-x:hidden;
+  width:100%;
+  overflow-x:hidden;
 }
 
 .bg-top{
     position: fixed;
-    background: url("../img/top/1.jpg")center;
-    background-size: cover;
-    height: 100%;
-    width:100%;
-}
-
-
-.blackout-top{
-    position: fixed;
-    background: rgba(0,0,0,0.2) center;
+    background: url(../img/top/1.jpg) center;
     background-size: cover;
     height: 100%;
     width:100%;
@@ -4055,41 +4046,36 @@ body {
 
 
 header div video{
-    position: fixed;
-    z-index: 0;
+  position: fixed;
+  z-index: 0;
 }
 
 @media (min-width: 960px){
-    header div video{
-        width: 145%;
-        bottom:0;
-}
-}
-
-@media (min-width: 1200px){
-    header div video{
-        width: 120%;
-    }
+  header div video{
+    width: 120%;
+  }
 }
 
 @media (max-width: 767px){
-    header div video{
-        display:none;
-    }
+  header div video{
+    display:none;
+  }
 }
 
 .header_attach{
-    background-attachment: fixed;
+
+  background-attachment: fixed;
 }
 
 
 #viewpor_for_section{
-    background-color: white;
-    z-index: 2;
-    background-repeat: no-repeat;
+  background-color: white;
+  z-index: 2;
+  background-repeat: no-repeat;
 
-    overflow: hidden;
+  overflow: hidden;
 }
+
 
 
 /*--------------new alex changes for About us-------------------*/

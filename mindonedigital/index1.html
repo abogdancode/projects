@@ -8,6 +8,7 @@
 
 	<title>Mind One Digital</title>
 
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
 
 	<link rel="stylesheet" href="css/main.css">
 
@@ -24,9 +25,11 @@
 	<meta name="twitter:title" content="Manifest"/>
 	<meta name="twitter:description"
 		  content="Manifest more with powerful hypnosis and subliminal mp3s."/>
+
 </head>
 
 <body>
+
 <div class="wrapper page-index">
 
 	<header class="header header_attach">
@@ -36,7 +39,7 @@
 				<source src="video/video_top.mp4" type="video/mp4">
 			</video>
 		</div>
-		<div class="blackout-top"></div>
+
 		<div class="header__top helper">
 			<div class="header__top-left">
 				<a href="index.html" class="header__logo"></a>
@@ -68,17 +71,11 @@
 
 		<div class="header__content ">
 			<div class="header__content-title">
-				<h1 class="header__content-title-text wow">We'd love to hear from you<br></h1>
+				<h1 class="header__content-title-text wow">Believing is seeing</h1>
 			</div>
 
 				<div>
-					<h2 class="margin-top-0 helper header__content-subtitle wow">We can be contacted at support [at] mindonedigital.com<br>
-<br>
-Telephone: UK 0131 516 7156<br>
-<br>
-Registered Office: 4th Floor, 115 George Street, Edinburgh, EH2 4JN, United Kingdom<br>
-Company Registration Number: SC401083<br>
-VAT Registration Number: 200477740</h2>
+					<h2 class="margin-top-0 helper header__content-subtitle wow">Mind One Digital Limited is a mental technology company based in the United Kingdom. Our mind technologies include hypnosis, subliminals, training guides, games and software. We help people re-program their minds and achieve their goals. </h2>
 				</div>
 				<div class="header__content-slider"> </div>
 	  </div>
@@ -89,19 +86,22 @@ VAT Registration Number: 200477740</h2>
 <div id="viewpor_for_section">
 	<section class="slogan">
 		<div class="slogan__inner wow">
-			<h2>Based in Edinburgh, United Kingdom, and publishers of the brands BrainTune®, Thought Inspire® and Laws Of Mind®. We have a global audience of over 500,000 fans. <br></h2>
+			<h2>Our brands include Thought Inspire®, Laws Of Mind® and BrainTune®. Our global reach allows us to connect with the greatest minds and partners in personal development throughout the world, including across Europe, North America, Asia and beyond. </h2>
 		</div>
 	</section>
 	<footer class="footer">
+
+
 		<div class="header__top helper">
 			<div class="header__top-left">
 				<a href="index.html" class="header__logo"></a>
-				<div class="copyright">Mind One Digital Ltd All Rights Reserved 2016&nbsp;&nbsp;|&nbsp;&nbsp;</div>
+				<div class="copyright">Mind One Digital Ltd All Rights Reserved 2016&nbsp;&nbsp;|&nbsp;&nbsp;<a
+						href="terms-and-conditions.html">Terms</a></div>
 			</div>
 			<nav class="header__top-right header__nav">
 				<ul>
+					<li><a href="partners.html">Partners</a></li>
 					<li><a href="contact.html">Contact</a></li>
-                    <li><a href="index.html">Home</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -113,8 +113,9 @@ VAT Registration Number: 200477740</h2>
 		<hr class="mobile-nav__separation margin-horizontal fade-15">
 		<nav class="mobile-nav scrollable">
 			<ul class="scrollable">
+				<li><a href="partners.html"></a>Partners</li>
 				<li><a href="contact.html">Contact</a></li>
-                <li><a href="index.html">Home</a></li>
+				<li><a href="terms-and-conditions.html">Terms</a></li>
 			</ul>
 		</nav>
 
@@ -130,9 +131,11 @@ VAT Registration Number: 200477740</h2>
 	var width = window.innerWidth;
 
 	window.onresize = function() {
-		width = window.innerWidth;
+		 width = window.innerWidth;
 	};
 	window.onload = function() {
+		console.log(width);
+
 		if (width>=768){
 			vid.play();
 			document.addEventListener('touchstart', function(event) {

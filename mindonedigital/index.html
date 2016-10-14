@@ -8,7 +8,6 @@
 
 	<title>Mind One Digital</title>
 
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
 
 	<link rel="stylesheet" href="css/main.css">
 
@@ -33,12 +32,13 @@
 <div class="wrapper page-index">
 
 	<header class="header header_attach">
+		<div class="bg-top"></div>
 		<div class="video_top">
 			<video loop id="video"  >
 				<source src="video/video_top.mp4" type="video/mp4">
 			</video>
 		</div>
-
+		<div class="blackout-top"></div>
 		<div class="header__top helper">
 			<div class="header__top-left">
 				<a href="index.html" class="header__logo"></a>
@@ -74,7 +74,11 @@
 			</div>
 
 				<div>
-					<h2 class="margin-top-0 helper header__content-subtitle wow">Mind One Digital Limited is a mental technology company based in the United Kingdom. Our mind technologies include hypnosis, subliminals, training guides, games and software. We help people re-program their minds and achieve their goals. </h2>
+					<h2 class="margin-top-0 helper header__content-subtitle wow">Mind One Digital Limited is a personal development company based in the United Kingdom, specialising in brain training, mind re-programming and spiritual life hacks for peak productivity and performance in life. <br>
+<br>
+Our mind technologies help hundreds of thousands of people from all over the world.<br>
+<br>
+ Our product ranges extend across the genres of mp3 hypnosis, subliminals, video and downloadable coaching programs, game exercises and more. </h2>
 				</div>
 				<div class="header__content-slider"> </div>
 	  </div>
@@ -85,17 +89,28 @@
 <div id="viewpor_for_section">
 	<section class="slogan">
 		<div class="slogan__inner wow">
-			<h2>Our brands include Thought Inspire®, Laws Of Mind® and BrainTune®. Our global reach allows us to connect with the greatest minds and partners in personal development throughout the world, including across Europe, North America, Asia and beyond. </h2>
+			<h2>Some of our brands are Thought Inspire®, Laws Of Mind® and BrainTune®. Our joint venture partners and audience extends across Europe, North America, Asia and beyond. </h2>
 		</div>
 	</section>
 	<footer class="footer">
+		<!--<div class="footer__content wow">
+			<div class="footer__content-align">
+				<h2 class="helper footer__content-title"></h2>
+			</div>
+		</div>
 
+		<div class="subscribe-overlay ">
+			<div class="subscribe-container">
+				<div class="relative">
+	
+				</div>
+			</div>
+		</div>-->
 
 		<div class="header__top helper">
 			<div class="header__top-left">
 				<a href="index.html" class="header__logo"></a>
-				<div class="copyright">Mind One Digital Ltd All Rights Reserved 2016&nbsp;&nbsp;|&nbsp;&nbsp;<a
-						href="terms-and-conditions.html">Terms</a></div>
+				<div class="copyright">Mind One Digital Ltd All Rights Reserved 2016&nbsp;&nbsp;|&nbsp;&nbsp;</div>
 			</div>
 			<nav class="header__top-right header__nav">
 				<ul>
@@ -114,7 +129,6 @@
 			<ul class="scrollable">
 				<li><a href="partners.html"></a>Partners</li>
 				<li><a href="contact.html">Contact</a></li>
-				<li><a href="terms-and-conditions.html">Terms</a></li>
 			</ul>
 		</nav>
 
@@ -130,7 +144,7 @@
 	var width = window.innerWidth;
 
 	window.onresize = function() {
-		 width = window.innerWidth;
+		width = window.innerWidth;
 	};
 	window.onload = function() {
 		if (width>=768){
