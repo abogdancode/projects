@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="add abogdancode">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html" afterPath="$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html" afterPath="$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html" />
     </list>
     <ignored path="projects.iws" />
@@ -49,10 +48,10 @@
       <file leaf-file-name="saalasti-without-img.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="193" column="40" selection-start-line="193" selection-start-column="40" selection-end-line="193" selection-end-column="40" />
+            <state relative-caret-position="189">
+              <caret line="191" column="32" selection-start-line="191" selection-start-column="32" selection-end-line="191" selection-end-column="32" />
               <folding>
-                <marker date="1476720745504" expanded="true" signature="1938:2102" ph="..." />
+                <marker date="1476720769699" expanded="true" signature="1938:2102" ph="..." />
               </folding>
             </state>
           </provider>
@@ -353,7 +352,7 @@
       <workItem from="1476355504202" duration="22153000" />
       <workItem from="1476434724466" duration="32493000" />
       <workItem from="1476525891466" duration="22199000" />
-      <workItem from="1476703945842" duration="5412000" />
+      <workItem from="1476703945842" duration="5436000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -394,7 +393,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="437144000" />
+    <option name="totallyTimeSpent" value="437168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -701,10 +700,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="193" column="40" selection-start-line="193" selection-start-column="40" selection-end-line="193" selection-end-column="40" />
+        <state relative-caret-position="189">
+          <caret line="191" column="32" selection-start-line="191" selection-start-column="32" selection-end-line="191" selection-end-column="32" />
           <folding>
-            <marker date="1476720745504" expanded="true" signature="1938:2102" ph="..." />
+            <marker date="1476720769699" expanded="true" signature="1938:2102" ph="..." />
           </folding>
         </state>
       </provider>
