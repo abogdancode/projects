@@ -162,33 +162,76 @@
                         <div class="small-12 columns end large-padding--bottom"> <!You need to delete class Large-6 from this div !!!!!!!!!!!!!!!!!!! >
                             <style> /*-----------------------First-----------------------------------------------*/
 
-                                .info {
-                                    float:left;
-                                    width: 40%;
-                                }
+                            .info {
+                                float:left;
+                                width: 40%;
+                            }
 
-                                .infor {
-                                    float:left;
-                                    width:60%;
-                                }
+                            .infor {
+                                float:left;
+                                width:60%;
+                            }
 
-                                .container {
-                                    min-height: 150px;
-                                    width:100%
-                                }
+                            .container {
+                                min-height: 150px;
+                                width:100%
+                            }
+                            .buttonClose{
+                                position:absolute;
+                                right: 3.5rem;
+                                top:  3.5rem;
+                                height: 50px;
+                                width: 50px;
+                                background: url("button_close.png") center;
+                                background-size: cover;
+                                -webkit-border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                border-radius: 30%;
+                                border: 3px solid black;
+                                transition-property: background,border;
+                                -webkit-transition-duration: 0.5s;  -moz-transition-duration: 0.5s;   -o-transition-duration: 0.5s;
 
-                                @media(max-width:762px) {
-                                    .infor p, .info p{
-                                        font-size: 0.8rem;
-                                    }
-                                    .infor strong, .info strong{
-                                        display: block;
-                                        width:100%;
-                                    }
+                            }
+                            a:hover .buttonClose{
+                                background: url("button_close_hover.png") center;
+                                background-size: cover;
+                                border: 3px solid #929292;
+                            }
+
+
+
+
+                            @media(max-width:768px) {
+                                .buttonClose{
+                                    height: 40px;
+                                    width:40px;
+                                    position:absolute;
+                                    right: 1.5rem;
+                                    top:  1.5rem;
+                                }
+                                .infor p, .info p{
+                                    font-size: 0.8rem;
+                                }
+                                .infor strong, .info strong{
+                                    display: block;
+                                    width:100%;
+                                }
+                            }
+
+                            @media(max-width:400px) {
+                                .buttonClose{
+                                    height: 30px;
+                                    width:30px;
+                                    position:absolute;
+                                    right: 1.5rem;
+                                    top:  1.5rem;
                                 }
 
                             </style>
                             <div class="container"> <!-- You need to PASTE this div-->
+                                <a href="http://www.kasvuryhma.fi/rekrytointi"><div class="buttonClose">
+
+                                </div></a>
                                 <div class="row">
                                     <div class="info">
                                         <p><strong>Headcount:</strong> 123 persons</p>
@@ -219,57 +262,31 @@
 
 
 
-                        <div class="block-twoColumns bg-white text-black" data-index="1">
+                        <div class="block-twoColumns bg-white text-black" data-index="1"><!--You just need to remove what I commit below !!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
                             <div class="row row--max-width small-padding--mini large-padding--horizontal">
-                                <div class="block-twoColumns__content small-12 large-6 column large-padding--vertical  small-padding--top--mini">
-                                    <div class="block-twoColumns__body large-padding--right--mini large-padding--top">
-                                        <style>
-                                            .company_header {
-                                                padding-top:20px;
-                                                border-top:2px solid grey;
-                                                border-bottom:2px solid grey;
-                                            }
-                                        </style>
+                                  <div class="block-twoColumns__content small-12 large-6 column large-padding--vertical  small-padding--top--mini">
+                                      <div class="block-twoColumns__body large-padding--right--mini large-padding--top">
+                                          <style>
+                                              .company_header {
+                                                  padding-top:20px;
+                                                  border-top:2px solid grey;
+                                                  border-bottom:2px solid grey;
+                                              }
+                                          </style>
 
-                                        <div class="company_header">
-                                            <h3>SAALASTI</h3>
-                                        </div>
+                                          <div class="company_header">
+                                              <h3>SAALASTI</h3>
+                                          </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                        <p><br>Saalasti - Passionately sustainable solutions.</p>
-                                    </div>
-                                </div>
-                                <div class="block-twoColumns__content small-12 large-6 column small-padding--top large-padding--vertical ">
-                                    <div class="block-twoColumns__body large-padding--left--mini large-padding--top">
-                                        <p><img src="http://kasvuryh.asiakkaat.sigmatic.fi/uploads/general/other/saalasti.jpg"></p>
-                                    </div>
-                                </div>
-                            </div>
+                                          <p><br>Saalasti - Passionately sustainable solutions.</p>
+                                      </div>
+                                  </div>
+                                  <div class="block-twoColumns__content small-12 large-6 column small-padding--top large-padding--vertical ">
+                                      <div class="block-twoColumns__body large-padding--left--mini large-padding--top">
+                                          <p><img src="http://kasvuryh.asiakkaat.sigmatic.fi/uploads/general/other/saalasti.jpg"></p>
+                                      </div>
+                                  </div>
+                              </div>
                         </div>
 
 
@@ -405,9 +422,41 @@
                     </div>
 
 
+                    <style>
+
+                        .backBottonBellow {
+                            background: #000000;
+                            background-image: -webkit-linear-gradient(top, #000000, #474747);
+                            background-image: -moz-linear-gradient(top, #000000, #474747);
+                            background-image: -ms-linear-gradient(top, #000000, #474747);
+                            background-image: -o-linear-gradient(top, #000000, #474747);
+                            background-image: linear-gradient(to bottom, #000000, #474747);
+                            -webkit-border-radius: 4px;
+                            -moz-border-radius: 4px;
+                            border-radius: 4px;
+                            color: #ffffff;
+                            font-size: 30px;
+                            padding: 6px 20px 0 20px;
+                            text-decoration: none;
+                            text-align: center;
+                            position: relative;
+                            left: 50%;
+                            display: block;
+                            width: 200px;
+                            transform: translate(-50%,0);
+                        }
+
+                        .backBottonBellow:hover {
+                            background: #000000;
+                            text-decoration: none;
+                            color:grey;
+                        }
 
 
-
+                    </style>
+                    <div>
+                        <a class="backBottonBellow" href="http://www.kasvuryhma.fi/rekrytointi">BACK</a>
+                    </div>
                 </section>
 
             </main>
