@@ -26,7 +26,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="-491">
               <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
               <folding />
             </state>
@@ -36,8 +36,8 @@
       <file leaf-file-name="saalasti-with-IMG.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="190" column="86" selection-start-line="190" selection-start-column="86" selection-end-line="190" selection-end-column="86" />
+            <state relative-caret-position="34">
+              <caret line="179" column="57" selection-start-line="179" selection-start-column="32" selection-end-line="179" selection-end-column="57" />
               <folding>
                 <marker date="1476720600087" expanded="true" signature="1938:2102" ph="..." />
               </folding>
@@ -48,10 +48,10 @@
       <file leaf-file-name="saalasti-without-img.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="195" column="46" selection-start-line="195" selection-start-column="46" selection-end-line="195" selection-end-column="46" />
+            <state relative-caret-position="370">
+              <caret line="414" column="44" selection-start-line="414" selection-start-column="44" selection-end-line="414" selection-end-column="44" />
               <folding>
-                <marker date="1476721355353" expanded="true" signature="1938:2102" ph="..." />
+                <marker date="1476722032798" expanded="true" signature="1938:2102" ph="..." />
               </folding>
             </state>
           </provider>
@@ -352,7 +352,7 @@
       <workItem from="1476355504202" duration="22153000" />
       <workItem from="1476434724466" duration="32493000" />
       <workItem from="1476525891466" duration="22199000" />
-      <workItem from="1476703945842" duration="6038000" />
+      <workItem from="1476703945842" duration="6790000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -393,7 +393,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="437770000" />
+    <option name="totallyTimeSpent" value="438522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -670,9 +670,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="179" column="57" selection-start-line="179" selection-start-column="32" selection-end-line="179" selection-end-column="57" />
+          <folding>
+            <marker date="1476720600087" expanded="true" signature="1938:2102" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="-491">
           <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
           <folding />
         </state>
@@ -688,22 +698,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="190" column="86" selection-start-line="190" selection-start-column="86" selection-end-line="190" selection-end-column="86" />
-          <folding>
-            <marker date="1476720600087" expanded="true" signature="1938:2102" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="195" column="46" selection-start-line="195" selection-start-column="46" selection-end-line="195" selection-end-column="46" />
+        <state relative-caret-position="370">
+          <caret line="414" column="44" selection-start-line="414" selection-start-column="44" selection-end-line="414" selection-end-column="44" />
           <folding>
-            <marker date="1476721355353" expanded="true" signature="1938:2102" ph="..." />
+            <marker date="1476722032798" expanded="true" signature="1938:2102" ph="..." />
           </folding>
         </state>
       </provider>
