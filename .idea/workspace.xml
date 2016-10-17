@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="add abogdancode">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kusvuryhma/rekrytointi.html" afterPath="$PROJECT_DIR$/kusvuryhma/rekrytointi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html" afterPath="$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html" />
     </list>
     <ignored path="projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,23 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rekrytointi.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rekrytointi.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kusvuryhma/rekrytointi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="197" column="63" selection-start-line="197" selection-start-column="63" selection-end-line="197" selection-end-column="63" />
+            <state relative-caret-position="268">
+              <caret line="274" column="45" selection-start-line="274" selection-start-column="45" selection-end-line="274" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#section#0;n#main#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1476729204675" expanded="true" signature="1917:2081" ph="..." />
+                <marker date="1476730390537" expanded="true" signature="1917:2081" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saalasti-without-img.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="saalasti-without-img.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="36">
               <caret line="206" column="42" selection-start-line="206" selection-start-column="42" selection-end-line="206" selection-end-column="42" />
               <folding>
                 <marker date="1476729723579" expanded="true" signature="1938:2102" ph="..." />
@@ -134,8 +133,8 @@
         <option value="$PROJECT_DIR$/kusvuryhma.fi/saalasti.html" />
         <option value="$PROJECT_DIR$/kusvuryhma.fi/saalasti-without-img.html" />
         <option value="$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html" />
-        <option value="$PROJECT_DIR$/kusvuryhma/rekrytointi.html" />
         <option value="$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html" />
+        <option value="$PROJECT_DIR$/kusvuryhma/rekrytointi.html" />
       </list>
     </option>
   </component>
@@ -352,7 +351,7 @@
       <workItem from="1476355504202" duration="22153000" />
       <workItem from="1476434724466" duration="32493000" />
       <workItem from="1476525891466" duration="22199000" />
-      <workItem from="1476703945842" duration="13702000" />
+      <workItem from="1476703945842" duration="14397000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -393,7 +392,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="445434000" />
+    <option name="totallyTimeSpent" value="446129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -689,23 +688,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kusvuryhma/rekrytointi.html">
+    <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="197" column="63" selection-start-line="197" selection-start-column="63" selection-end-line="197" selection-end-column="63" />
+        <state relative-caret-position="36">
+          <caret line="206" column="42" selection-start-line="206" selection-start-column="42" selection-end-line="206" selection-end-column="42" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#section#0;n#main#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1476729204675" expanded="true" signature="1917:2081" ph="..." />
+            <marker date="1476729723579" expanded="true" signature="1938:2102" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
+    <entry file="file://$PROJECT_DIR$/kusvuryhma/rekrytointi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="206" column="42" selection-start-line="206" selection-start-column="42" selection-end-line="206" selection-end-column="42" />
+        <state relative-caret-position="268">
+          <caret line="274" column="45" selection-start-line="274" selection-start-column="45" selection-end-line="274" selection-end-column="45" />
           <folding>
-            <marker date="1476729723579" expanded="true" signature="1938:2102" ph="..." />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#section#0;n#main#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1476730390537" expanded="true" signature="1917:2081" ph="..." />
           </folding>
         </state>
       </provider>
