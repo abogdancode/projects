@@ -176,24 +176,35 @@
                                     min-height: 150px;
                                     width:100%
                                 }
-                                .buttonClose img{
+                                .buttonClose{
                                     position:absolute;
-                                    right:10%;
-                                    top: 0;
-                                    height: 80px;
+                                    right: 1.48077rem;
+                                    top:  1.48077rem;
+                                    height: 50px;
+                                    width: 50px;
+                                    background: url("button_close.png") center;
+                                    background-size: cover;
+                                    -webkit-border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    border-radius: 30%;
+                                    border: 3px solid black;
+                                    transition-property: background,border;
+                                    -webkit-transition-duration: 0.5s;  -moz-transition-duration: 0.5s;   -o-transition-duration: 0.5s;
+
+                                }
+                                a:hover .buttonClose{
+                                    background: url("button_close_hover.png") center;
+                                    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                                    background-size: 60px;
+                                    border: 3px solid #929292;
+
                                 }
 
-                            @media(max-width:1000px) {
-                                .buttonClose img{
-                                    right:5%;
-                                }
-                            }
+
                             @media(max-width:762px) {
                                 .buttonClose img{
-                                    position:absolute;
-                                    right:0;
-                                    top: 0;
-                                    height: 50px;
+                                    height: 30px;
+                                    width: 30px;
                                 }
                                 .infor p, .info p{
                                     font-size: 0.8rem;
@@ -206,9 +217,9 @@
 
                             </style>
                             <div class="container"> <!-- You need to PASTE this div-->
-                                <div class="buttonClose">
-                                    <a href="http://www.kasvuryhma.fi/"><img src="button_close.png" alt="X"></a>
-                                </div>
+                                <a href="http://www.kasvuryhma.fi/rekrytointi"><div class="buttonClose">
+
+                                </div></a>
                                 <div class="row">
                                     <div class="info">
                                         <p><strong>Headcount:</strong> 123 persons</p>
@@ -433,16 +444,10 @@
 
                         }
 
-                        @media(max-width:762px) {
-
-                            .backBottonBellow{
-                                left:0;
-                            }
-                        }
 
                     </style>
                 <div>
-                    <a class="backBottonBellow" href="http://www.kasvuryhma.fi/">BACK</a>
+                    <a class="backBottonBellow" href="http://www.kasvuryhma.fi/rekrytointi">BACK</a>
                 </div>
                 </section>
 
