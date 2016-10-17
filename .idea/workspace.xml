@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="add abogdancode">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html" afterPath="$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html" afterPath="$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html" />
     </list>
     <ignored path="projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saalasti-with-IMG.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="saalasti-with-IMG.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="197" column="73" selection-start-line="197" selection-start-column="73" selection-end-line="197" selection-end-column="73" />
+            <state relative-caret-position="323">
+              <caret line="187" column="33" selection-start-line="179" selection-start-column="32" selection-end-line="187" selection-end-column="33" />
               <folding>
                 <marker date="1476718747628" expanded="true" signature="1938:2102" ph="..." />
               </folding>
@@ -45,13 +45,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saalasti-without-img.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="saalasti-without-img.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="177" column="33" selection-start-line="177" selection-start-column="33" selection-end-line="177" selection-end-column="33" />
               <folding>
-                <marker date="1476718065997" expanded="true" signature="1938:2102" ph="..." />
+                <marker date="1476719010262" expanded="true" signature="1938:2102" ph="..." />
               </folding>
             </state>
           </provider>
@@ -73,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/your-social-network/groups.html" />
         <option value="$PROJECT_DIR$/your-social-network/members.html" />
         <option value="$PROJECT_DIR$/your-social-network/photos.html" />
         <option value="$PROJECT_DIR$/your-social-network/profile.html" />
@@ -124,6 +123,7 @@
         <option value="$PROJECT_DIR$/kusvuryhma.fi/saalasti.html" />
         <option value="$PROJECT_DIR$/kusvuryhma.fi/saalasti-without-img.html" />
         <option value="$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html" />
+        <option value="$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html" />
       </list>
     </option>
   </component>
@@ -340,7 +340,7 @@
       <workItem from="1476355504202" duration="22153000" />
       <workItem from="1476434724466" duration="32493000" />
       <workItem from="1476525891466" duration="22199000" />
-      <workItem from="1476703945842" duration="3423000" />
+      <workItem from="1476703945842" duration="3685000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -381,7 +381,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435155000" />
+    <option name="totallyTimeSpent" value="435417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -665,6 +665,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="187" column="33" selection-start-line="179" selection-start-column="32" selection-end-line="187" selection-end-column="33" />
+          <folding>
+            <marker date="1476718747628" expanded="true" signature="1938:2102" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -675,20 +685,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="177" column="33" selection-start-line="177" selection-start-column="33" selection-end-line="177" selection-end-column="33" />
           <folding>
-            <marker date="1476718065997" expanded="true" signature="1938:2102" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="197" column="73" selection-start-line="197" selection-start-column="73" selection-end-line="197" selection-end-column="73" />
-          <folding>
-            <marker date="1476718747628" expanded="true" signature="1938:2102" ph="..." />
+            <marker date="1476719010262" expanded="true" signature="1938:2102" ph="..." />
           </folding>
         </state>
       </provider>
