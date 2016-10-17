@@ -176,8 +176,25 @@
                                     min-height: 150px;
                                     width:100%
                                 }
+                                .buttonClose img{
+                                    position:absolute;
+                                    right:10%;
+                                    top: 0;
+                                    height: 80px;
+                                }
 
+                            @media(max-width:1000px) {
+                                .buttonClose img{
+                                    right:5%;
+                                }
+                            }
                             @media(max-width:762px) {
+                                .buttonClose img{
+                                    position:absolute;
+                                    right:0;
+                                    top: 0;
+                                    height: 50px;
+                                }
                                 .infor p, .info p{
                                     font-size: 0.8rem;
                                 }
@@ -189,6 +206,9 @@
 
                             </style>
                             <div class="container"> <!-- You need to PASTE this div-->
+                                <div class="buttonClose">
+                                    <a href="http://www.kasvuryhma.fi/"><img src="button_close.png" alt="X"></a>
+                                </div>
                                 <div class="row">
                                     <div class="info">
                                         <p><strong>Headcount:</strong> 123 persons</p>
