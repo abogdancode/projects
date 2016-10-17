@@ -48,10 +48,10 @@
       <file leaf-file-name="saalasti-without-img.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="414" column="44" selection-start-line="414" selection-start-column="44" selection-end-line="414" selection-end-column="44" />
+            <state relative-caret-position="398">
+              <caret line="428" column="39" selection-start-line="428" selection-start-column="39" selection-end-line="428" selection-end-column="39" />
               <folding>
-                <marker date="1476722032798" expanded="true" signature="1938:2102" ph="..." />
+                <marker date="1476724491489" expanded="true" signature="1938:2102" ph="..." />
               </folding>
             </state>
           </provider>
@@ -352,7 +352,7 @@
       <workItem from="1476355504202" duration="22153000" />
       <workItem from="1476434724466" duration="32493000" />
       <workItem from="1476525891466" duration="22199000" />
-      <workItem from="1476703945842" duration="6790000" />
+      <workItem from="1476703945842" duration="8519000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -393,7 +393,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="438522000" />
+    <option name="totallyTimeSpent" value="440251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -700,10 +700,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="414" column="44" selection-start-line="414" selection-start-column="44" selection-end-line="414" selection-end-column="44" />
+        <state relative-caret-position="398">
+          <caret line="428" column="39" selection-start-line="428" selection-start-column="39" selection-end-line="428" selection-end-column="39" />
           <folding>
-            <marker date="1476722032798" expanded="true" signature="1938:2102" ph="..." />
+            <marker date="1476724491489" expanded="true" signature="1938:2102" ph="..." />
           </folding>
         </state>
       </provider>
