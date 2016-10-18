@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="add abogdancode">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mindonedigital/contact1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mindonedigital/index1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mindonedigital/partners1.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html" afterPath="$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mindonedigital/css/main.css" afterPath="$PROJECT_DIR$/mindonedigital/css/main.css" />
     </list>
     <ignored path="projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,58 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
+      <file leaf-file-name="table.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IrisWashington/table.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-491">
-              <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rekrytointi.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kusvuryhma/rekrytointi.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="274" column="45" selection-start-line="274" selection-start-column="45" selection-end-line="274" selection-end-column="45" />
+            <state relative-caret-position="187">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#section#0;n#main#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1476730390537" expanded="true" signature="1917:2081" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="saalasti-without-img.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3502">
-              <caret line="206" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="543" selection-end-column="0" />
-              <folding>
-                <marker date="1476729723579" expanded="true" signature="1938:2102" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://E:/githubMain/abogdancode.github.io/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6664">
-              <caret line="392" column="1" selection-start-line="392" selection-start-column="1" selection-end-line="393" selection-end-column="123" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="saalasti-with-IMG.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="288" column="36" selection-start-line="288" selection-start-column="36" selection-end-line="288" selection-end-column="36" />
-              <folding>
-                <marker date="1476730675545" expanded="true" signature="1938:2102" ph="..." />
+                <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#2;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#3;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#4;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#5;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#6;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#7;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#8;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,11 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/your-social-network/photos.html" />
-        <option value="$PROJECT_DIR$/your-social-network/profile.html" />
-        <option value="$PROJECT_DIR$/laning-pages/your-logo/index.html" />
-        <option value="$PROJECT_DIR$/laning-pages/your-logo/js/main.js" />
-        <option value="$PROJECT_DIR$/ReadyToCut/Main_files/CSS.css" />
         <option value="$PROJECT_DIR$/ReadyToCut/Main_files/Main.css" />
         <option value="$PROJECT_DIR$/ReadyToCut/BrowseCoFounders_files/CSS.css" />
         <option value="$PROJECT_DIR$/ReadyToCut/Main.html" />
@@ -137,7 +99,6 @@
         <option value="$PROJECT_DIR$/mindonedigital/index.html" />
         <option value="$PROJECT_DIR$/mindonedigital/contact.html" />
         <option value="$PROJECT_DIR$/mindonedigital/partners.html" />
-        <option value="$PROJECT_DIR$/mindonedigital/css/main.css" />
         <option value="$PROJECT_DIR$/abogdancode/js/myScriptForContact.js" />
         <option value="$PROJECT_DIR$/abogdancode/index.html" />
         <option value="$PROJECT_DIR$/abogdancode/css/style.css" />
@@ -147,6 +108,12 @@
         <option value="$PROJECT_DIR$/kusvuryhma/saalasti-without-img.html" />
         <option value="$PROJECT_DIR$/kusvuryhma/rekrytointi.html" />
         <option value="$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html" />
+        <option value="$PROJECT_DIR$/mind/index.html" />
+        <option value="$PROJECT_DIR$/mind/contact.html" />
+        <option value="$PROJECT_DIR$/mind/partners.html" />
+        <option value="$PROJECT_DIR$/mindonedigital/css/main.css" />
+        <option value="$PROJECT_DIR$/mind/css/main.css" />
+        <option value="$PROJECT_DIR$/IrisWashington/table.html" />
       </list>
     </option>
   </component>
@@ -187,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -216,27 +184,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mindonedigital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kusvuryhma" />
+              <option name="myItemId" value="IrisWashington" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,7 +316,8 @@
       <workItem from="1476355504202" duration="22153000" />
       <workItem from="1476434724466" duration="32493000" />
       <workItem from="1476525891466" duration="22199000" />
-      <workItem from="1476703945842" duration="14632000" />
+      <workItem from="1476703945842" duration="22037000" />
+      <workItem from="1476776436738" duration="3142000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -404,7 +358,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446364000" />
+    <option name="totallyTimeSpent" value="456911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -458,37 +412,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/abogdancode/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/syudy/index.html" />
-    <entry file="file://E:/С Лехиного компа/web/instruction">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="437" column="13" selection-start-line="437" selection-start-column="13" selection-end-line="437" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abogdancode/js/paper-full.js" />
-    <entry file="file://$PROJECT_DIR$/paquebot-template/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/js/wow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2652">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/syudy/js/myScript1.js" />
     <entry file="file://$PROJECT_DIR$/mindonedigital/main.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -579,13 +502,7 @@
     <entry file="file://$PROJECT_DIR$/_/index.html" />
     <entry file="file://$PROJECT_DIR$/abogdancode/css/font-awesome.min.css" />
     <entry file="file://$PROJECT_DIR$/abogdancode/font-awesome/css/font-awesome.min.css" />
-    <entry file="file://$PROJECT_DIR$/mindonedigital/contact1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mindonedigital/contact1.html" />
     <entry file="file://$PROJECT_DIR$/mindonedigital/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -600,13 +517,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mindonedigital/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mindonedigital/index1.html" />
     <entry file="file://$PROJECT_DIR$/mindonedigital/css/main1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
@@ -616,13 +527,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/abogdancode/js/main.js" />
     <entry file="file://$PROJECT_DIR$/abogdancode/js/myScript.js" />
-    <entry file="file://$PROJECT_DIR$/mindonedigital/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="143" column="33" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/abogdancode/js/myScriptForContact.js" />
     <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -634,51 +538,20 @@
     <entry file="file://$PROJECT_DIR$/abogdancode/index.html" />
     <entry file="file://$PROJECT_DIR$/abogdancode/css/style.css" />
     <entry file="file://$PROJECT_DIR$/abogdancode/about.html" />
-    <entry file="file://$PROJECT_DIR$/mindonedigital/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="4066" column="1" selection-start-line="4066" selection-start-column="1" selection-end-line="4066" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/paquebot-template/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kusvuryhma.fi/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kusvuryhma.fi/saalasti-without-img.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="207" column="166" selection-start-line="207" selection-start-column="166" selection-end-line="207" selection-end-column="166" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kusvuryhma.fi/saalasti-with-IMG.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1135">
-          <caret line="166" column="47" selection-start-line="166" selection-start-column="47" selection-end-line="166" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/kusvuryhma.fi/css/app.css" />
+    <entry file="file://$PROJECT_DIR$/kusvuryhma.fi/saalasti-without-img.html" />
+    <entry file="file://$PROJECT_DIR$/kusvuryhma.fi/saalasti-with-IMG.html" />
     <entry file="file://$PROJECT_DIR$/laning-pages/your-logo/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-491">
           <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,10 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="274" column="45" selection-start-line="274" selection-start-column="45" selection-end-line="274" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#section#0;n#main#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1476730390537" expanded="true" signature="1917:2081" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6664">
           <caret line="392" column="1" selection-start-line="392" selection-start-column="1" selection-end-line="393" selection-end-column="123" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,18 +573,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3502">
           <caret line="206" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="543" selection-end-column="0" />
-          <folding>
-            <marker date="1476729723579" expanded="true" signature="1938:2102" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kusvuryhma/saalasti-with-IMG.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="288" column="36" selection-start-line="288" selection-start-column="36" selection-end-line="288" selection-end-column="36" />
+        <state relative-caret-position="120">
+          <caret line="221" column="45" selection-start-line="221" selection-start-column="45" selection-end-line="221" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mind/logo9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mind/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindonedigital/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="151" column="69" selection-start-line="151" selection-start-column="69" selection-end-line="151" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindonedigital/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="2004" column="2" selection-start-line="2004" selection-start-column="2" selection-end-line="2004" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mind/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="4044" column="23" selection-start-line="4044" selection-start-column="23" selection-end-line="4044" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mind/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mind/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mind/partners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IrisWashington/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
-            <marker date="1476730675545" expanded="true" signature="1938:2102" ph="..." />
+            <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#2;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#3;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#4;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#5;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#6;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#7;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#8;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

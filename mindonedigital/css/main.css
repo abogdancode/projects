@@ -2003,7 +2003,7 @@ hr {
   height: 60px;
   background: url(../img/logo1.png) left no-repeat;
   background-size: contain;
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   border: none;
   text-align: left;
