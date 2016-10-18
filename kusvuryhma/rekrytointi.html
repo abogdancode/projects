@@ -268,7 +268,25 @@
                                             font-size: 1.3em;
                                             text-align: center;
                                         }
-                                        @media (max-width:425px) {
+
+                                        @media (min-width:1001px) {
+                                            li.company-item {
+                                                width: 25%;
+                                            }
+                                        }
+
+                                        @media (max-width:1000px) {
+                                            li.company-item {
+                                                width: 33.33333%;
+                                            }
+                                        }
+                                        @media (max-width:680px) {
+                                            li.company-item {
+                                                width: 50%;
+                                            }
+                                        }
+
+                                        @media (max-width:480px) {
                                             .companies .company-item{
                                                 left:50%;
                                                 transform: translate(-50%,0);
