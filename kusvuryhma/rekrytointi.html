@@ -193,7 +193,9 @@
                             <div class="row row--max-width small-padding--mini large-padding--horizontal">
                                 <div class="block-textColumn__body margin--top small-12 large-8 large-offset-2 small-padding--horizontal--tiny">
                                     <style>
-
+                                        .bigtext{
+                                            text-align: center;
+                                        }
                                         .block-textColumn__body{
                                             text-align: justify;
                                         }
@@ -221,6 +223,8 @@
                                             margin-left: 3%;
                                             padding: 6%;
                                             background-color: black;
+                                            transition-property: background-color;
+                                            transition-duration: 1s;
                                         }
                                         .company-item:hover .company-align {
                                             background-color: #923de0;
@@ -271,18 +275,18 @@
 
                                         @media (min-width:1001px) {
                                             li.company-item {
-                                                width: 25%;
+                                                width: 25%!important;
                                             }
                                         }
 
                                         @media (max-width:1000px) {
                                             li.company-item {
-                                                width: 33.33333%;
+                                                width: 33.33333%!important;
                                             }
                                         }
                                         @media (max-width:680px) {
                                             li.company-item {
-                                                width: 50%;
+                                                width: 50%!important;
                                             }
                                         }
 

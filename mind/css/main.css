@@ -4063,18 +4063,19 @@ header div video{
     z-index: 0;
 }
 
+@media (min-width: 1200px){
+  header div video{
+    width: 130%;
+  }
+}
+
 @media (min-width: 960px){
     header div video{
-        width: 145%;
-        bottom:0;
+        width: 120%;
 }
 }
 
-@media (min-width: 1200px){
-    header div video{
-        width: 120%;
-    }
-}
+
 
 @media (max-width: 767px){
     header div video{
