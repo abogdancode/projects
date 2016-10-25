@@ -1,0 +1,35 @@
+/*---------- using absolute position -----------*/
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper{
+   height: 100%;
+    background-color: #1b222a;
+    position: relative;
+}
+
+.centerSquare{
+    background-color: #A1A398;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerSquare h1 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
