@@ -1,0 +1,851 @@
+@import "settings";
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.section-wrapper{
+  background: $bgColor2;
+}
+
+.btn-trans{
+  transition-property: background;
+  transition-duration: 0.5s;
+}
+
+.btn-primary{
+  background: $brightColor;
+  border: none;
+  border-radius: 0;
+  transition-property: background;
+  transition-duration: 0.5s;
+}
+
+.btn-primary:hover{
+  background: $bgColorSuperDark;
+}
+.btn-primary:active{
+  background: $bgColor0 ;
+}
+
+/*--------------navbar-------------*/
+ .navbar{
+   position: fixed;
+background: $navBarColor;
+  border-bottom: none;
+}
+.navbar-default .navbar-nav>li>a{
+  height: 40px;
+  color: $fontColorLight0;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color:$brightColor;
+}
+
+.navbar-default .navbar-nav>li:hover hr{
+  width: 100%;
+}
+.navbar-default .navbar-nav>.active>hr{
+  width: 100%;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  color:$brightColor;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>hr{
+  width: 0;
+  margin: 0 auto;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $brightColor, rgba(0, 0, 0, 0));
+  transition-property: width;
+  transition-duration: 0.5s;
+}
+
+.navbar-default .navbar-brand:hover{
+  color:$brightColor;
+}
+
+.navbar-default .navbar-brand{
+  color: $fontColorLight0;
+}
+
+.navbar-nav>li>a{
+  padding:10px 10px;
+}
+a.navbar-brand img{
+  position: relative;
+  float: left;
+  height:50px;
+  left: 0;
+  top:-14px;
+}
+
+/*--------------END navbar-------------*/
+
+/*--------------header-------------*/
+.header{
+  padding-top: 50px;
+  background: $bgColor0;
+  background: url(../img/header/bg.jpg) no-repeat 0 center;
+  background-size: cover;
+  color: $fontColorLight0;
+}
+
+.dark{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: $darkOpacity;
+}
+
+#bgvid{
+  position: fixed;
+  bottom: 0;
+  z-index: 0;
+}
+
+.header .row{
+  margin-top: 50px;
+}
+
+.contForH1{
+  height: 150px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.headerLogo{
+  position: relative;
+  left: 7px;
+  top: 9px;
+  height: 75px;
+}
+
+.header h1{
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.header h2 {
+  text-align: center;
+}
+
+.header h3 {
+  text-align: justify;
+  color: $fontColorLight1;
+  margin-bottom: 25px;
+}
+
+.header .btn-primary{
+  position: relative;
+  left:50%;
+  top:10px;
+  transform: translate(-50%,0);
+  margin: auto;
+  padding: 20px 30px;
+}
+
+/*-------------------------------------------------END header-------------*/
+
+/*------------------------------------------------------about-------------*/
+.about{
+  padding-top: 50px;
+  background: $bgColor1;
+  text-align: center;
+  color: $fontColorDark2;
+}
+
+.about h1, .about h2,.about h3{
+  color: $fontColorDark0;
+}
+
+.h1Description{
+  width:90%;
+  font-size: 20px;
+  margin: auto;
+}
+
+.h2Description{
+  font-size: 18px;
+  width:80%;
+  margin: auto;
+}
+
+.about h1{
+  margin-top: 5px;
+}
+
+.about h2{
+  margin-top: 10px;
+}
+
+.about h3{
+  margin-bottom: 25px;
+}
+
+
+
+.about .row {
+  padding: 0 5%;
+}
+
+.about .row> div {
+  position: relative;
+}
+
+.about .imgCont{
+  position: relative;
+  width: 140px;
+  left: calc(50% + 15px);
+  top: 0;
+  transform: translate(-50%,0);
+  transition-property: height, width, display;
+  transition-duration: 1s;
+
+}
+
+.about .popUp{
+  display: none;
+  background: $bgColorOpacity;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top:0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.about .popUp .aCont{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+
+.about .popUp .aCont a{
+  margin-right: 10px;
+  color: $bgColorSuperDark;
+  transition-property: color;
+  transition-duration: 0.3s;
+}
+
+.about .popUp .aCont a:hover{
+  color: $brightColor;
+}
+
+.about .popUp .aCont a:last-child{
+  margin: 0;
+}
+
+.about img{
+  display: block;
+  height: 140px;
+  transition-property: height;
+  transition-duration: 1s;
+}
+.about .imgCont:hover{
+  width: 200px;
+}
+
+.about .imgCont:hover img{
+  height: 200px;
+}
+
+.about .imgCont:hover .popUp{
+  width: 100%;
+}
+
+.about blockquote{
+  height: 145px;
+  border-left: 3px solid;
+  border-image: linear-gradient(to top, $bgColor0, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.about em{
+  color:$fontColorDark0;
+  font-size: 14px;
+}
+
+.about em .miniFooter{
+  display: block;
+  margin-top: 10px;
+  color:$fontColorDark2;
+}
+/*------------------------------------------------------END about-------------*/
+
+
+/*--------------------------------------------------------features-------------*/
+.features{
+  padding-top: 50px;
+  background: $bgColor2;
+  text-align: center;
+  color: $fontColorDark2;
+}
+
+.features .container{
+  width:70%;
+  margin-bottom: 50px;
+}
+
+.features h1{
+  color: $bgColor0;
+}
+
+.features h1 span{
+  color: $brightColor;
+}
+
+.features .row{
+  border-right:1px solid $bgColor0;
+  border-left:1px solid $bgColor0;
+  margin: auto;
+  width:90%;
+}
+
+.features .row{
+  margin-bottom: 50px;
+}
+.features .row h1{
+  font-size: 25px;
+}
+.features .row>div {
+  padding: 0 30px;
+}
+
+.features .row>div .contentCell{
+  margin-top: 10px;
+  border-bottom:1px solid $bgColor0;
+}
+.features .row>div:nth-child(-n+3) .contentCell{
+  border-top:1px solid $bgColor0;
+  margin-top: 0;
+}
+
+
+/*--------------------------------------------------------END features-------------*/
+
+/*--------------------------------------------------------services-------------*/
+.services{
+  padding-top: 50px;
+  background-image: linear-gradient(to right, $dark, $bgColorSuperDark, $dark);
+  text-align: center;
+  color: $fontColorDark2;
+}
+
+.services h1 span{
+  color: $brightColor;
+}
+
+.services .row{
+  width:90%;
+  margin: auto;
+}
+
+
+.services .contentCell{
+  background: $bgColor0;
+  color:$fontColorLight0;
+  padding: 10px 0 50px;
+}
+
+.services .row>div{
+  margin: 20px 0 ;
+}
+
+.services .row>div:nth-child(-2n+4) .contentCell{
+  background: $brightColor;
+}
+
+.services .row>div:nth-child(-2n+4) hr{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $bgColor0, rgba(0, 0, 0, 0));
+}
+
+.services .row>div:nth-child(-2n+4) .btn-primary{
+  background: $bgColor0;
+}
+
+.services .row>div:nth-child(-2n+4) .btn-primary:hover{
+  background: $bgColorSuperDark;
+}
+
+.services .row>div:nth-child(2n+5) .contentCell{
+  background: $brightColor;
+}
+
+.services .row>div:nth-child(2n+5) hr{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $bgColor0, rgba(0, 0, 0, 0));
+}
+
+.services .row>div:nth-child(2n+5) .btn-primary{
+  background: $bgColor0;
+}
+
+.services .row>div:nth-child(2n+5) .btn-primary:hover{
+  background: $bgColorSuperDark;
+}
+
+.services .contentCell h3{
+  height: 50px;
+  margin: 0 0 20px;
+}
+
+.services .contentCell img{
+  height: 100px;
+}
+
+.services .contentCell hr{
+  width: 70%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $brightColor, rgba(0, 0, 0, 0));
+}
+
+.services .contentCell span{
+  display: inline-block;
+  height: 110px;
+  width: 90%;
+  text-align: justify;
+}
+
+/*-------------------------------------------------------END services------------*/
+
+
+/*--------------our case study-------------*/
+.ourCaseStudy{
+  padding: 50px 5% 50px;
+  background-image: radial-gradient($bgColorSuperDark, $bgColor0);
+  text-align: center;
+  color: $fontColorLight1;
+
+}
+
+.ourCaseStudy .row{
+  position: relative;
+}
+
+.ourCaseStudy .row:hover hr{
+  width: 70%;
+}
+
+.ourCaseStudy img{
+  box-shadow: 0 0 1px $brightColor;
+  transition-property: box-shadow;
+  transition-duration: 0.5s;
+}
+
+.ourCaseStudy img:hover{
+  box-shadow: 0 0 30px $brightColor;
+}
+
+.ourCaseStudy .descriptionCont h1{
+  color: $brightColor;
+  margin: 0 0 40px;
+  text-align: left;
+}
+
+.ourCaseStudy .descriptionCont p{
+  text-align: justify;
+  font-size: 17px;
+}
+
+.ourCaseStudy .row>div{
+  padding: 0 2.5% ;
+  margin: 25px 0;
+}
+
+.ourCaseStudy .btn-trans{
+  border-radius: 0;
+}
+
+.ourCaseStudy .btn-trans:hover{
+  background: $brightColor;
+}
+
+.ourCaseStudy .row hr{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  margin: 0;
+  width: 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $brightColor, rgba(0, 0, 0, 0));
+  transition-property: width;
+  transition-duration: 1s;
+}
+
+
+.ourCaseStudy .moreSites a {
+  color: $brightColor;
+  margin-top: 50px;
+}
+
+.ourCaseStudy .moreSites a:hover{
+  text-decoration: none;
+}
+
+.ourCaseStudy .moreSites:hover hr{
+  width: 30%;
+}
+
+
+.ourCaseStudy h3 hr{
+  display: inline-block;
+  width:0;
+  margin: 0 0 7px;
+  height: 1px;
+  border: none;
+  background-image: linear-gradient(to right, $brightColor, rgba(0, 0, 0, 0));
+  transition-property: width;
+  transition-duration: 1s;
+}
+.ourCaseStudy h3 hr:nth-child(1){
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $brightColor);
+}
+/*--------------END our case study-------------*/
+
+/*--------------contact-------------*/
+.contact{
+  padding: 50px 0 0;
+  background: $bgColor2;
+  text-align: center;
+  color: $bgColorSuperDark;
+}
+
+.contact h1{
+  margin-bottom: 50px;
+}
+
+.contact .row{
+  width:95%;
+  margin: 0 auto 50px;
+  text-align: left;
+}
+
+.contact .row>div{
+  color: $bgColor0;
+  height: 70px;
+}
+
+.contact .row>div.col-lg-4{
+  width: 30%;
+}
+
+.contact .row>div:nth-child(2){
+  width: 40%;
+}
+
+.contact .row .circle{
+  position: relative;
+  height: 70px;
+  width: 70px;
+  background: $bgColor0;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.contact .circle a{
+  color:$brightColor;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.contact .row div:nth-child(2) a{
+  color:$bgColor0;
+}
+
+.contact .row>div:nth-child(2) .circle{
+  background: $brightColor;
+}
+
+.contact h3{
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.contact .phone {
+  font-size: 19px;
+}
+
+.contact h2{
+  color:$bgColor0;
+}
+
+.contact .btn-primary{
+  padding: 20px 50px;
+  font-size: 25px;
+  margin-bottom: 80px ;
+}
+.contact .address{
+  margin-bottom: 50px;
+}
+
+#map{
+  border-top: 10px solid  $bgColorSuperDark;
+  height: 400px;
+  overflow: hidden;
+}
+/*--------------END contact-------------*/
+
+
+/*-------------- footer-------------*/
+.footer{
+  background: $bgColorSuperDark;
+  text-align: center;
+  color: $fontColorLight1;
+}
+.footer h1.logo{
+  font-size: 25px;
+}
+.footer .logo img{
+  height: 40px;
+  position: relative;
+  left: 3px;
+  top: 5px;
+}
+
+.footer .mail{
+  color: $brightColor;
+}
+
+.footer .copy{
+  background: $bgColor0;
+  height: 50px;
+}
+.footer>p{
+  margin-bottom: 0;
+}
+/*--------------END footer-------------*/
+
+
+
+
+
+/*===================================================================================================================*/
+@media(max-width:992px){
+
+  /*--------------header-------------*/
+.header{
+  background: $bgColor0;
+}
+  
+  .header .row{
+    width:90%;
+    margin: 50px auto 0;
+  }
+  #bgvid{
+    display: none;
+  }
+
+
+
+  .header .row div:nth-child(2){
+      padding: 0 10%;
+  }
+
+  .header .scene {
+    padding: 0;
+  }
+
+  .header h3{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  /*--------------END header-------------*/
+
+
+  /*--------------about-------------*/
+  .about .row{
+    padding: 0 20%;
+  }
+
+  .about blockquote{
+    border-right: 3px solid;
+  }
+  /*--------------END about-------------*/
+
+  /*--------------features------------*/
+  .about .row>div:nth-child(3) .contentCell{
+    border-top:none;
+  }
+
+  .about .row>div:nth-child(4) .contentCell{
+    margin-top: 0;
+  }
+
+  /*--------------END features------------*/
+
+  /*--------------services-------------*/
+
+  .services .row{
+    width: 70%;
+  }
+
+
+  /*--------------END services------------*/
+
+
+  /*--------------our case study-------------*/
+
+  .ourCaseStudy .row{
+    width: 80%;
+    margin: auto;
+  }
+  .ourCaseStudy .descriptionCont h1{
+    text-align: center;
+  }
+  .ourCaseStudy .descriptionCont p{
+    width:70%;
+    margin: 0 auto 10px;
+  }
+  /*--------------END our case study-------------*/
+
+  /*--------------contact-------------*/
+
+  .contact .row>div.col-lg-4{
+    width: 50%;
+    float:left;
+  }
+  .contact .row div:nth-child(3){
+    display: block;
+    margin-top: 25px;
+    margin-left: 32%;
+  }
+  /*--------------END contact-------------*/
+
+}
+
+/*===================================================================================================================*/
+@media(max-width:700px){
+
+  /*--------------header-------------*/
+  .header .row {
+    margin-top: 10px;
+  }
+
+  .contForH1 {
+    margin-bottom: 10px;
+  }
+
+  .headerLogo {
+    top: 5px;
+  }
+
+  .header h1{
+  font-size: 25px;
+
+  }
+
+  .header h2 {
+    font-size: 22px;
+  }
+
+  .header h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  /*--------------END header-------------*/
+
+  /*--------------about-------------*/
+
+  .about .h1Description {
+    font-size: 17px;
+  }
+  .about .h2Description {
+    font-size: 15px;
+  }
+  .about .row{
+    padding: 0 5%;
+  }
+  .about .row> div {
+    margin-bottom: 20px;
+  }
+
+  .about .imgCont{
+    left:50%;
+  }
+  .about blockquote{
+    height: 180px;
+  }
+
+  /*--------------END about-------------*/
+
+  /*--------------features------------*/
+  .features .container{
+    width:95%;
+  }
+
+  .row>div:nth-child(2) .contentCell{
+    border-top:none;
+  }
+
+  .features .h1Description{
+    text-align: justify;
+  }
+
+  /*--------------END features------------*/
+
+
+  /*--------------services-------------*/
+
+  .services .row{
+    width: 80%;
+  }
+
+  /*--------------END services------------*/
+
+
+  /*--------------our case study-------------*/
+  .ourCaseStudy .row{
+    width: 95%;
+  }
+
+  .ourCaseStudy .descriptionCont p{
+    width:90%;
+  }
+  /*--------------END our case study-------------*/
+
+  /*--------------contact-------------*/
+
+
+  .contact h3{
+  font-size: 18px;
+  }
+  .contact .row>div.col-lg-4{
+      width: auto;
+      float:none;
+    margin-top: 10px;
+   }
+  .contact .row div:nth-child(3){
+    display: block;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .contact h2{
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  /*--------------END contact-------------*/
+
+}
