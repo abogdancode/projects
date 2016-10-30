@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548e4854-f652-4bdd-bde9-11acd0a5dc38" name="Default" comment="add abogdancode">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testTaskSEO/index.html" afterPath="$PROJECT_DIR$/testTaskSEO/index.html" />
     </list>
     <ignored path="projects.iws" />
@@ -54,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testTaskSEO/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="160">
+              <caret line="857" column="53" selection-start-line="857" selection-start-column="53" selection-end-line="857" selection-end-column="53" />
               <folding>
                 <element signature="e#18282#21379#0" expanded="false" />
               </folding>
@@ -66,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testTaskSEO/app/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -388,7 +387,7 @@
       <workItem from="1477394936941" duration="2120000" />
       <workItem from="1477627687198" duration="17638000" />
       <workItem from="1477727162513" duration="62930000" />
-      <workItem from="1477829541916" duration="736000" />
+      <workItem from="1477829541916" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="add Yours Social">
       <created>1467570425152</created>
@@ -429,10 +428,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="550344000" />
+    <option name="totallyTimeSpent" value="550787000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18887262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -810,16 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testTaskSEO/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-          <folding>
-            <element signature="e#18282#21379#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testTaskSEO/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2906">
@@ -833,6 +822,16 @@
         <state relative-caret-position="357">
           <caret line="0" column="2875" selection-start-line="0" selection-start-column="2875" selection-end-line="0" selection-end-column="2875" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testTaskSEO/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="857" column="53" selection-start-line="857" selection-start-column="53" selection-end-line="857" selection-end-column="53" />
+          <folding>
+            <element signature="e#18282#21379#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
