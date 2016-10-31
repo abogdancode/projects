@@ -10,15 +10,14 @@ $(document).ready(function(){
 
     $(window).scroll(function () {
         var st = $(this).scrollTop();
-        if(st<window.innerHeigh){
             $("#bgvid").css({
-                "transform": "translate(0%,"+st /40+"%"
+                "transform": "translate(0%," + -st/10 +"%"
             } );
 
             $(".header .container").css({
                 "transform": "translate(0%, -"+st /10+"%"
             } );
-        }
+
     });
 
     $( window ).resize(function() {
