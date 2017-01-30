@@ -6,8 +6,9 @@ $icon-font-path: '../fonts/';
 
 
 /*colors*/
-$darkBlueColor: #000033;
-$buttonMagentaColor:#993399;
+$darkColor: #000033;
+$lightColor: #ffcc00;
+$buttonPrimaryColor:#990033;
 $primaryColor: #ff6600;
 
 $fontColorWhite:#fff;
@@ -15,19 +16,19 @@ $fontColorWhite:#fff;
 
 /**************/
 .btn-primary {
-  background-color:$primaryColor;
-  border-color: $primaryColor;
+  background-color:$buttonPrimaryColor;
+  border-color: $buttonPrimaryColor;
 }
 
 .btn-primary:hover {
-  background-color: $buttonMagentaColor;
-  border-color: $buttonMagentaColor;
+  background-color: $primaryColor;
+  border-color: $primaryColor;
 }
 
 /*NAVBAR*/
 .navbar{
   height: 50px;
-  background-color: $darkBlueColor;
+  background-color: $darkColor;
 }
 
 .navbar .container{
@@ -50,7 +51,7 @@ $fontColorWhite:#fff;
   line-height: 25px;
   margin: 0 0 0 15px;
   color: $primaryColor;
-  background: linear-gradient( $primaryColor 5px,$darkBlueColor);
+  background: linear-gradient( $primaryColor 5px,$darkColor);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -63,7 +64,7 @@ $fontColorWhite:#fff;
   height: 40px;
   font-size: 20px;
   color: $primaryColor;
-  background: linear-gradient( $primaryColor 25px,$darkBlueColor);
+  background: linear-gradient( $primaryColor 25px,$darkColor);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -91,15 +92,46 @@ $fontColorWhite:#fff;
 
 /*HEADER*/
 header.home{
+  padding-top: 50px;
   height: 650px;
-  background-image: url("../images/home/bg-home.png");
+  background-size: cover;
+  background: linear-gradient($lightColor,$primaryColor);
+}
+
+.blackout{
+  height: 100%;
+  background: radial-gradient(rgba(255,255,255,0.5),rgba(0,0,0,1));
+}
+
+.home>.containerForCarousel{
+  margin: 20px auto 0 auto;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.home>.containerForCarousel img{
+  height: 300px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home>.containerForCarousel .carousel-control{
+  background-image:none;
+}
+
+.home>.containerForCarousel .carousel-control.left{
+   left:-60px
+ }
+
+.home>.containerForCarousel .carousel-control.right{
+  right: -60px
 }
 
 .home .containerForBtn{
   width: 100%;
-  position: absolute;
-  top:50%;
-  transform: translate(0,-50%);
+
 }
 .home .containerForBtn a.makeOrder{
   width: 200px;
