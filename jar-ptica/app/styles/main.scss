@@ -8,7 +8,8 @@ $icon-font-path: '../fonts/';
 @import "../fonts/roboto/roboto.css";
 @import "../fonts/nautilus/nautilus.css";
 /*colors*/
-$darkColor: #fff;
+$darkColor: #000033;
+$superLightColor: #fff;
 $lightColor: #ffcc00;
 $buttonPrimaryColor:#990033;
 $primaryColor: #ff6600;
@@ -20,17 +21,35 @@ $fontColorWhite:#fff;
 body{
   font-family: 'Roboto';
   overflow-x: hidden;
-}
-.btn-primary {
-  background-color:$buttonPrimaryColor;
-  border-color: $buttonPrimaryColor;
+  margin: 0;
+  padding: 0.1px;
 }
 
-.btn-primary:hover {
-  background-color: $primaryColor;
+.btn{
+  transition-property: background,color,border;
+  transition-duration: 1s;
+}
+
+.btn-primary {
+  background-color:$primaryColor;
   border-color: $primaryColor;
 }
 
+.btn-primary:hover {
+  background-color: $lightColor;
+  border-color: $lightColor;
+}
+
+.btn-transparent {
+
+  border-color: $superLightColor;
+  color: $superLightColor;
+}
+
+.btn-transparent:hover {
+  background-color: $lightColor;
+  border-color: $lightColor;
+}
 /*NAVBAR*/
 .navbar{
   height: 50px;
@@ -57,7 +76,7 @@ body{
         margin: 0 0 0 15px;
         padding-top: 7px;
         color: $primaryColor;
-        background: linear-gradient($primaryColor 5px, $darkColor);
+        background: linear-gradient($primaryColor 5px, $superLightColor);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
@@ -76,7 +95,7 @@ body{
         height: 40px;
         font-size: 20px;
         color: $primaryColor;
-        background: linear-gradient( $primaryColor 25px,$darkColor);
+        background: linear-gradient( $primaryColor 25px,$superLightColor);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -110,14 +129,12 @@ body{
   position: absolute;
   background: rgba(0,0,51,0.5);
 }
+
 header.home{
-  padding-top: 0;
-  background-size: cover;
-  background: linear-gradient($lightColor,$primaryColor);
-
-
+  padding-top: 0.1px;
   .containerForCarousel{
     margin-top: 0;
+    top:0;
     position: absolute;
     left: 50%;
     transform: translate(-50%,0);
@@ -132,15 +149,33 @@ header.home{
     .carousel-control{
       background-image:none;
     }
-
+    .carousel-control.left{
+      left: 15%;
+      z-index: 1;
+    }
+    .carousel-control.right{
+      right: 15%;
+      z-index: 1;
+    }
   }
 
   .containerForBtn{
     width: 100%;
+    margin-top: 300px;
 
+    .slogan{
+      margin-bottom: 50px;
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'Roboto';
+      font-weight: bold;
+      font-size: 25px;
+    }
     a.makeOrder{
       width: 200px;
       height:45px;
+      margin-bottom: 20px;
       font-size: 22px;
     }
 
@@ -155,9 +190,12 @@ header.home{
       position: relative;
       left:50%;
       transform: translate(-50%,0);
+      margin-bottom: 20px;
       text-align: center;
       font-size: 15px;
       line-height: 15px;
+      font-family: 'Akrobat';
+      color: $fontColorWhite;
     }
   }
 
