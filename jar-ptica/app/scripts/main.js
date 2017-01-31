@@ -1,13 +1,17 @@
 
 let homeBg = $("#home"),
-    neededHeight = window.innerHeight,
-    homeBgResize = (homeBg,neededHeight) => {
+    carouselItem = $('.item'),
+    neededHeight = $(window).height(),
+    homeBgResize = (homeBg,neededHeight,carouselItem) => {
       homeBg.height(neededHeight);
-      console.log("resizing")
+      carouselItem.height(neededHeight);
 };
 $( window ).resize(()=> {
-  homeBgResize(homeBg,neededHeight);
+  homeBgResize(homeBg,neededHeight,carouselItem);
 });
 $( window ).ready(()=> {
-  homeBgResize(homeBg,neededHeight);
+  homeBgResize(homeBg,neededHeight,carouselItem);
+  $('#myCarousel').carousel({
+    interval: 5000
+  });
 });

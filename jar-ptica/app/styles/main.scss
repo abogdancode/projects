@@ -4,9 +4,11 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-
+@import "../fonts/akrobat/akrobat.css";
+@import "../fonts/roboto/roboto.css";
+@import "../fonts/nautilus/nautilus.css";
 /*colors*/
-$darkColor: #000033;
+$darkColor: #fff;
 $lightColor: #ffcc00;
 $buttonPrimaryColor:#990033;
 $primaryColor: #ff6600;
@@ -15,6 +17,10 @@ $fontColorWhite:#fff;
 
 
 /**************/
+body{
+  font-family: 'Roboto';
+  overflow-x: hidden;
+}
 .btn-primary {
   background-color:$buttonPrimaryColor;
   border-color: $buttonPrimaryColor;
@@ -28,133 +34,139 @@ $fontColorWhite:#fff;
 /*NAVBAR*/
 .navbar{
   height: 50px;
-  background-color: $darkColor;
+  background-color: transparent;
+  border-color: transparent;
+  .container{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    a {
+      img {
+        display: inline-block;
+        width: 140px;
+        float: left;
+      }
+
+      h1 {
+        display: inline-block;
+        font-family: 'Nautilus Pompilius';
+        line-height: 25px;
+        margin: 0 0 0 15px;
+        padding-top: 7px;
+        color: $primaryColor;
+        background: linear-gradient($primaryColor 5px, $darkColor);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+  }
 }
 
-.navbar .container{
-  width: 95%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 5px;
-  padding-right: 5px;
+.navbar-default{
+  .navbar-nav{
+    li{
+      a{
+        height: 40px;
+        font-size: 20px;
+        color: $primaryColor;
+        background: linear-gradient( $primaryColor 25px,$darkColor);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
 
+      hr{
+        width: 0;
+        margin: 0 auto;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $primaryColor, rgba(0, 0, 0, 0));
+        transition-property: width;
+        transition-duration: 0.5s;
+      }
+    }
+    li:hover hr{
+      width: 100%;
+    }
+    .active>hr{
+      width: 100%;
+    }
+  }
 }
-
-.navbar .container a img{
-  display: inline-block;
-  width: 140px;
-  float: left;
-}
-
-.navbar .container a h1{
-  display: inline-block;
-  line-height: 25px;
-  margin: 0 0 0 15px;
-  color: $primaryColor;
-  background: linear-gradient( $primaryColor 5px,$darkColor);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.navbar .container a h1 span{
-  font-size: 20px;
-}
-
-.navbar-default .navbar-nav > li > a{
-  height: 40px;
-  font-size: 20px;
-  color: $primaryColor;
-  background: linear-gradient( $primaryColor 25px,$darkColor);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-}
-
-.navbar-default .navbar-nav>li>hr{
-  width: 0;
-  margin: 0 auto;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $primaryColor, rgba(0, 0, 0, 0));
-  transition-property: width;
-  transition-duration: 0.5s;
-}
-
-.navbar-default .navbar-nav>li:hover hr{
-  width: 100%;
-}
-.navbar-default .navbar-nav>.active>hr{
-  width: 100%;
-}
-
-
 /*END NAVBAR*/
 
 /*HEADER*/
-header.home{
-  padding-top: 50px;
-  height: 650px;
-  background-size: cover;
-  background: linear-gradient($lightColor,$primaryColor);
-}
-
 .blackout{
   height: 100%;
-  background: radial-gradient(rgba(255,255,255,0.5),rgba(0,0,0,1));
-}
-
-.home>.containerForCarousel{
-  margin: 20px auto 0 auto;
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%,0);
-}
-
-.home>.containerForCarousel img{
-  height: 300px;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-.home>.containerForCarousel .carousel-control{
-  background-image:none;
-}
-
-.home>.containerForCarousel .carousel-control.left{
-   left:-60px
- }
-
-.home>.containerForCarousel .carousel-control.right{
-  right: -60px
-}
-
-.home .containerForBtn{
   width: 100%;
+  background: black;
+  z-index: 1;
+  position: absolute;
+  background: rgba(0,0,51,0.5);
+}
+header.home{
+  padding-top: 0;
+  background-size: cover;
+  background: linear-gradient($lightColor,$primaryColor);
+
+
+  .containerForCarousel{
+    margin-top: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+
+    img{
+      height: 100%;
+      max-width: none;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .carousel-control{
+      background-image:none;
+    }
+
+  }
+
+  .containerForBtn{
+    width: 100%;
+
+    a.makeOrder{
+      width: 200px;
+      height:45px;
+      font-size: 22px;
+    }
+
+    a {
+      position: relative;
+      left:50%;
+      transform: translate(-50%,0);
+    }
+
+    p {
+      display: inline-block;
+      position: relative;
+      left:50%;
+      transform: translate(-50%,0);
+      text-align: center;
+      font-size: 15px;
+      line-height: 15px;
+    }
+  }
+
+
+
+
 
 }
-.home .containerForBtn a.makeOrder{
-  width: 200px;
-  height:45px;
-  font-size: 22px;
-}
 
-.home .containerForBtn a {
-  position: relative;
-  left:50%;
-  transform: translate(-50%,0);
-}
-
-.home .containerForBtn p {
-  display: inline-block;
-  position: relative;
-  left:50%;
-  transform: translate(-50%,0);
-  text-align: center;
-  font-size: 15px;
-  line-height: 15px;
-
-}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
 
