@@ -14,6 +14,9 @@ $lightColor: #ffcc00;
 $buttonPrimaryColor:#990033;
 $primaryColor: #ff6600;
 
+$blackoutDarkColor: rgba(0,0,0,0.5);
+$blackoutLightColor: rgba(0,0,0,0.1);
+
 $fontColorWhite:#fff;
 
 
@@ -23,8 +26,11 @@ body{
   overflow-x: hidden;
   margin: 0;
   padding: 0.1px;
-}
 
+}
+.row{
+  margin: 0;
+}
 .btn{
   transition-property: background,color,border;
   transition-duration: 1s;
@@ -53,7 +59,7 @@ body{
 /*NAVBAR*/
 .navbar{
   height: 50px;
-  background-color: transparent;
+  background-color: $blackoutDarkColor;
   border-color: transparent;
   .container{
     width: 95%;
@@ -76,12 +82,17 @@ body{
         margin: 0 0 0 15px;
         padding-top: 7px;
         color: $primaryColor;
-        background: linear-gradient($primaryColor 5px, $superLightColor);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
 
-        span {
+        span.logoBigText{
+          font-size: 40px;
+          background: linear-gradient($primaryColor 20px, $superLightColor);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        span.logoSmallText {
           font-size: 20px;
+          transition-property: color;
+          transition-duration: 2s;
         }
       }
     }
@@ -95,7 +106,7 @@ body{
         height: 40px;
         font-size: 20px;
         color: $primaryColor;
-        background: linear-gradient( $primaryColor 25px,$superLightColor);
+        background: linear-gradient( $primaryColor 10px,$superLightColor);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -107,7 +118,7 @@ body{
         height: 1px;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $primaryColor, rgba(0, 0, 0, 0));
         transition-property: width;
-        transition-duration: 0.5s;
+        transition-duration: 0.3s;
       }
     }
     li:hover hr{
@@ -124,10 +135,9 @@ body{
 .blackout{
   height: 100%;
   width: 100%;
-  background: black;
   z-index: 1;
   position: absolute;
-  background: rgba(0,0,51,0.5);
+  background: $blackoutDarkColor;
 }
 
 header.home{
@@ -198,12 +208,112 @@ header.home{
       color: $fontColorWhite;
     }
   }
+}
 
+/*SERVICES*/
 
+section.services{
+  padding-top: 50px;
+  position: relative;
+  color: $darkColor;
+  .blackout{
+    background-color: $blackoutLightColor;
+    top:0;
+    z-index: -1;
+  }
+  .bgLogoCont{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin: 0;
+    .bgLogo{
+      height: 100%;
+      img{
+        display: block;
+        max-width: 50%;
+        margin: auto;
+      }
+    }
+    .left{
+      float: left;
+    }
+    .right{
+      float: right;
+    }
+  }
 
+  .servicesHeader{
+    text-align: center;
+    font-family: "Nautilus Pompilius";
+    margin-top: 0;
+  }
+
+  .servicesList{
+    .row.first .column:first-child{
+      margin-left: 12.5%;
+
+    }
+    .column{
+      height: 250px;
+      text-align: center;
+
+      .borderImg{
+        display: inline-block;
+        position: relative;
+        height: 100%;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 0 0 30px 5px $darkColor ;
+        overflow-x: hidden;
+        .serviceNameCont{
+          position: absolute;
+          height: 30%;
+          background: $blackoutDarkColor;
+          color: $superLightColor;
+          width: 100%;
+          top:50%;
+          //transform: translate(0,-50%);
+          .serviceName{
+            //display: inline-block;
+            position: absolute;
+            left:50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+            font-family: "Nautilus Pompilius";
+            font-size: 25px;
+          }
+        }
+
+        .imgServices{
+          display: block;
+          position: relative;
+          height: 100%;
+          border-radius: 50%;
+
+        }
+      }
+      .borderImg:after {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border-radius: 50%;
+        box-shadow: 0 0 30px 10px $darkColor inset;
+        content: "";
+      }
+    }
+  }
 
 
 }
+
+
+/*END SERVICES*/
+
+
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
