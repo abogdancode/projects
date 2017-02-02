@@ -33,40 +33,40 @@ let homeBg = $("#home"),
     carouselSwitcher = (st) => {
       switch (cycleOff) {
         case true:
-          if(st<500){
-            $('#myCarousel').carousel("cycle");
+          if(st<250){
+            myCarousel.carousel("cycle");
             cycleOff = false;
-            console.log("run");
           }
           break;
         case false:
-          if(st>500){
-            $('#myCarousel').carousel("pause");
+          if(st>250){
+            myCarousel.carousel("pause");
             cycleOff=true;
-            console.log("pause");
           }
           break;
       }
-    };
+    },
+    carouselPause = ()=>myCarousel.carousel("pause");
+
+
+
 $(window).scroll(function() {
   let st = $(this).scrollTop();
   if(!translateOff)
     logoReplace(st);
-
   carouselSwitcher(st);
-
 });
 $( window ).resize(function()  {
   homeBgResize(homeBg,neededHeight,carouselItem);
 });
 $( window ).ready(function() {
   homeBgResize(homeBg,neededHeight,carouselItem);
-  $('#myCarousel').carousel("pause");
-  $('#myCarousel').carousel({
-    interval: 100,
+  myCarousel.carousel({
+    interval: 4000,
     pause: false
-  });
+});
 
-
+if($(window).scrollTop()>250)
+  setTimeout(carouselPause, 100);
 });
 
