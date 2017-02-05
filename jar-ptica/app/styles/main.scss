@@ -28,6 +28,16 @@ body{
   padding: 0.1px;
 
 }
+a{
+  color: inherit;
+}
+a:hover{
+  color:$primaryColor;
+}
+h1,h2,h3{
+  font-weight: 300;
+}
+
 .row{
   margin: 0;
 }
@@ -56,6 +66,14 @@ body{
   background-color: $lightColor;
   border-color: $lightColor;
 }
+
+.centeredColumns{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /*NAVBAR*/
 .navbar{
   height: 50px;
@@ -245,7 +263,8 @@ section.services{
   .servicesHeader{
     text-align: center;
     font-family: "Nautilus Pompilius";
-    margin-top: 0;
+    margin-top: 5px;
+    margin-bottom: 30px;
   }
 
   .servicesList{
@@ -311,8 +330,6 @@ section.about{
 
   h1,h2{
     margin-bottom: 15px;
-    font-family: "Roboto";
-    font-weight: 300;
   }
   .aboutHeader{
     margin-bottom: 15px;
@@ -337,6 +354,8 @@ section.about{
     }
   }
 
+  /*OUR TEAM*/
+
   .containerForOurTeam{
 
     .imgCont{
@@ -347,42 +366,41 @@ section.about{
       transform: translate(-50%,0);
       transition-property: height, width, display;
       transition-duration: 1s;
-
     }
 
-    .popUp{
+    .popUp {
       display: none;
-      background: $blackoutDarkColor;
-      width: 100px;
-      height: 100px;
       position: absolute;
       left: 0;
-      top:0;
-      cursor: pointer;
-    }
-
-    .popUp .aCont{
-      position: absolute;
+      top: 0;
       width: 100%;
-      top: 50%;
-      transform: translate(0,-50%);
-    }
+      height: 100%;
+      border-radius: 50%;
+      background: $blackoutDarkColor;
+      cursor: pointer;
 
-    .popUp .aCont a{
-      margin-right: 10px;
-      color: $darkColor;
-      transition-property: color;
-      transition-duration: 0.3s;
-    }
+        .aCont {
+          position: absolute;
+          width: 100%;
+          top: 50%;
+          transform: translate(0, -50%);
 
-    .popUp .aCont a:hover{
-      color: $primaryColor;
-    }
+        a {
+          margin-right: 10px;
+          color: $darkColor;
+          transition-property: color;
+          transition-duration: 0.3s;
+        }
 
-    .popUp .aCont a:last-child{
-      margin: 0;
-    }
+        a:hover {
+          color: $primaryColor;
+        }
 
+        a:last-child {
+          margin: 0;
+        }
+      }
+    }
     img{
       display: block;
       width: 100%;
@@ -391,37 +409,153 @@ section.about{
     }
     .imgCont:hover{
       width: 120%;
-    }
 
-    .imgCont:hover .popUp{
-      width: 120%;
-      display: block;
+      .popUp{
+        display: block;
+     }
     }
 
     blockquote{
-      height: 145px;
       border-left: 3px solid;
       border-image: linear-gradient(to top, $darkColor, rgba(0, 0, 0, 0)) 1 100%;
-    }
 
-    em{
-      color:$darkColor;
-      font-size: 14px;
-    }
+      em{
+        color:$darkColor;
+        font-size: 14px;
 
-    em .miniFooter{
-      display: block;
-      margin-top: 10px;
-      color:$darkColor;
+        .miniFooter{
+          display: block;
+          margin-top: 10px;
+          font-size: 16px;
+          text-align: center;
+        }
+      }
     }
   }
 }
-
-
+/*END OUR TEAM*/
 
 /*END ABOUT*/
 
+/*CONTACTS*/
 
+section.contacts{
+  padding: 50px 5% 20px 5%;
+  background: $darkColor;
+  color: $fontColorWhite;
+
+  h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .containerForCircles{
+    margin-bottom: 20px;
+    .circle{
+      position: relative;
+      float: left;
+      height: 50px;
+      width:50px;
+      background: $primaryColor;
+      border-radius: 50%;
+      transition-property: background-color;
+      transition-duration: .5s;
+      .fa{
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        color:$fontColorWhite;
+      }
+    }
+    .circle:hover{
+      background: $lightColor;
+    }
+    h3{
+      margin: 12px;
+      display: inline-block;
+    }
+  }
+  .containerForCircles>div{
+    margin-bottom: 10px;
+  }
+
+  .btn.makeOrder{
+    margin: 0 auto 20px auto;
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .address{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  #map{
+    border-top: 10px solid  $darkColor;
+    height: 400px;
+    overflow: hidden;
+  }
+
+    #content{
+      color: $darkColor;
+      text-align: center;
+      h1{
+        font-size: 20px;
+        margin-bottom: 0;
+      }
+      h2{
+        font-size: 15px;
+        margin-top: 5px;
+      }
+    }
+}
+
+
+/*END CONTACTS*/
+
+/*FOOTER*/
+
+.footer{
+  padding-top: 10px;
+  color: $fontColorWhite;
+  background: linear-gradient(to bottom ,  $darkColor -15px, #000) ;
+  .row{
+    margin-bottom: 20px;
+  }
+  h1{
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  h1,h2{
+    margin-top: 0;
+  }
+  .footer-brand{
+
+    img{
+      height: 100px;
+      float: left;
+    }
+
+    h1,h2{
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+    h2{
+      font-size: 15px;
+    }
+  }
+  .copy{
+    margin-bottom: 0;
+    font-weight: 100;
+    text-align: center;
+    background: rgba(255,255,255,0.2);
+  }
+}
+
+/*END FOOTER*/
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {

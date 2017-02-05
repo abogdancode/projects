@@ -36,12 +36,14 @@ let homeBg = $("#home"),
           if(st<250){
             myCarousel.carousel("cycle");
             cycleOff = false;
+            console.log('play');
           }
           break;
         case false:
           if(st>250){
             myCarousel.carousel("pause");
             cycleOff=true;
+            console.log('pause');
           }
           break;
       }
