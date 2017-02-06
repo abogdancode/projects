@@ -1,4 +1,4 @@
-let homeBg = $("#home"),
+let homeBg = $('#home'),
     carouselItem = $('.item'),
     neededHeight = $(window).height(),
     navLogo = $('#nav-logo'),
@@ -16,17 +16,17 @@ let homeBg = $("#home"),
     logoReplace = (st) => {
       if(st<translateHeight){
         navLogo.css({
-          "transform": "translate("+st/8*-1+"%,"+st/5*-1+"%"} );
+          'transform': 'translate('+st/8*-1+'%,'+st/5*-1+'%'} );
         navH1.css({
-          "transform": "translate("+st/10.2*-1+"%,0%"} );
+          'transform': 'translate('+st/10.2*-1+'%,0%'} );
         navLogoSmallText.css({
-          "color": "transparent"} );
+          'color': 'transparent'} );
       }else{
         navLogo.css({
-          "display":"none"} );
+          'display':'none'} );
         navH1.css({
-          "transform": "translate(0%,0%",
-          "margin-left":"0"});
+          'transform': 'translate(0%,0%',
+          'margin-left':'0'});
         translateOff=true;
       }
     },
@@ -34,21 +34,21 @@ let homeBg = $("#home"),
       switch (cycleOff) {
         case true:
           if(st<250){
-            myCarousel.carousel("cycle");
+            myCarousel.carousel('cycle');
             cycleOff = false;
             console.log('play');
           }
           break;
         case false:
           if(st>250){
-            myCarousel.carousel("pause");
+            myCarousel.carousel('pause');
             cycleOff=true;
             console.log('pause');
           }
           break;
       }
     },
-    carouselPause = ()=>myCarousel.carousel("pause");
+    carouselPause = ()=>myCarousel.carousel('pause');
 
 
 

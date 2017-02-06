@@ -118,6 +118,11 @@ h1,h2,h3{
 }
 
 .navbar-default{
+  .navbar-collapse.collapse.in{
+    background-color: $blackoutDarkColor;
+    transition-property: background;
+    transition-duration: .5s;
+  }
   .navbar-nav{
     li{
       a{
@@ -159,8 +164,10 @@ h1,h2,h3{
 }
 
 header.home{
+  overflow-x: hidden;
   padding-top: 0.1px;
   .containerForCarousel{
+    width: 100%;
     margin-top: 0;
     top:0;
     position: absolute;
@@ -178,11 +185,9 @@ header.home{
       background-image:none;
     }
     .carousel-control.left{
-      left: 15%;
       z-index: 1;
     }
     .carousel-control.right{
-      right: 15%;
       z-index: 1;
     }
   }
@@ -199,6 +204,7 @@ header.home{
       font-family: 'Roboto';
       font-weight: 300;
       font-size: 30px;
+      line-height: normal;
     }
     a.makeOrder{
       width: 200px;
@@ -268,9 +274,16 @@ section.services{
   }
 
   .servicesList{
+    padding-bottom: 20px;
     .row.first .column:first-child{
       margin-left: 12.5%;
 
+    }
+    a:hover .borderImg{
+      box-shadow: 0 0 50px 5px $darkColor ;
+    }
+    a:hover .borderImg>.imgServices{
+      box-shadow: 0 0 100px 10px $darkColor inset;
     }
     .column{
       text-align: center;
@@ -283,6 +296,8 @@ section.services{
         border-radius: 50%;
         box-shadow: 0 0 30px 5px $darkColor ;
         overflow: hidden;
+        transition-property: box-shadow;
+        transition-duration: .5s;
         .serviceNameCont{
           position: absolute;
           height: 30%;
@@ -310,6 +325,8 @@ section.services{
           background-image: url("../images/services/1-wedding.jpg");
           background-size: cover;
           box-shadow: 0 0 30px 10px $darkColor inset;
+          transition-property: box-shadow;
+          transition-duration: 1s;
         }
       }
     }
@@ -521,6 +538,7 @@ section.contacts{
   padding-top: 10px;
   color: $fontColorWhite;
   background: linear-gradient(to bottom ,  $darkColor -15px, #000) ;
+  border-top:1px solid rgba(255,255,255,.5);
   .row{
     margin-bottom: 20px;
   }
@@ -558,6 +576,227 @@ section.contacts{
 /*END FOOTER*/
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) and (max-width: 1250px) {
+  /*NAVBAR*/
+  /*END NAVBAR*/
+
+  /*HEADER*/
+
+
+
+  /*END HEADER*/
+
+  /*SERVICES*/
+
+  section.services{
+    .servicesList {
+      .column {
+        .borderImg {
+          .imgServices{
+            height:220px;
+            width:220px;
+          }
+        }
+      }
+    }
+  }
+
+  /*END SERVICES*/
+  /*ABOUT*/
+  /*END ABOUT*/
+  /*OUR TEAM*/
+
+  /*END OUR TEAM*/
+  /*CONTACT*/
+  .contacts{
+    .containerForCircles{
+      .col-md-6{
+        width: 50%;
+      }
+      .col-md-6:last-child{
+        width: 100%;
+      }
+    }
+  }
+  /*END CONTACT*/
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /*NAVBAR*/
+
+  .navbar {
+    .container {
+      a {
+        img{
+          width: 90px;
+        }
+
+        h1{
+          span.logoBigText{
+            font-size: 35px;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  /*END NAVBAR*/
+
+  /*HEADER*/
+
+
+
+  /*END HEADER*/
+
+  /*SERVICES*/
+
+  section.services{
+
+    .servicesList {
+      .row.first{
+        .column:first-child{
+          margin-left: 25%;
+          margin-bottom: 0;
+        }
+      }
+      .column {
+        margin-bottom: 40px;
+        .borderImg {
+          .imgServices{
+            height:300px;
+            width:300px;
+          }
+        }
+      }
+    }
+  }
+
+  /*END SERVICES*/
+  /*ABOUT*/
+  .containerForAbout{
+    p.aboutText{
+      width: 90%;
+    }
+  }
+  /*END ABOUT*/
+  /*OUR TEAM*/
+
+  .containerForOurTeam{
+    width: 90%;
+    margin: auto;
+
+    .col-lg-3{
+      padding: 0 5%
+    }
+  }
+
+  /*END OUR TEAM*/
+  /*CONTACT*/
+
+  /*END CONTACT*/
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+  /*NAVBAR*/
+  #nav-logo{
+    display: none;
+  }
+  /*END NAVBAR*/
+
+  /*HEADER*/
+
+  header.home{
+    .containerForBtn{
+      margin-top: 100px;
+    }
+  }
+
+  /*END HEADER*/
+
+  /*SERVICES*/
+
+  section.services{
+
+    .servicesList {
+      .row.first{
+        .column:first-child{
+          margin-left: 0;
+        }
+      }
+      .column {
+        margin-bottom: 40px;
+        .borderImg {
+          .imgServices{
+            height:250px;
+            width:250px;
+          }
+        }
+      }
+    }
+  }
+
+  /*END SERVICES*/
+  /*ABOUT*/
+  .containerForAbout{
+    p.aboutText{
+      width: 90%;
+    }
+  }
+  /*END ABOUT*/
+  /*OUR TEAM*/
+
+  .containerForOurTeam{
+    width: 90%;
+    margin: auto;
+
+    .col-lg-3{
+      padding: 0 10%
+    }
+  }
+
+  /*END OUR TEAM*/
+  /*CONTACT*/
+  .contacts{
+    .containerForCircles{
+      h3{
+        font-size: 14px;
+      }
+    }
+  }
+  /*END CONTACT*/
+
+}
+
+
+@media screen  and (max-width: 991px) {
+  /*FOOTER*/
+  footer.footer{
+
+
+    .centeredColumns{
+      display: block;
+      text-align: center;
+    }
+    .footer-brand {
+      img{
+        display: inline;
+        float: none;
+      }
+
+      h1, h2{
+        display: block;
+      }
+    }
+
+  }
+
+
+  /*END FOOTER*/
 
 }
