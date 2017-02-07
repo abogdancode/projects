@@ -1,4 +1,5 @@
-let homeBg = $('#home'),
+let winWidth = $(window).width(),
+    homeBg = $('#home'),
     carouselItem = $('.item'),
     neededHeight = $(window).height(),
     navLogo = $('#nav-logo'),
@@ -13,23 +14,7 @@ let homeBg = $('#home'),
       homeBg.height(neededHeight);
       carouselItem.height(neededHeight);
     },
-    logoReplace = (st) => {
-      if(st<translateHeight){
-        navLogo.css({
-          'transform': 'translate('+st/8*-1+'%,'+st/5*-1+'%'} );
-        navH1.css({
-          'transform': 'translate('+st/10.2*-1+'%,0%'} );
-        navLogoSmallText.css({
-          'color': 'transparent'} );
-      }else{
-        navLogo.css({
-          'display':'none'} );
-        navH1.css({
-          'transform': 'translate(0%,0%',
-          'margin-left':'0'});
-        translateOff=true;
-      }
-    },
+    logoReplace=null,
     carouselSwitcher = (st) => {
       switch (cycleOff) {
         case true:
@@ -50,11 +35,29 @@ let homeBg = $('#home'),
     },
     carouselPause = ()=>myCarousel.carousel('pause');
 
-
+if(winWidth>=768){
+  logoReplace = (st) => {
+    if(st<translateHeight){
+      navLogo.css({
+        'transform': 'translate('+st/8*-1+'%,'+st/5*-1+'%'} );
+      navH1.css({
+        'transform': 'translate('+st/10.2*-1+'%,0%'} );
+      navLogoSmallText.css({
+        'color': 'transparent'} );
+    }else{
+      navLogo.css({
+        'display':'none'} );
+      navH1.css({
+        'transform': 'translate(0%,0%',
+        'margin-left':'0'});
+      translateOff=true;
+    }
+  }
+}
 
 $(window).scroll(function() {
   let st = $(this).scrollTop();
-  if(!translateOff)
+  if(!translateOff && logoReplace)
     logoReplace(st);
   carouselSwitcher(st);
 });
@@ -70,5 +73,9 @@ $( window ).ready(function() {
 
 if($(window).scrollTop()>250)
   setTimeout(carouselPause, 100);
+
+  $('ul.nav>li').click(function() {
+    $('.navbar-collapse.in').removeClass('in');
+  });
 });
 

@@ -14,6 +14,7 @@ $lightColor: #ffcc00;
 $buttonPrimaryColor:#990033;
 $primaryColor: #ff6600;
 
+$blackoutSuperDarkColor: rgba(0,0,0,0.8);
 $blackoutDarkColor: rgba(0,0,0,0.5);
 $blackoutLightColor: rgba(0,0,0,0.1);
 
@@ -119,7 +120,7 @@ h1,h2,h3{
 
 .navbar-default{
   .navbar-collapse.collapse.in{
-    background-color: $blackoutDarkColor;
+    background-color: $blackoutSuperDarkColor;
     transition-property: background;
     transition-duration: .5s;
   }
@@ -707,6 +708,14 @@ section.contacts{
   #nav-logo{
     display: none;
   }
+  .navbar{
+    background-color: $blackoutSuperDarkColor;
+    h1{
+      .logoSmallText{
+        display: none;
+      }
+    }
+  }
   /*END NAVBAR*/
 
   /*HEADER*/
@@ -763,6 +772,9 @@ section.contacts{
   /*END OUR TEAM*/
   /*CONTACT*/
   .contacts{
+    .centeredColumns{
+      display: inline-block;
+    }
     .containerForCircles{
       h3{
         font-size: 14px;
