@@ -1,0 +1,74 @@
+$darkColor: #000033;
+$superLightColor: #fff;
+$lightColor: #ffcc00;
+$buttonBrightColor:#a80342;
+$primaryColor: #ff6600;
+
+$blackoutSuperDarkColor: rgba(0,0,0,0.8);
+$blackoutDarkColor: rgba(0,0,0,0.5);
+$blackoutLightColor: rgba(0,0,0,0.1);
+
+$fontColorWhite:#fff;
+
+
+body{
+  font-family: 'Roboto';
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0.1px;
+
+}
+a{
+  color: inherit;
+}
+a:hover{
+  color:$primaryColor;
+}
+h1,h2,h3{
+  font-weight: 300;
+}
+
+.row{
+  margin: 0;
+}
+.btn{
+  transition-property: background,color,border;
+  transition-duration: 1s;
+}
+
+.btn-primary {
+  background-color:$primaryColor;
+  border-color: $primaryColor;
+}
+
+.btn-primary:hover {
+  background-color: $lightColor;
+  border-color: $lightColor;
+}
+
+.btn-transparent {
+  border-color: $superLightColor;
+  color: $superLightColor;
+}
+
+.btn-transparent:hover {
+  background-color: $lightColor;
+  border-color: $lightColor;
+}
+
+.btn-bright{
+  background-color: $buttonBrightColor;
+  border-color: $buttonBrightColor;
+  color:$fontColorWhite;
+}
+.btn-bright:hover {
+  background-color: $lightColor;
+  border-color: $lightColor;
+}
+
+.centeredColumns{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
