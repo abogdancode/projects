@@ -1,0 +1,1 @@
+"use strict";function serviceListMod(){var e=[{type:"childrenEvents",name:"День Рождения",smallImage:"../",cost:"от 1800 руб",shortDescription:"описание",detailedDescription:"",photoImg1:"",photoImg2:"",photoImg3:"",table:null}];return e}var serviceList=serviceListMod();

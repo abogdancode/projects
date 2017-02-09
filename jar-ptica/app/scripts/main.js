@@ -8,32 +8,41 @@ let winWidth = $(window).width(),
     navH1 = $('#navH1'),
     navLogoSmallText = $('#logoSmallText'),
     myCarousel = $('#myCarousel'),
+    wowElements = $('.wow'),
     translateOff = false,
     cycleOff = false,
     homeBgResize = (homeBg,neededHeight,carouselItem) => {
       homeBg.height(neededHeight);
       carouselItem.height(neededHeight);
+      $('body').css( 'visibility','visible');
     },
     logoReplace=null,
+    intervalForCarouel,
     carouselSwitcher = (st) => {
       switch (cycleOff) {
         case true:
           if(st<250){
-            myCarousel.carousel('cycle');
-            cycleOff = false;
+            cycleCarousel();
             console.log('play');
+            cycleOff = false;
           }
           break;
         case false:
           if(st>250){
-            myCarousel.carousel('pause');
+            clearInterval(intervalForCarouel);
             cycleOff=true;
             console.log('pause');
           }
           break;
       }
-    },
-    carouselPause = ()=>myCarousel.carousel('pause');
+    };
+
+function cycleCarousel() {
+  intervalForCarouel = setInterval(function(){
+    myCarousel.carousel('next');
+  },5000);
+}
+
 
 if(winWidth>=768){
   logoReplace = (st) => {
@@ -53,7 +62,18 @@ if(winWidth>=768){
       translateOff=true;
     }
   }
+} else{
+  wowElements.removeAttr('data-wow-offset');
+  wowElements.removeAttr('data-wow-delay');
 }
+
+
+  myCarousel.carousel({
+    interval: false,
+    pause: false
+  });
+
+
 
 $(window).scroll(function() {
   let st = $(this).scrollTop();
@@ -65,14 +85,9 @@ $( window ).resize(function()  {
   homeBgResize(homeBg,neededHeight,carouselItem);
 });
 $( window ).ready(function() {
-  homeBgResize(homeBg,neededHeight,carouselItem);
-  myCarousel.carousel({
-    interval: 4000,
-    pause: false
-});
 
-if($(window).scrollTop()>250)
-  setTimeout(carouselPause, 100);
+  homeBgResize(homeBg,neededHeight,carouselItem);
+  cycleCarousel();
 
   $('ul.nav>li').click(function() {
     $('.navbar-collapse.in').removeClass('in');

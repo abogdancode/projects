@@ -8,10 +8,10 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-
     <!-- Place favicon.ico in the root directory -->
 
     <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="../bower_components/wow/css/libs/animate.css">
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
@@ -22,6 +22,13 @@
     <!-- build:css styles/animate.min..css -->
     <link rel="stylesheet" href="styles/animate.min.css">
     <!-- endbuild -->
+
+
+
+
+
+
+
 
   </head>
   <body data-spy="scroll" data-target="#myNavbar" data-offset="70">
@@ -84,16 +91,33 @@
       </div>
       <h2 class="discount">Скидка :</h2>
       <hr>
-      <div class="containerForInputs">
-        <input class="nameInput pull-right" type="text" id="name">
-        <h3 class="headerNameInput pull-right">Ваше имя</h3>
+      <form class="contact_form" action="#" method="post" name="contact_form">
+        <ul class="containerForInputs">
+          <li>
+            <span class="requiredNotification pull-right">* обязательные поля</span>
+          </li>
+          <li>
+            <input id="name" class="nameInput pull-right"  type="text"  placeholder="Алексей" required />
+            <label class="pull-right"  for="name">Ваше имя</label>
 
-        <input class="phoneInput pull-right" type="text" id="phone">
-        <h3 class="headerPhoneInput pull-right">Телефон</h3>
-      </div>
+          </li>
+          <li>
+            <input id="phone" class="phoneInput pull-right"  type="tel" name="phone"
+                   pattern="8\([0-9]{3}\) [0-9]{3}-[0-9]{4}" placeholder="8(999) 000-0000" required />
+            <span class="form_hint">Формат ввода: 8(XXX) XXX-XXXX</span>
+            <label class="pull-right" for="phone">Телефон</label>
 
-      <a href="#" class="btn btn-bright makeOrder"> Заказать</a>
-      <p>Мы сами перезвоним Вам через несколько минут</p>
+          </li>
+
+          <button class="submit btn btn-bright makeOrder" type="submit">Заказать</button>
+          <p>Мы сами перезвоним Вам через несколько минут</p>
+        </ul>
+      </form>
+
+
+
+
+
     </div>
 
   </div>
@@ -119,7 +143,6 @@
         </div>
         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
           <div class="panel-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
           </div>
         </div>
       </div>
@@ -220,6 +243,7 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/jquery.maskedinput/dist/jquery.maskedinput.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -236,21 +260,17 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <script src="/bower_components/wow/dist/wow.min.js"></script>
     <!-- endbuild -->
 
-    <!-- build:js scripts/main.js -->
+    <!-- build:js scripts/mainForServices.js -->
     <script src="scripts/mainForServices.js"></script>
     <!-- endbuild -->
 
+    <!-- build:js scripts/serviceApp.js -->
+    <script src="scripts/serviceList.js"></script>
+    <script src="scripts/serviceApp.js"></script>
 
-
-
-    <!-- build:js scripts/wow.min.js -->
-    <script src="scripts/wow.js"></script>
     <!-- endbuild -->
-
-    <script  type="text/javascript">
-//      new WOW().init();
-    </script>
   </body>
 </html>

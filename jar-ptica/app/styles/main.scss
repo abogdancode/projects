@@ -14,7 +14,12 @@ $icon-font-path: '../fonts/';
 
 
 /**************/
-
+.wow{
+  visibility: hidden;
+}
+body{
+  visibility: hidden;
+}
 /*NAVBAR*/
 .navbar{
   height: 50px;
@@ -139,7 +144,8 @@ header.home{
 
     .slogan{
       margin-bottom: 50px;
-      display: block;
+      display: inline-block;
+      width: 80%;
       text-align: center;
       text-transform: uppercase;
       font-family: 'Roboto';
@@ -148,6 +154,7 @@ header.home{
       line-height: normal;
     }
     a.makeOrder{
+      display: block;
       width: 200px;
       height:45px;
       margin-bottom: 20px;
@@ -663,6 +670,10 @@ section.contacts{
   header.home{
     .containerForBtn{
       margin-top: 100px;
+
+      .slogan {
+        width: 100%;
+      }
     }
   }
 

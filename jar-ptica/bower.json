@@ -2,7 +2,8 @@
   "name": "jar-ptica",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "~3.3.5"
+    "bootstrap-sass": "~3.3.5",
+    "jquery.maskedinput": "jquery-maskedinput#^1.4.1"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -15,6 +16,8 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "wow": "^1.1.2",
+    "traceur": "^0.0.111"
   }
 }
