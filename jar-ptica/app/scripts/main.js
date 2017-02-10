@@ -1,4 +1,6 @@
+var     intervalForCarousel;
 let winWidth = $(window).width(),
+    windowScrollTop = $(window).scrollTop(),
     homeBg = $('#home'),
     carouselItem = $('.item'),
     neededHeight = $(window).height(),
@@ -14,35 +16,33 @@ let winWidth = $(window).width(),
     homeBgResize = (homeBg,neededHeight,carouselItem) => {
       homeBg.height(neededHeight);
       carouselItem.height(neededHeight);
-      $('body').css( 'visibility','visible');
     },
-    logoReplace=null,
-    intervalForCarouel,
-    carouselSwitcher = (st) => {
-      switch (cycleOff) {
-        case true:
-          if(st<250){
-            cycleCarousel();
-            console.log('play');
-            cycleOff = false;
-          }
-          break;
-        case false:
-          if(st>250){
-            clearInterval(intervalForCarouel);
-            cycleOff=true;
-            console.log('pause');
-          }
-          break;
-      }
-    };
+    logoReplace=null;
+
 
 function cycleCarousel() {
-  intervalForCarouel = setInterval(function(){
+  intervalForCarousel = setInterval(function(){
     myCarousel.carousel('next');
-  },5000);
+  },6000);
 }
 
+function carouselSwitcher(st) {
+  switch (cycleOff) {
+    case true:
+      if(st<250){
+        clearInterval(intervalForCarousel);
+        cycleCarousel();
+        cycleOff = false;
+      }
+      break;
+    case false:
+      if(st>250){
+        clearInterval(intervalForCarousel);
+        cycleOff=true;
+      }
+      break;
+  }
+}
 
 if(winWidth>=768){
   logoReplace = (st) => {
@@ -87,8 +87,9 @@ $( window ).resize(function()  {
 $( window ).ready(function() {
 
   homeBgResize(homeBg,neededHeight,carouselItem);
-  cycleCarousel();
+  $('body').css( 'visibility','visible');
 
+  if(windowScrollTop==0) cycleCarousel();
   $('ul.nav>li').click(function() {
     $('.navbar-collapse.in').removeClass('in');
   });
