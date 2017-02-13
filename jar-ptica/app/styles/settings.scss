@@ -66,6 +66,21 @@ h1,h2,h3{
   border-color: $lightColor;
 }
 
+.btn-close{
+  background: transparent;
+  border-color: $fontColorWhite;
+}
+.btn-close:hover{
+  color: $buttonBrightColor;
+  border-color: $buttonBrightColor;
+}
+.btn-close:hover,.btn-close:focus{
+  color: $buttonBrightColor;
+  border-color: $buttonBrightColor;
+}
+
+
+
 .centeredColumns{
   display: table;
   margin-left: auto;
