@@ -8,9 +8,8 @@ class BaseElement{
 
   appendToElement(el){
     this.createElement();
-
-    el.fadeIn(500);
     el.append(this.element);
+    el.fadeIn(500);
   }
 
   createElement(){
@@ -20,5 +19,22 @@ class BaseElement{
 
   getElementString() {
     throw 'Please override getElementString() in BaseElement'
+  }
+
+  getPrevElem(array,item){
+    let prevElem = array.indexOf(item);
+    if(prevElem == 0)
+      prevElem = array.length-1;
+    else
+      prevElem--;
+    return array[prevElem];
+  }
+  getNextElem(array,item){
+    let nextElem = array.indexOf(item);
+    if(nextElem == array.length-1)
+      nextElem = 0;
+    else
+      nextElem++;
+    return array[nextElem];
   }
 }

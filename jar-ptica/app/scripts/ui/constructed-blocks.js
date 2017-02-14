@@ -17,7 +17,6 @@ class HeaderForProdList extends BaseElement{
     buttonClose.element.click(() => {
       this.closingElement.parents('div').fadeOut(500,()=>{
         this.closingElement.parents('div').css('display','none');
-        console.log(this.closingElement.parents('div'));
         this.closingElement.parents('div').empty();
       });
     });
@@ -52,7 +51,6 @@ class DivColumn extends BaseElement{
 
     divContForServItem.appendToElement(this.element);
     divContForServItem.element.click(() => {
-      console.log('open');
       this.serviceItem.open($('#containerForProducts'));
     });
     imgDiv.appendToElement(divContForServItem.element);
@@ -62,22 +60,17 @@ class DivColumn extends BaseElement{
   }
 
   getElementString(){
-
-    /*let image = new Image(this.serviceItem.photoImg1),
-      spanForServiceName = new SpanForServiceName(this.serviceItem.name),
-      spanForServicePrice = new SpanForServicePrice(this.serviceItem.cost);*/
-    return `<div class="column col-lg-4 col-md-4">
-             
-            </div>`
+    return `<div class="column col-lg-4 col-md-4"></div>`
   }
 }
 /*-----------------------------END DivColumn----------------------------*/
 
 /*-----------------------------DivColumnProducts--------------------------------*/
 class DivColumnProducts extends BaseElement{
-  constructor(servicesItem){
+  constructor(servicesItem,listOfProducts){
     super();
     this.serviceItem = servicesItem;
+    this.listOfProducts = listOfProducts;
   }
 
   createElement(){
@@ -87,9 +80,12 @@ class DivColumnProducts extends BaseElement{
       button = new Button('Добавить в заказ'),
       imgDiv = new ImageDiv(this.serviceItem.photoImg1),
       spanServiceName = new SpanForServiceName(this.serviceItem.name),
-      spanServicePrice = new SpanForServicePrice(this.serviceItem.cost);
+      spanServicePrice = new SpanForProductPrice(this.serviceItem.cost);
 
     divContForServItem.appendToElement(this.element);
+    divContForServItem.element.click(() => {
+      this.serviceItem.openDescription($('#containerForOneProduct'),this.listOfProducts);
+    });
     imgDiv.appendToElement(divContForServItem.element);
     divContForSpan.appendToElement(imgDiv.element);
     spanServiceName.appendToElement(divContForSpan.element);
@@ -98,8 +94,7 @@ class DivColumnProducts extends BaseElement{
   }
 
   getElementString(){
-    return `<div class="column col-lg-4 col-md-4">
-            </div>`
+    return `<div class="column col-lg-4 col-md-4"></div>`
   }
 }
 /*-----------------------------END DivColumnProducts----------------------------*/
@@ -122,8 +117,7 @@ class DivRow extends BaseElement{
 
   getElementString(){
 
-    return `<div class="row">
-            </div>
+    return `<div class="row"></div>
 `
   }
 }
@@ -144,14 +138,13 @@ class ListOfProducts extends BaseElement{
     let divRow = new CommonDiv('row');
     divRow.appendToElement(this.element);
     for (let field of this.listOfServices){
-      let divColumn = new DivColumnProducts(field);
+      let divColumn = new DivColumnProducts(field,this.listOfServices);
       divColumn.appendToElement(divRow.element);
     }
   }
 
   getElementString(){
-    return `<div id="popupProductList" class="contForGeneratedProducts">
-            </div>`
+    return `<div id="popupProductList" class="contForGeneratedProducts"></div>`
   }
 }
 /*-----------------------------END ListOfProducts----------------------------*/
@@ -209,32 +202,95 @@ class PanelServiseList extends BaseElement{
 
 
 /*-----------------------------ProductItemPopUp----------------------------*/
-/*
 
 class ProductItemPopUp extends BaseElement{
-  constructor(productItem){
+  constructor(productItem,listOfProducts){
     super();
     this.productItem = productItem;
+    this.listOfProducts = listOfProducts;
   }
 
-  createElement(){
+  appendToElement(el,direction){
+
+    this.createElement(direction);
+    el.append(this.element);
+    el.fadeIn(500);
+
+  };
+
+  animate(el,prevEl,nextEl,direction){
+    let prevElem;
+    $(prevEl).css('position', 'absolute');
+    $(nextEl).css('position', 'absolute');
+    switch (direction){
+      case 'left':
+        prevElem = nextEl;
+        $(prevElem).css('left',0);
+        $(el).css('left',-productPopUpImgWidth);
+        $(prevElem).animate({left: productPopUpImgWidth}, 500);
+        $(el).animate({left: "0"}, 500);
+            break;
+      case 'right':
+        prevElem = prevEl;
+        $(prevElem).css('left',0);
+        $(el).css('left',productPopUpImgWidth);
+        $(prevElem).animate({left: -productPopUpImgWidth}, 500);
+        $(el).animate({left: "0"}, 500);
+            break;
+      default:
+    }
+  };
+
+  createElement(direction){
     super.createElement();
 
-    let header = new HeaderForProdList(this.listOfServices[0].type,this.element);
+    let prevElem = this.getPrevElem(this.listOfProducts,this.productItem);
+    let nextElem = this.getNextElem(this.listOfProducts,this.productItem);
+
+
+    let header = new HeaderForProdList(this.productItem.name,this.element);
     header.appendToElement(this.element);
-    let divRow = new CommonDiv('row');
-    divRow.appendToElement(this.element);
-    for (let field of this.listOfServices){
-      let divColumn = new DivColumnProducts(field);
-      divColumn.appendToElement(divRow.element);
-    }
+    let divCont = new CommonDiv('contForProductItem');
+    divCont.appendToElement(this.element);
+    let viewport = new CommonDiv('viewport');
+    viewport.appendToElement(divCont.element);
+
+    let imagePrev = new Image(prevElem.photoImg1);
+    imagePrev.appendToElement(viewport.element);
+
+    let image = new Image(this.productItem.photoImg1);
+    image.appendToElement(viewport.element);
+
+
+    let imageNext = new Image(nextElem.photoImg1);
+    imageNext.appendToElement(viewport.element);
+    this.animate(image.element,imagePrev.element,imageNext.element,direction);
+
+    let spanPrice = new SpanForProductPrice(this.productItem.cost);
+    spanPrice.appendToElement(divCont.element);
+    let spanDesc = new CommonSpan(this.productItem.shortDescription,'description');
+    spanDesc.appendToElement(divCont.element);
+    let button = new Button('Добавить в заказ');
+    button.appendToElement(divCont.element);
+    let buttonNext = new ButtonNext();
+    buttonNext.appendToElement(divCont.element);
+    buttonNext.element.click(() => {
+      this.productItem.openNextDescription($('#containerForOneProduct'),this.listOfProducts,'right');
+    });
+
+    let buttonPrev = new ButtonPrev();
+    buttonPrev.appendToElement(divCont.element);
+    buttonPrev.element.click(() => {
+      this.productItem.openPrevDescription($('#containerForOneProduct'),this.listOfProducts,'left');
+    });
+
+
   }
 
   getElementString(){
-    return `<div id="popupProductItem" class="contForGeneratedProductItem">
+    return `<div id="popupProductItem" class="contForGeneratedProductItem ">
             </div>`
   }
 }
-*/
 
 /*-----------------------------END ProductItemPopUp----------------------------*/

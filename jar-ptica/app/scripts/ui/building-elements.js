@@ -34,12 +34,30 @@ class Image extends BaseElement{
     super();
     this.fileName = fileName;
   }
+  
+
 
   getElementString(){
     return `<img class="imageForServiceItem" src="${this.fileName}" alt="">`;
   }
 }
 /*-----------------------------END Image----------------------------*/
+
+/*-----------------------------SpanForServiceName--------------------------------*/
+class CommonSpan extends BaseElement{
+  constructor(content,classList){
+    super();
+    this.content = content;
+    this.classList = classList;
+  }
+
+  getElementString(){
+    return `<Span class="${this.classList}">
+              ${this.content}
+            </Span>`;
+  }
+}
+/*-----------------------------END SpanForServiceName----------------------------*/
 
 /*-----------------------------SpanForServiceName--------------------------------*/
 class SpanForServiceName extends BaseElement{
@@ -71,6 +89,21 @@ class SpanForServicePrice extends BaseElement{
 }
 /*-----------------------------END SpanForServicePrice----------------------------*/
 
+/*-----------------------------SpanForProductPrice--------------------------------*/
+class SpanForProductPrice extends BaseElement{
+  constructor(serviceCost){
+    super();
+    this.serviceCost = serviceCost;
+  }
+
+  getElementString(){
+    return `<Span class="productItemPrice">
+              ${this.serviceCost} рублей
+            </Span>`;
+  }
+}
+/*-----------------------------END SpanForProductPrice----------------------------*/
+
 /*-----------------------------Button--------------------------------*/
 class Button extends BaseElement{
   constructor(title){
@@ -79,7 +112,7 @@ class Button extends BaseElement{
   }
 
   getElementString(){
-    return `<button class="submit btn btn-bright makeOrder" type="submit">
+    return `<button class="btn btn-bright" type="submit">
               ${this.title}
             </button>`
   }
@@ -93,9 +126,37 @@ class ButtonClose extends BaseElement{
   }
 
   getElementString(){
-    return `<button class="submit btn btn-close" type="submit" >
+    return `<button class="btn btn-close" type="submit" >
               <span class="glyphicon glyphicon-remove" style="font-size: 50px; display: block;"></span>
             </button>`
   }
 }
 /*-----------------------------END ButtonClose----------------------------*/
+
+/*-----------------------------ButtonNext--------------------------------*/
+class ButtonNext extends BaseElement{
+  constructor(){
+    super();
+  }
+
+  getElementString(){
+    return `<button class="btn btn-close" type="submit" >
+              <span class="glyphicon glyphicon-chevron-right" style="font-size: 50px; display: block;"></span>
+            </button>`
+  }
+}
+/*-----------------------------END uttonNext----------------------------*/
+
+/*-----------------------------ButtonPrev--------------------------------*/
+class ButtonPrev extends BaseElement{
+  constructor(){
+    super();
+  }
+
+  getElementString(){
+    return `<button class="btn btn-close" type="submit" >
+              <span class="glyphicon glyphicon-chevron-left" style="font-size: 50px; display: block;"></span>
+            </button>`
+  }
+}
+/*-----------------------------END ButtonPrev----------------------------*/

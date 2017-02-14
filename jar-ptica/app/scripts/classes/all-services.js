@@ -8,5 +8,10 @@ class AllServices {
     this.smallImage = smallImage ;
     this.cost = cost;
     this.shortDescription = shortDescription;
-  }
+    
+  };
+
+
+
+
 }

@@ -14,8 +14,33 @@ class Products extends AllServices{
     this.open = (container)=>{
       let popup = new ListOfProducts(this.productList);
       popup.appendToElement(container);
-      return this.productList;
-    }
+    };
+    this.openDescription = (container, elem)=>{
+      let popup = new ProductItemPopUp(this,elem);
+      popup.appendToElement(container);
+    };
+    this.openNextDescription = (container, elem)=>{
+      let nextIndex = elem.indexOf(this);
+      if(nextIndex == elem.length-1)
+        nextIndex = 0;
+      else
+        nextIndex++;
+      let popup = new ProductItemPopUp(elem[nextIndex],elem);
+      container.empty();
+      popup.appendToElement(container,'right');
+    };
+    this.openPrevDescription = (container, elem)=>{
+      let prevIndex = elem.indexOf(this);
+      if(prevIndex == 0)
+        prevIndex = elem.length-1;
+      else
+        prevIndex--;
+      let popup = new ProductItemPopUp(elem[prevIndex],elem);
+      container.empty();
+      popup.appendToElement(container,'left');
+    };
+
+
   }
 }
 class BalloonsAndDecor extends Products{
@@ -23,6 +48,7 @@ class BalloonsAndDecor extends Products{
               detailedDescription, photoImg1,photoImg2,productList) {
     super(type, name,smallImage,cost,shortDescription,
       detailedDescription, photoImg1,photoImg2,productList);
+
   }
 }
 class DecorElements extends Products{

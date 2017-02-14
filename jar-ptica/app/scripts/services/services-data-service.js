@@ -7,7 +7,6 @@ class ServicesDataService{
     this.childrenEvents = [];
     this.weddings = [];
     this.balloonsAndDecor = [];
-//    this.decorElements = [];
     this.errors = [];
   }
 
@@ -16,6 +15,7 @@ class ServicesDataService{
       return event[property] === propertyValue;
     });
   }
+
 
   getServicesSortedByPrice(serviceType){
     return this[serviceType].sort(function (elem1, elem2) {

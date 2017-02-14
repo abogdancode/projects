@@ -246,7 +246,9 @@ margin-right: 6%;
 /*---------------------------------END HEADER----------------------------------------------------------------------*/
 
 /*---------------------------------SERVICE LIST--------------------------------------------------------------------*/
-
+.normalWidth{
+  width: calc(100% - 400px);
+}
 .extServicesList{
   position: relative;
   margin-left: $orderPanelWidth;
@@ -257,37 +259,6 @@ margin-right: 6%;
   .headerServices{
     text-align: center;
   }
-
-  .containerForProducts{
-    z-index: 100;
-    display: none;
-    position: absolute;
-    width: 100%;
-    padding: 0 15px 0 15px;
-    top:50%;
-    transform: translate(0,-50%);
-    background: rgba(0,0,33,0.9);
-    color: $fontColorWhite;
-    .contForHeaderProducts{
-      .headerProducts{
-        text-align: center;
-        margin-bottom: 20px;
-      }
-      .btn-close{
-        position: absolute;
-        right:15px;
-        top:7px;
-      }
-    }
-    .makeOrder{
-      display: block;
-      margin: auto;
-    }
-    .column{
-      margin-bottom: 20px;
-    }
-  }
-
 
   .containerForImage{
     position: relative;
@@ -311,7 +282,8 @@ margin-right: 6%;
       text-align: center;
     }
   }
-  .serviceItemPrice{
+
+  .serviceItemPrice, .productItemPrice{
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -320,9 +292,62 @@ margin-right: 6%;
   .containerForServiceItem{
     cursor: pointer;
   }
+
+  /*---------PopUpProucts-------------*/
+  .containerForProducts, .containerForOneProduct{
+    z-index: 100;
+    display: none;
+    position: absolute;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    background: rgba(0,0,33,0.9);
+    color: $fontColorWhite;
+    .contForHeaderProducts{
+      .headerProducts{
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .btn-close{
+        position: absolute;
+        right:15px;
+        top:7px;
+      }
+    }
+    .btn{
+      display: block;
+      margin: auto;
+    }
+    .column{
+      margin-bottom: 20px;
+    }
+  }
+
+  /*---------PopUpOneProduct-------------*/
+  .contForGeneratedProductItem{
+    width:100%;
+    z-index: 200;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+
+    .imageForServiceItem{
+      position: relative;
+      display: inline;
+      width: 300px;
+      height: 300px;
+      border: 5px solid red;
+    }
+    .viewport{
+      position: relative;
+      width: 300px;
+      margin: auto;
+      overflow-x: hidden;
+    }
+  }
 }
 
-/*---------------------------------SERVICE LIST--------------------------------------------------------------------*/
+/*---------------------------------END SERVICE LIST--------------------------------------------------------------------*/
 
 
 /*FOOTER*/
