@@ -3,9 +3,15 @@
  */
 let screenWidth = $(window).width();
 
-let productPopUpImgWidth = 300;
+let productPopUpImgWidth = 300,
+    chequerwise = true;
 
 
-if (screenWidth>992){
+if (screenWidth>=992){
   productPopUpImgWidth = 300;
+  chequerwise = true
+} else{
+  if (screenWidth<992){
+    chequerwise = false
+  }
 }

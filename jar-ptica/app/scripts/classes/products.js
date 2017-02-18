@@ -48,7 +48,6 @@ class BalloonsAndDecor extends Products{
               detailedDescription, photoImg1,photoImg2,productList) {
     super(type, name,smallImage,cost,shortDescription,
       detailedDescription, photoImg1,photoImg2,productList);
-
   }
 }
 class DecorElements extends Products{

@@ -10,11 +10,12 @@ let serviceList = [
       smallImage: '../',
       cost: '1800',
       shortDescription: 'описание',
-      detailedDescription: ' ',
+      detailedDescription: 'Sed mi enim, feugiat non sodales sit amet, ornare et felis. Maecenas hendrerit odio sit amet libero cursus porta. Suspendisse massa leo, faucibus eu purus eget, placerat vulputate magna. ',
       photoImg1: '../images/services-page/services-list/ChildrenEvents/birthday1.jpg',
       photoImg2: ' ',
       photoImg3: ' ',
-      table: null
+      table: null,
+      servicesList: []
     },
     {
       type: 'Детские мероприятия',
@@ -26,7 +27,8 @@ let serviceList = [
       photoImg1: '../images/services-page/services-list/ChildrenEvents/birthday1.jpg',
       photoImg2: ' ',
       photoImg3: ' ',
-      table: null
+      table: null,
+      servicesList: []
     },
     {
       type: 'Детские мероприятия',
@@ -38,7 +40,8 @@ let serviceList = [
       photoImg1: '../images/services-page/services-list/ChildrenEvents/birthday1.jpg',
       photoImg2: ' ',
       photoImg3: ' ',
-      table: null
+      table: null,
+      servicesList: []
     },
     {
       type: 'Свадьбы',
@@ -50,7 +53,8 @@ let serviceList = [
       photoImg1: '../images/services-page/services-list/ChildrenEvents/birthday1.jpg',
       photoImg2: ' ',
       photoImg3: ' ',
-      table: null
+      table: null,
+      servicesList: []
     },
     {
       type: 'Свадьбы',
@@ -62,7 +66,8 @@ let serviceList = [
       photoImg1: '../images/services-page/services-list/ChildrenEvents/birthday1.jpg',
       photoImg2: ' ',
       photoImg3: ' ',
-      table: null
+      table: null,
+      servicesList: []
     },
     {
       type: 'Шары и оформление',

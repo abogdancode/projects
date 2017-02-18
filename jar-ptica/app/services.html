@@ -25,11 +25,6 @@
 
 
 
-
-
-
-
-
   </head>
   <body data-spy="scroll" data-target="#myNavbar" data-offset="70">
     <!--[if lt IE 10]>
@@ -65,10 +60,10 @@
 
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home">Главная</a><hr></li>
-            <li><a href="#services">Услуги</a><hr></li>
-            <li><a href="#about">О нас</a><hr></li>
-            <li><a href="#contact">Контакты</a><hr></li>
+            <li><a href="index.html#home">Главная</a><hr></li>
+            <li><a href="index.html#services">Услуги</a><hr></li>
+            <li><a href="index.html#about">О нас</a><hr></li>
+            <li><a href="index.html#contact">Контакты</a><hr></li>
           </ul>
         </div>
 
@@ -84,12 +79,15 @@
 
 <header class="servicesHeader">
   <div id="orderPanel" class="containerForOrderPanel">
-    <div class="orderedPanel">
-      <h1 class="headerForOrderPanel">Выбранные услуги</h1>
+    <div id="orderedPanel" class="orderedPanel">
+      <h1 class="headerForOrderPanel">Выбранные услуги
+        <div class="shoppingCart"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+      </h1>
       <div class="orderedList">
 
+
       </div>
-      <h2 class="discount">Скидка :</h2>
+      <h2 class="count">Сумма заказа:</h2> <span id="summCont" class="summCont pull-right"></span>
       <hr>
       <form class="contact_form" action="#" method="post" name="contact_form">
         <ul class="containerForInputs">
@@ -97,13 +95,13 @@
             <span class="requiredNotification pull-right">* обязательные поля</span>
           </li>
           <li>
-            <input id="name" class="nameInput pull-right"  type="text"  placeholder="Алексей" required />
+            <input id="name" class="nameInput pull-right"  type="text"  placeholder="Алексей" required style="width: 60%" />
             <label class="pull-right"  for="name">Ваше имя</label>
 
           </li>
           <li>
             <input id="phone" class="phoneInput pull-right"  type="tel" name="phone"
-                   pattern="8\([0-9]{3}\) [0-9]{3}-[0-9]{4}" placeholder="8(999) 000-0000" required />
+                   pattern="8\([0-9]{3}\) [0-9]{3}-[0-9]{4}" placeholder="8(999) 000-0000" required style="width: 60%"/>
             <span class="form_hint">Формат ввода: 8(XXX) XXX-XXXX</span>
             <label class="pull-right" for="phone">Телефон</label>
 
@@ -130,11 +128,13 @@
 
 
 <section id="extServicesList" class="extServicesList normalWidth">
-  <div id="containerForProducts" class="containerForProducts normalWidth"></div>
-  <div id="containerForOneProduct" class="containerForOneProduct normalWidth"></div>
-  <h1 class="headerServices">Список услуг</h1>
-  <div id="containerForServiceList" class="containerForServiceList">
+  <div id="containerForProducts" class="containerForProducts normalWidth">
+  </div>
+  <div id="containerForOneProduct" class="containerForOneProduct normalWidth">
+  </div>
 
+  <div id="containerForServiceList" class="containerForServiceList">
+    <h1 class="headerServices">Список услуг</h1>
   </div>
 
 </section>
@@ -229,6 +229,7 @@
 
     <!-- build:js scripts/serviceApp.js -->
     <script src="scripts/ui/responsive-settings.js"></script>
+    <script src="scripts/services-items/1-den-rojdenia.js"></script>
     <script src="scripts/products/1-Figury-Is-Sharov.js"></script>
     <script src="scripts/products/2-Elementy-Oformlenia.js"></script>
     <script src="scripts/serviceList.js"></script>
@@ -236,10 +237,14 @@
     <script src="scripts/classes/events.js"></script>
     <script src="scripts/classes/products.js"></script>
     <script src="scripts/classes/data-error.js"></script>
+    <script src="scripts/classes/chosen-items.js"></script>
     <script src="scripts/services/services-data-service.js"></script>
+    <script src="scripts/services/order-data-service.js"></script>
     <script src="scripts/ui/base-alement.js"></script>
+    <script src="scripts/ui/constructed-element.js"></script>
     <script src="scripts/ui/building-elements.js"></script>
     <script src="scripts/ui/constructed-blocks.js"></script>
+    <script src="scripts/ui/ordered-elements.js"></script>
     <script src="scripts/serviceApp.js"></script>
 
     <!-- endbuild -->

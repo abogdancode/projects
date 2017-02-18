@@ -44,6 +44,18 @@ class ServicesDataService{
           }
 
           break;
+
+        case 'пример дня рождения':
+          if (this.validateChildrenEvents(data)){
+            let event = this.loadChildrenEvent(data);
+            if (event)
+              this.childrenEvents[0].servicesList.push(event);
+          } else{
+            let e = new DataError('неверные данные примера дня рождения',data);
+            this.errors.push(e);
+          }
+          break;
+
         case 'Свадьбы':
           if (this.validateData(data)){
             let event = this.loadEvents(data);
@@ -67,18 +79,7 @@ class ServicesDataService{
             this.errors.push(e);
           }
           break;
-        /*case 'Элементы оформленния':
-         if (this.validateProduct(data)){
 
-         let product = this.loadProductData(data);
-         if(product)
-         this.decorElements.push(product);
-         break;
-         }else{
-         let e = new DataError('неверные данные элементов оформления',data);
-         this.errors.push(e);
-         }
-         break;*/
         case 'Цветы':
           if (this.validateProduct(data)){
             let product = this.loadProductData(data);
@@ -142,7 +143,7 @@ class ServicesDataService{
           let chEv = new ChildrenEvents(event.type, event.name,event.smallImage,
             event.cost,event.shortDescription,
             event.detailedDescription, event.photoImg1,
-            event.photoImg2,event.photoImg3,event.table);
+            event.photoImg2,event.photoImg3,event.table,event.servicesList);
           return chEv;
         } catch(e){
           this.errors.push(new DataError('Ошибка при загрузке детского мероприятия', event));
@@ -154,7 +155,7 @@ class ServicesDataService{
           let wedEv = new Weddings(event.type, event.name,event.smallImage,
             event.cost,event.shortDescription,
             event.detailedDescription, event.photoImg1,
-            event.photoImg2,event.photoImg3,event.table);
+            event.photoImg2,event.photoImg3,event.table,event.servicesList);
           return wedEv;
         } catch(e){
           this.errors.push(new DataError('Ошибка при загрузке детского мероприятия', event));
@@ -179,11 +180,24 @@ class ServicesDataService{
     return null;
   }
 
+  loadChildrenEvent(product){
+    try{
+      let data = new ChildrenEventsItem(product.type, product.name,product.smallImage,
+        product.cost,product.shortDescription,
+        product.detailedDescription, product.photoImg1,
+        product.photoImg2,product.productList);
+      return data;
+    } catch(e){
+      this.errors.push(new DataError('Ошибка при загрузке продукта', product));
+    }
+    return null;
+  }
+
   validateData(data){
 
     switch(data.type){
-      case 'Детские мероприятия' || 'Свадьбы':
-        let requiredProps = 'type name smallImage cost shortDescription detailedDescription photoImg1 photoImg2 photoImg3 table'.split(' ');
+      case 'Детские мероприятия':
+        let requiredProps = 'type name smallImage cost shortDescription detailedDescription photoImg1 photoImg2 photoImg3 table servicesList'.split(' ');
         let hasErrors = false;
         for (let field of requiredProps){
           if(!data[field] && data[field]!==null){
@@ -194,7 +208,7 @@ class ServicesDataService{
         return !hasErrors;
         break;
       case 'Свадьбы':
-        let requiredProps1 = 'type name smallImage cost shortDescription detailedDescription photoImg1 photoImg2 photoImg3 table'.split(' ');
+        let requiredProps1 = 'type name smallImage cost shortDescription detailedDescription photoImg1 photoImg2 photoImg3 table servicesList'.split(' ');
         let hasErrors1 = false;
         for (let field of requiredProps1){
           if(!data[field] && data[field]!==null){
@@ -230,6 +244,17 @@ class ServicesDataService{
     return !hasErrors;
   }
 
+  validateChildrenEvents(data){
+    let requiredProps = 'type name smallImage cost shortDescription detailedDescription photoImg1 photoImg2 productList'.split(' ');
+    let hasErrors = false;
+    for (let field of requiredProps){
+      if(!data[field] && data[field]!==null){
+        this.errors.push(new DataError(`неверное поле ${field}`, data));
+        hasErrors=true;
+      }
+    }
+    return !hasErrors;
+  }
 
 
 }

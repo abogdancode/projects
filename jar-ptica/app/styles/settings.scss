@@ -70,16 +70,17 @@ h1,h2,h3{
   background: transparent;
   border-color: $fontColorWhite;
 }
-.btn-close:hover{
-  color: $buttonBrightColor;
-  border-color: $buttonBrightColor;
-}
 .btn-close:hover,.btn-close:focus{
   color: $buttonBrightColor;
   border-color: $buttonBrightColor;
 }
 
 
+.btn-delete:hover,.btn-delete:focus, .btn-delete:active:focus{
+  color: $buttonBrightColor;
+  border: 0 solid transparent;
+  outline: none;
+}
 
 .centeredColumns{
   display: table;

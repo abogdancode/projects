@@ -1,9 +1,11 @@
 /**
  * Created by AlexBogdan on 08.02.2017.
  */
-let balloonFigures = balloonFiguresMod(),
+let childrenEvents = childrenEventsMod(),
+    balloonFigures = balloonFiguresMod(),
     decorElements = decorElementsMod(),
     serviceList = serviceListMod();
+
 
 
 /*
@@ -20,6 +22,7 @@ s.appendToElement($('#firstLi'));
 */
 let dataService = new ServicesDataService();
 dataService.loadData(serviceList);
+dataService.loadData(childrenEvents);
 dataService.loadData(decorElements);
 dataService.loadData(balloonFigures);
 
@@ -29,7 +32,10 @@ console.log(data);
 
 let с = new PanelServiseList(data);
 с.appendToElement($('#containerForServiceList'));
-let list = data.balloonsAndDecor[0].productList;
+let list = data.balloonsAndDecor[0];
+
+let orderService = new OrderDataService();
+
 
 
 
