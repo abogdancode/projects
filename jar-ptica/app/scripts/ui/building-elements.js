@@ -179,7 +179,7 @@ class ButtonNext extends BaseElement{
   }
 
   getElementString(){
-    return `<button class="btn btn-close" type="submit" >
+    return `<button class="btn btn-close btnLeft" type="submit" >
               <span class="glyphicon glyphicon-chevron-right" style="font-size: 50px; display: block;"></span>
             </button>`
   }
@@ -193,7 +193,7 @@ class ButtonPrev extends BaseElement{
   }
 
   getElementString(){
-    return `<button class="btn btn-close" type="submit" >
+    return `<button class="btn btn-close btnRight" type="submit" >
               <span class="glyphicon glyphicon-chevron-left" style="font-size: 50px; display: block;"></span>
             </button>`
   }

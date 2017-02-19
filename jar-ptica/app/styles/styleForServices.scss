@@ -53,6 +53,7 @@ body{
           -webkit-text-fill-color: transparent;
         }
         span.logoSmallText {
+          display: none;
           font-size: 20px;
           transition-property: color;
           transition-duration: 2s;
@@ -136,6 +137,35 @@ body{
       border-width: 15px 50px 0 0;
       border-color: $primaryColor transparent transparent transparent;
     }
+
+    .popUpOrdered{
+      display: table;
+      position: absolute;
+      top: 60px;
+      right: calc(0px - 10px - 70%);
+      background: $buttonBrightColor;
+      height: 50px;
+      width: 70%;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 13px;
+      font-size: 15px;
+      color: $fontColorWhite;
+      span{
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    .popUpOrdered:before{
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 25px 20px 25px 0;
+      border-color: transparent $buttonBrightColor transparent transparent;
+      position: absolute;
+      left: -10px;
+    }
     h1{
       text-align: center;
       font-size: 25px;
@@ -146,7 +176,7 @@ body{
       font-size: 20px;
     }
     hr{
-      margin: 3px 0 10px 0;
+      margin: 3px 0 0px 0;
     }
     h3{
       margin: 0 6% 10px 0;
@@ -162,6 +192,8 @@ body{
     }
     p{
       text-align: center;
+      font-size: 14px;
+      line-height: 15px;
     }
   }
   .containerForInputs{
@@ -376,12 +408,11 @@ margin-right: 6%;
 
   /*---------PopUpProucts-------------*/
   .containerForProducts, .containerForOneProduct{
+    width:100%;
     z-index: 100;
     display: none;
-    position: absolute;
-    width: 100%;
     padding: 0 15px 0 15px;
-    background: url("../images/navy_blue.png") repeat;
+    position: absolute;
     color: $fontColorWhite;
     .contForHeaderProducts{
       .headerProducts{
@@ -402,10 +433,18 @@ margin-right: 6%;
       margin-bottom: 20px;
     }
   }
-
+  .containerForProducts{
+    background: url("../images/navy_blue.png") repeat;
+  }
   /*---------PopUpOneProduct-------------*/
+  .containerForOneProduct{
+    background: rgba(255,255,255,0.5);
+    height: 100%;
+  }
   .contForGeneratedProductItem{
-    width:100%;
+    position: fixed;
+    margin-left: $orderPanelWidth;
+    margin-top: 75px;
     z-index: 200;
     top: 0;
     left: 0;
@@ -421,7 +460,19 @@ margin-right: 6%;
       position: relative;
       width: 300px;
       margin: auto;
-      overflow-x: hidden;
+      overflow: hidden;
+    }
+    .btnLeft,.btnRight{
+      position: absolute;
+      top: 50%;
+      transform: translate(0,-50%);
+      border:none;
+    }
+    .btnLeft{
+      right: 0;
+    }
+    .btnRight{
+      left: 0;
     }
   }
 
@@ -535,7 +586,11 @@ margin-right: 6%;
   }
   .extServicesList {
     margin-left: $orderPanelWidthMd;
+    .contForGeneratedProductItem {
+      margin-left: $orderPanelWidthMd;
+    }
   }
+
 
   /*END SERVICE LIST*/
 }
@@ -565,6 +620,16 @@ margin-right: 6%;
 
   .containerForOrderPanel{
     width: $orderPanelWidthSm;
+      .makeOrder{
+        margin-bottom: 3px;
+      }
+      p{
+
+      }
+    .orderedList {
+      height: 40%;
+    }
+
   }
 
   /*END ORDER PANEL*/
@@ -577,7 +642,14 @@ margin-right: 6%;
   }
   .extServicesList {
     margin-left: $orderPanelWidthSm;
+    .contForGeneratedProductItem {
+      margin-left: $orderPanelWidthSm;
+    }
+
+
   }
+
+
 
   /*END SERVICE LIST*/
 
@@ -608,8 +680,13 @@ margin-right: 6%;
       .shoppingCart{
         display: inherit;
       }
+    .makeOrder{
+      margin-bottom: 0;
+    }
+    .orderedList {
+      height: 40%;
+    }
   }
-
 
 
   /*END ORDER PANEL*/
@@ -625,6 +702,35 @@ margin-right: 6%;
   .panel-heading{
     text-align: center;
   }
+  .extServicesList{
+    .containerForProducts, .containerForOneProduct{
+
+      .contForHeaderProducts{
+        .headerProducts{
+          padding-left: 40px;
+          font-size: 30px;
+          width: 80%;
+        }
+        .btn-close{
+          position: absolute;
+          right:15px;
+          top:7px;
+          span{
+            font-size: 35px!important;
+          }
+        }
+      }
+      /*    .btn{
+            display: block;
+            margin: auto;
+          }
+          .column{
+            margin-bottom: 20px;
+          }*/
+    }
+  }
+
+
 
   /*END SERVICE LIST*/
 }

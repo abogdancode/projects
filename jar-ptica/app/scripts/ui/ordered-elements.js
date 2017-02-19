@@ -67,7 +67,8 @@ class OrderedListInnerLi extends BaseElement{
       }
       super.appendToElement($(`.type:contains(${this.item.type})`).children('table').children('tbody'));
 
-
+    let popUpOrdered = new PopUpOrderedDiv('popUpOrdered',this.item.name);
+    popUpOrdered.appendToElement($('.headerForOrderPanel'));
 
   }
 
@@ -134,12 +135,30 @@ class ButtonDelete extends BaseElement{
 /*-----------------------------END ButtonDelete----------------------------*/
 
 
+/*-----------------------------PopUpOrderedDiv--------------------------------*/
+class PopUpOrderedDiv extends BaseElement{
+  constructor(classList, name){
+    super();
+    this.classList = classList;
+    this.name =name;
+  }
+
+  appendToElement(el){
+    super.appendToElement(el);
+    console.log(this.element);
+    $(this.element).fadeOut(5000,()=>$(this.element).detach());
+  }
+
+  createElement(){
+    super.createElement();
+    let span = new CommonSpan(`${this.name} теперь в вашем заказе!`);
+    span.appendToElement(this.element);
+  }
 
 
+  getElementString(){
+    return `<div class="${this.classList}"></div>`;
+  }
+}
+/*-----------------------------END PopUpOrderedDiv----------------------------*/
 
-
-/*
-this.type = type;
-this.name = name;
-this.smallImage = smallImage;
-this.cost = cost;*/

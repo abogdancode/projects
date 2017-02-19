@@ -14,10 +14,12 @@ class Products extends AllServices{
     this.open = (container)=>{
       let popup = new ListOfProducts(this.productList);
       popup.appendToElement(container);
+      executeIterator();
     };
     this.openDescription = (container, elem)=>{
       let popup = new ProductItemPopUp(this,elem);
       popup.appendToElement(container);
+      executeIterator();
     };
     this.openNextDescription = (container, elem)=>{
       let nextIndex = elem.indexOf(this);

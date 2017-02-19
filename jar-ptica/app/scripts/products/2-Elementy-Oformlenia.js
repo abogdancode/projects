@@ -11,7 +11,7 @@ function decorElementsMod() {
       cost: '500',
       shortDescription: 'описание',
       detailedDescription: ' ',
-      photoImg1: '../../images/services-page/services-list/ChildrenEvents/birthday1.jpg',
+      photoImg1: 'images/services-page/services-list/ChildrenEvents/birthday1.jpg',
       photoImg2: ' ',
       productList: []
     },
@@ -22,7 +22,7 @@ function decorElementsMod() {
       cost: '500',
       shortDescription: 'описание',
       detailedDescription: ' ',
-      photoImg1: '../../images/services-page/services-list/ChildrenEvents/birthday1.jpg',
+      photoImg1: 'images/services-page/services-list/ChildrenEvents/birthday1.jpg',
       photoImg2: ' ',
       productList: []
     },
@@ -33,7 +33,7 @@ function decorElementsMod() {
       cost: '1000',
       shortDescription: 'описание',
       detailedDescription: ' ',
-      photoImg1: '../../images/services-page/services-list/ChildrenEvents/birthday1.jpg',
+      photoImg1: 'images/services-page/services-list/ChildrenEvents/birthday1.jpg',
       photoImg2: ' ',
       productList: []
     },
@@ -44,7 +44,7 @@ function decorElementsMod() {
       cost: '1000',
       shortDescription: 'описание',
       detailedDescription: ' ',
-      photoImg1: '../../images/services-page/services-list/ChildrenEvents/birthday1.jpg',
+      photoImg1: 'images/services-page/services-list/ChildrenEvents/birthday1.jpg',
       photoImg2: ' ',
       productList: []
     }

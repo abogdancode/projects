@@ -9,8 +9,10 @@ $icon-font-path: '../fonts/';
 @import "../fonts/nautilus/nautilus.css";
 
 /*colors*/
-@import "settings";
 
+//build:css styles/main.css
+@import "settings";
+//endbuild
 
 
 /**************/

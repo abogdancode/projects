@@ -82,9 +82,36 @@ h1,h2,h3{
   outline: none;
 }
 
+.btnLeft,.btnRight{
+  background: transparent;
+  border-color: transparent;
+}
+.btnLeft:hover,.btnLeft:focus,.btnRight:hover,.btnRight:focus ,.btnLeft:active,.btnRight:active,.btnLeft:active:focus,.btnRight:active:focus{
+  color: $buttonBrightColor;
+  border-color: transparent;
+  outline-color: transparent;
+
+}
+
 .centeredColumns{
   display: table;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media screen  and (max-width: 991px) {
+  .btn-primary:hover {
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+  }
+
+  .btn-transparent:hover {
+    background-color: transparent;
+    border-color: $fontColorWhite;
+  }
+
+  .btn-bright:hover {
+    background-color: $buttonBrightColor;
+    border-color:$buttonBrightColor;
+  }
+}

@@ -1,6 +1,8 @@
 let winWidth = $(window).width(),
     neededHeight = $(window).height(),
     orderPanel = $('#orderPanel'),
+    shoppingCart = $('.shoppingCart'),
+    shoppingCartClosed = true,
     orderPanelResize = (orderPanel,neededHeight) => {
       orderPanel.height(neededHeight);
     };
@@ -44,9 +46,21 @@ $( window ).resize(function()  {
   orderPanelResize(orderPanel,neededHeight);
 });
 $( window ).ready(function() {
+  $('#containerForProducts').css('min-height',neededHeight-100);
+  shoppingCart.click(()=>{
+    if(shoppingCartClosed){
+      orderPanel.animate({'left':0},500);
+      shoppingCart.html('<span class="glyphicon glyphicon-remove"></span>');
+      shoppingCart.css('color','#a80342');
+      shoppingCartClosed = false;
+    }else {
+      orderPanel.animate({'left':-orderPanel.width()+5},500);
+      shoppingCart.html('<span class="glyphicon glyphicon-shopping-cart"></span>');
+      shoppingCart.css('color','#fff');
+      shoppingCartClosed = true;
+    }
 
-  $('.shoppingCart').click(()=>{
-    orderPanel.animate({'left':0},500);
+
   });
   orderPanelResize(orderPanel,neededHeight);
 

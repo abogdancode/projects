@@ -58,6 +58,7 @@ class DivColumn extends BaseElement{
     divContForServItem.element.click(() => {
 
       this.serviceItem.open($('#containerForProducts'));
+      $(window).scrollTop(0);
     });
     imgDiv.appendToElement(divContForServItem.element);
     divContForSpan.appendToElement(imgDiv.element);
@@ -150,7 +151,7 @@ class ListOfProducts extends BaseElement{
   }
 
   getElementString(){
-    return '<div id="popupProductList" class="contForGeneratedProducts"></div>'
+    return `<div id="popupProductList" class="contForGeneratedProducts" style="min-height: ${neededHeight - 100}px"></div>`
   }
 }
 /*-----------------------------END ListOfProducts----------------------------*/
@@ -166,7 +167,16 @@ class PanelServiseList extends ConstructedElement{
 
   appendToElement(el){
     super.appendToElement(el);
-    $('.panel-heading').click(()=>{
+    $('.panel-heading').click((el)=>{
+      let offsetPanelItem = $(el.currentTarget);
+      let opened = $(el.currentTarget).parent().find('.in')[0];
+      if (opened){
+        $('body,html').animate({
+          scrollTop: 0
+        }, 300);
+      }
+      if(winWidth<=768&&!opened)
+      setTimeout(()=>{scrollToHeader(offsetPanelItem)},550);
       let prevHeight;
       let resizeHeight;
       setTimeout(`
@@ -175,9 +185,10 @@ class PanelServiseList extends ConstructedElement{
       $('#extServicesList').height(resizeHeight);
       if(resizeHeight < prevHeight)
       unfix($('footer')[0].offsetTop);
-    `,550);
+    `,500);
     });
   }
+
 
   createElement(){
     super.createElement();
@@ -221,7 +232,12 @@ class PanelServiseList extends ConstructedElement{
   }
 }
 /*-----------------------------END PanelServiseList----------------------------*/
+function  scrollToHeader(offsetPanelItem){
 
+  $('body,html').animate({
+    scrollTop: offsetPanelItem.offset().top-125
+}, 300);
+}
 
 /*-----------------------------ProductItemPopUp----------------------------*/
 
@@ -233,16 +249,10 @@ class ProductItemPopUp extends ConstructedElement{
   }
 
   appendToElement(el,direction){
-
     this.createElement(direction);
     el.append(this.element);
     el.fadeIn(500);
-
-    let resizeHeight;
-    setTimeout(`
-      resizeHeight=iterator();
-      $('#extServicesList').height(resizeHeight);
-    `,550);
+    executeIterator();
   };
 
   animate(el,prevEl,nextEl,direction){
@@ -300,20 +310,20 @@ class ProductItemPopUp extends ConstructedElement{
     let button = new Button(this.productItem,'Добавить в заказ');
     button.appendToElement(divCont.element);
     let buttonNext = new ButtonNext();
-    buttonNext.appendToElement(divCont.element);
+    buttonNext.appendToElement(viewport.element);
     buttonNext.element.click(() => {
       this.productItem.openNextDescription($('#containerForOneProduct'),this.listOfProducts,'right');
     });
 
     let buttonPrev = new ButtonPrev();
-    buttonPrev.appendToElement(divCont.element);
+    buttonPrev.appendToElement(viewport.element);
     buttonPrev.element.click(() => {
       this.productItem.openPrevDescription($('#containerForOneProduct'),this.listOfProducts,'left');
     });
   }
 
   getElementString(){
-    return `<div class="contForGeneratedProductItem ">
+    return `<div class="contForGeneratedProductItem normalWidth" style="min-height: ${neededHeight - 100}px">
             </div>`
   }
 }

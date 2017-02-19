@@ -9,11 +9,7 @@ class ConstructedElement extends BaseElement{
   appendToElement(el){
     super.appendToElement(el);
 
-    let resizeHeight;
-    setTimeout(`
-      resizeHeight=iterator();
-      $('#extServicesList').height(resizeHeight);
-    `,550);
+    executeIterator();
   }
 
 }
@@ -26,4 +22,13 @@ function iterator() {
     }
   }
   return maxHeight;
+}
+
+function executeIterator() {
+  let resizeHeight;
+  setTimeout(`
+      resizeHeight=iterator();
+      $('#extServicesList').height(resizeHeight);
+    `,550);
+  console.log('asd');
 }
