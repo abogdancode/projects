@@ -151,7 +151,7 @@ class ListOfProducts extends BaseElement{
   }
 
   getElementString(){
-    return `<div id="popupProductList" class="contForGeneratedProducts" style="min-height: ${neededHeight - 100}px"></div>`
+    return '<div id="popupProductList" class="contForGeneratedProducts"></div>'
   }
 }
 /*-----------------------------END ListOfProducts----------------------------*/
@@ -175,7 +175,7 @@ class PanelServiseList extends ConstructedElement{
           scrollTop: 0
         }, 300);
       }
-      if(winWidth<=768&&!opened)
+      if(winWidth<768&&!opened)
       setTimeout(()=>{scrollToHeader(offsetPanelItem)},550);
       let prevHeight;
       let resizeHeight;
@@ -183,8 +183,8 @@ class PanelServiseList extends ConstructedElement{
       prevHeight = $('#extServicesList').height()
       resizeHeight=iterator();
       $('#extServicesList').height(resizeHeight);
-      if(resizeHeight < prevHeight)
-      unfix($('footer')[0].offsetTop);
+      if(resizeHeight < prevHeight && winWidth>768&&!opened)
+      unfix($('footer')[0].offsetTop+75);
     `,500);
     });
   }

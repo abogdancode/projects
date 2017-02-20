@@ -1,5 +1,12 @@
 let winWidth = $(window).width(),
-    neededHeight = $(window).height(),
+    winHeight = $(window).height(),
+    getNeededHeight = ()=>{
+      if(winHeight>700)
+        return  700;
+      else
+        return winHeight;
+    },
+    neededHeight = getNeededHeight(),
     orderPanel = $('#orderPanel'),
     shoppingCart = $('.shoppingCart'),
     shoppingCartClosed = true,
@@ -7,7 +14,9 @@ let winWidth = $(window).width(),
       orderPanel.height(neededHeight);
     };
 
-let unfixed = false;
+  let unfixed = false;
+
+
 
 
 let unfix = (footerOffset)=>{
@@ -28,20 +37,24 @@ let fix = ()=>{
   unfixed = false;
 };
 
+if(winWidth>768){
+  $(window).scroll(function() {
 
-$(window).scroll(function() {
-  let st = $(this).scrollTop(),
-      footerOffset = $('footer')[0].offsetTop,
-      marker = st+neededHeight;
+      let st = $(this).scrollTop(),
+        footerOffset = $('footer')[0].offsetTop,
+        marker = st+neededHeight;
 
- if(marker >= footerOffset && !unfixed)
-   unfix(footerOffset);
- else
-   if(marker <= footerOffset && unfixed)
-     fix();
+      if(marker >= footerOffset && !unfixed)
+        unfix(footerOffset);
+      else
+      if(marker <= footerOffset && unfixed)
+        fix();
 
 
-});
+
+
+  });
+}
 $( window ).resize(function()  {
   orderPanelResize(orderPanel,neededHeight);
 });

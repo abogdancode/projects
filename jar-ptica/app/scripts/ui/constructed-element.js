@@ -1,6 +1,8 @@
 /**
  * Created by AlexBogdan on 16.02.2017.
  */
+
+
 class ConstructedElement extends BaseElement{
   constructor(){
     super();

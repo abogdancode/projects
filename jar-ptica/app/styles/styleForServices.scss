@@ -108,7 +108,7 @@ body{
     width: $orderPanelWidth;
     position: fixed;
     box-sizing: border-box;
-
+    max-height: 700px;
     top:50%;
     z-index: 150;
     transform: translate(0,-50%);
@@ -169,7 +169,7 @@ body{
     h1{
       text-align: center;
       font-size: 25px;
-      margin: 5px 0;
+      margin: 0 0 5px 0;
     }
     h2{
       margin: 0 0 0 6%;
@@ -202,10 +202,10 @@ body{
   }
 
   .orderedPanel{
+    position: absolute;
     height: calc(100% - 100px);
     width: 100%;
     background: $primaryColor;
-    position: fixed;
     top:calc(50% + 25px);
     transform: translate(0,-50%);
     .count{
@@ -720,13 +720,10 @@ margin-right: 6%;
           }
         }
       }
-      /*    .btn{
-            display: block;
-            margin: auto;
-          }
-          .column{
-            margin-bottom: 20px;
-          }*/
+    }
+
+    .contForGeneratedProductItem {
+      margin-left: 0;
     }
   }
 
@@ -741,6 +738,18 @@ margin-right: 6%;
 
 
 @media screen  and (max-width: 991px) {
+  /*ORDERED PANEL*/
+  .containerForOrderPanel{
+    top:75px;
+    transform: none;
+    .orderedPanel{
+      top:0;
+      transform: none;
+    }
+  }
+  /*END ORDERED PANEL*/
+
+
   /*FOOTER*/
   footer.footer{
 
