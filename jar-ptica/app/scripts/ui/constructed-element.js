@@ -32,5 +32,4 @@ function executeIterator() {
       resizeHeight=iterator();
       $('#extServicesList').height(resizeHeight);
     `,550);
-  console.log('asd');
 }

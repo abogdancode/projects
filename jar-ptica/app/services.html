@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no" />
     <title>Жар-птица</title>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -89,7 +89,7 @@
       </div>
       <h2 class="count">Сумма заказа:</h2> <span id="summCont" class="summCont pull-right"></span>
       <hr>
-      <form class="contact_form" action="#" method="post" name="contact_form">
+      <form class="contact_form" onsubmit="return checkRequired()" action="#" method="post" name="contact_form">
         <ul class="containerForInputs">
           <li>
             <span class="requiredNotification pull-right">* обязательные поля</span>

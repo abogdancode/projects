@@ -15,12 +15,24 @@ $orderPanelWidth: 400px;
 $orderPanelWidthMd: 350px;
 $orderPanelWidthSm: 300px;
 
+$ImageForServiceItemWidth: 500px;
+$ImageForServiceItemWidthSm: 400px;
+$ImageForServiceItemWidthXs: 300px;
+
 /**************/
+html{
+  background-color: #979797;
+}
 body{
+  position: relative;
   background: url("../images/debut_light.png") repeat;
+  max-width: 1400px;
+  margin: auto;
 }
 /*---------------------------------NAVBAR--------------------------------------------------------------------------*/
 .navbar{
+  max-width: 1400px;
+  margin: auto;
   height: 50px;
   background-color: $blackoutDarkColor;
   border-color: transparent;
@@ -106,6 +118,7 @@ body{
 
   .containerForOrderPanel{
     width: $orderPanelWidth;
+    max-width: $orderPanelWidth;
     position: fixed;
     box-sizing: border-box;
     max-height: 700px;
@@ -363,6 +376,11 @@ margin-right: 6%;
 .normalWidth{
   width: calc(100% - #{$orderPanelWidth});
 }
+
+.panel-title>a{
+  width: 100%;
+  display: inline-block;
+}
 .extServicesList{
   position: relative;
   margin-left: $orderPanelWidth;
@@ -372,6 +390,7 @@ margin-right: 6%;
   .headerServices{
     text-align: center;
   }
+
 
   .containerForImage{
     position: relative;
@@ -400,6 +419,7 @@ margin-right: 6%;
     display: inline-block;
     width: 100%;
     text-align: center;
+    font-size: 18px;
   }
 
   .containerForServiceItem{
@@ -452,15 +472,20 @@ margin-right: 6%;
     .imageForServiceItem{
       position: relative;
       display: inline;
-      width: 300px;
-      height: 300px;
-      border: 5px solid red;
+      width: $ImageForServiceItemWidth;
     }
     .viewport{
       position: relative;
-      width: 300px;
-      margin: auto;
+      width: $ImageForServiceItemWidth;
+      margin: 0 auto 10px auto;
       overflow: hidden;
+    }
+    .description{
+      text-align: justify;
+      width: 100%;
+      display: inline-block;
+      padding: 0 6%;
+      margin: 5px 0 10px 0;
     }
     .btnLeft,.btnRight{
       position: absolute;
@@ -644,6 +669,13 @@ margin-right: 6%;
     margin-left: $orderPanelWidthSm;
     .contForGeneratedProductItem {
       margin-left: $orderPanelWidthSm;
+
+      .imageForServiceItem{
+        width: $ImageForServiceItemWidthSm;
+      }
+      .viewport{
+        width: $ImageForServiceItemWidthSm;
+      }
     }
 
 
@@ -676,12 +708,18 @@ margin-right: 6%;
   .containerForOrderPanel{
     width: calc(100% - 50px);
     left:  calc(50px - 100%);
-
-      .shoppingCart{
-        display: inherit;
-      }
-    .makeOrder{
+    .orderedPanel .summCont{
+      font-size: 16px;
+    }
+    input{
       margin-bottom: 0;
+    }
+    .shoppingCart{
+      display: inherit;
+    }
+    .makeOrder{
+      padding: 4px 12px;
+      font-size: 20px;
     }
     .orderedList {
       height: 40%;
@@ -710,6 +748,7 @@ margin-right: 6%;
           padding-left: 40px;
           font-size: 30px;
           width: 80%;
+          margin-bottom: 10px;
         }
         .btn-close{
           position: absolute;
@@ -724,6 +763,13 @@ margin-right: 6%;
 
     .contForGeneratedProductItem {
       margin-left: 0;
+
+      .imageForServiceItem{
+        width: $ImageForServiceItemWidthXs;
+      }
+      .viewport{
+        width: $ImageForServiceItemWidthXs;
+      }
     }
   }
 
@@ -740,10 +786,10 @@ margin-right: 6%;
 @media screen  and (max-width: 991px) {
   /*ORDERED PANEL*/
   .containerForOrderPanel{
-    top:75px;
+    top:0px;
     transform: none;
     .orderedPanel{
-      top:0;
+      top:  75px;
       transform: none;
     }
   }
@@ -774,4 +820,12 @@ margin-right: 6%;
 
   /*END FOOTER*/
 
+}
+
+
+@media screen  and (min-device-height: 700px) {
+  .containerForOrderPanel{
+    top: 0;
+    transform: translate(0,0);
+  }
 }

@@ -85,6 +85,7 @@ h1,h2,h3{
 .btnLeft,.btnRight{
   background: transparent;
   border-color: transparent;
+  opacity: 0.5;
 }
 .btnLeft:hover,.btnLeft:focus,.btnRight:hover,.btnRight:focus ,.btnLeft:active,.btnRight:active,.btnLeft:active:focus,.btnRight:active:focus{
   color: $buttonBrightColor;

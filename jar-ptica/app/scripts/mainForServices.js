@@ -10,6 +10,7 @@ let winWidth = $(window).width(),
     orderPanel = $('#orderPanel'),
     shoppingCart = $('.shoppingCart'),
     shoppingCartClosed = true,
+    phoneValid = false,
     orderPanelResize = (orderPanel,neededHeight) => {
       orderPanel.height(neededHeight);
     };
@@ -30,34 +31,57 @@ let unfix = (footerOffset)=>{
 
 let fix = ()=>{
   orderPanel.css({
-    'position':'fixed',
-    'top': '50%',
-    'transform':'translate(0,-50%)'
+    'position':'fixed'
   });
+  if(winHeight<=700) {
+    orderPanel.css({
+      'top': '50%',
+      'transform': 'translate(0,-50%)'
+    });
+  }else{
+    orderPanel.css({
+      'top': 0,
+      'transform': 'translate(0,0)'
+    });
+  }
   unfixed = false;
 };
 
-if(winWidth>768){
+let scrollStarter = ()=>{
   $(window).scroll(function() {
+    let st = $(this).scrollTop(),
+      footerOffset = $('footer')[0].offsetTop,
+      marker = st+neededHeight;
 
-      let st = $(this).scrollTop(),
-        footerOffset = $('footer')[0].offsetTop,
-        marker = st+neededHeight;
-
-      if(marker >= footerOffset && !unfixed)
-        unfix(footerOffset);
-      else
-      if(marker <= footerOffset && unfixed)
-        fix();
-
-
-
-
+    if(marker >= footerOffset && !unfixed)
+      unfix(footerOffset);
+    else
+    if(marker <= footerOffset && unfixed)
+      fix();
   });
-}
+};
+
+if(winWidth>768)
+  scrollStarter();
+
 $( window ).resize(function()  {
+  winWidth = $(window).width();
+  winHeight = $(window).height();
+  neededHeight = getNeededHeight();
+
+
+  $('#extServicesList').height(neededHeight-75);
   orderPanelResize(orderPanel,neededHeight);
+
+  if(winWidth>=768)
+    orderPanel.css('left','0');
+  else
+    orderPanel.css('left',-orderPanel.width()+5+'px');
+  if(winWidth>768)
+    scrollStarter();
 });
+
+
 $( window ).ready(function() {
   $('#containerForProducts').css('min-height',neededHeight-100);
   shoppingCart.click(()=>{
@@ -89,7 +113,9 @@ jQuery(function($) {
 
   $('#date').mask('99/99/9999');
 
-  $('#phone').mask('8(999) 999-9999');
+  $('#phone').mask('8(999) 999-9999',{
+    completed: function(){ phoneValid = true; }
+  });
 
   $('#phoneext').mask('(999) 999-9999? x99999');
 
@@ -103,3 +129,11 @@ jQuery(function($) {
 
 });
 
+function checkRequired(){
+  let form_valid = (document.getElementById('name').value !== '');
+  if(!form_valid || !phoneValid){
+    alert('Введите верные данные');
+    return false;
+  }
+  return true;
+}
