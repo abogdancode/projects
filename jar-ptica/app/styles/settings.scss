@@ -10,6 +10,12 @@ $blackoutLightColor: rgba(0,0,0,0.1);
 
 $fontColorWhite:#fff;
 
+*:hover{
+  .no-touch &:hover,
+  .touch &:active {
+
+  }
+}
 
 body{
   font-family: 'Roboto';

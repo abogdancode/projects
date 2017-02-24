@@ -306,9 +306,6 @@ body{
 .contact_form label {
 margin-right: 6%;
 }
-.contact_form input {
-
-}
 
 
 /* form element visual styles */
@@ -316,9 +313,9 @@ margin-right: 6%;
 .contact_form input{
   height: 25px;
   border:1px solid #aaa;
-  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #eee inset;
   border-radius:2px;
-  padding-right:30px;
+  padding-right:15px;
   -moz-transition: padding .25s;
   -webkit-transition: padding .25s;
   -o-transition: padding .25s;
@@ -328,7 +325,7 @@ margin-right: 6%;
   background: #fff;
   border:1px solid #555;
   box-shadow: 0 0 3px #aaa;
-  padding-right:70px;
+  padding-right:15px;
 }
 
 /* === HTML5 validation styles === */
@@ -458,7 +455,7 @@ margin-right: 6%;
   }
   /*---------PopUpOneProduct-------------*/
   .containerForOneProduct{
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.8);
     height: 100%;
   }
   .contForGeneratedProductItem{
@@ -536,6 +533,12 @@ margin-right: 6%;
       h2{
         margin-top: 0;
         font-size: 25px;
+        text-align: center;
+      }
+      span{
+        display: inline-block;
+        margin-bottom: 20px;
+        text-align: justify;
       }
     }
   }
@@ -707,7 +710,10 @@ margin-right: 6%;
 
   .containerForOrderPanel{
     width: calc(100% - 50px);
-    left:  calc(50px - 100%);
+    display: none;
+    .requiredNotification{
+      display: none;
+    }
     .orderedPanel .summCont{
       font-size: 16px;
     }
@@ -723,6 +729,13 @@ margin-right: 6%;
     }
     .orderedList {
       height: 40%;
+    }
+
+    .contact_form ul {
+      line-height: 0.5;
+    }
+    .contact_form li {
+      line-height: 1.8;
     }
   }
 
@@ -784,6 +797,10 @@ margin-right: 6%;
 
 
 @media screen  and (max-width: 991px) {
+
+  /*NavBar*/
+
+  /*END NavBar*/
   /*ORDERED PANEL*/
   .containerForOrderPanel{
     top:0px;
@@ -828,4 +845,56 @@ margin-right: 6%;
     top: 0;
     transform: translate(0,0);
   }
+}
+
+@media screen  and (max-device-height: 420px) {
+  .navbar{
+    top: -50px;
+    width: calc(100% - 128px);
+    .logoBigText{
+      display: none;
+    }
+  }
+  .navbar-default .navbar-toggle{
+    top: 50px;
+    right: -69px;
+  }
+  .containerForOrderPanel{
+    max-width: calc(100% - 104px);
+    top: 0;
+    transform: translate(0,0);
+
+    .orderedPanel {
+      top: 25px;
+      height: calc(100% - 50px);
+    }
+     .orderedList{
+       height: calc(100% - 50px);
+       width: 50%;
+       margin: 2px;
+       float: left
+     }
+     .count{
+       margin: 0;
+       font-size: 15px;
+     }
+     .makeOrder{
+       margin-top: 20px;
+     }
+     .contact_form{
+       width: 49%;
+       float: left;
+       .form_hint{
+         top: 30px;
+         left: 0px;
+         right: inherit;
+         font-size: 13px;
+       }
+       .pull-right{
+         margin: 5px;
+       }
+     }
+
+  }
+
 }

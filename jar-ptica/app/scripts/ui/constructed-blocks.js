@@ -170,13 +170,14 @@ class PanelServiseList extends ConstructedElement{
     $('.panel-heading').click((el)=>{
       let offsetPanelItem = $(el.currentTarget);
       let opened = $(el.currentTarget).parent().find('.in')[0];
+      let prevOffset = offsetPanelItem.offset().top;
       if (opened){
         $('body,html').animate({
           scrollTop: 0
         }, 300);
       }
       if(winWidth<768&&!opened)
-      setTimeout(()=>{scrollToHeader(offsetPanelItem)},550);
+      setTimeout(()=>{scrollToHeader(offsetPanelItem,prevOffset)},550);
       let prevHeight;
       let resizeHeight;
       setTimeout(`
@@ -232,11 +233,14 @@ class PanelServiseList extends ConstructedElement{
   }
 }
 /*-----------------------------END PanelServiseList----------------------------*/
-function  scrollToHeader(offsetPanelItem){
+function  scrollToHeader(offsetPanelItem,prevOffset){
+  let offset = offsetPanelItem.offset().top;
+  if (prevOffset>offset){
+    $('body,html').animate({
+      scrollTop: offset-125
+    }, 300);
+  }
 
-  $('body,html').animate({
-    scrollTop: offsetPanelItem.offset().top-125
-}, 300);
 }
 
 /*-----------------------------ProductItemPopUp----------------------------*/

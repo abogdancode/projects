@@ -64,19 +64,24 @@ let scrollStarter = ()=>{
 if(winWidth>768)
   scrollStarter();
 
+
 $( window ).resize(function()  {
+
+
+  if($(window).width()!== winWidth){
+    console.log('resize');
+    winHeight = $(window).height();
+    neededHeight = getNeededHeight();
+    executeIterator();
+    /*$('#extServicesList').height(neededHeight-75);*/
+    orderPanelResize(orderPanel,neededHeight);
+  }
+
   winWidth = $(window).width();
-  winHeight = $(window).height();
-  neededHeight = getNeededHeight();
-
-
-  $('#extServicesList').height(neededHeight-75);
-  orderPanelResize(orderPanel,neededHeight);
-
   if(winWidth>=768)
     orderPanel.css('left','0');
   else
-    orderPanel.css('left',-orderPanel.width()+5+'px');
+    orderPanel.css('left',-orderPanel.width()+'px');
   if(winWidth>768)
     scrollStarter();
 });
@@ -84,27 +89,26 @@ $( window ).resize(function()  {
 
 $( window ).ready(function() {
   $('#containerForProducts').css('min-height',neededHeight-100);
-  shoppingCart.click(()=>{
-    if(shoppingCartClosed){
-      orderPanel.animate({'left':0},500);
-      shoppingCart.html('<span class="glyphicon glyphicon-remove"></span>');
-      shoppingCart.css('color','#a80342');
-      shoppingCartClosed = false;
-    }else {
-      orderPanel.animate({'left':-orderPanel.width()+5},500);
-      shoppingCart.html('<span class="glyphicon glyphicon-shopping-cart"></span>');
-      shoppingCart.css('color','#fff');
-      shoppingCartClosed = true;
-    }
 
+  if(winWidth<768){
+    let orderPanelWidth = orderPanel.width();
+    orderPanel.css({'left':-orderPanelWidth, 'display':'inherit'},500);
+    shoppingCart.click(()=>{
+      if(shoppingCartClosed){
+        orderPanel.animate({'left':0},500);
+        shoppingCart.html('<span class="glyphicon glyphicon-remove"></span>');
+        shoppingCart.css('color','#a80342');
+        shoppingCartClosed = false;
+      }else {
+        orderPanel.animate({'left':-orderPanelWidth},500);
+        shoppingCart.html('<span class="glyphicon glyphicon-shopping-cart"></span>');
+        shoppingCart.css('color','#fff');
+        shoppingCartClosed = true;
+      }
+    });
+  }
 
-  });
   orderPanelResize(orderPanel,neededHeight);
-
-if($(window).scrollTop()>250)
-  $('ul.nav>li').click(function() {
-    $('.navbar-collapse.in').removeClass('in');
-  });
 });
 
 jQuery(function($) {
