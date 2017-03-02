@@ -115,11 +115,11 @@ class DivRow extends BaseElement{
 
   createElement(){
     super.createElement();
-
-    for (let field of this.listOfServices){
+    let thees = this;
+    this.listOfServices.forEach(function(field) {
       let divColumn = new DivColumn(field);
-      divColumn.appendToElement(this.element);
-    }
+      divColumn.appendToElement(thees.element);
+    });
   }
 
   getElementString(){
@@ -144,10 +144,11 @@ class ListOfProducts extends BaseElement{
     header.appendToElement(this.element);
     let divRow = new CommonDiv('row');
     divRow.appendToElement(this.element);
-    for (let field of this.listOfServices){
-      let divColumn = new DivColumnProducts(field,this.listOfServices);
+    let thees = this;
+    this.listOfServices.forEach(function(field) {
+      let divColumn = new DivColumnProducts(field,thees.listOfServices);
       divColumn.appendToElement(divRow.element);
-    }
+    });
   }
 
   getElementString(){
@@ -359,7 +360,8 @@ class ServicesItemPopUp extends ConstructedElement{
     let divContForServicesItems = new CommonDiv('divContForServicesItems');
     divContForServicesItems.appendToElement(this.element);
     let count = 0;
-    for (let field of this.serviceItem.servicesList){
+    
+    this.serviceItem.servicesList.forEach(function(field) {
       let divRow = new CommonDiv('row');
       divRow.appendToElement(divContForServicesItems.element);
 
@@ -404,7 +406,7 @@ class ServicesItemPopUp extends ConstructedElement{
       let button = new Button(field,'Выбрать тип мероприятия');
       button.appendToElement(cont2.element);
 
-    }
+    });
   }
 
   getElementString(){

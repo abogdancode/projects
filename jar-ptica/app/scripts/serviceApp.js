@@ -20,7 +20,9 @@ s.appendToElement($('#firstLi'));
 
 
 */
+
 let dataService = new ServicesDataService();
+console.log(dataService);
 dataService.loadData(serviceList);
 dataService.loadData(childrenEvents);
 dataService.loadData(decorElements);
@@ -28,7 +30,6 @@ dataService.loadData(balloonFigures);
 
 
 let data = dataService;
-console.log(data);
 
 let с = new PanelServiseList(data);
 с.appendToElement($('#containerForServiceList'));

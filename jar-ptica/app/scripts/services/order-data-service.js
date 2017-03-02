@@ -20,9 +20,9 @@ class OrderDataService{
 
   countSumm(){
     let summ = 0;
-    for (let item of this.orderedItems){
-      summ+=Number(item.cost);
-    }
+    this.orderedItems.forEach(function(item){
+      summ+=Number(item['cost']);
+      });
     this.summ = summ;
   }
 }

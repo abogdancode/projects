@@ -31,105 +31,106 @@ class ServicesDataService{
   }
 
   loadData(servicesList){
-    for(let data of servicesList){
-      switch(data.type){
+    let thees = this;
+    servicesList.forEach(function(data) {
+      switch(data['type']){
         case 'Детские мероприятия':
-          if (this.validateData(data)){
-            let event = this.loadEvents(data);
+          if (thees.validateData(data)){
+            let event = thees.loadEvents(data);
             if (event)
-              this.childrenEvents.push(event);
+              thees.childrenEvents.push(event);
           } else{
             let e = new DataError('неверные данные детского мероприятия',data);
-            this.errors.push(e);
+            thees.errors.push(e);
           }
 
           break;
 
         case 'пример дня рождения':
-          if (this.validateChildrenEvents(data)){
-            let event = this.loadChildrenEvent(data);
+          if (thees.validateChildrenEvents(data)){
+            let event = thees.loadChildrenEvent(data);
             if (event)
-              this.childrenEvents[0].servicesList.push(event);
+              thees.childrenEvents[0].servicesList.push(event);
           } else{
             let e = new DataError('неверные данные примера дня рождения',data);
-            this.errors.push(e);
+            thees.errors.push(e);
           }
           break;
 
         case 'Свадьбы':
-          if (this.validateData(data)){
-            let event = this.loadEvents(data);
+          if (thees.validateData(data)){
+            let event = thees.loadEvents(data);
             if(event)
-              this.weddings.push(event);
+              thees.weddings.push(event);
             break;
           }else{
             let e = new DataError('неверные данные свадебного мероприятия',data);
-            this.errors.push(e);
+            thees.errors.push(e);
           }
           break;
 
         case 'Шары и оформление':
-          if (this.validateData(data)){
-            let product = this.loadProductData(data);
+          if (thees.validateData(data)){
+            let product = thees.loadProductData(data);
             if(product)
-              this.balloonsAndDecor.push(product);
+              thees.balloonsAndDecor.push(product);
             break;
           }else{
             let e = new DataError('неверные данные шаров и оформлений',data);
-            this.errors.push(e);
+            thees.errors.push(e);
           }
           break;
 
         case 'Цветы':
-          if (this.validateProduct(data)){
-            let product = this.loadProductData(data);
+          if (thees.validateProduct(data)){
+            let product = thees.loadProductData(data);
             if(product)
-              this.balloonsAndDecor[0].productList.push(product);
+              thees.balloonsAndDecor[0].productList.push(product);
             break;
           }else{
             let e = new DataError('неверные данные 111 цветов',data);
-            this.errors.push(e);
+            thees.errors.push(e);
           }
           break;
         case 'Игрушки':
-          if (this.validateProduct(data)){
-            let product = this.loadProductData(data);
+          if (thees.validateProduct(data)){
+            let product = thees.loadProductData(data);
             if(product)
-              this.balloonsAndDecor[0].productList.push(product);
+              thees.balloonsAndDecor[0].productList.push(product);
             break;
           }else{
             let e = new DataError('неверные данные цветов',data);
-            this.errors.push(e);
+            thees.errors.push(e);
           }
           break;
         case 'Стойки':
-          if (this.validateProduct(data)){
-            let product = this.loadProductData(data);
+          if (thees.validateProduct(data)){
+            let product = thees.loadProductData(data);
             if(product)
-              this.balloonsAndDecor[1].productList.push(product);
+              thees.balloonsAndDecor[1].productList.push(product);
             break;
           }else{
             let e = new DataError('неверные данные стоек',data);
-            this.errors.push(e);
+            thees.errors.push(e);
           }
           break;
         case 'Арки':
-          if (this.validateProduct(data)){
-            let product = this.loadProductData(data);
+          if (thees.validateProduct(data)){
+            let product = thees.loadProductData(data);
             if(product)
-              this.balloonsAndDecor[1].productList.push(product);
+              thees.balloonsAndDecor[1].productList.push(product);
             break;
           }else{
             let e = new DataError('неверные данные арок',data);
-            this.errors.push(e);
+            thees.errors.push(e);
           }
           break;
         default:
           let e = new DataError('Введен неверный тип данных',data);
-          this.errors.push(e);
+          thees.errors.push(e);
           break;
       }
-    }
+    });
   }
 
 
@@ -194,39 +195,38 @@ class ServicesDataService{
   }
 
   validateData(data){
-
-    switch(data.type){
+    switch(data['type']){
       case 'Детские мероприятия':
         let requiredProps = 'type name smallImage cost shortDescription detailedDescription photoImg1 photoImg2 photoImg3 table servicesList'.split(' ');
         let hasErrors = false;
-        for (let field of requiredProps){
+        requiredProps.forEach(function(field) {
           if(!data[field] && data[field]!==null){
             this.errors.push(new DataError(`неверное поле ${field}`, data));
             hasErrors=true;
           }
-        }
+        });
         return !hasErrors;
         break;
       case 'Свадьбы':
         let requiredProps1 = 'type name smallImage cost shortDescription detailedDescription photoImg1 photoImg2 photoImg3 table servicesList'.split(' ');
         let hasErrors1 = false;
-        for (let field of requiredProps1){
+        requiredProps1.forEach(function(field) {
           if(!data[field] && data[field]!==null){
             this.errors.push(new DataError(`неверное поле ${field}`, data));
             hasErrors1=true;
           }
-        }
+        });
         return !hasErrors1;
         break;
       case 'Шары и оформление':
         let requiredProps2 = 'type name smallImage cost shortDescription detailedDescription photoImg1 photoImg2 productList'.split(' ');
         let hasErrors2 = false;
-        for (let field of requiredProps2){
+        requiredProps2.forEach(function(field) {
           if(!data[field] && data[field]!==null){
             this.errors.push(new DataError(`неверное поле ${field}`, data));
             hasErrors2=true;
           }
-        }
+        });
         return !hasErrors2;
         break;
     }
@@ -235,24 +235,26 @@ class ServicesDataService{
   validateProduct(data){
     let requiredProps = 'type name smallImage cost shortDescription detailedDescription photoImg1 photoImg2 productList'.split(' ');
     let hasErrors = false;
-    for (let field of requiredProps){
+    let thees = this;
+    requiredProps.forEach(function(field) {
       if(!data[field] && data[field]!==null){
-        this.errors.push(new DataError(`неверное поле ${field}`, data));
+        thees.errors.push(new DataError(`неверное поле ${field}`, data));
         hasErrors=true;
       }
-    }
+    });
     return !hasErrors;
   }
 
   validateChildrenEvents(data){
     let requiredProps = 'type name smallImage cost shortDescription detailedDescription photoImg1 photoImg2 productList'.split(' ');
     let hasErrors = false;
-    for (let field of requiredProps){
+    let thees = this;
+    requiredProps.forEach(function(field) {
       if(!data[field] && data[field]!==null){
-        this.errors.push(new DataError(`неверное поле ${field}`, data));
+        thees.errors.push(new DataError(`неверное поле ${field}`, data));
         hasErrors=true;
       }
-    }
+    });
     return !hasErrors;
   }
 

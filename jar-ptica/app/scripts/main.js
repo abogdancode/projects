@@ -65,6 +65,7 @@ if(winWidth>=768){
 } else{
   wowElements.removeAttr('data-wow-offset');
   wowElements.removeAttr('data-wow-delay');
+  $('*').removeClass('hover');
 }
 
 

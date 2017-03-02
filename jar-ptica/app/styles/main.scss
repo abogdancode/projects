@@ -92,7 +92,7 @@ body{
         transition-duration: 0.3s;
       }
     }
-    li:hover hr{
+    li.hover:hover hr{
       width: 100%;
     }
     .active>hr{
@@ -531,8 +531,9 @@ section.contacts{
   /*END NAVBAR*/
 
   /*HEADER*/
-
-
+  header.home .containerForBtn{
+    margin-top: 200px;
+  }
 
   /*END HEADER*/
 
@@ -596,7 +597,6 @@ section.contacts{
   /*END NAVBAR*/
 
   /*HEADER*/
-
 
 
   /*END HEADER*/
@@ -675,6 +675,11 @@ section.contacts{
 
       .slogan {
         width: 100%;
+        margin-bottom: 25px;
+      }
+
+      a.makeOrder{
+        margin-bottom: 10px;
       }
     }
   }
@@ -740,6 +745,22 @@ section.contacts{
 
 
 @media screen  and (max-width: 991px) {
+  /*NavBar*/
+  .navbar .container a h1{
+    padding-top:0;
+    line-height: 20px;
+  }
+
+  .navbar .container a h1 span.logoBigText{
+    font-size: 35px;
+  }
+  /*END NavBar*/
+
+  /*Services*/
+
+  /*END Services*/
+
+
   /*FOOTER*/
   footer.footer{
 

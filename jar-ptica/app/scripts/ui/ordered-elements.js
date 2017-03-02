@@ -145,7 +145,6 @@ class PopUpOrderedDiv extends BaseElement{
 
   appendToElement(el){
     super.appendToElement(el);
-    console.log(this.element);
     $(this.element).fadeOut(5000,()=>$(this.element).detach());
   }
 

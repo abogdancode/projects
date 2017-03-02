@@ -18,11 +18,11 @@ class ConstructedElement extends BaseElement{
 
 function iterator() {
   let maxHeight = neededHeight-75;
-  for(let elem of $('#extServicesList>div')){
+  $('#extServicesList>div').each(function(i,elem) {
     if(elem.offsetHeight>maxHeight){
       maxHeight=elem.offsetHeight;
     }
-  }
+  });
   return maxHeight;
 }
 

@@ -143,7 +143,6 @@ class Button extends BaseElement{
     super.appendToElement(el);
     this.element.click(() => {
       let item = orderService.addToOrder(this.item);
-      console.log(orderService);
       let innerli = new OrderedListInnerLi(item,'name');
       innerli.appendToElement($('.orderedList'));
   })

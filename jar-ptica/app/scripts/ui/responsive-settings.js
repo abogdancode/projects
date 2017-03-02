@@ -12,6 +12,7 @@ if (screenWidth>=992){
   chequerwise = true
 } else{
   if (screenWidth<992){
+    $('*').removeClass('hover');
     chequerwise = false
   }
 }

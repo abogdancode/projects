@@ -102,7 +102,7 @@ body{
         transition-duration: 0.3s;
       }
     }
-    li:hover hr{
+    li.hover:hover hr{
       width: 100%;
     }
     .active>hr{
@@ -463,6 +463,7 @@ margin-right: 6%;
     margin-left: $orderPanelWidth;
     margin-top: 75px;
     z-index: 200;
+    padding-bottom: 10px;
     top: 0;
     left: 0;
     background: url("../images/navy_blue.png") repeat;
@@ -764,9 +765,10 @@ margin-right: 6%;
           margin-bottom: 10px;
         }
         .btn-close{
-          position: absolute;
+          position: fixed;
           right:15px;
-          top:7px;
+          top:82px;
+          z-index: 200;
           span{
             font-size: 35px!important;
           }
@@ -799,7 +801,14 @@ margin-right: 6%;
 @media screen  and (max-width: 991px) {
 
   /*NavBar*/
+  .navbar .container a h1{
+    padding-top:0;
+    line-height: 20px;
+  }
 
+  .navbar .container a h1 span.logoBigText{
+    font-size: 35px;
+  }
   /*END NavBar*/
   /*ORDERED PANEL*/
   .containerForOrderPanel{
@@ -840,14 +849,14 @@ margin-right: 6%;
 }
 
 
-@media screen  and (min-device-height: 700px) {
+@media screen  and (min-height: 700px) {
   .containerForOrderPanel{
     top: 0;
     transform: translate(0,0);
   }
 }
 
-@media screen  and (max-device-height: 420px) {
+@media screen  and (max-height: 420px) {
   .navbar{
     top: -50px;
     width: calc(100% - 128px);
@@ -896,5 +905,53 @@ margin-right: 6%;
      }
 
   }
+  .containerForProducts, .containerForOneProduct{
+    .contForGeneratedProductItem{
+      margin-top: 0;
+    }
 
+  }
+
+
+  .extServicesList{
+    margin-top: 50px;
+
+     .containerForProducts .contForHeaderProducts .headerProducts{
+      padding-left: 0;
+      width: 100%;
+      font-size: 25px;
+    }
+
+    .containerForOneProduct .contForHeaderProducts {
+      .headerProducts{
+        padding-left: 0;
+        width: 100%;
+        font-size: 25px;
+        margin: 15px 0;
+      }
+      .btn-close{
+        position: absolute;
+        top:7px;
+        right: 68px;
+      }
+    }
+    .contForGeneratedProductItem {
+      .viewport{
+        margin: 0 0 0 50px;
+      }
+      .description{
+         position: absolute;
+         top: 60px;
+         padding-left: 5px;
+         width: 45%;
+       }
+    }
+    .productItemPrice{
+      width: 300px;
+      margin-left: 50px;
+    }
+  }
+  .extServicesList .containerForProducts .contForHeaderProducts .btn-close{
+    top:57px;
+  }
 }
