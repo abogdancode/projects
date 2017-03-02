@@ -17,7 +17,7 @@ class OrderDataService{
     this.orderedItems.splice(index,1);
     this.countSumm();
   }
-
+  
   countSumm(){
     let summ = 0;
     this.orderedItems.forEach(function(item){
@@ -25,4 +25,11 @@ class OrderDataService{
       });
     this.summ = summ;
   }
+
+  
+}
+
+function updateStorage(order){
+  localStorage.clear();
+  localStorage.setItem('order', JSON.stringify(order));
 }

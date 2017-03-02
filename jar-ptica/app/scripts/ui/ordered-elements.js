@@ -101,8 +101,8 @@ class OrderedListInnerLi extends BaseElement{
         if(!$.trim(parentUl.text()))
           parentLi.remove();
       });
-      $('#summCont').empty();
       orderService.deleteFromOrder(this.item);
+      updateStorage(orderService);
       let summ = new SpanForProductPrice(orderService.summ);
       $('#summCont').empty();
       summ.appendToElement($('#summCont'));

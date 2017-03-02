@@ -37,6 +37,17 @@ let list = data.balloonsAndDecor[0];
 
 let orderService = new OrderDataService();
 
+let order = JSON.parse(localStorage.getItem('order'));
 
+order.orderedItems.forEach(function (item) {
+  orderService.addToOrder(item);
+});
+
+orderService.orderedItems.forEach(function (item) {
+  let innerli = new OrderedListInnerLi(item,'name');
+  innerli.appendToElement($('.orderedList'));
+});
+
+console.log(orderService);
 
 

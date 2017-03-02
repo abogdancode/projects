@@ -145,6 +145,7 @@ class Button extends BaseElement{
       let item = orderService.addToOrder(this.item);
       let innerli = new OrderedListInnerLi(item,'name');
       innerli.appendToElement($('.orderedList'));
+      updateStorage(orderService);
   })
   }
 

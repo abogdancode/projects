@@ -51,7 +51,7 @@ body{
 
         span.logoBigText{
           font-size: 40px;
-          background: linear-gradient($primaryColor 20px, $superLightColor);
+          background: -webkit-linear-gradient($primaryColor 20px, $superLightColor);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -65,6 +65,8 @@ body{
   }
 }
 
+
+
 .navbar-default{
   .navbar-collapse.collapse.in{
     background-color: $blackoutSuperDarkColor;
@@ -72,14 +74,26 @@ body{
     transition-duration: .5s;
   }
   .navbar-nav{
+
+    .active{
+      a,a:hover,a:focus{
+        color: $primaryColor;
+        background-color: transparent;
+      }
+    }
+
     li{
       a{
         height: 40px;
         font-size: 20px;
         color: $primaryColor;
-        background: linear-gradient( $primaryColor 10px,$superLightColor);
+        background: -webkit-linear-gradient( $primaryColor 10px,$superLightColor);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+      }
+
+      a:hover, a:focus{
+        color: $primaryColor;
       }
 
       hr{
