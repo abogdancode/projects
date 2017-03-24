@@ -1,0 +1,63 @@
+.disease{
+  position: relative;
+}
+.navigation{
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 40px;
+  @include responiveFontSize(12px, 18px, 320px, 1920px, 14px);
+}
+
+.navigation__link-container{
+  float: left;
+  color: $fontMediumDimColor;
+  padding-left: 3px;
+}
+
+.navigation__link{
+  color: $fontSuperDimColor;
+
+}
+
+.disease__hint{
+  text-align: center;
+  @include responiveFontSize(16px, 24px, 320px, 1920px, 14px);
+  color: $fontMediumDimColor;
+}
+
+.organ-select{
+  position: relative;
+  width: 770px;
+  height: 710px;
+  left: 45%;
+
+  transform: translate(-50%,0);
+
+  background: url("../../images/disease/disease-mans.jpg") ;
+  background-size: 100% 100%;
+}
+
+.organ-select__organ{
+  position: absolute;
+  cursor: pointer;
+  transition-property: opacity;
+  transition-duration: .5s;
+}
+
+.organ-select__abdomen{
+  left: 64.4%;
+  top: 27.5%;
+  width: 14.7%;
+  height: 18%;
+  opacity: 0;
+
+}
+
+.organ-select__abdomen:hover,.organ-select__abdomen:active,.organ-select__abdomen:focus{
+  opacity: 0.5;
+  border: none;
+  border-image-width: 0;
+  outline-color: transparent;
+
+}
+

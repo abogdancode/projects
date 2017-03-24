@@ -1,0 +1,75 @@
+.definition__header_colored{
+  height: 55px;
+  padding-top: 10px;
+  padding-left: 70px;
+  font-weight: 300;
+  font-size: 30px;
+  background: $diseaseDefinitionColor;
+  color: $superLight;
+}
+
+.definition-row{
+  height: 570px;
+}
+
+.definition-column-img{
+  position: relative;
+  height: 100%;
+}
+
+.definition__image{
+  display: block;
+  position: relative;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  max-height: 400px;
+}
+
+.definition-column-description{
+  height: 100%;
+}
+.definition-column-cell{
+  width: 450px;
+  height: 400px;
+  position: relative;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  padding: 70px;
+}
+
+.definition__header_big:first-letter{
+  text-transform: uppercase;
+}
+
+.angle{
+  position: absolute;
+  width: 85px;
+  height: 85px;
+}
+
+.angle_top_left{
+  border-left: 7px solid $diseaseDefinitionAngleColor;
+  border-top: 7px solid $diseaseDefinitionAngleColor;
+  left: 0;
+  top: 0;
+}
+.angle_top_right{
+  border-right: 7px solid $diseaseDefinitionAngleColor;
+  border-top: 7px solid $diseaseDefinitionAngleColor;
+  right: 0;
+  top:0;
+}
+.angle_bot_left{
+  border-left: 7px solid $diseaseDefinitionAngleColor;
+  border-bottom: 7px solid $diseaseDefinitionAngleColor;
+  left: 0;
+  bottom: 0;
+}
+.angle_bot_right{
+  border-right: 7px solid $diseaseDefinitionAngleColor;
+  border-bottom: 7px solid $diseaseDefinitionAngleColor;
+  right: 0;
+  bottom:0;
+}

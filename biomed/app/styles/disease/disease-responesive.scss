@@ -1,0 +1,49 @@
+
+
+
+@media(min-width:1500px){
+  .organs-list-container{
+    width: 400px;
+    right: 10%;
+  }
+
+}
+
+
+@media(max-width:1199px){
+  .organs-list-container {
+    right: 50%;
+    transform: translate(50%, 0);
+  }
+}
+@media(max-width:991px){
+
+  .definition-row{
+    margin: 0;
+  }
+
+  .definition-column-cell{
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+@media(max-width:767px){
+  .organs-list-container{
+    width: 300px;
+  }
+  .organ-select{
+    width: 320px;
+    height: 350px;
+    left: 50%;
+  }
+  .definition-row{
+    height: 350px;
+  }
+
+  .definition-column-cell{
+    height: 100%;
+    padding: 20px;
+  }
+
+}

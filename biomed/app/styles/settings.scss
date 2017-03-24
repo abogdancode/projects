@@ -1,0 +1,82 @@
+
+$fontSuperDimColor:#c0c0c0;
+$fontMediumDimColor:#676e75;
+
+ /* Colors in terms of brightness*/
+
+ $superLight: #fff;
+ $headerColor1: #c0e3f4;
+ $headerColor2: #6699cc;
+ $headerColor3: #148abb;
+ $headerColor4: #0d6589;
+ $headerColor5: #336799;
+
+ $headerColorForSocial: #c0d5ea;
+ $headerColorForVerticalLine: #5caed0;
+
+ $headerLighterColor1: rgba(255,255,255,.25);
+ $headerLighterColor2: rgba(255,255,255,.53);
+
+ $additionalHeaderColorBright: #4fa7cc;
+ $additionalHeaderColorMediumBright: #4a8ca7;
+
+$headerFixedRight1: #9ac81e;
+$headerFixedRight2: #0ad7db;
+$headerFixedRight3: #db7d0a;
+$headerFixedRight4: #92c4f4;
+
+ $headerBannerBgColor: #f3f2ee;
+ $headerBannerTextColor: #1273b8;
+
+
+
+$diseaseBrightFontColor: #82b1e7;
+$diseaseDefinitionColor: #50b2cb;
+
+$diseaseDefinitionAngleColor: #aaccde;
+
+
+$headerNavPaddingULg:45px;
+$headerNavPaddingLg:30px;
+$headerNavPaddingMd:25px;
+$headerNavPaddingSm:10px;
+
+
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
+}
+
+@function calcFluidFontSize($f-min, $f-max, $w-min, $w-max, $units: px) {
+  $f-min: strip-unit($f-min);
+  $f-max: strip-unit($f-max);
+  $w-min: strip-unit($w-min);
+  $w-max: strip-unit($w-max);
+
+  $k: ($f-max - $f-min)/($w-max - $w-min);
+  $b: $f-min - $k * $w-min;
+
+  $b: $b + $units;
+
+  @return calc( #{$k} * 100vw + #{$b} );
+}
+
+
+@mixin responiveFontSize($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+
+  font-size: $f-min;
+
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      font-size: $fallback;
+    }
+    font-size: calcFluidFontSize($f-min, $f-max, $w-min, $w-max, px);
+  }
+  @media (min-width: $w-max) {
+    font-size: $f-max;
+  }
+}
+

@@ -1,0 +1,18 @@
+@import "../fonts/roboto/roboto.css";
+@import "../fonts/azoft/azoft.css";
+@import "./settings.scss";
+
+/*header-main*/
+    @import "header-main/header-main.scss";
+    @import "header-main/header-main_responsive.scss";
+
+/*disease*/
+    @import "disease/disease.scss";
+
+/*organs-list-container*/
+    @import "disease/organs-list-container.scss";
+/*definition*/
+    @import "disease/definition";
+
+/*disease organs-list-container definition  -responsive*/
+@import "disease/disease-responesive.scss";

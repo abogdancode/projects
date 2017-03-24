@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Azoft Sans';
+    src: local('Azoft Sans'), local('AzoftSans'), url('azoftsans.woff2') format('woff2'), url('azoftsans.woff') format('woff'), url('azoftsans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Azoft Sans';
+    src: local('Azoft Sans Italic'), local('AzoftSans-Italic'), url('azoftsansitalic.woff2') format('woff2'), url('azoftsansitalic.woff') format('woff'), url('azoftsansitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Azoft Sans';
+    src: local('Azoft Sans Bold'), local('AzoftSans-Bold'), url('azoftsansbold.woff2') format('woff2'), url('azoftsansbold.woff') format('woff'), url('azoftsansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Azoft Sans';
+    src: local('Azoft Sans Bold Italic'), local('AzoftSans-BoldItalic'), url('azoftsansbolditalic.woff2') format('woff2'), url('azoftsansbolditalic.woff') format('woff'), url('azoftsansbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}

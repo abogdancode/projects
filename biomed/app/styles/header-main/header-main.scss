@@ -1,0 +1,439 @@
+
+
+.header-main{
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+.top-hat-container{
+  margin-right: 0;
+}
+/*-----------------------------------------Top Head container (left part)---------------------------------------------*/
+.med-news-container {
+  height: 32px;
+  position: relative;
+  max-width: 251px;
+  transition-property: box-shadow;
+  transition-duration: .3s;
+}
+.med-portal-link.hover:hover .med-news-container{
+  box-shadow: 0 0 50px 1px $headerColor3;
+}
+  .news-item-container{
+    height: 100%;
+  }
+
+  .news-item-container_left{
+    background: $headerColor1;
+    width: 38%;
+  }
+
+  .news-item-container_center{
+    background: $headerColor3;
+    width: 41%;
+  }
+
+  .news-item-container_right{
+    background: $headerColor4;
+    width: 21%;
+    border-left: 1px solid $headerColorForVerticalLine;
+  }
+
+  .news-item-container__lighter{
+    position: absolute;
+    top:0;
+    height: 18px;
+    z-index: 1;
+  }
+  .news-item-container__lighter_left{
+    background: $headerLighterColor1;
+    left: 0;
+    width: 38%;
+  }
+  .news-item-container__lighter_center{
+    background: $headerLighterColor2;
+    left: 38%;
+    width: 41%;
+  }
+  .news-item-container__lighter_right{
+    background: $headerLighterColor2;
+    left: 79%;
+    width:21%;
+  }
+
+  .news-item-container__h4{
+    position: relative;
+    margin: 3px 0 0 0;
+    @include responiveFontSize(16px, 25px, 320px, 1920px, 22px);
+    padding-left: 20%;
+    z-index: 2;
+  }
+
+  .news-item-container__h4_colored{
+    color: $headerColor3;
+  }
+  .news-item-container__h4_light-coloured{
+    color: $superLight;
+  }
+
+.med-portal-container__title{
+  max-width: 251px;
+  margin-top: 5px;
+  margin-right: 0;
+  letter-spacing: 6px;
+  @include responiveFontSize(9px, 15px, 320px, 1920px, 11px);
+  text-align: center;
+}
+/*--------------------------------------END Top Head container (left part)--------------------------------------------*/
+
+/*-----------------------------------------Top Head container (center part)-------------------------------------------*/
+
+.town-select {
+  display: table;
+  height: 32px;
+}
+
+  .table-cell{
+    display: table-cell;
+  }
+  .table-cell_centered{
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .town-select-items{
+    display: inline-block;
+  }
+
+  .town-select-items__marker{
+    margin: 2px 10px 0 0;
+    color: $fontSuperDimColor;
+  }
+  .town-select-items__hint{
+    margin: 2px 32px 0 0;
+    @include responiveFontSize(12px, 18px, 320px, 1920px, 12px);
+    color: $fontMediumDimColor;
+
+  }
+
+
+  .btn_super-simple{
+    background: transparent;
+    padding: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 0;
+  }
+
+    .select-town-group__btn{
+    border-bottom: 1px solid $headerColor5;
+    color: $headerColor5;
+    line-height: 15px;
+    @include responiveFontSize(12px, 18px, 320px, 1920px, 14px);
+  }
+
+  .select-town-group__dropdown-menu{
+    min-width: 140px;
+  }
+  .dropdown-menu__link{
+    padding: 5px;
+  }
+
+/*--------------------------------------END Top Head container (center part)------------------------------------------*/
+
+/*-----------------------------------------Top Head container (right part)-------------------------------------------*/
+.social-networks{
+  padding-right: 0;
+}
+
+.social-items-container{
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+}
+  .social-items-container__social-item{
+    max-width: 30px;
+    padding: 0;
+    margin: 0 3px;
+    float: right;
+  }
+.social-items-container div:first-child{
+    margin-right: 0;
+  }
+
+
+
+.social-items-container__social-item>a{
+    position: relative;
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-color: $headerColorForSocial;
+    color:$superLight;
+    transition-property: background;
+    transition-duration: .5s;
+  }
+
+.social-items-container__social-item>a.hover:hover{
+    background-color: $headerColor4;
+  }
+.social-items-container__social-item>a>i{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+  }
+
+
+/*---------------------------------------END Top Head container (right part)-----------------------------------------*/
+
+
+/*-----------------------------------------Search container (right part)---------------------------------------------*/
+
+.search-container {
+  height: 38px;
+  background: $headerColor2;
+}
+  .search-group-container{
+    height: 100%;
+  }
+  .search-group{
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    max-width: 550px;
+    height: 23px;
+  }
+  .search-group__search-input,.search-group__search-btn{
+    height: 23px;
+    border: none;
+    border-radius: 15px!important;
+  }
+
+  .search-group__search-input{
+    padding-right: 75px;
+  }
+
+  .input-group-btn{
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    right: 4px;
+    top:2px;
+    z-index: 4;
+  }
+
+  .search-group__search-btn{
+    display: block;
+    background: $headerColor5;
+    border: none;
+    height: 19px;
+    padding: 0 10px;
+    @include responiveFontSize(11px, 13px, 320px, 1920px, 11px);
+    color: $superLight;
+    transition-property: background,color;
+    transition-duration: .5s;
+  }
+
+  .search-group__search-btn.hover:hover{
+    color: $headerColor5;
+    background: $headerColor1;
+  }
+
+  .search-group__search-btn.hover:focus{
+    outline-color: transparent;
+    background: $headerColor5;
+  }
+
+
+/*-----------------------------------------END Search container (right part)-----------------------------------------*/
+
+/*-------------------------------------------------Navbar------------------------------------------------------------*/
+.navbar {
+  height: 40px;
+  border: none;
+  border-radius: 0;
+  background: $headerColor5;
+}
+  .navbar-container{
+    margin-left: 5px;
+    margin-right: 10%;
+  }
+
+  .navbar-default .navbar-brand{
+    padding-top: 7px;
+    color:$superLight;
+    transition-property: color;
+    transition-duration: .5s;
+  }
+
+  .navbar-brand.hover:hover{
+    color:$headerColor1;
+  }
+
+  .navbar-right{
+    max-width: 90%;
+  }
+
+  .navbar-default .navbar-nav>li{
+    text-align: center;
+  }
+  .navbar-default .navbar-nav>li>a{
+    padding-left: $headerNavPaddingLg;
+    padding-right: $headerNavPaddingLg;
+    width: 100%;
+    color:$superLight;
+    transition-property: color;
+    transition-duration: .5s;
+    @include responiveFontSize(11px, 18px, 320px, 1920px, 11px);
+  }
+  .navbar-default .navbar-nav>li>a.hover:hover,.navbar-default .navbar-nav>li>a:focus{
+    color:$headerColor1;
+  }
+
+  hr{
+    width: 0;
+    margin-top: -15px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $headerColor1, rgba(0, 0, 0, 0));
+    transition-property: width;
+    transition-duration: 0.5s;
+  }
+.navbar-default .navbar-nav>li.hover:hover hr, .navbar-default .navbar-nav>li:focus hr,.navbar-default .navbar-nav>.active>hr{
+     width: 100%;
+   }
+.navbar-collapse.in, .navbar-collapse.collapsing{
+  position: relative;
+  z-index: 5;
+  background:$headerColor5;
+}
+
+.navbar-collapse.collapsing ul,.navbar-collapse.in ul {
+  width: 100%;
+  text-align: center;
+}
+/*-------------------------------------------------END Navbar--------------------------------------------------------*/
+
+/*-----------------------------------------------------Right fixed block---------------------------------------------*/
+
+.right-fixed{
+  position: fixed;
+  right: 0;
+  top:10px;
+  z-index: 10;
+}
+.right-fixed__item{
+  position: relative;
+  display: block;
+  width: 55px;
+  height: 55px;
+  color: $superLight;
+  transition-property: height, margin;
+  transition-duration: .3s;
+}
+
+.right-fixed__item.hover:hover{
+  color: $superLight;
+  height: 65px;
+  margin-top: -10px;
+  box-shadow: 1px -1px  10px -2px #000000;
+}
+
+
+.right-fixed__fa{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+
+.right-fixed__item_envelop{background: $headerFixedRight1}
+.right-fixed__item_user{background: $headerFixedRight2}
+.right-fixed__item_clock{background: $headerFixedRight3}
+.right-fixed__item_search{background: $headerFixedRight4}
+
+
+/*-------------------------------------------------END Right fixed block---------------------------------------------*/
+
+
+/*-------------------------------------------------Baner-------------------------------------------------------------*/
+
+.banner{
+  background: $headerBannerBgColor;
+  font-family: "Azoft Sans";
+  color: $headerBannerTextColor;
+}
+.banner-container{
+  width: 100%;
+  height: 164px;
+}
+
+.banner-container__col{
+  height: 164px;
+  float: left;
+}
+
+.banner-image-container{
+  width: 35%;
+}
+.banner-logo-container{
+ position: relative;
+  width: 25%;
+}
+
+.banner-logo-container__logo-header{
+  text-transform: uppercase;
+  margin: 0;
+  @include responiveFontSize(30px, 55px, 320px, 1920px, 49px);
+}
+.banner-logo-container__logo-description{
+  padding-left: 3px;
+  margin: 0;
+  @include responiveFontSize(10px, 15px, 320px, 1920px, 14px);
+}
+
+
+.banner-logo-container__logo-img{
+  position: absolute;
+  left: -8px;
+  top:50%;
+  transform: translate(0,-50%);
+}
+.logo-text{
+  position: absolute;
+  left: 48px;
+  top:52%;
+  transform: translate(0,-50%);
+  width: 75%;
+  border-right: 1px solid $headerBannerTextColor;
+}
+
+.banner-container__best-offer-container{
+  position: relative;
+  width: 40%;
+}
+
+.best-offer-header{
+  position: absolute;
+  display: block;
+  margin: 0;
+  top:50%;
+  transform: translate(0,-50%);
+  @include responiveFontSize(30px, 45px, 320px, 1920px, 36px);
+  text-transform: uppercase;
+}
+
+.best-offer-header__cost{
+  @include responiveFontSize(15px, 40px, 320px, 1920px, 35px);
+}
+
+.best-offer-header__valuta{
+  @include responiveFontSize(14px, 22px, 320px, 1920px, 35px);
+  text-transform: none;
+}
+/*-------------------------------------------------END Baner---------------------------------------------------------*/

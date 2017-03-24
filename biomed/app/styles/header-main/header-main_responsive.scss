@@ -1,0 +1,227 @@
+
+
+@media(min-width:1500px){
+
+  .med-news-container{
+    max-width: 100%;
+
+  }
+  .med-portal-container__title{
+    max-width: 100%;
+  }
+
+  .town-select-items__hint {
+    margin-top: 0;
+  }
+
+  .navbar-default .navbar-nav>li>a{
+    padding-left: $headerNavPaddingULg;
+    padding-right: $headerNavPaddingULg;
+  }
+}
+
+
+@media(max-width:1199px){
+  .navbar{
+    .navbar-container{
+      margin-right: 5%;
+    }
+
+  }
+  .navbar-default .navbar-nav>li>a{
+    padding-left: $headerNavPaddingMd;
+    padding-right: $headerNavPaddingMd;
+  }
+
+/*  .banner-logo-container__logo-header{
+    font-size: $headerBanerLogoHSizeMd;
+  }
+  .banner-logo-container__logo-description{
+    font-size: $headerBanerLogoDescriptionSizeMd;
+  }
+  .banner-image-container{
+    width: 40%;
+  }*/
+
+  .banner-logo-container{
+    width: 30%;
+  }
+
+  .banner-container__best-offer-container{
+    width: 30%;
+  }
+
+
+/*  .best-offer-header{
+    font-size: $headerBanerBestOfferHSizeMd;
+  }
+  .best-offer-header__cost{
+    font-size: $headerBanerCostSizeMd;
+  }
+  .best-offer-header__valuta{
+    font-size: $headerBanerValutaSizeMd;
+  }*/
+  .braces{
+    display: block;
+  }
+
+}
+@media(max-width:991px){
+
+  .town-select-items__hint {
+    margin-right: 5px;
+  }
+
+    .social-items-container__social-item{
+      margin-bottom: 6px;
+    }
+  .social-items-container div:nth-child(4){
+      clear: both;
+      margin-right: 0;
+  }
+
+  .navbar .navbar-container{
+      margin-right: 0;
+  }
+
+  .navbar-default .navbar-nav>li>a{
+    padding-left: $headerNavPaddingSm;
+    padding-right: $headerNavPaddingSm;
+  }
+
+  .banner-container{
+    height: 120px;
+  }
+  .banner-container__col{
+    height: 120px;
+  }
+
+  .banner-image-container{
+    position: relative;
+  }
+  .banner-image-container__face-logo-img{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+  }
+
+
+/*  .banner-logo-container__logo-header{
+    font-size: $headerBanerLogoHSizeSm;
+  }
+  .banner-logo-container__logo-description{
+    font-size: $headerBanerLogoDescriptionSizeSm;
+  }*/
+  .banner-image-container{
+    width: 35%;
+  }
+
+  .banner-logo-container{
+    width: 35%;
+  }
+
+  .banner-container__best-offer-container{
+    width: 30%;
+  }
+
+
+/*
+  .best-offer-header{
+    font-size: $headerBanerBestOfferHSizeSm;
+  }
+  .best-offer-header__cost{
+    font-size: $headerBanerCostSizeSm;
+  }
+  .best-offer-header__valuta{
+    font-size: $headerBanerValutaSizeSm;
+  }*/
+}
+
+@media(max-width:767px){
+  .header-main{
+    margin-right: 0;
+  }
+  .med-news-container{
+    margin: auto;
+  }
+  .med-portal-container__title{
+    margin: auto;
+  }
+  .social-items-container{
+    display: none;
+  }
+  .search-group{
+    width: 80%;
+  }
+  .navbar-container{
+    margin: 0;
+  }
+  .navbar-collapse.collapsing ul, .navbar-collapse.in ul{
+    width: auto;
+    max-width: none;
+  }
+  .navbar-default .navbar-nav > li{
+    float: none;
+  }
+  .navbar-default .navbar-nav > li > a{
+    font-size: 16px;
+  }
+
+  .right-fixed{
+    top:180px;
+  }
+  .right-fixed__item{
+    background: transparent;
+  }
+
+  .right-fixed__item_envelop{color: $headerFixedRight1}
+  .right-fixed__item_user{color: $headerFixedRight2}
+  .right-fixed__item_clock{color: $headerFixedRight3}
+  .right-fixed__item_search{color: $headerFixedRight4}
+  .right-fixed__item:hover{color:$superLight}
+  .right-fixed__item_envelop:hover{background: $headerFixedRight1}
+  .right-fixed__item_user:hover{background: $headerFixedRight2}
+  .right-fixed__item_clock:hover{background: $headerFixedRight3}
+  .right-fixed__item_search:hover{background: $headerFixedRight4}
+
+  .banner-container{
+    height: 360px;
+  }
+  .banner-image-container{
+    display: none;
+  }
+  .banner-logo-container,  .banner-container__best-offer-container {
+    width: 100%;
+  }
+
+  .banner-logo-container__logo-img{
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .logo-text{
+    border: none;
+    width: auto;
+    left: 50%;
+    top:100%;
+    transform: translate(-50%,0);
+  }
+  .banner-logo-container__logo-header{
+    font-size: 60px;
+  }
+  .banner-logo-container__logo-description{
+    font-size: 17px;
+    padding-left: 5px;
+  }
+  .best-offer-header{
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,0);
+    font-size: 40px;
+  }
+  .braces{
+   padding-left: 3px;
+  }
+  ul.navigation{
+    font-size: 16px;
+  }
+}
