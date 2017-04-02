@@ -43,5 +43,10 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "es6-module-loader": "^0.17.11",
+    "traceur": "0.0.111"
   }
 }
