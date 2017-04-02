@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href=css/main.min.css>
+    <link rel="stylesheet" href=css/birth.min.css>
+</head>
+
+<body>
+    <div class="fixed-link">
+        <a href="#" class="fixed-link__element messages">
+            <i class="fa fa-envelope-o"></i>
+            <div class="fixed-link__msgcount">0</div>
+        </a>
+        <a href="#" class="fixed-link__element cabinet">
+            <i class="fa fa-user-circle-o"></i>
+        </a>
+        <a href="#" class="fixed-link__element time">
+            <i class="fa fa-clock-o"></i>
+        </a>
+        <a href="#" class="fixed-link__element search">
+            <i class="fa fa-search"></i>
+        </a>
+    </div>
+  <header class="header">
+    <div class="header-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="" class="header-container__logo"></a>
+                </div>
+                <div class="col-md-5">
+                    <form action="" class="header-container__selectform">
+                        <div class="form-group">
+                            <span class="header-container__selecttext">
+								<i class="fa fa-map-marker"></i>
+								Выберите город и регион
+							</span>
+                            <span class="header-container__selectcity dropdown-selectwrap">
+								<a href="#" class="header-container__dropdownbtn dropdown-btn dropdown-toggle"  id="city_select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									<span class="dropdown-select-text"></span>
+                            <span class="caret"></span>
+                            </a>
+                            <ul class="header-container__dropdownmenu dropdown-ul dropdown-menu" aria-labelledby="city_select">
+                                <li><a href="#">Санкт - Петербург</a></li>
+                                <li><a href="#">Москва</a></li>
+                            </ul>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <div class="header-container__social pull-right">
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-vk"></i>
+                        </a>
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-odnoklassniki"></i>
+                        </a>
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <nav class="top-nav">
+		<div class="top-nav__search">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<form action="" class="top-nav__searchform">
+							<div class="form-group">
+								<input class="top-nav__searchinput" type="text" placeholder="я ищу...">
+								<button class="top-nav__searchbutton">найти <i class="fa fa-search"></i></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top-nav__menu">
+			<div class="container-fluid">
+				<div class="row">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<i class="fa fa-align-justify"></i>
+					</button>
+					<ul id="navbar" class="top-nav__ul collapse navbar-collapse">
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">
+								<span class="icon icon-home-nav"></span>
+							</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Новости</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Статьи</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Клиника</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Контакты</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Разделы медицины</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Вопрос-ответ</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+
+
+<main class="main" role="main">
+    <section class="breadcrumbs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="breadcrumbs__section">Главная</span>
+                    <span class="breadcrumbs__divider">></span>
+                    <span class="breadcrumbs__section">Страница</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="birth">
+        <div class="birth__container clearfix">
+            <nav class="birth__content col-sm-9 col-sm-offset-3">
+                <ul>
+                    <li><a href="#preparation" class="birth__list-item  birth__list-item-1">Подготовка <br>к рождению ребенка</a></li>
+                    <li><a href="#postpartum" class="birth__list-item  birth__list-item-2">Послеродовой <br>период</a></li>
+                    <li><a href="#note" class="birth__list-item  birth__list-item-3">На заметку</a></li>
+                    <li><a href="#obstructed-labor" class="birth__list-item  birth__list-item-4">Осложненные роды</a></li>
+                    <li><a href="#breast-feeding" class="birth__list-item  birth__list-item-5">Грудное <br>вскармливание</a></li>
+                    <li><a href="#caesarian" class="birth__list-item  birth__list-item-6">Кесарево сечение</a></li>
+                    <li><a href="#delivery-beginning" class="birth__list-item  birth__list-item-7">Начало родов</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section id="preparation" class="preparation">
+        <div class="preparation__title">
+            <h2>Подготовка к рождению ребенка</h2>
+        </div>
+        <div class="preparation__content">
+            <div class="preparation__container">
+                <div class="clearfix">
+                    <div class="preparation__block-content col-sm-8 col-sm-offset-4">
+                        <p>Несмотря на свою естественность, роды — достаточно сложный и ответственный процесс. Для того, чтобы он прошел максимально безопасно для мамы и ребенка, каждой женщине необходимо знать как правильно подготовиться к родам.</p>
+                        <ul class="preparation__list">
+                            <li><a href="#!">Все, что нужно знать о заборе и хранении пуповинной крови</a></li>
+                            <li><a href="#!">Как узнать предполагаемую дату родов?</a></li>
+                            <li><a href="#!">Что взять с собой в роддом?</a></li>
+                            <li><a href="#!">Принадлежности, необходимые для кормления грудью</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="preparation__link">
+                    <a href="#!" class="link-arrow  link-arrow--blue">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="delivery-beginning" class="delivery-beginning">
+        <div class="delivery-beginning__title">
+            <h2>Начало родов</h2>
+        </div>
+        <div class="delivery-beginning__content">
+            <div class="delivery-beginning__container">
+                <div class="clearfix">
+                    <ul class="delivery-beginning__list col-sm-8 col-sm-offset-3 col-md-6 col-md-offset-0 col-lg-5 col-lg-offset-1">
+                        <li><a href="#!" class="delivery-beginning__list-item">
+                            <h3>Дыхание при родах:</h3>
+                            <p>как правильно дышать при схватках и потугах</p>
+                        </a></li>
+                        <li>
+                            <a href="#!" class="delivery-beginning__list-item">
+                                <h3>Стимуляция родов:</h3>
+                                <p>естественная и медикаментозная</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="delivery-beginning__list-item">
+                                <h3>Схватки перед родами:</h3>
+                                <p>как понять, что они начались</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="delivery-beginning__list-item">
+                                <h3>Как отходят воды <br>перед родами</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="delivery-beginning__list-item">
+                                <h3>Как проходят роды:</h3>
+                                <p>три основных этапа</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="delivery-beginning__link col-lg-6">
+                    <a href="#!" class="link-arrow  link-arrow--orange">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="obstructed-labor" class="obstructed-labor">
+        <div class="obstructed-labor__title">
+            <h2>Осложненные роды</h2>
+        </div>
+        <div class="labor-slider slider">
+            <div class="labor-slider__item">
+                <img src="https://mave.me/img/projects/full_placeholder.png" alt="item-1" class="labor-slider__img" width="100%" height="60%">
+                <div class="labor-slider__content col-md-5 col-md-offset-7">
+                    <a href="#!">
+                        <h3>Слабость  родовой  деятельности:</h3>
+                        <p>причины и лечение</p>
+                    </a>
+                </div>
+            </div>
+            <div class="labor-slider__item">
+                <img src="https://mave.me/img/projects/full_placeholder.png" alt="item-1" class="labor-slider__img" width="100%" height="60%">
+                <div class="labor-slider__content col-md-5 col-md-offset-7">
+                    <a href="#!">
+                        <h3>Слабость  родовой  деятельности:</h3>
+                        <p>причины и лечение</p>
+                    </a>
+                </div>
+            </div>
+            <div class="labor-slider__item">
+                <img src="https://mave.me/img/projects/full_placeholder.png" alt="item-1" class="labor-slider__img" width="100%" height="60%">
+                <div class="labor-slider__content col-md-5 col-md-offset-7">
+                    <a href="#!">
+                        <h3>Слабость  родовой  деятельности:</h3>
+                        <p>причины и лечение</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="caesarian" class="caesarian">
+        <div class="caesarian__title">
+            <h2>Кесарево сечение</h2>
+        </div>
+        <div class="caesarian__content">
+            <div class="caesarian__container">
+                <div class="caesarian__items clearfix">
+                    <div class="caesarian__item caesarian__item-1 clearfix">
+                        <div class="caesarian__img-wrap col-sm-6 col-md-5 col-lg-4">
+                            <img src="http://placehold.it/273x273" alt="item" class="caesarian__img">
+                        </div>
+                        <div class="caesarian__text-content col-sm-6 col-md-7 col-lg-8">
+                            <a href="#!">Несостоятельность маточного рубца после кесарева сечения</a>
+                        </div>
+                    </div>
+                    <div class="caesarian__item caesarian__item-2 clearfix">
+                        <div class="caesarian__img-wrap col-sm-6  col-sm-push-6 col-md-5 col-md-push-7 col-lg-4 col-lg-push-8">
+                            <img src="http://placehold.it/273x273" alt="item" class="caesarian__img">
+                        </div>
+                        <div class="caesarian__text-content caesarian__text-content-l col-sm-6 col-sm-pull-6 col-md-7 col-md-pull-5 col-lg-8 col-lg-pull-4">
+                            <a href="#!">Естественные роды после кесарева сечения</a>
+                        </div>
+                    </div>
+                    <div class="caesarian__item caesarian__item-3 clearfix">
+                        <div class="caesarian__img-wrap col-sm-6 col-md-5 col-lg-4">
+                            <img src="http://placehold.it/273x273" alt="item" class="caesarian__img">
+                        </div>
+                        <div class="caesarian__text-content col-sm-6 col-md-7 col-lg-8">
+                            <a href="#!">Второе кесарево сечение: что важно знать</a>
+                        </div>
+                    </div>
+                    <div class="caesarian__item caesarian__item-4 clearfix">
+                        <div class="caesarian__img-wrap col-sm-6 col-sm-push-6 col-md-5 col-md-push-7 col-lg-4 col-lg-push-8">
+                            <img src="http://placehold.it/273x273" alt="item" class="caesarian__img">
+                        </div>
+                        <div class="caesarian__text-content caesarian__text-content-l col-sm-6 col-sm-pull-6 col-md-7 col-md-pull-5 col-lg-8 col-lg-pull-4">
+                            <a href="#!">Беременность и роды после кесарева сечения</a>
+                        </div>
+                    </div>
+                    <div class="caesarian__item caesarian__item-5 clearfix">
+                        <div class="caesarian__img-wrap col-sm-6 col-md-5 col-lg-4">
+                            <img src="http://placehold.it/273x273" alt="item" class="caesarian__img">
+                        </div>
+                        <div class="caesarian__text-content col-sm-6 col-md-7 col-lg-8">
+                            <a href="#!">Экстренное кесарево сечение: показания и последствия</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="caesarian__link">
+                    <a href="#!" class="link-arrow  link-arrow--blue">Подробнее</a>
+                </div>
+            </div>
+            <div class="promo-banner clearfix">
+                <div class="promo-banner__item-1  promo-banner__item">
+                    <img class="promo-banner__img" src="img/promo-banner-3.png" alt="banner-3">
+                </div>
+                <div class="promo-banner__item-2  promo-banner__item">
+                    <img class="promo-banner__img" src="img/promo-banner-4.png" alt="banner-4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="breast-feeding" class="breast-feeding">
+        <div class="breast-feeding__title">
+            <h2>Грудное вскармливание</h2>
+        </div>
+        <div class="breast-feeding__content">
+            <div class="breast-feeding__container clearfix">
+                <div class="breast-feeding__text-content col-sm-6 col-sm-offset-6 col-lg-5 col-lg-offset-7">
+                    <ul class="breast-feeding__list">
+                        <li><a href="#!">Грудное вскармливание недоношенных детей</a></li>
+                        <li><a href="#!">Лучшие позы для кормления новорожденных</a></li>
+                        <li><a href="#!">Основные правила кормления новорожденных грудным молоком</a></li>
+                    </ul>
+                    <div class="clearfix">
+												<div class="breast-feeding__link">
+														<a href="#!" class="link-arrow  link-arrow--blue">Подробнее</a>
+												</div>
+										</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="postpartum" class="postpartum">
+        <div class="postpartum__title">
+            <h2>Послеродовый период</h2>
+        </div>
+        <div class="postpartum__content">
+            <div class="postpartum__items clearfix">
+                <a href="#" class="postpartum__item postpartum__item-1 col-md-4">
+                    <div class="postpartum__img-wrap">
+                        <img src="http://placehold.it/276x248" alt="item" class="postpartum__img">
+                    </div>
+                    <h3>Плоский живот на раз-два-три</h3>
+                </a>
+                <a href="#" class="postpartum__item postpartum__item-2 col-md-4">
+                    <div class="postpartum__img-wrap">
+                        <img src="http://placehold.it/276x248" alt="item" class="postpartum__img">
+                    </div>
+                    <h3>Послеродовые растяжки</h3>
+                </a>
+                <a href="#" class="postpartum__item postpartum__item-3 col-md-4">
+                    <div class="postpartum__img-wrap">
+                        <img src="http://placehold.it/276x248" alt="item" class="postpartum__img">
+                    </div>
+                    <h3>Деликатная тема</h3>
+                </a>
+            </div>
+            <div class="postpartum__link">
+                <a href="#!" class="link-arrow  link-arrow--blue">Подробнее</a>
+            </div>
+        </div>
+    </section>
+    <section id="note" class="note">
+        <div class="note__title">
+            <h2>На заметку</h2>
+        </div>
+        <div class="note__content">
+            <div class="note-slider slider">
+                <div class="note-slider__item">
+                    <img src="https://mave.me/img/projects/full_placeholder.png" alt="item-1" class="note-slider__img">
+                    <div class="note-slider__content col-md-6 col-md-offset-6 col-lg-5 col-lg-offset-7">
+                        <a href="#!" class="note-slider__text-item note-slider__text-item-1">Может ли присутствие отца на родах</a>
+                        <a href="#!" class="note-slider__text-item note-slider__text-item-2">привести к осложнениям?</a>
+                    </div>
+                </div>
+                <div class="note-slider__item">
+                    <img src="https://mave.me/img/projects/full_placeholder.png" alt="item-1" class="note-slider__img">
+                    <div class="note-slider__content col-md-6 col-md-offset-6 col-lg-5 col-lg-offset-7">
+                        <a href="#!" class="note-slider__text-item note-slider__text-item-1">Может ли присутствие отца на родах</a>
+                        <a href="#!" class="note-slider__text-item note-slider__text-item-2">привести к осложнениям?</a>
+                    </div>
+                </div>
+                <div class="note-slider__item">
+                    <img src="https://mave.me/img/projects/full_placeholder.png" alt="item-1" class="note-slider__img">
+                    <div class="note-slider__content col-md-6 col-md-offset-6 col-lg-5 col-lg-offset-7">
+                        <a href="#!" class="note-slider__text-item note-slider__text-item-1">Может ли присутствие отца на родах</a>
+                        <a href="#!" class="note-slider__text-item note-slider__text-item-2">привести к осложнениям?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="note__link">
+                <a href="#!" class="link-arrow  link-arrow--blue">Подробнее</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer-wrap">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">Поиск на карте</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-wrap__map">
+                    <div class="footer-wrap__filter">
+                        <form action="">
+                            <div class="form-field">
+                                <label class="footer-wrap__label">Выберите город</label>
+                                <span class="footer-wrap__select dropdown-selectwrap">
+                                  <a href="#" class="footer-wrap__dropdownbtn dropdown-btn dropdown-toggle" id="footer_city_select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                     <span class="footer-icon icon-city"></span>
+                                <span class="dropdown-select-text"></span>
+                                <span class="caret"></span>
+                                </a>
+                                <ul class="footer-wrap__dropdownmenu dropdown-ul dropdown-menu" aria-labelledby="footer_city_select">
+                                    <li><a href="#">Санкт - Петербург</a></li>
+                                    <li><a href="#">Москва</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <div class="form-field">
+                                <label class="footer-wrap__label">Выберите тип учереждения</label>
+                                <span class="footer-wrap__select dropdown-selectwrap">
+                              <a href="#" class="footer-wrap__dropdownbtn dropdown-btn dropdown-toggle" id="footer_type_select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                 <span class="footer-icon icon-type"></span>
+                                <span class="dropdown-select-text"></span>
+                                <span class="caret"></span>
+                                </a>
+                                <ul class="footer-wrap__dropdownmenu dropdown-ul dropdown-menu" aria-labelledby="footer_type_select">
+                                    <li><a href="#">Аптеки</a></li>
+                                    <li><a href="#">Не аптеки</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <div class="form-field">
+                                <label class="footer-wrap__label">Выберите район</label>
+                                <span class="footer-wrap__select dropdown-selectwrap">
+                          <a href="#" class="footer-wrap__dropdownbtn dropdown-btn dropdown-toggle" id="footer_area_select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                             <span class="footer-icon icon-area"></span>
+                                <span class="dropdown-select-text"></span>
+                                <span class="caret"></span>
+                                </a>
+                                <ul class="footer-wrap__dropdownmenu dropdown-ul dropdown-menu" aria-labelledby="footer_area_select">
+                                    <li><a href="#">Адмиралтейский</a></li>
+                                    <li><a href="#">Другой</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <div class="form-field">
+                                <label class="footer-wrap__label">Выберите улицу</label>
+                                <span class="footer-wrap__select dropdown-selectwrap">
+                      <a href="#" class="footer-wrap__dropdownbtn dropdown-btn dropdown-toggle" id="footer_street_select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                         <span class="footer-icon icon-street"></span>
+                                <span class="dropdown-select-text"></span>
+                                <span class="caret"></span>
+                                </a>
+                                <ul class="footer-wrap__dropdownmenu dropdown-ul dropdown-menu" aria-labelledby="footer_street_select">
+                                    <li><a href="#">ул. Караванная</a></li>
+                                    <li><a href="#">Другая улица</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <div class="form-field">
+                                <button class="footer-wrap__filterbtn">НАЙТИ<span class="fa fa-search"></span></button>
+                            </div>
+                            <div class="form-field">
+                                <a href="" class="footer-wrap__clearfilter">
+                                    <span class="fa fa-close"></span>
+                                    <span class="link-text">сбросить фильтр</span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="map" class="footer-wrap__map-wrap"></div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="footer-wrap__searchresult">
+                    <div class="footer-wrap__searchresult-header">
+                        Результаты поиска
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="footer-wrap__search-elements">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-wrap__el-inner">
+                                <div class="scroll-pane">
+                                    <div class="footer-wrap__inner-item">
+                                        <div class="pull-left">
+                                            <div class="footer-wrap__orgtype">Аптека</div>
+                                            <div class="footer-wrap__orgname">Формула Здоровья</div>
+                                        </div>
+                                        <div class="pull-right">
+                                            <div class="footer-wrap__orglogo">
+                                                <img src="http://placehold.it/130x40" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="footer-wrap__orgtime">
+                                            <div class="fa fa-clock-o"></div>
+                                            8:00 - 22:00
+                                        </div>
+                                        <a href="" class="footer-wrap__orgtel">
+                                            <span class="fa fa-phone"></span> +7 (123) 456-78-90
+                                        </a>
+                                        <div class="footer-wrap__orgadress">
+                                            <div class="fa fa-map-marker"></div>
+                                            Санкт - Петербург,
+                                            <br> Спасский пер., 14/35
+                                        </div>
+                                        <a href="http://www.url.ru" class="footer-wrap__orgurl">
+                            www.url.ru
+                        </a>
+                                        <div class="footer-wrap__orgphoto">
+                                            <img src="http://placehold.it/230x150" alt="">
+                                            <a href="#" class="footer-wrap__orgotherphoto">
+                                                <span>еще 8 фото</span>
+                                            </a>
+                                        </div>
+                                        <a href="#" class="footer-wrap__orgway">
+                            как проехать >
+                        </a>
+                                    </div>
+                                    <div class="footer-wrap__inner-item">
+                                        <div class="pull-left">
+                                            <div class="footer-wrap__orgtype">Аптека</div>
+                                            <div class="footer-wrap__orgname">Формула Здоровья</div>
+                                        </div>
+                                        <div class="pull-right">
+                                            <div class="footer-wrap__orglogo">
+                                                <img src="http://placehold.it/130x40" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="footer-wrap__orgtime">
+                                            <div class="fa fa-clock-o"></div>
+                                            8:00 - 22:00
+                                        </div>
+                                        <a href="" class="footer-wrap__orgtel">
+                                            <span class="fa fa-phone"></span> +7 (123) 456-78-90
+                                        </a>
+                                        <div class="footer-wrap__orgadress">
+                                            <div class="fa fa-map-marker"></div>
+                                            Санкт - Петербург,
+                                            <br> Спасский пер., 14/35
+                                        </div>
+                                        <a href="http://www.url.ru" class="footer-wrap__orgurl">
+                            www.url.ru
+                        </a>
+                                        <div class="footer-wrap__orgphoto">
+                                            <img src="http://placehold.it/230x150" alt="">
+                                            <a href="#" class="footer-wrap__orgotherphoto">
+                                                <span>еще 8 фото</span>
+                                            </a>
+                                        </div>
+                                        <a href="#" class="footer-wrap__orgway">
+                            как проехать >
+                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="footer-wrap__nav">
+                    <ul class="footer-wrap__ul">
+                        <div class="footer-wrap__li">
+                            <a href="#" class="footer-wrap__link">О портале</a>
+                        </div>
+                        <div class="footer-wrap__li">
+                            <a href="#" class="footer-wrap__link">Помощь</a>
+                        </div>
+                        <div class="footer-wrap__li">
+                            <a href="#" class="footer-wrap__link">Разделы</a>
+                        </div>
+                        <div class="footer-wrap__li">
+                            <a href="#" class="footer-wrap__link">Обратная связь</a>
+                        </div>
+                    </ul>
+                </nav>
+                <div class="footer-wrap__social">
+                    <a class="fa fa-facebook" href=""></a>
+                    <a class="fa fa-twitter" href=""></a>
+                    <a class="fa fa-instagram" href=""></a>
+                    <a class="fa fa-tumblr" href=""></a>
+                    <a class="fa fa-skype" href=""></a>
+                </div>
+                <div class="footer-wrap__copy">
+                    Все права защищены
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src=js/birth.min.js></script>
+<script src=js/main.min.js></script>
+</body>
+
+</html>
+
