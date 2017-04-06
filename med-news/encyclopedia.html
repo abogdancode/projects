@@ -1,0 +1,777 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href=css/main.min.css>
+    <link rel="stylesheet" href=css/encyclopedia.min.css>
+</head>
+
+<body>
+    <div class="fixed-link">
+        <a href="#" class="fixed-link__element messages">
+            <i class="fa fa-envelope-o"></i>
+            <div class="fixed-link__msgcount">0</div>
+        </a>
+        <a href="#" class="fixed-link__element cabinet">
+            <i class="fa fa-user-circle-o"></i>
+        </a>
+        <a href="#" class="fixed-link__element time">
+            <i class="fa fa-clock-o"></i>
+        </a>
+        <a href="#" class="fixed-link__element search">
+            <i class="fa fa-search"></i>
+        </a>
+    </div>
+  <header class="header">
+    <div class="header-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="" class="header-container__logo"></a>
+                </div>
+                <div class="col-md-5">
+                    <form action="" class="header-container__selectform">
+                        <div class="form-group">
+                            <span class="header-container__selecttext">
+								<i class="fa fa-map-marker"></i>
+								Выберите город и регион
+							</span>
+                            <span class="header-container__selectcity dropdown-selectwrap">
+								<a href="#" class="header-container__dropdownbtn dropdown-btn dropdown-toggle"  id="city_select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									<span class="dropdown-select-text"></span>
+                            <span class="caret"></span>
+                            </a>
+                            <ul class="header-container__dropdownmenu dropdown-ul dropdown-menu" aria-labelledby="city_select">
+                                <li><a href="#">Санкт - Петербург</a></li>
+                                <li><a href="#">Москва</a></li>
+                            </ul>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <div class="header-container__social pull-right">
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-vk"></i>
+                        </a>
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-odnoklassniki"></i>
+                        </a>
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                        <a href="" class="header-container__soclink">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <nav class="top-nav">
+		<div class="top-nav__search">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<form action="" class="top-nav__searchform">
+							<div class="form-group">
+								<input class="top-nav__searchinput" type="text" placeholder="я ищу...">
+								<button class="top-nav__searchbutton">найти <i class="fa fa-search"></i></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top-nav__menu">
+			<div class="container-fluid">
+				<div class="row">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<i class="fa fa-align-justify"></i>
+					</button>
+					<ul id="navbar" class="top-nav__ul collapse navbar-collapse">
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">
+								<span class="icon icon-home-nav"></span>
+							</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Новости</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Статьи</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Клиника</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Контакты</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Разделы медицины</a>
+						</li>
+						<li class="top-nav__li">
+							<a href="" class="top-nav__link">Вопрос-ответ</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+
+
+<main class="main" role="main">
+
+    	<section class="breadcrumbs">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 breadcrumbs__wrap">
+					<a href="#">Главная</a>
+					<span>Страница</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <section class="alphabet">
+        <div class="alphabet__container">
+            <ul class="alphabet__ul-char">
+                <li class="alphabet__li"><a title="А" href="#!" class="alphabet__li-char">А</a></li>
+                <li class="alphabet__li"><a title="Б" href="#!" class="alphabet__li-char">Б</a></li>
+                <li class="alphabet__li"><a title="В" href="#!" class="alphabet__li-char">В</a></li>
+                <li class="alphabet__li"><a title="Г" href="#!" class="alphabet__li-char">Г</a></li>
+                <li class="alphabet__li"><a title="Д" href="#!" class="alphabet__li-char">Д</a></li>
+                <li class="alphabet__li"><a title="Е" href="#!" class="alphabet__li-char">Е</a></li>
+                <li class="alphabet__li"><a title="Ё" href="#!" class="alphabet__li-char">Ё</a></li>
+                <li class="alphabet__li"><a title="Ж" href="#!" class="alphabet__li-char">Ж</a></li>
+                <li class="alphabet__li"><a title="З" href="#!" class="alphabet__li-char">З</a></li>
+                <li class="alphabet__li"><a title="И" href="#!" class="alphabet__li-char">И</a></li>
+                <li class="alphabet__li"><a title="Й" href="#!" class="alphabet__li-char">Й</a></li>
+                <li class="alphabet__li"><a title="К" href="#!" class="alphabet__li-char">К</a></li>
+                <li class="alphabet__li"><a title="Л" href="#!" class="alphabet__li-char">Л</a></li>
+                <li class="alphabet__li"><a title="М" href="#!" class="alphabet__li-char">М</a></li>
+                <li class="alphabet__li"><a title="Н" href="#!" class="alphabet__li-char">Н</a></li>
+                <li class="alphabet__li"><a title="О" href="#!" class="alphabet__li-char">О</a></li>
+                <li class="alphabet__li"><a title="П" href="#!" class="alphabet__li-char">П</a></li>
+                <li class="alphabet__li"><a title="Р" href="#!" class="alphabet__li-char">Р</a></li>
+                <li class="alphabet__li"><a title="С" href="#!" class="alphabet__li-char">С</a></li>
+                <li class="alphabet__li"><a title="Т" href="#!" class="alphabet__li-char">Т</a></li>
+                <li class="alphabet__li"><a title="У" href="#!" class="alphabet__li-char">У</a></li>
+                <li class="alphabet__li"><a title="Ф" href="#!" class="alphabet__li-char">Ф</a></li>
+                <li class="alphabet__li"><a title="Х" href="#!" class="alphabet__li-char">Х</a></li>
+                <li class="alphabet__li"><a title="Ц" href="#!" class="alphabet__li-char">Ц</a></li>
+                <li class="alphabet__li"><a title="Ч" href="#!" class="alphabet__li-char">Ч</a></li>
+                <li class="alphabet__li"><a title="Ш" href="#!" class="alphabet__li-char">Ш</a></li>
+                <li class="alphabet__li"><a title="Щ" href="#!" class="alphabet__li-char">Щ</a></li>
+                <li class="alphabet__li"><a title="Ъ" href="#!" class="alphabet__li-char">Ъ</a></li>
+                <li class="alphabet__li"><a title="Ы" href="#!" class="alphabet__li-char">Ы</a></li>
+                <li class="alphabet__li"><a title="Ь" href="#!" class="alphabet__li-char">Ь</a></li>
+                <li class="alphabet__li"><a title="Э" href="#!" class="alphabet__li-char">Э</a></li>
+                <li class="alphabet__li"><a title="Ю" href="#!" class="alphabet__li-char">Ю</a></li>
+                <li class="alphabet__li"><a title="Я" href="#!" class="alphabet__li-char">Я</a></li>
+            </ul>
+            <div class="alphabet__chos-char-cont clearfix">
+                <span class="alphabet__chos-char-txt">Вы выбрали букву</span>
+                <div class="alphabet__chos-char-circle">
+                    <span class="alphabet__chos-char">К</span>
+                </div>
+            </div>
+            <div class="alphabet__cancel">
+                <a title="отменить" href="#!" class="alphabet__cancel-link">сбросить&gt;</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="all-true">
+        <div class="all-true__txt-cont">
+            <div class="all-true__txt">Вся правда</div>
+            <a href="#!" title="информация о контагиозном моллюске" class="all-true__link">о контагиозном моллюске</a>
+        </div>
+    </section>
+
+
+
+    <nav class="diseases-list-nav" role="navigation" aria-label="Разделы медицины">
+        <div class="diseases-list-nav__char">К</div>
+        <ul class="diseases-list-nav__ul-links">
+            <li class="diseases-list-nav__li"><a title="Анатомия человека" href="#!" class="diseases-list-nav__link ">Анатомия человека</a></li>
+            <li class="diseases-list-nav__li"><a title="Список заболеваний" href="#!" class="diseases-list-nav__link diseases-list-nav__link_active">Список заболеваний</a></li>
+            <li class="diseases-list-nav__li"><a title="Анализы" href="#!" class="diseases-list-nav__link">Анализы</a></li>
+
+        </ul>
+    </nav>
+
+    <section class="dis-list">
+        <div class="dis-list__cont dis-list__cont_col-1">
+        <h2 class="dis-list__header">Кавернозный туберкулез легких</h2>
+        <p class="dis-list__text">Отличительными чертами кавернозной формы туберкулеза легких является наличие тонкостенной каверны, расположенной на фоне
+            малоизмененной легочной ткани при отсутствии выраженных инфильтративных и фиброзных изменений. Развивается кавернозный
+            туберкулез у больных с инфильтративным, диссеминированным очаговым...</p>
+        <div class="dis-list__more-cont dis-list__more-cont_col-1">
+            <div class="dis-list__shadow  dis-list__shadow_col-1"></div>
+            <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-1">подробнее&#9658;</a>
+        </div>
+    </div>
+        <div class="dis-list__cont dis-list__cont_col-2">
+            <h2 class="dis-list__header">Калифорнийский энцефалит</h2>
+            <p class="dis-list__text">Калифорнийский энцефалит - острое вирусное заболевание, протекающее с поражением центральной нервной системы.</p>
+            <div class="dis-list__more-cont dis-list__more-cont_col-2">
+                <div class="dis-list__shadow  dis-list__shadow_col-2"></div>
+                <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-2">подробнее&#9658;</a>
+            </div>
+        </div>
+        <div class="dis-list__cont dis-list__cont_col-3">
+            <h2 class="dis-list__header">Калькулезный сиалоаденит (слюннокаменная болезнь)</h2>
+            <p class="dis-list__text">Сиалоаденит (sialadenitis) - воспаление любой слюнной железы. Калькулезный сиалоаденит (слюннокаменная болезнь)
+                чаще встречается у детей 7-12 лет и поражает в основном поднижнече-люстные железы. Этиология заболевания не ясна.
+                Несомненно, что основную роль играют общие причины врожденного характера. Образование...</p>
+            <div class="dis-list__more-cont dis-list__more-cont_col-3">
+                <div class="dis-list__shadow  dis-list__shadow_col-3"></div>
+                <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-3">подробнее&#9658;</a>
+            </div>
+        </div>
+        <div class="dis-list__cont dis-list__cont_col-4">
+            <h2 class="dis-list__header">Кальциноз кожи</h2>
+            <p class="dis-list__text">Кальциноз кожи - это патология, которая сопровождается отложением в коже избыточного количества солей. </p>
+            <div class="dis-list__more-cont dis-list__more-cont_col-4">
+                <div class="dis-list__shadow  dis-list__shadow_col-4"></div>
+                <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-4">подробнее&#9658;</a>
+            </div>
+        </div>
+        <div class="dis-list__cont dis-list__cont_col-5">
+            <h2 class="dis-list__header">Кампилобактериоз</h2>
+            <p class="dis-list__text">Кампилобактериоз - группа инфекционных болезней животных и человека, характеризующихся различной степенью
+                тяжести и полиморфностью проявлений. Краткие исторические сведения Впервые возбудители у больных диареями
+                обнаружил Т. Эшерих (1884). Возможность их циркуляции в крови больного доказана Ж.Г. Венсаном (1947)....</p>
+            <div class="dis-list__more-cont dis-list__more-cont_col-5">
+                <div class="dis-list__shadow  dis-list__shadow_col-5"></div>
+                <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-5">подробнее&#9658;</a>
+            </div>
+        </div>
+        <div class="dis-list__cont dis-list__cont_col-6">
+            <h2 class="dis-list__header">Кампилобактериоз у детей</h2>
+            <p class="dis-list__text">Кампилобактериозы у детей – это болезни, которые вызваны кампилобактерами - условно-патогенными
+                микроорганизма¬ми, и которые проявляются в основном пораже¬нием желудочно-кишечного тракта.
+                Кампилобактериозы называются в научной литературе кампилобактерной инфекцией. Кампилобактериозам
+                подвержены в основном...</p>
+            <div class="dis-list__more-cont dis-list__more-cont_col-6">
+                <div class="dis-list__shadow  dis-list__shadow_col-6"></div>
+                <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-6">подробнее&#9658;</a>
+            </div>
+        </div>
+        <div class="dis-list__cont dis-list__cont_col-1">
+            <h2 class="dis-list__header">Каналикулит у детей</h2>
+            <p class="dis-list__text">Каналикулит – воспаление слезных канальцев глаза. </p>
+            <div class="dis-list__more-cont dis-list__more-cont_col-1">
+                <div class="dis-list__shadow  dis-list__shadow_col-1"></div>
+                <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-1">подробнее&#9658;</a>
+            </div>
+        </div>
+        <div class="dis-list__cont dis-list__cont_col-2">
+            <h2 class="dis-list__header">Кандидоз</h2>
+            <p class="dis-list__text">Кандидоз - заболевание кожи, придатков кожи, внутренних органов, вызываемое условно-патогенными грибами рода
+                Candida (Сandida albicans, C.tropicalis, C. krusei, C. parapsilosis и др.) В настоящее время возрастает распространение
+                условно-патогенных дрожжеподобных грибов рода Candida (Monilia) среди больных и здоровых лиц, а также наблюдается рост...</p>
+            <div class="dis-list__more-cont dis-list__more-cont_col-2">
+                <div class="dis-list__shadow  dis-list__shadow_col-2"></div>
+                <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-2">подробнее&#9658;</a>
+            </div>
+        </div>
+        <div class="dis-list__cont dis-list__cont_col-3">
+            <h2 class="dis-list__header">Кандидоз (молочница) у детей</h2>
+            <p class="dis-list__text">Широко распространенное название кандидоза – молочница . Также болезнь известна как кандидамикоз
+                или кандидозная инфекция . Молочница у детей – это болезнь, что вызвана дрожжеподобными грибами из рода
+                Can ¬ dida . Грибы могут поразить кожу, слизистые оболочки, ногти, ногтевые валики. Возбудитель имеет свойство...</p>
+            <div class="dis-list__more-cont dis-list__more-cont_col-3">
+                <div class="dis-list__shadow  dis-list__shadow_col-3"></div>
+                <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-3">подробнее&#9658;</a>
+            </div>
+        </div>
+
+        <div class="dis-list__cont dis-list__cont_col-4">
+            <h2 class="dis-list__header">Кандидоз влагалища</h2>
+            <p class="dis-list__text">Кандидоз влагалища (кандидамикоз, молочница) - это инфекционное заболевание слизистой влагалища,
+                которое нередко распространяется на шейку матки и вульву. </p>
+            <div class="dis-list__more-cont dis-list__more-cont_col-4">
+                <div class="dis-list__shadow  dis-list__shadow_col-4"></div>
+                <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-4">подробнее&#9658;</a>
+            </div>
+        </div>
+        <div class="dis-list__cont dis-list__cont_col-5">
+            <h2 class="dis-list__header">Кандидоз полости рта</h2>
+            <p class="dis-list__text">Кандидоз (candidosis) - заболевание, которое вызывается дрожжеподобными грибами рода Candida. На слизистой
+                оболочке рта и кожных покровах обитают различные виды дрожжеподобных грибов в виде сапрофитов. Патологические
+                изменения чаще всего вызывают Candida albicans, Candida tropicalis, Candida pseudotropicalis, Candida krusei, Candida
+                guilliermondi. Локализация Candida в...</p>
+            <div class="dis-list__more-cont dis-list__more-cont_col-5">
+                <div class="dis-list__shadow  dis-list__shadow_col-5"></div>
+                <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-5">подробнее&#9658;</a>
+            </div>
+        </div>
+        <div class="dis-list__cont dis-list__cont_col-6">
+            <h2 class="dis-list__header">Капилляриоз кишечника</h2>
+            <p class="dis-list__text">Капилляриоз кишечника - это гельминтоз человека, вызываемый нематодами Capillaria philippiensis. Капиллярии были
+                впервые обнаружены в 1963 г. у тяжелобольного на Филиппинах. Инвазия проявляется некупируемой диареей с высоким
+                показателем смертности. Клиническое изучение показало наличие тяжелой энтеропатии с потерей белка и...</p>
+            <div class="dis-list__more-cont dis-list__more-cont_col-6">
+                <div class="dis-list__shadow  dis-list__shadow_col-6"></div>
+                <a title="Узнать больше" href="#!" class="dis-list__more dis-list__more_col-6">подробнее&#9658;</a>
+            </div>
+        </div>
+
+        <div class="arrow-to-bottom dis-list__arrow">
+            <a href="#!" class="arrow-to-bottom__link">
+                <img src="img/childhood-disease-all/blood-circulation/arrow-to-bottom.png" alt="arrow to bottom"
+                     class="arrow-to-bottom__arrow">
+            </a>
+        </div>
+    </section>
+
+    <section class="advices">
+        <div class="advices__title">
+            <h2 class="advices__title-content">Советы специалистов</h2>
+        </div>
+        <div class="advices__cont row">
+            <div class="col-sm-6">
+                <div class="advices__img-cont">
+                    <img src="img/encyclopedia/advices/doc.jpg" alt="doctor photo" class="advices__img">
+                </div>
+
+            </div>
+            <div class="advices__txt-cont col-sm-6">
+                <div class="advices__slogan">Лечим келоидные рубцы</div>
+                <div class="advices__surname">Авраамов</div>
+                <div class="advices__name">Федор Павлович</div>
+                <div class="advices__post">врач-терапевт</div>
+                <div class="advices__address">г. Москва</div>
+
+                <div class="advices__more"><a title="информация о специалисте" href="#!" class="advices__link">Узнать больше</a></div>
+                <div class="advices__arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="specialties">
+        <div class="specialties__title">
+            <h2 class="specialties__title-content">Медицинские специальности:</h2>
+        </div>
+        <div class="specialties__circle">К</div>
+        <div class="specialties__cont">
+            <div class="specialties__list-cont">
+                <ul class="specialties__ul">
+                    <li class="specialties__li"><a title="Кардиолог" href="#!" class="specialties__link">Кардиолог</a></li>
+                    <li class="specialties__li"><a title="Кардиоревматолог" href="#!" class="specialties__link">Кардиоревматолог</a></li>
+                    <li class="specialties__li"><a title="Кардиохирург" href="#!" class="specialties__link">Кардиохирург</a></li>
+                    <li class="specialties__li"><a title="Кинезиолог" href="#!" class="specialties__link">Кинезиолог</a></li>
+                    <li class="specialties__li"><a title="Колопроктолог" href="#!" class="specialties__link">Колопроктолог</a></li>
+                    <li class="specialties__li"><a title="Косметолог" href="#!" class="specialties__link">Косметолог</a></li>
+                    <li class="specialties__li"><a title="Курортолог" href="#!" class="specialties__link">Курортолог</a></li>
+                </ul>
+                <div class="arrow-to-bottom specialties__arrow">
+                    <a href="#!" class="arrow-to-bottom__link">
+                        <img src="img/childhood-disease-all/blood-circulation/arrow-to-bottom.png" alt="arrow to bottom"
+                             class="arrow-to-bottom__arrow">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="med-sec">
+        <div class="med-sec__title">
+            <h2 class="med-sec__title-content">Разделы медицины:</h2>
+        </div>
+        <div class="med-sec__cont">
+
+
+            <div class="med-sec__list-cont">
+                <ul class="med-sec__ul">
+                    <li class="med-sec__li"><a title="Кардиология" href="#!" class="med-sec__link _active"> &#8226;
+                        Кардиология</a></li>
+                    <li class="med-sec__li"><a title="Кардиология" href="#!" class="med-sec__link"> &#8226;
+                        Кардиохирургия</a></li>
+                    <li class="med-sec__li"><a title="Кардиология" href="#!" class="med-sec__link"> &#8226;
+                        Колопроктология</a></li>
+                    <li class="med-sec__li"><a title="Кардиология" href="#!" class="med-sec__link"> &#8226;
+                        Курортология</a></li>
+                </ul>
+
+                <div class="arrow-to-bottom med-sec__arrow">
+                    <a href="#!" class="arrow-to-bottom__link">
+                        <img src="img/childhood-disease-all/blood-circulation/arrow-to-bottom.png" alt="arrow to bottom"
+                             class="arrow-to-bottom__arrow">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="med-sec__desc-cont visible">
+                <p class="med-sec__desc"> Кардиология Раздел медицины, изучающий целебные
+                    свойства природных условий и климата,
+                    их использование в лечебных и профилактических целях.</p>
+                <a href="#!" title="узнать больше о курортологии" class="med-sec__more">смотреть полностью&gt;</a>
+            </div>
+            <div class="med-sec__desc-cont">
+                <p class="med-sec__desc"> Кардиохирургия Раздел медицины, изучающий целебные
+                    свойства природных условий и климата,
+                    их использование в лечебных и профилактических целях.</p>
+                <a href="#!" title="узнать больше о курортологии" class="med-sec__more">смотреть полностью&gt;</a>
+            </div>
+            <div class="med-sec__desc-cont">
+                <p class="med-sec__desc"> Колопроктология Раздел медицины, изучающий целебные
+                    свойства природных условий и климата,
+                    их использование в лечебных и профилактических целях.</p>
+                <a href="#!" title="узнать больше о курортологии" class="med-sec__more">смотреть полностью&gt;</a>
+            </div>
+            <div class="med-sec__desc-cont">
+                <p class="med-sec__desc"> Курортология Раздел медицины, изучающий целебные
+                    свойства природных условий и климата,
+                    их использование в лечебных и профилактических целях.</p>
+                <a href="#!" title="узнать больше о курортологии" class="med-sec__more">смотреть полностью&gt;</a>
+            </div>
+
+            <div class="med-sec__oops">Пока нет информации о данном разделе</div>
+
+        </div>
+    </section>
+
+</main>
+
+
+<footer class="footer-wrap">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">Поиск на карте</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-wrap__map">
+                    <div class="footer-wrap__filter">
+                        <form action="">
+                            <div class="form-field">
+                                <label class="footer-wrap__label">Выберите город</label>
+                                <span class="footer-wrap__select dropdown-selectwrap">
+                                  <a href="#" class="footer-wrap__dropdownbtn dropdown-btn dropdown-toggle" id="footer_city_select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                     <span class="footer-icon icon-city"></span>
+                                <span class="dropdown-select-text"></span>
+                                <span class="caret"></span>
+                                </a>
+                                <ul class="footer-wrap__dropdownmenu dropdown-ul dropdown-menu" aria-labelledby="footer_city_select">
+                                    <li><a href="#">Санкт - Петербург</a></li>
+                                    <li><a href="#">Москва</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <div class="form-field">
+                                <label class="footer-wrap__label">Выберите тип учереждения</label>
+                                <span class="footer-wrap__select dropdown-selectwrap">
+                              <a href="#" class="footer-wrap__dropdownbtn dropdown-btn dropdown-toggle" id="footer_type_select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                 <span class="footer-icon icon-type"></span>
+                                <span class="dropdown-select-text"></span>
+                                <span class="caret"></span>
+                                </a>
+                                <ul class="footer-wrap__dropdownmenu dropdown-ul dropdown-menu" aria-labelledby="footer_type_select">
+                                    <li><a href="#">Аптеки</a></li>
+                                    <li><a href="#">Не аптеки</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <div class="form-field">
+                                <label class="footer-wrap__label">Выберите район</label>
+                                <span class="footer-wrap__select dropdown-selectwrap">
+                          <a href="#" class="footer-wrap__dropdownbtn dropdown-btn dropdown-toggle" id="footer_area_select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                             <span class="footer-icon icon-area"></span>
+                                <span class="dropdown-select-text"></span>
+                                <span class="caret"></span>
+                                </a>
+                                <ul class="footer-wrap__dropdownmenu dropdown-ul dropdown-menu" aria-labelledby="footer_area_select">
+                                    <li><a href="#">Адмиралтейский</a></li>
+                                    <li><a href="#">Другой</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <div class="form-field">
+                                <label class="footer-wrap__label">Выберите улицу</label>
+                                <span class="footer-wrap__select dropdown-selectwrap">
+                      <a href="#" class="footer-wrap__dropdownbtn dropdown-btn dropdown-toggle" id="footer_street_select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                         <span class="footer-icon icon-street"></span>
+                                <span class="dropdown-select-text"></span>
+                                <span class="caret"></span>
+                                </a>
+                                <ul class="footer-wrap__dropdownmenu dropdown-ul dropdown-menu" aria-labelledby="footer_street_select">
+                                    <li><a href="#">ул. Караванная</a></li>
+                                    <li><a href="#">Другая улица</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <div class="form-field">
+                                <button class="footer-wrap__filterbtn">НАЙТИ<span class="fa fa-search"></span></button>
+                            </div>
+                            <div class="form-field">
+                                <a href="" class="footer-wrap__clearfilter">
+                                    <span class="fa fa-close"></span>
+                                    <span class="link-text">сбросить фильтр</span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="map" class="footer-wrap__map-wrap"></div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="footer-wrap__searchresult">
+                    <div class="footer-wrap__searchresult-header">
+                        Результаты поиска
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="footer-wrap__search-elements">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="footer-wrap__elem">
+                                            <div class="footer-wrap__el-name">
+                                                Живая аптека
+                                            </div>
+                                            <div class="footer-wrap__el-adress">
+                                                пр. Ветеранов, 109 к9
+                                            </div>
+                                            <div class="footer-wrap__el-time">
+                                                <i class="fa fa-phone"></i> 8 (800) 555-35-35
+                                                <i class="fa fa-clock-o"></i> 24 часа
+                                            </div>
+                                            <div class="footer-wrap__el-wayon">
+                                                <a class="footer-wrap__el-icon icon-man" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-car" href=""></a>
+                                                <a class="footer-wrap__el-icon icon-train" href=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-wrap__el-inner">
+                                <div class="scroll-pane">
+                                    <div class="footer-wrap__inner-item">
+                                        <div class="pull-left">
+                                            <div class="footer-wrap__orgtype">Аптека</div>
+                                            <div class="footer-wrap__orgname">Формула Здоровья</div>
+                                        </div>
+                                        <div class="pull-right">
+                                            <div class="footer-wrap__orglogo">
+                                                <img src="http://placehold.it/130x40" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="footer-wrap__orgtime">
+                                            <div class="fa fa-clock-o"></div>
+                                            8:00 - 22:00
+                                        </div>
+                                        <a href="" class="footer-wrap__orgtel">
+                                            <span class="fa fa-phone"></span> +7 (123) 456-78-90
+                                        </a>
+                                        <div class="footer-wrap__orgadress">
+                                            <div class="fa fa-map-marker"></div>
+                                            Санкт - Петербург,
+                                            <br> Спасский пер., 14/35
+                                        </div>
+                                        <a href="http://www.url.ru" class="footer-wrap__orgurl">
+                            www.url.ru
+                        </a>
+                                        <div class="footer-wrap__orgphoto">
+                                            <img src="http://placehold.it/230x150" alt="">
+                                            <a href="#" class="footer-wrap__orgotherphoto">
+                                                <span>еще 8 фото</span>
+                                            </a>
+                                        </div>
+                                        <a href="#" class="footer-wrap__orgway">
+                            как проехать >
+                        </a>
+                                    </div>
+                                    <div class="footer-wrap__inner-item">
+                                        <div class="pull-left">
+                                            <div class="footer-wrap__orgtype">Аптека</div>
+                                            <div class="footer-wrap__orgname">Формула Здоровья</div>
+                                        </div>
+                                        <div class="pull-right">
+                                            <div class="footer-wrap__orglogo">
+                                                <img src="http://placehold.it/130x40" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="footer-wrap__orgtime">
+                                            <div class="fa fa-clock-o"></div>
+                                            8:00 - 22:00
+                                        </div>
+                                        <a href="" class="footer-wrap__orgtel">
+                                            <span class="fa fa-phone"></span> +7 (123) 456-78-90
+                                        </a>
+                                        <div class="footer-wrap__orgadress">
+                                            <div class="fa fa-map-marker"></div>
+                                            Санкт - Петербург,
+                                            <br> Спасский пер., 14/35
+                                        </div>
+                                        <a href="http://www.url.ru" class="footer-wrap__orgurl">
+                            www.url.ru
+                        </a>
+                                        <div class="footer-wrap__orgphoto">
+                                            <img src="http://placehold.it/230x150" alt="">
+                                            <a href="#" class="footer-wrap__orgotherphoto">
+                                                <span>еще 8 фото</span>
+                                            </a>
+                                        </div>
+                                        <a href="#" class="footer-wrap__orgway">
+                            как проехать >
+                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="footer-wrap__nav">
+                    <ul class="footer-wrap__ul">
+                        <div class="footer-wrap__li">
+                            <a href="#" class="footer-wrap__link">О портале</a>
+                        </div>
+                        <div class="footer-wrap__li">
+                            <a href="#" class="footer-wrap__link">Помощь</a>
+                        </div>
+                        <div class="footer-wrap__li">
+                            <a href="#" class="footer-wrap__link">Разделы</a>
+                        </div>
+                        <div class="footer-wrap__li">
+                            <a href="#" class="footer-wrap__link">Обратная связь</a>
+                        </div>
+                    </ul>
+                </nav>
+                <div class="footer-wrap__social">
+                    <a class="fa fa-facebook" href=""></a>
+                    <a class="fa fa-twitter" href=""></a>
+                    <a class="fa fa-instagram" href=""></a>
+                    <a class="fa fa-tumblr" href=""></a>
+                    <a class="fa fa-skype" href=""></a>
+                </div>
+                <div class="footer-wrap__copy">
+                    Все права защищены
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src=js/encyclopedia.min.js></script>
+<script src=js/main.min.js></script>
+</body>
+
+</html>
