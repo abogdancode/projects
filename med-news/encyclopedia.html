@@ -206,14 +206,20 @@
     <nav class="diseases-list-nav" role="navigation" aria-label="Разделы медицины">
         <div class="diseases-list-nav__char">К</div>
         <ul class="diseases-list-nav__ul-links">
-            <li class="diseases-list-nav__li"><a title="Анатомия человека" href="#!" class="diseases-list-nav__link ">Анатомия человека</a></li>
-            <li class="diseases-list-nav__li"><a title="Список заболеваний" href="#!" class="diseases-list-nav__link diseases-list-nav__link_active">Список заболеваний</a></li>
-            <li class="diseases-list-nav__li"><a title="Анализы" href="#!" class="diseases-list-nav__link">Анализы</a></li>
+            <li class="diseases-list-nav__li"><a data-url="dynamic-blocks/encycl-anatomy.html"  title="Анатомия человека" href="#!" class="diseases-list-nav__link ">Анатомия человека</a></li>
+            <li class="diseases-list-nav__li"><a data-url="dynamic-blocks/encycl-dis-list.html" title="Список заболеваний" href="#!" class="diseases-list-nav__link _active">Список заболеваний</a></li>
+            <li class="diseases-list-nav__li"><a data-url="dynamic-blocks/encycl-analyzes.html" title="Анализы" href="#!" class="diseases-list-nav__link">Анализы</a></li>
 
         </ul>
     </nav>
 
-    <section class="dis-list">
+    <section id="dynamic-cont" class="dynamic-cont">
+
+    </section>
+    <div id="loading" style="display: none">
+        Идет загрузка...
+    </div>
+    <!--<section class="dis-list">
         <div class="dis-list__cont dis-list__cont_col-1">
         <h2 class="dis-list__header">Кавернозный туберкулез легких</h2>
         <p class="dis-list__text">Отличительными чертами кавернозной формы туберкулеза легких является наличие тонкостенной каверны, расположенной на фоне
@@ -337,7 +343,7 @@
                      class="arrow-to-bottom__arrow">
             </a>
         </div>
-    </section>
+    </section>-->
 
     <section class="advices">
         <div class="advices__title">
