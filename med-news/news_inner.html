@@ -130,8 +130,6 @@
 </header>
 
 
-<main class="main" role="main">
-
 	<section class="breadcrumbs">
 		<div class="container-fluid">
 			<div class="row">
@@ -180,26 +178,26 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-3 col-sm-12">
-					<a href="#" class="page-socialprops__thumbup pull-left">345</a>
-					<a href="#" class="page-socialprops__thumbdown pull-left">345</a>
+					<a href="#" class="page-socialprops__views pull-left">1 245 просмотров</a>
 				</div>
 				<div class="col-md-6 col-sm-12">
-					<a href="#" class="page-socialprops__views pull-left">1 245 просмотров</a>
 					<a href="#" class="page-socialprops__comments pull-left">45 комментариев</a>
+					<a href="#" class="page-socialprops__favorites pull-right">добавить в избранное</a>
 				</div>
 				<div class="col-md-3 col-sm-12">
-					<a href="#" class="page-socialprops__favorites pull-right">добавить в избранное</a>
+					<div class="social-buttons">
+						<div class="ya-share2 social-buttons__inner" data-services="vkontakte,facebook,twitter,odnoklassniki,gplus" data-counter></div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="social-buttons">
-		<div class="ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,blogger,delicious"></div>
-	</div>
+	
 	<div class="container-fluid">
 		<div class="news-feed">
 			<div class="row">
 				<div class="col-md-4">
+					<aside class="aside">
 					<div class="news-feed__list">
 						<a href="#" class="news-feed__listnews img">
 							<div class="news-feed__listimg">
@@ -298,8 +296,10 @@
 							</div>
 						</a>
 					</div>
+					</aside>
 				</div>
 				<div class="col-md-8">
+					<main class="main" role="main">
 					<div class="news-content">
 						<h3>
 							Министерство промышленности и торговли поддерживает проект лекарственного страхования, который разрабатывает Минздрав, заявил журналистам замглавы Минпромторга. Сергей Цыб.
@@ -321,18 +321,19 @@
 							страны, а в случае успеха можно будет поднять вопрос о частичном возмещении государством стоимости лекарств мбулаторном сегменте.
 						</p>
 					</div>
+					</main>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="page-tags">
 		<div class="container-fluid">
-			<div class="row">
-				<a href="#" class="page-tags__link">some text</a>
-				<a href="#" class="page-tags__link">ололо ололо, я водитель нло</a>
-				<a href="#" class="page-tags__link">some text</a>
-				<a href="#" class="page-tags__link">some text</a>
-			</div>
+			<nav class="row" role="navigation" aria-label="Теги материала">
+				<ul>
+					<li class="page-tags__link"> <a href="/taxonomy/term/3" hreflang="ru">тег 1</a> </li>
+					<li class="page-tags__link"> <a href="/taxonomy/term/4" hreflang="ru">тег 2</a> </li>
+				</ul>
+			</nav>
 		</div>
 	</div>
 	<div class="page-header comments-header">Последние комментарии:</div>
@@ -450,8 +451,6 @@
 		</div>
 	</div>
 </section>
-
-</main>
 
 <footer class="footer-wrap">
     <div class="container-fluid">
@@ -772,6 +771,7 @@
 </footer>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src="https://yastatic.net/share2/share.js" async="async"></script>
 <script src=js/news-inner.min.js></script>
 <script src=js/main.min.js></script>
 </body>

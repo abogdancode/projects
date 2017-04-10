@@ -164,40 +164,40 @@
 				<h2>Популярные разделы:</h2>
 				<p>Выберите интересующую Вас букву, или раздел</p>
 			</div>
-			<ul class="popular-sections__alphabet">
-				<li><a href="#" class="popular-sections__alphabet-item">А</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Б</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">В</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Г</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Д</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Е</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Ё</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Ж</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">З</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">И</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Й</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">К</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Л</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">М</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Н</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">О</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">П</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Р</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">С</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Т</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">У</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Ф</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Х</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Ц</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Ч</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Ш</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Щ</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Ъ</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Ы</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Ь</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Э</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Ю</a></li>
-				<li><a href="#" class="popular-sections__alphabet-item">Я</a></li>
+			<ul class="alphabet">
+				<li><a href="#" class="alphabet__item">А</a></li>
+				<li><a href="#" class="alphabet__item">Б</a></li>
+				<li><a href="#" class="alphabet__item">В</a></li>
+				<li><a href="#" class="alphabet__item">Г</a></li>
+				<li><a href="#" class="alphabet__item">Д</a></li>
+				<li><a href="#" class="alphabet__item">Е</a></li>
+				<li><a href="#" class="alphabet__item">Ё</a></li>
+				<li><a href="#" class="alphabet__item">Ж</a></li>
+				<li><a href="#" class="alphabet__item">З</a></li>
+				<li><a href="#" class="alphabet__item">И</a></li>
+				<li><a href="#" class="alphabet__item">Й</a></li>
+				<li><a href="#" class="alphabet__item">К</a></li>
+				<li><a href="#" class="alphabet__item">Л</a></li>
+				<li><a href="#" class="alphabet__item">М</a></li>
+				<li><a href="#" class="alphabet__item">Н</a></li>
+				<li><a href="#" class="alphabet__item">О</a></li>
+				<li><a href="#" class="alphabet__item">П</a></li>
+				<li><a href="#" class="alphabet__item">Р</a></li>
+				<li><a href="#" class="alphabet__item">С</a></li>
+				<li><a href="#" class="alphabet__item">Т</a></li>
+				<li><a href="#" class="alphabet__item">У</a></li>
+				<li><a href="#" class="alphabet__item">Ф</a></li>
+				<li><a href="#" class="alphabet__item">Х</a></li>
+				<li><a href="#" class="alphabet__item">Ц</a></li>
+				<li><a href="#" class="alphabet__item">Ч</a></li>
+				<li><a href="#" class="alphabet__item">Ш</a></li>
+				<li><a href="#" class="alphabet__item">Щ</a></li>
+				<li><a href="#" class="alphabet__item">Ъ</a></li>
+				<li><a href="#" class="alphabet__item">Ы</a></li>
+				<li><a href="#" class="alphabet__item">Ь</a></li>
+				<li><a href="#" class="alphabet__item">Э</a></li>
+				<li><a href="#" class="alphabet__item">Ю</a></li>
+				<li><a href="#" class="alphabet__item">Я</a></li>
 			</ul>
 			<div class="popular-sections__articles clearfix">
 				<a href="#" class="popular-sections__article-item popular-sections__article-item-1">Психология</a>
@@ -388,34 +388,59 @@
 				<p>история известных мировых изобретений</p>
 			</div>
 		</div>
-		<div class="discovery__content">
-			<div class="discovery__container">
-				<div class="discovery__item discovery__item-1 clearfix">
-					<div class="discovery__item-content col-md-7 col-md-offset-5">
+		<div class="discovery__items">
+			<div class="discovery__item discovery__item-1 clearfix">
+				<div class="discovery__img-wrap">
+					<picture> 
+						<source media="(max-width: 767px)" 
+											 srcset="img/history-discovery/item-1-mob.jpg">
+						<img src="img/history-discovery/item-1.jpg" 
+									 alt="item" 
+									 class="discovery__img">
+					</picture>
+				</div>
+				<div class="discovery__item-content col-sm-6 col-sm-offset-6 col-lg-offset-5">
 						<h3>медицинский нож.<br>История скальпеля.</h3>
 						<p>Во времена мезолита люди использовали заостренный кремень, но но не с целью убить, а с целью облегчить состояние пациента.</p>
 						<a href="#">Узнать больше ></a>
-					</div>
 				</div>
-				<div class="discovery__item discovery__item-2 clearfix">
-					<div class="discovery__item-content col-md-8 col-md-offset-1">
+			</div>
+			<div class="discovery__item discovery__item-2 clearfix">
+				<div class="discovery__img-wrap">
+					<picture> 
+						<source media="(max-width: 767px)" 
+										 srcset="img/history-discovery/item-2-mob.jpg">
+						<img src="img/history-discovery/item-2.jpg" 
+								 alt="item" 
+								 class="discovery__img">
+					</picture>
+				</div>
+				<div class="discovery__item-content col-sm-6 col-lg-offset-2">
 						<h3>инсулин</h3>
 						<p>В 1921 г. канадским врачам Фредерику Бантингу и Чарльзу Бесту из Торонто удалось выделить инсулин из поджелудочной железы собаки</p>
 						<a href="#">Узнать больше ></a>
-					</div>
 				</div>
-				<div class="discovery__item discovery__item-3 clearfix">
-					<div class="discovery__item-content col-md-6 col-md-offset-3">
+			</div>
+			<div class="discovery__item discovery__item-3 clearfix">
+				<div class="discovery__img-wrap">
+					<picture> 
+						<source media="(max-width: 767px)" 
+										 srcset="img/history-discovery/item-3-mob.jpg">
+						<img src="img/history-discovery/item-3.jpg" 
+								 alt="item" 
+								 class="discovery__img">
+					</picture>
+				</div>
+				<div class="discovery__item-content col-sm-6 col-sm-offset-6  col-lg-offset-5">
 						<h3>микроскоп</h3>
 						<p>всё об истории создания</p>
 						<a href="#">Узнать больше ></a>
-					</div>
 				</div>
 			</div>
 		</div>
-			<div class="discovery__link-wrap">
-				<a href="#!" class="link-arrow  link-arrow--purpur">Подробнее</a>
-			</div>
+		<div class="discovery__link-wrap">
+			<a href="#!" class="link-arrow  link-arrow--purpur">Подробнее</a>
+		</div>
 	</section>
 	
 	<section class="time-tape time-tape--faces">
@@ -441,30 +466,52 @@
 		</div>
 	</section>
 	
-	<section class="interesting-facts">
+	<section class="interesting-facts interesting-facts--main">
 		<div class="interesting-facts__container">
 			<div class="interesting-facts__title">
 				<h2>Интересные факты</h2>
 			</div>
-			<div class="interesting-facts__item">
-				<div class="interesting-facts__img-wrap">
-					<img src="" alt="" class="interesting-facts__img">
+			<div class="interesting-facts__items">
+				<div class="interesting-facts__item clearfix">
+					<div class="interesting-facts__img-wrap col-md-6">
+						<img src="http://placehold.it/310x310" alt="item" class="interesting-facts__img">
+					</div>
+					<div class="interesting-facts__text-content col-md-6">
+						<p><a href="#">Выражение «желтый дом»</a> пошло от психиатрического отделения Обуховской больницы в санкт-Петербурге. В те годы часто использовалась желтая краска, ей и был выкрашен психиатрический корпус Обуховки, как и ряд других зданий, однако именно этот корпус сделал выражение "желтый дом" нарицательным.</p>
+					</div>
 				</div>
-				<div class="interesting-facts__text-content">
-					<p><a href="">Выражение «желтый дом»</a> пошло от психиатрического отделения Обуховской больницы в санкт-Петербурге. В те годы часто использовалась желтая краска, ей и был выкрашен психиатрический корпус Обуховки, как и ряд других зданий, однако именно этот корпус сделал выражение "желтый дом" нарицательным.</p>
+				<div class="interesting-facts__item clearfix">
+					<div class="interesting-facts__img-wrap interesting-facts__img-wrap-left col-md-6 col-md-push-6">
+						<img src="http://placehold.it/310x310" alt="item" class="interesting-facts__img  interesting-facts__img--right">
+					</div>
+					<div class="interesting-facts__text-content interesting-facts__text-content--left col-md-6 col-md-pull-6">
+						<p><a href="#">Выражение «желтый дом»</a> пошло от психиатрического отделения Обуховской больницы в санкт-Петербурге. В те годы часто использовалась желтая краска, ей и был выкрашен психиатрический корпус Обуховки, как и ряд других зданий, однако именно этот корпус сделал выражение "желтый дом" нарицательным.</p>
+					</div>
 				</div>
-			</div>
-			<div class="interesting-facts__item">
-				<div class="interesting-facts__img-wrap">
-					<img src="" alt="" class="interesting-facts__img">
+				<div class="interesting-facts__item clearfix">
+					<div class="interesting-facts__img-wrap col-md-6">
+						<img src="http://placehold.it/310x310" alt="item" class="interesting-facts__img">
+					</div>
+					<div class="interesting-facts__text-content col-md-6">
+						<p><a href="#">Выражение «желтый дом»</a> пошло от психиатрического отделения Обуховской больницы в санкт-Петербурге. В те годы часто использовалась желтая краска, ей и был выкрашен психиатрический корпус Обуховки, как и ряд других зданий, однако именно этот корпус сделал выражение "желтый дом" нарицательным.</p>
+					</div>
 				</div>
-				<p><a href="">Выражение «желтый дом»</a> пошло от психиатрического отделения Обуховской больницы в санкт-Петербурге. В те годы часто использовалась желтая краска, ей и был выкрашен психиатрический корпус Обуховки, как и ряд других зданий, однако именно этот корпус сделал выражение "желтый дом" нарицательным</p>
-			</div>
-			<div class="interesting-facts__item">
-				<div class="interesting-facts__img-wrap">
-					<img src="" alt="" class="interesting-facts__img">
+				<div class="interesting-facts__item clearfix">
+					<div class="interesting-facts__img-wrap interesting-facts__img-wrap-left col-md-6 col-md-push-6">
+						<img src="http://placehold.it/310x310" alt="item" class="interesting-facts__img  interesting-facts__img--right">
+					</div>
+					<div class="interesting-facts__text-content interesting-facts__text-content--left col-md-6 col-md-pull-6">
+						<p><a href="#">Выражение «желтый дом»</a> пошло от психиатрического отделения Обуховской больницы в санкт-Петербурге. В те годы часто использовалась желтая краска, ей и был выкрашен психиатрический корпус Обуховки, как и ряд других зданий, однако именно этот корпус сделал выражение "желтый дом" нарицательным.</p>
+					</div>
 				</div>
-				<p><a href="">Выражение «желтый дом»</a> пошло от психиатрического отделения Обуховской больницы в санкт-Петербурге. В те годы часто использовалась желтая краска, ей и был выкрашен психиатрический корпус Обуховки, как и ряд других зданий, однако именно этот корпус сделал выражение "желтый дом" нарицательным</p>
+				<div class="interesting-facts__item clearfix">
+					<div class="interesting-facts__img-wrap col-md-6">
+						<img src="http://placehold.it/310x310" alt="item" class="interesting-facts__img">
+					</div>
+					<div class="interesting-facts__text-content col-md-6">
+						<p><a href="#">Выражение «желтый дом»</a> пошло от психиатрического отделения Обуховской больницы в санкт-Петербурге. В те годы часто использовалась желтая краска, ей и был выкрашен психиатрический корпус Обуховки, как и ряд других зданий, однако именно этот корпус сделал выражение "желтый дом" нарицательным.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -790,6 +837,7 @@
 </footer>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src="https://yastatic.net/share2/share.js" async="async"></script>
 <script src=js/history-main.min.js></script>
 <script src=js/main.min.js></script>
 </body>
