@@ -195,12 +195,33 @@
   text-align: center;
   color: #336799;
 }
-.icons__icon {
+.icons__link {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
+  display: block;
   width: 115px;
   height: 115px;
+  background: no-repeat center;
+  background-size: 100% 100%;
+}
+.icons__link._news {
+  background-image: url(pics/svg/svg-rare/news.svg);
+}
+.icons__link._article {
+  background-image: url(pics/svg/svg-rare/statii.svg);
+}
+.icons__link._encycl {
+  background-image: url(pics/svg/svg-rare/enciklopediya.svg);
+}
+.icons__link._history {
+  background-image: url(pics/svg/svg-rare/iz_istorii.svg);
+}
+.icons__link._diagnostycs {
+  background-image: url(pics/svg/svg-rare/diagnostika.svg);
+}
+.icons__link._fonds {
+  background-image: url(pics/svg/svg-rare/fondi.svg);
 }
 .tabs__title-content {
   margin: 0;
