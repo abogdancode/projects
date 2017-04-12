@@ -1,1 +1,756 @@
-.exhibition__container{max-width:1440px;margin:0 auto;padding:0 70px}.exhibition .exhibition__title{position:relative;padding-left:70px;background-color:#8ab017}.exhibition .exhibition__title h1,.exhibition .exhibition__title h2{width:50%;padding-right:2%}.exhibition .exhibition__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#d0dfa2;opacity:.8}.exhibition__item{padding:85px 0}.exhibition__item:not(:last-of-type){border-bottom:4px dotted #c4c4c4}.exhibition__slider{padding:0;padding-right:47px}.exhibition__slider-big{margin-bottom:28px}.exhibition__small-img-wrap{padding:0 14px}.exhibition__small-img-wrap:focus{outline:0}.exhibition__big-img,.exhibition__small-img{width:100%}.exhibition__content{padding:0}.exhibition__text-content{padding:0 35px;margin-bottom:35px}.exhibition__text-content h3{position:relative;margin-bottom:5px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.5rem;line-height:1.2;font-style:normal;font-weight:400;text-transform:uppercase;color:#363434}.exhibition__text-content h3::before{position:absolute;top:0;left:-35px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.5rem;line-height:1.2;font-style:normal;font-weight:400;color:#303030}.exhibition__text-content address{margin-bottom:10px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.2rem;line-height:1.2;font-style:normal;font-weight:400;color:#363434}.exhibition__text-content p{font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:1.8;font-style:normal;font-weight:400;color:#757575}.exhibition__text-content-1 h3::before{content:"1."}.exhibition__text-content-2 h3::before{content:"2."}.exhibition__info{width:100%;max-width:674px;margin:0 auto;padding:55px;padding-left:130px;background:url(pics/history-museum/exhibition-dec.png) 0 0 no-repeat;background-size:contain}.exhibition__date,.exhibition__price{position:relative;font-family:CenturyGothic,Arial,sans-serif;font-size:1.2rem;line-height:1.2;font-style:normal;font-weight:400;color:#4e555a}.exhibition__date::before,.exhibition__price::before{content:"";position:absolute;top:50%;left:-70px;-webkit-transform:translateY(-50%);transform:translateY(-50%);background:url(pics/history-museum/sprite.png) 0 0 no-repeat}.exhibition__date{margin-bottom:55px}.exhibition__date::before{background-position:-55px -10px;width:39px;height:39px}.exhibition__price::before{background-position:-106px -273px;width:42px;height:34px}.museum-cloud__container{max-width:1440px;margin:0 auto;padding:0 70px;height:100%}.museum-cloud__title h1{font-family:CenturyGothic,Arial,sans-serif;font-size:2rem;line-height:1.2;font-style:normal;font-weight:400;text-align:center;color:#737373}.museum-cloud__content{height:570px;background:url(pics/history-museum/museum-cloud-wp.png) center center no-repeat}.museum-cloud__link-wrap{position:relative;height:100%}.museum-cloud__link{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);min-width:420px;padding:10px 50px;padding-right:37px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.1rem;line-height:1.2;font-style:normal;font-weight:400;cursor:pointer;border:1px solid #336799;border-radius:30px;background-color:#fff;color:#336799;-webkit-transition:.15s ease-in;transition:.15s ease-in}.museum-cloud__link:hover{background-color:#336799;color:#fff}.museum-cloud__link:hover span{color:#fff}.museum-cloud__caret{float:right;margin-top:8px;border-width:8px;-webkit-transition:.15s ease-in;transition:.15s ease-in}.museum-cloud__modal{display:none;position:fixed;z-index:20;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgba(0,0,0,.5)}.museum-cloud__modal-content{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);min-width:600px;padding:50px;padding-top:30px;background-color:#fff;-webkit-animation:bounceInUp .4s;animation:bounceInUp .4s}.museum-cloud__modal-content h3{margin-bottom:25px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.5rem;line-height:1.2;font-style:normal;font-weight:400;text-align:center;color:#474747}.museum-cloud__closebtn{position:absolute;top:-45px;right:-35px;z-index:20;cursor:pointer;font-family:CenturyGothic,Arial,sans-serif;font-size:3rem;line-height:1.2;font-style:normal;font-weight:400;font-weight:700;color:#fff;-webkit-transition:.15s ease-in;transition:.15s ease-in}.museum-cloud__closebtn:hover{opacity:.6}.museum-cloud__modal-search{width:100%;margin-bottom:40px;padding:8px;font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:1.2;font-style:normal;font-weight:400;outline:0;border:1px solid #a2a2a2;-webkit-transition:.15s ease-in;transition:.15s ease-in}.museum-cloud__modal-search:hover{box-shadow:0 0 5px 0 #a2a2a2}.museum-cloud__modal-search:focus{box-shadow:0 0 6px 0 #a2a2a2}.museum-cloud__modal-city{height:225px}.museum-cloud__modal-col{padding-left:50px}.museum-cloud__modal-col ul>li>a{font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:2;font-style:normal;font-weight:400;color:#444f5b;-webkit-transition:.15s ease-in;transition:.15s ease-in}.museum-cloud__modal-col ul>li>a:focus,.museum-cloud__modal-col ul>li>a:hover{text-decoration:underline}.museum-cloud__modal-col ul>li>a span{font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:2;font-style:normal;font-weight:700;color:#3c71a7;-webkit-transition:.15s ease-in;transition:.15s ease-in}.museum-cloud__modal-col ul>li>a span:focus,.museum-cloud__modal-col ul>li>a span:hover{text-decoration:underline}.museum-cloud__block{position:relative;width:100%;height:655px;background:url(pics/history-museum/museum-cloud-bg.png) top center no-repeat;background-size:cover}.museum-cloud__exhibition,.museum-cloud__museum{height:100%;padding-top:480px}.museum-cloud__exhibition h2,.museum-cloud__museum h2{position:relative;text-align:center;font-family:CenturyGothic,Arial,sans-serif;font-size:2rem;line-height:1.2;font-style:normal;font-weight:400;color:#35506a}.museum-cloud__exhibition h2::before,.museum-cloud__museum h2::before{content:"";position:absolute;top:-260px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);background:url(pics/history-museum/sprite.png) 0 0 no-repeat}.museum-cloud__museum h2::before{background-position:-315px -10px;width:181px;height:243px}.museum-cloud__exhibition h2::before{background-position:-114px -10px;width:181px;height:243px}.jspVerticalBar{position:absolute;top:0;right:0;width:6px;height:100%;background:#b1cbe4}.jspTrack{background:#b1cbe4;position:relative}.jspDrag{background:#2970b5;position:relative;top:0;left:0;cursor:pointer}@-webkit-keyframes bounceInUp{60%,75%,90%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}from{opacity:0;-webkit-transform:translate(-50%,3000px);transform:translate(-50%,3000px)}60%{opacity:1;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}75%{-webkit-transform:translate(-50%,-54%);transform:translate(-50%,-54%)}90%{-webkit-transform:translate(-50%,-52%);transform:translate(-50%,-52%)}to{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}}@keyframes bounceInUp{60%,75%,90%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}from{opacity:0;-webkit-transform:translate(-50%,3000px);transform:translate(-50%,3000px)}60%{opacity:1;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}75%{-webkit-transform:translate(-50%,-54%);transform:translate(-50%,-54%)}90%{-webkit-transform:translate(-50%,-52%);transform:translate(-50%,-52%)}to{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}}.museum__container{max-width:1440px;margin:0 auto;padding:0 70px}.museum .museum__title{position:relative;padding-left:70px;background-color:#8dc2ea}.museum .museum__title h1,.museum .museum__title h2{width:50%;padding-right:2%}.museum .museum__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#d1e7f7;opacity:.8}.museum__item h3::after{position:absolute;top:0;left:-40px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.9rem;line-height:1.2;font-style:normal;font-weight:400;color:#303030}.museum__item-1 h3::after{content:"1."}.museum__item-2 h3::after{content:"2."}.museum__item-3 h3::after{content:"3."}.museum__item-4 h3::after{content:"4."}.museum__item-5 h3::after{content:"5."}.museum__item-6 h3::after{content:"6."}.museum__img-wrap{position:relative;width:100%}.museum__img-wrap::before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:url(pics/history-museum/museum-bg.png) 0 0 no-repeat}.museum__img{width:100%}.museum__content{padding-top:40px;padding-bottom:105px;background:url(pics/history-museum/museum-wp.png) top left no-repeat;background-size:cover}.museum__text-content{padding-left:70px}.museum__text-content h3{position:relative;margin-bottom:25px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.9rem;line-height:1.2;font-style:normal;font-weight:400;color:#303030}.museum__text-content h3::before{content:"”";position:absolute;top:-60px;left:-205px;font-family:CenturyGothic,Arial,sans-serif;font-size:266px;line-height:1.2;font-style:normal;font-weight:400;color:#303030;-webkit-transform:scale(-1,1);transform:scale(-1,1)}.museum__text-content p{margin-bottom:65px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.2rem;line-height:1.2;font-style:normal;font-weight:400;color:#7e7e7e}.museum__contacts{width:728px;height:279px;margin-left:-20px;padding:45px;padding-left:130px;background:url(pics/history-museum/museum-dec.png) 0 0 no-repeat}.museum__address,.museum__phone{position:relative;margin-bottom:25px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.2rem;line-height:1.2;font-style:normal;font-weight:400;color:#4e555a}.museum__address::before,.museum__phone::before{content:"";position:absolute;top:50%;left:-47px;-webkit-transform:translateY(-50%);transform:translateY(-50%);background:url(pics/history-museum/sprite.png) 0 0 no-repeat}.museum__address::before{background-position:-10px -10px;width:25px;height:34px}.museum__phone::before{background-position:-63px -273px;width:23px;height:31px}.museum__link{position:relative;font-family:CenturyGothic,Arial,sans-serif;font-size:1.2rem;line-height:1.2;font-style:normal;font-weight:400;cursor:pointer;color:#698ba6;-webkit-transition:.15s ease-in;transition:.15s ease-in}.museum__link::before{content:"";position:absolute;top:50%;left:-47px;-webkit-transform:translateY(-50%);transform:translateY(-50%);background:url(pics/history-museum/sprite.png) 0 0 no-repeat;background-position:-10px -273px;width:33px;height:26px}.museum__link:focus,.museum__link:hover{color:#52718a;text-decoration:underline}.container{max-width:1440px;margin:0 auto;padding:0 70px}.transition{-webkit-transition:.15s ease-in;transition:.15s ease-in}.center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vertical-center{top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%)}.horizontal-center{left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}.sprite{background-image:url(spritesheet.png);background-repeat:no-repeat;display:block}.sprite.sprite-discovery-dec{background-position:-10px -10px;width:51px;height:51px}.sprite.sprite-history-main-menu-1{background-position:-81px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-2{background-position:-242px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-3{background-position:-10px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-4{background-position:-171px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-5{background-position:-403px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-6{background-position:-332px -171px;width:141px;height:141px}.sprite.sprite-popular-sections-1{background-position:-493px -171px;width:84px;height:92px}.sprite.sprite-popular-sections-2{background-position:-493px -283px;width:85px;height:89px}.sprite.sprite-popular-sections-3{background-position:-10px -392px;width:52px;height:89px}.sprite.sprite-popular-sections-4{background-position:-82px -392px;width:84px;height:91px}.sprite.sprite-popular-sections-5{background-position:-186px -392px;width:83px;height:79px}.trans-bor-col{border:1px solid transparent;-webkit-transition-property:border-color;transition-property:border-color;-webkit-transition-duration:1s;transition-duration:1s}@media (max-width:767px){.exhibition__container{padding:0 4.6%}.exhibition .exhibition__title{padding:0 4.6%}.exhibition__item{padding:55px 0}.exhibition__info{padding:0;padding-left:130px;background:0 0}.exhibition__date,.exhibition__price{font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:1.2;font-style:normal;font-weight:400}.museum-cloud__container{padding:0 4.6%}.museum-cloud__title h1{margin-bottom:20px}.museum-cloud__content{height:400px;background:url(pics/history-museum/museum-cloud-wp-mob.png) center center no-repeat}.museum-cloud__modal-content{min-width:0;width:75%}.museum-cloud__modal-col{padding-left:0}.museum-cloud__block{height:auto;background:url(pics/history-museum/museum-cloud-bg-mob.png) bottom center no-repeat}.museum-cloud__exhibition,.museum-cloud__museum{height:auto;padding-top:300px;padding-bottom:80px}.museum__container{padding:0 4.6%}.museum .museum__title{padding:0 4.6%}.museum__content{padding-bottom:50px}.museum__text-content{padding-left:0}.museum__text-content h3{font-family:CenturyGothic,Arial,sans-serif;font-size:1.4rem;line-height:1.2;font-style:normal;font-weight:400}.museum__text-content p{font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:1.2;font-style:normal;font-weight:400}.museum__contacts{width:100%;height:auto;padding:0;padding-left:70px;background:0 0}.museum__address,.museum__phone{font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:1.2;font-style:normal;font-weight:400}.museum__link{font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:1.2;font-style:normal;font-weight:400}.container{padding:0 4.6%}}@media (min-width:768px) and (max-width:991px){.exhibition__container{padding:0 5.2%}.exhibition .exhibition__title{padding:0 5.2%}.museum-cloud__container{padding:0 5.2%}.museum__container{padding:0 5.2%}.museum .museum__title{padding:0 5.2%}.museum__content{padding-bottom:70px}.museum__contacts{width:100%;padding-left:100px;background:0 0}.container{padding:0 5.2%}}@media (min-width:992px) and (max-width:1199px){.exhibition__container{padding:0 35px}.exhibition .exhibition__title{padding:0 35px}.museum-cloud__container{padding:0 35px}.museum__container{padding:0 35px}.museum .museum__title{padding:0 35px}.container{padding:0 35px}}@media (max-width:991px){.exhibition .exhibition__title::after{opacity:.3}.museum .museum__title::after{opacity:.3}.museum__img-wrap::before{display:none}.museum__text-content h3::before{display:none}}@media (max-width:1199px){.exhibition__slider{width:100%;max-width:590px;margin:0 auto;margin-bottom:40px;padding-right:0}}@media (max-width:480px){.exhibition__slider{margin-bottom:0}.exhibition__slider-small{display:none}.exhibition__text-content{padding:0}.exhibition__text-content h3{font-family:CenturyGothic,Arial,sans-serif;font-size:1.2rem;line-height:1.2;font-style:normal;font-weight:400}.exhibition__text-content h3::before{display:none}.exhibition__text-content address{font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:1.2;font-style:normal;font-weight:400}.exhibition__text-content p{font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:1.2;font-style:normal;font-weight:400}.exhibition__info{padding-left:70px;background:0 0}.museum-cloud__link{width:91.66666667%;min-width:0}.museum-cloud__modal-content{padding:30px;width:100%}.museum-cloud__closebtn{top:-55px;right:10px}}
+.exhibition__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .exhibition__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .exhibition__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .exhibition__container {
+    padding: 0 35px;
+  }
+}
+.exhibition .exhibition__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #8ab017;
+}
+.exhibition .exhibition__title h1,
+.exhibition .exhibition__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .exhibition .exhibition__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .exhibition .exhibition__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .exhibition .exhibition__title {
+    padding: 0 35px;
+  }
+}
+.exhibition .exhibition__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #d0dfa2;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .exhibition .exhibition__title::after {
+    opacity: 0.3;
+  }
+}
+.exhibition__item {
+  padding: 85px 0;
+}
+.exhibition__item:not(:last-of-type) {
+  border-bottom: 4px dotted #c4c4c4;
+}
+@media (max-width: 767px) {
+  .exhibition__item {
+    padding: 55px 0;
+  }
+}
+.exhibition__slider {
+  padding: 0;
+  padding-right: 47px;
+}
+@media (max-width: 1199px) {
+  .exhibition__slider {
+    width: 100%;
+    max-width: 590px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .exhibition__slider {
+    margin-bottom: 0;
+  }
+}
+.exhibition__slider-big {
+  margin-bottom: 28px;
+}
+.exhibition__slider-small {
+  margin: 0 -13px;
+}
+@media (max-width: 1199px) {
+  .exhibition__slider-small {
+    margin: 0 -14px;
+  }
+}
+@media (max-width: 480px) {
+  .exhibition__slider-small {
+    display: none;
+  }
+}
+.exhibition__small-img-wrap {
+  padding: 0 14px;
+}
+.exhibition__small-img-wrap:focus {
+  outline: none;
+}
+.exhibition__small-img,
+.exhibition__big-img {
+  width: 100%;
+}
+.exhibition__content {
+  padding: 0;
+}
+.exhibition__text-content {
+  padding: 0 35px;
+  margin-bottom: 35px;
+}
+@media (max-width: 480px) {
+  .exhibition__text-content {
+    padding: 0;
+  }
+}
+.exhibition__text-content > a {
+  color: #363434;
+}
+.exhibition__text-content > a:hover,
+.exhibition__text-content > a:focus {
+  text-decoration: underline;
+  color: #363434;
+}
+.exhibition__text-content h3 {
+  position: relative;
+  margin-bottom: 5px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #363434;
+}
+@media (max-width: 480px) {
+  .exhibition__text-content h3 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.exhibition__text-content h3::before {
+  position: absolute;
+  top: 0;
+  left: -35px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #303030;
+}
+@media (max-width: 480px) {
+  .exhibition__text-content h3::before {
+    display: none;
+  }
+}
+.exhibition__text-content address {
+  margin-bottom: 10px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #363434;
+}
+@media (max-width: 480px) {
+  .exhibition__text-content address {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.exhibition__text-content p {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-style: normal;
+  font-weight: 400;
+  color: #757575;
+}
+@media (max-width: 480px) {
+  .exhibition__text-content p {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.exhibition__text-content-1 h3::before {
+  content: "1.";
+}
+.exhibition__text-content-2 h3::before {
+  content: "2.";
+}
+.exhibition__info {
+  width: 100%;
+  max-width: 674px;
+  margin: 0 auto;
+  padding: 55px;
+  padding-left: 130px;
+  background: url(pics/history-museum/exhibition-dec.png) 0 0 no-repeat;
+  background-size: contain;
+}
+@media (max-width: 767px) {
+  .exhibition__info {
+    padding: 0;
+    padding-left: 130px;
+    background: none;
+  }
+}
+@media (max-width: 480px) {
+  .exhibition__info {
+    padding-left: 70px;
+    background: none;
+  }
+}
+.exhibition__date,
+.exhibition__price {
+  position: relative;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #4e555a;
+}
+@media (max-width: 767px) {
+  .exhibition__date,
+  .exhibition__price {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.exhibition__date::before,
+.exhibition__price::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -70px;
+  transform: translateY(-50%);
+  background: url(pics/history-museum/sprite.png) 0 0 no-repeat;
+}
+.exhibition__date {
+  margin-bottom: 55px;
+}
+.exhibition__date::before {
+  background-position: -55px -10px;
+  width: 39px;
+  height: 39px;
+}
+.exhibition__price::before {
+  background-position: -106px -273px;
+  width: 42px;
+  height: 34px;
+}
+.museum-cloud__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .museum-cloud__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .museum-cloud__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .museum-cloud__container {
+    padding: 0 35px;
+  }
+}
+.museum-cloud__title h1 {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #737373;
+}
+@media (max-width: 767px) {
+  .museum-cloud__title h1 {
+    margin-bottom: 20px;
+  }
+}
+.museum-cloud__content {
+  height: 570px;
+  background: url(pics/history-museum/museum-cloud-wp.png) center center no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .museum-cloud__content {
+    height: 400px;
+    background: url(pics/history-museum/museum-cloud-wp-mob.png) center center no-repeat;
+  }
+}
+.museum-cloud__block {
+  position: relative;
+  width: 100%;
+  height: 655px;
+  background: url(pics/history-museum/museum-cloud-bg.png) center center no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .museum-cloud__block {
+    height: auto;
+    background: url(pics/history-museum/museum-cloud-bg-mob.png) bottom center no-repeat;
+  }
+}
+.museum-cloud__museum,
+.museum-cloud__exhibition {
+  height: 100%;
+  padding-top: 480px;
+}
+@media (max-width: 767px) {
+  .museum-cloud__museum,
+  .museum-cloud__exhibition {
+    height: auto;
+    padding-top: 300px;
+    padding-bottom: 80px;
+  }
+}
+.museum-cloud__museum h2,
+.museum-cloud__exhibition h2 {
+  position: relative;
+  text-align: center;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #35506a;
+}
+.museum-cloud__museum h2::before,
+.museum-cloud__exhibition h2::before {
+  content: "";
+  position: absolute;
+  top: -260px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url(pics/history-museum/sprite.png) 0 0 no-repeat;
+}
+.museum-cloud__museum h2::before {
+  background-position: -315px -10px;
+  width: 181px;
+  height: 243px;
+}
+.museum-cloud__exhibition h2::before {
+  background-position: -114px -10px;
+  width: 181px;
+  height: 243px;
+}
+.museum__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .museum__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .museum__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .museum__container {
+    padding: 0 35px;
+  }
+}
+.museum .museum__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #8dc2ea;
+}
+.museum .museum__title h1,
+.museum .museum__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .museum .museum__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .museum .museum__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .museum .museum__title {
+    padding: 0 35px;
+  }
+}
+.museum .museum__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #d1e7f7;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .museum .museum__title::after {
+    opacity: 0.3;
+  }
+}
+.museum__item h3::after {
+  position: absolute;
+  top: 0;
+  left: -40px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.9rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #303030;
+}
+.museum__item-1 h3::after {
+  content: "1.";
+}
+.museum__item-2 h3::after {
+  content: "2.";
+}
+.museum__item-3 h3::after {
+  content: "3.";
+}
+.museum__item-4 h3::after {
+  content: "4.";
+}
+.museum__item-5 h3::after {
+  content: "5.";
+}
+.museum__item-6 h3::after {
+  content: "6.";
+}
+.museum__img-wrap {
+  position: relative;
+  width: 100%;
+}
+.museum__img-wrap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(pics/history-museum/museum-bg.png) 0 0 no-repeat;
+}
+@media (max-width: 991px) {
+  .museum__img-wrap::before {
+    display: none;
+  }
+}
+.museum__img {
+  width: 100%;
+}
+.museum__content {
+  padding-top: 40px;
+  padding-bottom: 105px;
+  background: url(pics/history-museum/museum-wp.png) top left no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .museum__content {
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .museum__content {
+    padding-bottom: 50px;
+  }
+}
+.museum__text-content {
+  padding-left: 70px;
+}
+@media (max-width: 767px) {
+  .museum__text-content {
+    padding-left: 0;
+  }
+}
+.museum__text-content > a {
+  color: #303030;
+}
+.museum__text-content > a:hover,
+.museum__text-content > a:focus {
+  text-decoration: underline;
+  color: #303030;
+}
+.museum__text-content h3 {
+  position: relative;
+  margin-bottom: 25px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.9rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #303030;
+}
+@media (max-width: 767px) {
+  .museum__text-content h3 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.museum__text-content h3::before {
+  content: "”";
+  position: absolute;
+  top: -60px;
+  left: -205px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 266px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #303030;
+  transform: scale(-1, 1);
+}
+@media (max-width: 991px) {
+  .museum__text-content h3::before {
+    display: none;
+  }
+}
+.museum__text-content p {
+  margin-bottom: 65px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #7e7e7e;
+}
+@media (max-width: 767px) {
+  .museum__text-content p {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.museum__contacts {
+  width: 728px;
+  height: 279px;
+  margin-left: -20px;
+  padding: 45px;
+  padding-left: 130px;
+  background: url(pics/history-museum/museum-dec.png) 0 0 no-repeat;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .museum__contacts {
+    width: 100%;
+    padding-left: 100px;
+    background: none;
+  }
+}
+@media (max-width: 767px) {
+  .museum__contacts {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    padding-left: 70px;
+    background: none;
+  }
+}
+.museum__address,
+.museum__phone {
+  position: relative;
+  margin-bottom: 25px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #4e555a;
+}
+@media (max-width: 767px) {
+  .museum__address,
+  .museum__phone {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.museum__address::before,
+.museum__phone::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -47px;
+  transform: translateY(-50%);
+  background: url(pics/history-museum/sprite.png) 0 0 no-repeat;
+}
+.museum__address::before {
+  background-position: -10px -10px;
+  width: 25px;
+  height: 34px;
+}
+.museum__phone::before {
+  background-position: -63px -273px;
+  width: 23px;
+  height: 31px;
+}
+.museum__link {
+  position: relative;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+  color: #698ba6;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .museum__link {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.museum__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -47px;
+  transform: translateY(-50%);
+  background: url(pics/history-museum/sprite.png) 0 0 no-repeat;
+  background-position: -10px -273px;
+  width: 33px;
+  height: 26px;
+}
+.museum__link:hover,
+.museum__link:focus {
+  color: #52718a;
+  text-decoration: underline;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding: 0 35px;
+  }
+}
+.transition {
+  transition: 0.15s ease-in;
+}
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vertical-center {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.horizontal-center {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite.sprite-item-1 {
+  background-position: -10px -10px;
+  width: 44px;
+  height: 47px;
+}
+.sprite.sprite-item-2 {
+  background-position: -74px -10px;
+  width: 53px;
+  height: 53px;
+}
+.sprite.sprite-item-3 {
+  background-position: -147px -10px;
+  width: 63px;
+  height: 63px;
+}
+.sprite.sprite-item-4 {
+  background-position: -230px -10px;
+  width: 79px;
+  height: 47px;
+}
+.sprite.sprite-item-5 {
+  background-position: -329px -10px;
+  width: 55px;
+  height: 46px;
+}
+.sprite.sprite-item-6 {
+  background-position: -404px -10px;
+  width: 61px;
+  height: 39px;
+}
+.sprite.sprite-place {
+  background-position: -485px -10px;
+  width: 23px;
+  height: 32px;
+}
+.trans-bor-col {
+  border: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 1s;
+}

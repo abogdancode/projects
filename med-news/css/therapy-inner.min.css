@@ -1,1 +1,867 @@
-.some-shit{display:none}.therapy-countries{background:url(pics/therapy/worldmap.png) center 50px no-repeat;font-family:CenturyGothic}.therapy-countries.therapy-inner{padding-bottom:130px}.therapy-countries .nav-tabs{border-bottom:0}.therapy-countries .nav-tabs li{width:calc(100%/7);text-align:center;margin:0}.therapy-countries .nav-tabs li a{border:none;background:0 0;color:#1c4771;border-radius:0;padding:50px;position:relative;margin:0;display:block}.therapy-countries .nav-tabs li a img{max-width:100%}.therapy-countries .nav-tabs li a:hover{border:none;background:0 0;color:#1c4771;background-image:-webkit-linear-gradient(left,#9fd5e2 80px,transparent 80px),-webkit-linear-gradient(left,#9fd5e2 80px,transparent 80px),-webkit-linear-gradient(top,#9fd5e2 80px,transparent 80px),-webkit-linear-gradient(top,#9fd5e2 80px,transparent 80px);background-image:linear-gradient(to right,#9fd5e2 80px,transparent 80px),linear-gradient(to right,#9fd5e2 80px,transparent 80px),linear-gradient(to bottom,#9fd5e2 80px,transparent 80px),linear-gradient(to bottom,#9fd5e2 80px,transparent 80px);background-size:100% 3px,100% 3px,3px 100%,3px 100%;background-position:-40px 0,-40px 100%,0 -40px,100% -40px;background-repeat:repeat-x,repeat-x,repeat-y,repeat-y}.therapy-countries .nav-tabs li.active a{border:none;background:0 0;color:#1c4771;background-image:-webkit-linear-gradient(left,#9fd5e2 80px,transparent 80px),-webkit-linear-gradient(left,#9fd5e2 80px,transparent 80px),-webkit-linear-gradient(top,#9fd5e2 80px,transparent 80px),-webkit-linear-gradient(top,#9fd5e2 80px,transparent 80px);background-image:linear-gradient(to right,#9fd5e2 80px,transparent 80px),linear-gradient(to right,#9fd5e2 80px,transparent 80px),linear-gradient(to bottom,#9fd5e2 80px,transparent 80px),linear-gradient(to bottom,#9fd5e2 80px,transparent 80px);background-size:100% 3px,100% 3px,3px 100%,3px 100%;background-position:-40px 0,-40px 100%,0 -40px,100% -40px;background-repeat:repeat-x,repeat-x,repeat-y,repeat-y}.therapy-countries__tabtext{position:absolute;font-size:14px;bottom:20px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.therapy-countries__h3{color:#155a83;font-size:25px;margin-bottom:130px;margin-top:30px;text-align:center;font-family:CenturyGothic}.therapy-countries .tab-content{margin-top:70px}.therapy-countries__tabinner{color:#626262}.therapy-countries__tabflag{text-align:center}.therapy-countries__head{font-size:25px;margin:15px 0 20px 0}.therapy-countries__p{font-size:15px;margin:0;margin-bottom:40px;line-height:1.8;display:block}.therapy-countries__subhead{font-weight:700;color:#b21b2f;font-size:24px;margin-bottom:30px;margin-top:40px}.therapy-countries__list{list-style:none;margin:0;font-size:15px;margin-bottom:40px}.therapy-countries__list li{display:block;padding-left:10px;position:relative}.therapy-countries__list li:before{content:'-';position:absolute;left:0;top:0}.therapy-countries__quote{padding-left:30px;border-left:6px solid #69c;color:#69c;font-weight:700;font-size:20px;line-height:1.5;margin-bottom:60px}.togo-selectwrap{background:url(pics/tourism/ocean.png) no-repeat;background-size:cover;font-family:CenturyGothic;padding-top:45px;padding-bottom:65px}.togo-selectwrap.therapy-select{padding-bottom:90px;margin-bottom:0;background:url(pics/therapy_inner2/therapy-select.png) no-repeat;background-size:cover}.togo-selectwrap.therapy-select .togo-selectwrap__h2{color:#155a83;font-weight:400;font-size:25px}.togo-selectwrap.therapy-select .togo-selectwrap__h3{font-weight:400}.togo-selectwrap.therapy-select .col-md-6 .form-field{margin-bottom:-20px;margin-top:50px}.togo-selectwrap.clinc-search{padding-bottom:0;margin-bottom:0;background:url(pics/therapy_inner2/clinc-search.png) no-repeat;background-size:cover}.togo-selectwrap__h2{text-align:center;color:#203544;font-size:30px;margin-bottom:45px}.togo-selectwrap__h3{color:#155a83;font-size:16px;text-align:center;margin-bottom:50px}.togo-selectwrap__select{position:relative;display:inline-block;width:100%;background:#fff;height:40px;font-size:14px;font-family:CenturyGothic;margin-bottom:25px;padding-left:25px}.togo-selectwrap__select .dropdown-btn{font-size:14px;text-decoration:none;line-height:40px;display:inline-block;width:100%;color:#343434}.togo-selectwrap__select .dropdown-menu{border-radius:0;width:100%;border:none}.togo-selectwrap__select .dropdown-menu a{padding:3px 10px;color:#343434}.togo-selectwrap__select .caret{position:absolute;right:25px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);border-top:8px solid #005d91;border-right:8px solid transparent;border-left:8px solid transparent}.togo-selectwrap__select.open .dropdown-menu{-webkit-animation:ddAnimate .2s 1;animation:ddAnimate .2s 1}.togo-selectwrap__or{display:inline-block;width:100%;text-align:center;line-height:40px;color:#155a83;font-size:22px;font-family:CenturyGothic}.togo-selectwrap__submit{display:block;width:100%;height:50px;line-height:50px;text-align:center;background:#6ebff2;margin:20px auto 65px auto;font-size:22px;color:#373737;text-decoration:none;-webkit-transition:.15s ease-in;transition:.15s ease-in;opacity:.7}.togo-selectwrap__submit:hover{opacity:1;text-decoration:none;color:#373737}.therapy-clinics{padding:40px;background:#f4f9fb;color:#4c4c4c}.therapy-clinics h2{color:#155a83;font-size:26px;margin-bottom:60px;margin-top:0;text-align:center;font-weight:400}.therapy-clinics__text{width:calc(100% - 270px)}.therapy-clinics__head{font-size:20px;font-weight:700;margin-bottom:20px}.therapy-clinics__desc{font-size:13px;line-height:2}.therapy-clinics__desc a{color:#2f81c8;-webkit-transition:.15s ease-in;transition:.15s ease-in;border-bottom:1px solid #2f81c8}.therapy-clinics__desc a:hover{border-bottom-color:transparent}.therapy-clinics__seeall{text-align:center;margin-top:60px}.therapy-clinics__seeall-link{color:#427a9b;font-size:18px;border-bottom:1px solid #427a9b;-webkit-transition:.15s ease-in;transition:.15s ease-in}.therapy-clinics__seeall-link:hover{border-bottom-color:transparent}.therapy-diseases{padding:20px 0 30px 0;color:#1e6288}.therapy-diseases h2{font-size:26px;margin-bottom:60px;margin-top:0;text-align:center;font-weight:400}.therapy-diseases__img{margin-bottom:40px;text-align:center}.therapy-diseases__img img{display:inline-block}.therapy-diseases__head{font-size:20px;font-weight:700;text-align:center;margin-bottom:15px}.therapy-diseases__ul{max-width:200px;margin:0 auto;list-style:none;margin-bottom:30px}.therapy-diseases__li{position:relative;padding-left:25px;margin:15px 0}.therapy-diseases__li:after{content:'';position:absolute;left:0;top:5px;width:8px;height:9px;background:#1e6288}.therapy-diseases__link{color:#1e6288;font-size:15px;border-bottom-color:transparent;-webkit-transition:.15s ease-in;transition:.15s ease-in}.therapy-diseases__link:hover{border-bottom:1px solid #1e6288}.therapy-inner-slider{max-height:575px}.therapy-inner-slider .page-slider .slide{height:575px}.therapy-inner-slider .page-slider__text{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);bottom:auto;right:100px;color:#364045;font-size:36px;font-weight:400}.tabs-news .col-md-3,.tabs-news .col-md-9{padding:0}.tabs-news .row{margin:0}.tabs-news .container-fluid{max-width:100%;padding:0}.tabs-news__inner{overflow:hidden}.tabs-news__inner img{display:block;height:498px;width:100%;-o-object-fit:cover;object-fit:cover}.tabs-news__li{margin:0;padding:0;height:calc(500px/3);display:table;width:100%;position:relative}.tabs-news__li a{display:table-cell;vertical-align:middle;text-align:center;border:none;border-radius:0;margin:0;background:#d7dfeb;color:#404040;padding:0 40px;padding-right:60px;text-align:left;font-size:14px;font-family:CenturyGothic;-webkit-transition:.15s ease-in;transition:.15s ease-in}.tabs-news__li a:hover{background:#2192bc;color:#fff;text-decoration:none}.tabs-news__li.active:before{content:'';left:-40px;position:absolute;border:20px solid transparent;border-right:20px solid #2192bc;z-index:20;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.tabs-news__li.active a{background:#2192bc;color:#fff;text-decoration:none;cursor:default}.tabs-news__desc{position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,.6);padding:20px 15px 30px 55px;color:#fefefe;font-size:14px;line-height:1.8}.tabs-news__desc a{color:#9af3fd;border-bottom:1px solid #9af3fd;-webkit-transition:.15s ease-in;transition:.15s ease-in}.tabs-news__desc a:hover{border-bottom-color:transparent}.tabs-news h2{color:#669acc;font-size:25px;margin-bottom:20px;margin-top:60px;text-align:center;font-weight:400}.therapy-tech h2{color:#669acc;font-size:25px;margin-bottom:20px;margin-top:60px;text-align:center;font-weight:400}.therapy-tech__inner{height:478px;position:relative;background:#dbd9da url(pics/therapy-inner/tech.png) no-repeat 100px center}.therapy-tech__innertext{position:absolute;color:#fff;top:50%;right:50px;width:470px;-webkit-transform:translateY(-50%);transform:translateY(-50%);text-align:right}.therapy-tech__innertext span{background:#2a649c;display:inline-block;height:56px;line-height:56px;padding:0 20px;margin-bottom:10px}.therapy-tech__innertext span.row1{font-size:38px;width:470px}.therapy-tech__innertext span.row2{font-size:30px}.therapy-law{margin-bottom:45px}.therapy-law h2{color:#669acc;font-size:25px;margin-bottom:50px;margin-top:60px;text-align:center;font-weight:400}.therapy-law ul{margin-bottom:65px}ul.content-ul{margin:0;padding:0;list-style:none;padding-left:30px;text-align:center}ul.content-ul li{position:relative;padding-left:35px;color:#3a7ba7;margin:15px 0;display:inline-block;width:auto}ul.content-ul li:after{position:absolute;content:'';width:12px;height:12px;background:#3a7ba7;top:5px;left:0}ul.content-ul li a{color:#3a7ba7;border-bottom:1px solid #3a7ba7;text-decoration:none;-webkit-transition:.15s ease-in;transition:.15s ease-in}ul.content-ul li a:hover{border-bottom-color:transparent}.help-slider{overflow:hidden}.help-slider .page-slider__slide{background:#eff6ff;padding:75px 100px}.help-slider__img{width:300px;height:300px;overflow:hidden;border-radius:100%}.help-slider__text{color:#3b4651;font-size:20px}.help-slider__text .name{font-size:38px}.help-slider__text .city{font-size:18px;font-style:italic;display:inline-block;margin-bottom:25px}.help-slider__text .link{display:inline-block;color:#3a7ba7;border-bottom:1px solid #3a7ba7;text-decoration:none;margin-bottom:25px;-webkit-transition:.15s ease-in;transition:.15s ease-in}.help-slider__text .link:hover{border-bottom-color:transparent}.help-slider .slick-arrow{background:#74a8d5;color:#fff}.transition{-webkit-transition:.15s ease-in;transition:.15s ease-in}.n-page-header__h1{color:#002b65;font-size:42px;margin-bottom:35px;margin-top:0;line-height:1;font-weight:400}.sprite2{background:url(pics/sprite2.png)}.container-fluid,.page-conten{max-width:1440px;margin:0 auto;padding:0 70px}button:focus,input:focus,select:focus{outline:0}.page-header{background:#45c4d2;padding:10px 0;padding-left:70px;position:relative;margin:0;font-size:28px;color:#fff;font-family:CenturyGothic;margin-left:-15px;margin-right:-15px;border-bottom:0}.page-header:before{content:'';position:absolute;posinter-events:none;width:50%;right:0;top:0;bottom:0;background:#d0f2f4}.page-header{background:#45c4d2;padding:10px 0;padding-left:70px;position:relative;margin:0;font-size:28px;color:#fff;font-family:CenturyGothic;margin-left:-15px;margin-right:-15px;border-bottom:0}.page-header:before{content:'';position:absolute;posinter-events:none;width:50%;right:0;top:0;bottom:0;background:#d0f2f4}.page-content__subhead{padding:0 70px;font-family:CenturyGothic;color:#336799;font-size:30px;margin-top:0;margin-bottom:10px}.slick-arrow{position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:10;width:30px;height:30px;opacity:.6;border-radius:100%;border:none;font-size:24px;line-height:30px;-webkit-transition:.15s ease-in;transition:.15s ease-in}.slick-arrow:hover{opacity:1}.slick-arrow.slick-next{right:25px}.slick-arrow.slick-next i{margin-left:3px}.slick-arrow.slick-prev{left:25px}.slick-arrow.slick-prev i{margin-right:3px}*{margin:0;padding:0}body,html{min-height:100%;position:relative;min-width:300px}.dropdown-menu{margin:0}.dropdown-menu li:nth-child(even){background:#ededed}@keyframes ddAnimate{from{opacity:0}to{opacity:1}}@-webkit-keyframes ddAnimate{from{opacity:0}to{opacity:1}}.container{max-width:1440px;margin:0 auto;padding:0 70px}.transition{-webkit-transition:.15s ease-in;transition:.15s ease-in}.center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vertical-center{top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%)}.horizontal-center{left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}.sprite{background-image:url(spritesheet.png);background-repeat:no-repeat;display:block}.sprite.sprite-discovery-dec{background-position:-10px -10px;width:51px;height:51px}.sprite.sprite-history-main-menu-1{background-position:-81px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-2{background-position:-242px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-3{background-position:-10px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-4{background-position:-171px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-5{background-position:-403px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-6{background-position:-332px -171px;width:141px;height:141px}.sprite.sprite-popular-sections-1{background-position:-493px -171px;width:84px;height:92px}.sprite.sprite-popular-sections-2{background-position:-493px -283px;width:85px;height:89px}.sprite.sprite-popular-sections-3{background-position:-10px -392px;width:52px;height:89px}.sprite.sprite-popular-sections-4{background-position:-82px -392px;width:84px;height:91px}.sprite.sprite-popular-sections-5{background-position:-186px -392px;width:83px;height:79px}.trans-bor-col{border:1px solid transparent;-webkit-transition-property:border-color;transition-property:border-color;-webkit-transition-duration:1s;transition-duration:1s}@media (max-width:1200px){.some-shit{display:block}.therapy-countries{background:url(pics/therapy/worldmap.png) center 50px no-repeat;font-family:CenturyGothic}.therapy-countries .nav-tabs{border-bottom:0;text-align:center}.therapy-countries .nav-tabs li{display:inline-block;float:none;width:auto}}@media (max-width:991px){.togo-selectwrap__select{margin-bottom:0}.n-page-header__h1{font-size:26px}.container-fluid,.page-conten{padding:0 15px}.page-header{font-size:16px;padding:10px 15px}.page-header:before{opacity:.2}.page-header{font-size:16px;padding:10px 15px}.page-header:before{opacity:.2}}@media (max-width:768px){.tabs-news__li{width:100%;float:none}.tabs-news__li a{height:auto;padding:20px 15px}}@media (max-width:767px){.container{padding:0 4.6%}}@media (min-width:768px) and (max-width:991px){.container{padding:0 5.2%}}@media (min-width:992px) and (max-width:1199px){.container{padding:0 35px}}
+.some-shit {
+  display: none;
+}
+.therapy-countries {
+  background: url(pics/therapy/worldmap.png) center 50px no-repeat;
+  font-family: CenturyGothic;
+}
+.therapy-countries.therapy-inner {
+  padding-bottom: 130px;
+}
+.therapy-countries .nav-tabs {
+  border-bottom: 0;
+}
+.therapy-countries .nav-tabs li {
+  width: calc(100%/7);
+  text-align: center;
+  margin: 0;
+}
+.therapy-countries .nav-tabs li a {
+  border: none;
+  background: transparent;
+  color: #1c4771;
+  border-radius: 0;
+  padding: 50px;
+  position: relative;
+  margin: 0;
+  display: block;
+}
+.therapy-countries .nav-tabs li a img {
+  max-width: 100%;
+}
+.therapy-countries .nav-tabs li a:hover {
+  border: none;
+  background: transparent;
+  color: #1c4771;
+  background-image: linear-gradient(to right, #9fd5e2 80px, transparent 80px), linear-gradient(to right, #9fd5e2 80px, transparent 80px), linear-gradient(to bottom, #9fd5e2 80px, transparent 80px), linear-gradient(to bottom, #9fd5e2 80px, transparent 80px);
+  background-size: 100% 3px, 100% 3px, 3px 100%, 3px 100%;
+  background-position: -40px 0%, -40px 100%, 0% -40px, 100% -40px;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+}
+.therapy-countries .nav-tabs li.active a {
+  border: none;
+  background: transparent;
+  color: #1c4771;
+  background-image: linear-gradient(to right, #9fd5e2 80px, transparent 80px), linear-gradient(to right, #9fd5e2 80px, transparent 80px), linear-gradient(to bottom, #9fd5e2 80px, transparent 80px), linear-gradient(to bottom, #9fd5e2 80px, transparent 80px);
+  background-size: 100% 3px, 100% 3px, 3px 100%, 3px 100%;
+  background-position: -40px 0%, -40px 100%, 0% -40px, 100% -40px;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+}
+.therapy-countries__tabtext {
+  position: absolute;
+  font-size: 14px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.therapy-countries__h3 {
+  color: #155a83;
+  font-size: 25px;
+  margin-bottom: 130px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: CenturyGothic;
+}
+.therapy-countries .tab-content {
+  margin-top: 70px;
+}
+.therapy-countries__tabinner {
+  color: #626262;
+}
+.therapy-countries__tabflag {
+  text-align: center;
+}
+.therapy-countries__head {
+  font-size: 25px;
+  margin: 15px 0 20px 0;
+}
+.therapy-countries__p {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 40px;
+  line-height: 1.8;
+  display: block;
+}
+.therapy-countries__subhead {
+  font-weight: bold;
+  color: #b21b2f;
+  font-size: 24px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.therapy-countries__list {
+  list-style: none;
+  margin: 0;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+.therapy-countries__list li {
+  display: block;
+  padding-left: 10px;
+  position: relative;
+}
+.therapy-countries__list li:before {
+  content: '-';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.therapy-countries__quote {
+  padding-left: 30px;
+  border-left: 6px solid #6699cc;
+  color: #69c;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+@media (max-width: 1200px) {
+  .some-shit {
+    display: block;
+  }
+  .therapy-countries {
+    background: url(pics/therapy/worldmap.png) center 50px no-repeat;
+    font-family: CenturyGothic;
+  }
+  .therapy-countries .nav-tabs {
+    border-bottom: 0;
+    text-align: center;
+  }
+  .therapy-countries .nav-tabs li {
+    display: inline-block;
+    float: none;
+    width: auto;
+  }
+}
+.togo-selectwrap {
+  background: url(pics/tourism/ocean.png) no-repeat;
+  background-size: cover;
+  font-family: CenturyGothic;
+  padding-top: 45px;
+  padding-bottom: 65px;
+}
+.togo-selectwrap.therapy-select {
+  padding-bottom: 90px;
+  margin-bottom: 0;
+  background: url(pics/therapy_inner2/therapy-select.png) no-repeat;
+  background-size: cover;
+}
+.togo-selectwrap.therapy-select .togo-selectwrap__h2 {
+  color: #155a83;
+  font-weight: normal;
+  font-size: 25px;
+}
+.togo-selectwrap.therapy-select .togo-selectwrap__h3 {
+  font-weight: normal;
+}
+.togo-selectwrap.therapy-select .col-md-6 .form-field {
+  margin-bottom: -20px;
+  margin-top: 50px;
+}
+.togo-selectwrap.clinc-search {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background: url(pics/therapy_inner2/clinc-search.png) no-repeat;
+  background-size: cover;
+}
+.togo-selectwrap__h2 {
+  text-align: center;
+  color: #203544;
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+.togo-selectwrap__h3 {
+  color: #155a83;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.togo-selectwrap__select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  height: 40px;
+  font-size: 14px;
+  font-family: CenturyGothic;
+  margin-bottom: 25px;
+  padding-left: 25px;
+}
+.togo-selectwrap__select .dropdown-btn {
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 40px;
+  display: inline-block;
+  width: 100%;
+  color: #343434;
+}
+.togo-selectwrap__select .dropdown-menu {
+  border-radius: 0;
+  width: 100%;
+  border: none;
+}
+.togo-selectwrap__select .dropdown-menu a {
+  padding: 3px 10px;
+  color: #343434;
+}
+.togo-selectwrap__select .caret {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 8px solid #005d91;
+  border-top: 6px solid\9;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+.togo-selectwrap__select.open .dropdown-menu {
+  animation: ddAnimate .2s 1;
+}
+.togo-selectwrap__or {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  color: #155a83;
+  font-size: 22px;
+  font-family: CenturyGothic;
+}
+.togo-selectwrap__submit {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #6ebff2;
+  margin: 20px auto 65px auto;
+  font-size: 22px;
+  color: #373737;
+  text-decoration: none;
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+  opacity: .7;
+}
+.togo-selectwrap__submit:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #373737;
+}
+@media (max-width: 991px) {
+  .togo-selectwrap__select {
+    margin-bottom: 0;
+  }
+}
+.therapy-clinics {
+  padding: 40px;
+  background: #f4f9fb;
+  color: #4c4c4c;
+}
+.therapy-clinics h2 {
+  color: #155a83;
+  font-size: 26px;
+  margin-bottom: 60px;
+  margin-top: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.therapy-clinics__text {
+  width: calc(100% - 270px);
+}
+.therapy-clinics__head {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.therapy-clinics__desc {
+  font-size: 13px;
+  line-height: 2;
+}
+.therapy-clinics__desc a {
+  color: #2f81c8;
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+  border-bottom: 1px solid #2f81c8;
+}
+.therapy-clinics__desc a:hover {
+  border-bottom-color: transparent;
+}
+.therapy-clinics__seeall {
+  text-align: center;
+  margin-top: 60px;
+}
+.therapy-clinics__seeall-link {
+  color: #427a9b;
+  font-size: 18px;
+  border-bottom: 1px solid  #427a9b;
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+.therapy-clinics__seeall-link:hover {
+  border-bottom-color: transparent;
+}
+.therapy-diseases {
+  padding: 20px 0px 30px 0;
+  color: #1e6288;
+}
+.therapy-diseases h2 {
+  font-size: 26px;
+  margin-bottom: 60px;
+  margin-top: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.therapy-diseases__img {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.therapy-diseases__img img {
+  display: inline-block;
+}
+.therapy-diseases__head {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.therapy-diseases__ul {
+  max-width: 200px;
+  margin: 0 auto;
+  list-style: none;
+  margin-bottom: 30px;
+}
+.therapy-diseases__li {
+  position: relative;
+  padding-left: 25px;
+  margin: 15px 0;
+}
+.therapy-diseases__li:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 8px;
+  height: 9px;
+  background: #1e6288;
+}
+.therapy-diseases__link {
+  color: #1e6288;
+  font-size: 15px;
+  border-bottom-color: transparent;
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+.therapy-diseases__link:hover {
+  border-bottom: 1px solid  #1e6288;
+}
+.therapy-inner-slider {
+  max-height: 575px;
+}
+.therapy-inner-slider .page-slider .slide {
+  height: 575px;
+}
+.therapy-inner-slider .page-slider__text {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
+  right: 100px;
+  color: #364045;
+  font-size: 36px;
+  font-weight: normal;
+}
+.tabs-news .col-md-3,
+.tabs-news .col-md-9 {
+  padding: 0;
+}
+.tabs-news .row {
+  margin: 0;
+}
+.tabs-news .container-fluid {
+  max-width: 100%;
+  padding: 0;
+}
+.tabs-news__inner {
+  overflow: hidden;
+}
+.tabs-news__inner img {
+  display: block;
+  height: 498px;
+  width: 100%;
+  object-fit: cover;
+}
+.tabs-news__li {
+  margin: 0;
+  padding: 0;
+  height: calc(500px/3);
+  display: table;
+  width: 100%;
+  position: relative;
+}
+.tabs-news__li a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  background: #d7dfeb;
+  color: #404040;
+  padding: 0 40px;
+  padding-right: 60px;
+  text-align: left;
+  font-size: 14px;
+  font-family: CenturyGothic;
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+.tabs-news__li a:hover {
+  background: #2192bc;
+  color: #fff;
+  text-decoration: none;
+}
+.tabs-news__li.active:before {
+  content: '';
+  left: -40px;
+  position: absolute;
+  border: 20px solid transparent;
+  border-right: 20px solid #2192bc;
+  z-index: 20;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tabs-news__li.active a {
+  background: #2192bc;
+  color: #fff;
+  text-decoration: none;
+  cursor: default;
+}
+.tabs-news__desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 15px 30px 55px;
+  color: #fefefe;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.tabs-news__desc a {
+  color: #9af3fd;
+  border-bottom: 1px solid  #9af3fd;
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+.tabs-news__desc a:hover {
+  border-bottom-color: transparent;
+}
+.tabs-news h2 {
+  color: #669acc;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  text-align: center;
+  font-weight: normal;
+}
+@media (max-width: 768px) {
+  .tabs-news__li {
+    width: 100%;
+    float: none;
+  }
+  .tabs-news__li a {
+    height: auto;
+    padding: 20px 15px;
+  }
+}
+.therapy-tech h2 {
+  color: #669acc;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  text-align: center;
+  font-weight: normal;
+}
+.therapy-tech__inner {
+  height: 478px;
+  position: relative;
+  background: #dbd9da url(pics/therapy-inner/tech.png) no-repeat 100px center;
+}
+.therapy-tech__innertext {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  right: 50px;
+  width: 470px;
+  transform: translateY(-50%);
+  text-align: right;
+}
+.therapy-tech__innertext span {
+  background: #2a649c;
+  display: inline-block;
+  height: 56px;
+  line-height: 56px;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+.therapy-tech__innertext span.row1 {
+  font-size: 38px;
+  width: 470px;
+}
+.therapy-tech__innertext span.row2 {
+  font-size: 30px;
+}
+.therapy-law {
+  margin-bottom: 45px;
+}
+.therapy-law h2 {
+  color: #669acc;
+  font-size: 25px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+  text-align: center;
+  font-weight: normal;
+}
+.therapy-law ul {
+  margin-bottom: 65px;
+}
+ul.content-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 30px;
+  text-align: center;
+}
+ul.content-ul li {
+  position: relative;
+  padding-left: 35px;
+  color: #3a7ba7;
+  margin: 15px 0;
+  display: inline-block;
+  width: auto;
+}
+ul.content-ul li:after {
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #3a7ba7;
+  top: 5px;
+  left: 0;
+}
+ul.content-ul li a {
+  color: #3a7ba7;
+  border-bottom: 1px solid  #3a7ba7;
+  text-decoration: none;
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+ul.content-ul li a:hover {
+  border-bottom-color: transparent;
+}
+.help-slider {
+  overflow: hidden;
+}
+.help-slider .page-slider__slide {
+  background: #eff6ff;
+  padding: 75px 100px;
+}
+.help-slider__img {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.help-slider__text {
+  color: #3b4651;
+  font-size: 20px;
+}
+.help-slider__text .name {
+  font-size: 38px;
+}
+.help-slider__text .city {
+  font-size: 18px;
+  font-style: italic;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.help-slider__text .link {
+  display: inline-block;
+  color: #3a7ba7;
+  border-bottom: 1px solid  #3a7ba7;
+  text-decoration: none;
+  margin-bottom: 25px;
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+.help-slider__text .link:hover {
+  border-bottom-color: transparent;
+}
+.help-slider .slick-arrow {
+  background: #74a8d5;
+  color: #fff;
+}
+.transition {
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+.n-page-header__h1 {
+  color: #002b65;
+  font-size: 42px;
+  margin-bottom: 35px;
+  margin-top: 0;
+  line-height: 1;
+  font-weight: normal;
+}
+@media (max-width: 991px) {
+  .n-page-header__h1 {
+    font-size: 26px;
+  }
+}
+.sprite2 {
+  background: url(pics/sprite2.png);
+}
+.container-fluid,
+.page-conten {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 991px) {
+  .container-fluid,
+  .page-conten {
+    padding: 0 15px;
+  }
+}
+input:focus,
+button:focus,
+select:focus {
+  outline: 0;
+}
+.page-header {
+  background: #45c4d2;
+  padding: 10px 0;
+  padding-left: 70px;
+  position: relative;
+  margin: 0;
+  font-size: 28px;
+  color: #fff;
+  font-family: CenturyGothic;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-bottom: 0;
+}
+@media (max-width: 991px) {
+  .page-header {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+.page-header:before {
+  content: '';
+  position: absolute;
+  posinter-events: none;
+  width: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #d0f2f4;
+}
+@media (max-width: 991px) {
+  .page-header:before {
+    opacity: .2;
+  }
+}
+.page-header {
+  background: #45c4d2;
+  padding: 10px 0;
+  padding-left: 70px;
+  position: relative;
+  margin: 0;
+  font-size: 28px;
+  color: #fff;
+  font-family: CenturyGothic;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-bottom: 0;
+}
+@media (max-width: 991px) {
+  .page-header {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+.page-header:before {
+  content: '';
+  position: absolute;
+  posinter-events: none;
+  width: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #d0f2f4;
+}
+@media (max-width: 991px) {
+  .page-header:before {
+    opacity: .2;
+  }
+}
+.page-content__subhead {
+  padding: 0 70px;
+  font-family: CenturyGothic;
+  color: #336799;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  opacity: .6;
+  border-radius: 100%;
+  border: none;
+  font-size: 24px;
+  line-height: 30px;
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+.slick-arrow:hover {
+  opacity: 1;
+}
+.slick-arrow.slick-next {
+  right: 25px;
+}
+.slick-arrow.slick-next i {
+  margin-left: 3px;
+}
+.slick-arrow.slick-prev {
+  left: 25px;
+}
+.slick-arrow.slick-prev i {
+  margin-right: 3px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  min-height: 100%;
+  position: relative;
+  min-width: 300px;
+}
+.dropdown-menu {
+  margin: 0;
+}
+.dropdown-menu li:nth-child(even) {
+  background: #ededed;
+}
+@keyframes ddAnimate {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes ddAnimate {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding: 0 35px;
+  }
+}
+.transition {
+  transition: 0.15s ease-in;
+}
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vertical-center {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.horizontal-center {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite.sprite-item-1 {
+  background-position: -10px -10px;
+  width: 44px;
+  height: 47px;
+}
+.sprite.sprite-item-2 {
+  background-position: -74px -10px;
+  width: 53px;
+  height: 53px;
+}
+.sprite.sprite-item-3 {
+  background-position: -147px -10px;
+  width: 63px;
+  height: 63px;
+}
+.sprite.sprite-item-4 {
+  background-position: -230px -10px;
+  width: 79px;
+  height: 47px;
+}
+.sprite.sprite-item-5 {
+  background-position: -329px -10px;
+  width: 55px;
+  height: 46px;
+}
+.sprite.sprite-item-6 {
+  background-position: -404px -10px;
+  width: 61px;
+  height: 39px;
+}
+.sprite.sprite-place {
+  background-position: -485px -10px;
+  width: 23px;
+  height: 32px;
+}
+.trans-bor-col {
+  border: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 1s;
+}

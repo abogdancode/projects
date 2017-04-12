@@ -1,1 +1,1290 @@
-.beauty{padding-bottom:80px}.beauty__container{max-width:1440px;margin:0 auto;padding:0 70px}.beauty .beauty__title{position:relative;padding-left:70px;background-color:#c73b87}.beauty .beauty__title h1,.beauty .beauty__title h2{width:50%;padding-right:2%}.beauty .beauty__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#f2d1df;opacity:.8}.beauty__title-content{margin:0}.beauty__content-block{position:absolute;bottom:52px;left:0;width:91.66666667%;padding-top:12px;padding-bottom:15px;padding-left:70px;padding-right:40px;background-color:rgba(255,255,255,.66)}.beauty__content-title{margin:0;margin-bottom:5px;font-family:CenturyGothic,Arial,sans-serif;font-size:30px;line-height:1.2;font-style:normal;font-weight:700;color:#4f3b3b;-webkit-transition:.15s ease-in;transition:.15s ease-in}.beauty__content-subtitle{margin:0;font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1.2;font-style:normal;font-weight:400;color:#404040}.beauty__link:hover .beauty__content-title{text-decoration:underline;color:#6c5151}.beauty__link:focus .beauty__content-title{text-decoration:underline;color:#896767}.beauty .nav-tabs{background:#d7dfeb}.beauty .col-md-3,.beauty .col-md-9,.beauty .container-fluid,.beauty .row{margin:0;padding:0;max-width:100%}.beauty__container-tab{height:500px}.beauty__inner{overflow:hidden}.beauty__inner img{display:block;height:498px;width:100%;-o-object-fit:cover;object-fit:cover}.beauty__li{margin:0;padding:0;height:calc(500px/3);display:table;width:100%;position:relative}.beauty__li a{display:table-cell;vertical-align:middle;text-align:center;border:none;border-radius:0;margin:0;background:#d7dfeb;color:#404040;padding:0 40px;padding-right:60px;text-align:left;font-size:14px;font-family:CenturyGothic;-webkit-transition:.15s ease-in;transition:.15s ease-in}.beauty__li a:hover{background:#c73b87;color:#fff;text-decoration:none}.beauty__li.active:before{content:'';left:-40px;position:absolute;border:20px solid transparent;border-right:20px solid #c73b87;z-index:20;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.beauty__li.active a{background:#c73b87;color:#fff;text-decoration:none;cursor:default}.beauty__li--brown a:hover{background:#a39190}.beauty__li--brown.active:before{border-right:20px solid #a39190}.beauty__li--brown.active a{background:#a39190}@-webkit-keyframes fadeEffect{from{opacity:.6}to{opacity:1}}@keyframes fadeEffect{from{opacity:.6}to{opacity:1}}.psychology-slider{margin-bottom:30px}.psychology-slider__container{max-width:1440px;margin:0 auto;padding:0 70px}.psychology-slider__item-1,.psychology-slider__item-2,.psychology-slider__item-3{position:relative}.psychology-slider__img{width:100%;-o-object-fit:contain;object-fit:contain}.psychology-slider__content{position:absolute;top:170px;padding:0 70px;padding-left:145px}.psychology-slider__link:focus{outline:0}.psychology-slider__link:focus>.psychology-slider__title{color:#c75a9d}.psychology-slider__link:focus>.psychology-slider__text-content{color:#626565}.psychology-slider__link h3{font-family:CenturyGothic,Arial,sans-serif;font-size:38px;line-height:1.2;font-style:normal;font-weight:400;text-transform:uppercase;color:#8c2f68;-webkit-transition:.15s ease-in;transition:.15s ease-in}.psychology-slider__link h3:hover{color:#b23c84}.psychology-slider__link h3:active{color:#c75a9d}.psychology-slider__link p{font-family:CenturyGothic,Arial,sans-serif;font-size:28px;line-height:1.2;font-style:normal;font-weight:400;color:#494b4b}.sport-slider{margin-bottom:30px}.sport-slider__container{max-width:1440px;margin:0 auto;padding:0 70px}.sport-slider__item-1,.sport-slider__item-2,.sport-slider__item-3{position:relative}.sport-slider__img{width:100%;-o-object-fit:contain;object-fit:contain}.sport-slider__content{position:absolute;top:190px;padding:0 70px}.sport-slider__link{color:#fff;-webkit-transition:.15s ease-in;transition:.15s ease-in}.sport-slider__link:focus{outline:0}.sport-slider__link:hover h3{text-decoration:underline;color:#fff}.sport-slider__link:hover p{color:#fff}.sport-slider__link:focus h3{text-decoration:underline;color:#ededed}.sport-slider__link:focus p{color:#ededed}.sport-slider__link h3{font-family:CenturyGothic,Arial,sans-serif;font-size:36px;line-height:1.2;font-style:normal;font-weight:400;text-transform:uppercase;-webkit-transition:.15s ease-in;transition:.15s ease-in}.sport-slider__link p{font-family:CenturyGothic,Arial,sans-serif;font-size:28px;line-height:1.2;font-style:normal;font-weight:400;-webkit-transition:.15s ease-in;transition:.15s ease-in}.sport__container{max-width:1440px;margin:0 auto;padding:0 70px}.sport .sport__title{position:relative;padding-left:70px;background-color:#2ca0d6}.sport .sport__title h1,.sport .sport__title h2{width:50%;padding-right:2%}.sport .sport__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#c8e6f4;opacity:.8}.sport__link-wrap{margin-bottom:30px}.women-food{padding-bottom:50px}.women-food__container{max-width:1440px;margin:0 auto;padding:0 70px}.women-food .women-food__title{position:relative;padding-left:70px;background-color:#abc838}.women-food .women-food__title h1,.women-food .women-food__title h2{width:50%;padding-right:2%}.women-food .women-food__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#e3f6db;opacity:.8}.women-food__content{margin-top:-10px;background:url(pics/women-world/women-food-wp.jpg) 0 0 no-repeat;background-size:cover}.women-food__text-content{padding-left:8.3333333%;padding-bottom:140px}.women-food__list{padding-top:260px}.women-food__list li{margin-bottom:70px}.women-food__list li>a{font-family:CenturyGothic,Arial,sans-serif;font-size:28px;line-height:1.2;font-style:normal;font-weight:400;color:#718521;-webkit-transition:.15s ease-in;transition:.15s ease-in}.women-food__list li>a:hover{color:#94ae2b;text-decoration:underline}.women-food__list li>a:focus{color:#a5c230;text-decoration:underline}.women-health{padding-bottom:60px}.women-health__container{max-width:1440px;margin:0 auto;padding:0 70px}.women-health .women-health__title{position:relative;padding-left:70px;background-color:#1eccca}.women-health .women-health__title h1,.women-health .women-health__title h2{width:50%;padding-right:2%}.women-health .women-health__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#c7f2f1;opacity:.8}.women-health__content{margin-top:-10px;background:url(pics/women-world/women-health-wp.png) 0 0 no-repeat;background-size:cover}.women-health__text-content{padding-left:13.3333333%;padding-right:5.3333333%}.women-health__list{margin-bottom:60px;padding-top:105px}.women-health__list li{margin-bottom:40px}.women-health__list li>a{font-family:CenturyGothic,Arial,sans-serif;font-size:24px;line-height:1.2;font-style:normal;font-weight:400;color:#737373;-webkit-transition:.15s ease-in;transition:.15s ease-in}.women-health__list li>a span{font-family:CenturyGothic,Arial,sans-serif;font-size:36px;line-height:1.2;font-style:normal;font-weight:400}.women-health__list li>a:hover{color:#5a5a5a}.women-health__list li>a:hover span{text-decoration:underline}.women-health__list li>a:focus{color:#404040}.women-health__list li>a:focus span{text-decoration:underline}.women-psychology{padding-bottom:50px}.women-psychology__container{max-width:1440px;margin:0 auto;padding:0 70px}.women-psychology .women-psychology__title{position:relative;padding-left:70px;background-color:#f492ce}.women-psychology .women-psychology__title h1,.women-psychology .women-psychology__title h2{width:50%;padding-right:2%}.women-psychology .women-psychology__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#fce3f2;opacity:.8}.women-world{padding-top:70px;padding-bottom:120px;background:url(pics/women-world/women-world-wp.png) 0 0 no-repeat;background-size:cover}.women-world__container{max-width:1440px;margin:0 auto;padding:0 70px}.women-world__title{padding-left:16.6666667%;font-family:CenturyGothic,Arial,sans-serif;font-size:63px;line-height:1.2;font-style:normal;font-weight:400;text-align:center;color:#336799}.women-world__list{padding-left:16.6666667%;text-align:center}.women-world__list li{display:inline-block;vertical-align:top;width:173px;text-align:center}.women-world__list-item{position:relative;display:block;margin-top:150px;color:#646464}.women-world__list-item:hover{text-decoration:underline;color:#4a4a4a}.women-world__list-item:active{text-decoration:underline;color:#313131}.women-world__list-item::before{content:"";position:absolute;top:-100px;left:50%;z-index:6;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:89px;height:89px;border-radius:50%;-webkit-transition:.15s ease-in;transition:.15s ease-in}.women-world__list-item-1::before{border:3px solid #c73b87;background:url(pics/women-world/women-1.png) center no-repeat}.women-world__list-item-1:hover::before{border-color:#a12e6c}.women-world__list-item-2::before{border:3px solid #f492ce;background:url(pics/women-world/women-2.png) center no-repeat}.women-world__list-item-2:hover::before{border-color:#ef64b9}.women-world__list-item-3::before{border:3px solid #1eccca;background:url(pics/women-world/women-3.png) center no-repeat}.women-world__list-item-3:hover::before{border-color:#17a09e}.women-world__list-item-4::before{border:3px solid #2ca0d6;background:url(pics/women-world/women-4.png) center no-repeat}.women-world__list-item-4:hover::before{border-color:#2281ad}.women-world__list-item-5::before{border:3px solid #93db74;background:url(pics/women-world/women-5.png) center no-repeat}.women-world__list-item-5:hover::before{border-color:#74d14b}.container{max-width:1440px;margin:0 auto;padding:0 70px}.transition{-webkit-transition:.15s ease-in;transition:.15s ease-in}.center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vertical-center{top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%)}.horizontal-center{left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}.sprite{background-image:url(spritesheet.png);background-repeat:no-repeat;display:block}.sprite.sprite-discovery-dec{background-position:-10px -10px;width:51px;height:51px}.sprite.sprite-history-main-menu-1{background-position:-81px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-2{background-position:-242px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-3{background-position:-10px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-4{background-position:-171px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-5{background-position:-403px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-6{background-position:-332px -171px;width:141px;height:141px}.sprite.sprite-popular-sections-1{background-position:-493px -171px;width:84px;height:92px}.sprite.sprite-popular-sections-2{background-position:-493px -283px;width:85px;height:89px}.sprite.sprite-popular-sections-3{background-position:-10px -392px;width:52px;height:89px}.sprite.sprite-popular-sections-4{background-position:-82px -392px;width:84px;height:91px}.sprite.sprite-popular-sections-5{background-position:-186px -392px;width:83px;height:79px}.trans-bor-col{border:1px solid transparent;-webkit-transition-property:border-color;transition-property:border-color;-webkit-transition-duration:1s;transition-duration:1s}@media (max-width:767px){.beauty{padding-bottom:60px}.beauty__container{padding:0 4.6%}.beauty .beauty__title{padding:0 4.6%}.beauty__content-block{width:100%;max-width:500px;margin-bottom:30px;padding:12px 4.6%}.beauty__content-title{margin-bottom:20px;font-family:CenturyGothic,Arial,sans-serif;font-size:20px;line-height:1.2;font-style:normal;font-weight:700}.beauty__content-subtitle{font-family:CenturyGothic,Arial,sans-serif;font-size:14px;line-height:1.2;font-style:normal;font-weight:400}.psychology-slider__container{padding:0 4.6%}.psychology-slider__img{height:auto;-o-object-fit:contain;object-fit:contain}.psychology-slider__content{padding:0 10%}.psychology-slider__link h3{font-family:CenturyGothic,Arial,sans-serif;font-size:30px;line-height:1.2;font-style:normal;font-weight:400}.psychology-slider__link p{font-family:CenturyGothic,Arial,sans-serif;font-size:20px;line-height:1.2;font-style:normal;font-weight:400}.sport-slider__container{padding:0 4.6%}.sport-slider__img{height:auto;-o-object-fit:contain;object-fit:contain}.sport-slider__link h3{font-family:CenturyGothic,Arial,sans-serif;font-size:28px;line-height:1.2;font-style:normal;font-weight:400;color:#404040}.sport-slider__link p{font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1.2;font-style:normal;font-weight:400;color:#404040}.sport__container{padding:0 4.6%}.sport .sport__title{padding:0 4.6%}.women-food__container{padding:0 4.6%}.women-food .women-food__title{padding:0 4.6%}.women-food__content{background:url(pics/women-world/women-food-wp-mob.jpg) 0 0 no-repeat;background-size:contain}.women-food__text-content{padding:0}.women-food__list{padding-top:150%}.women-food__list li{margin-bottom:30px}.women-food__list li>a{font-family:CenturyGothic,Arial,sans-serif;font-size:22px;line-height:1.2;font-style:normal;font-weight:400}.women-health__container{padding:0 4.6%}.women-health .women-health__title{padding:0 4.6%}.women-health__content{background:url(pics/women-world/women-health-wp-mob.png) 0 0 no-repeat;background-size:contain}.women-health__text-content{padding:0}.women-health__list{padding-top:110%}.women-health__list li{margin-bottom:20px}.women-health__list li>a span{font-family:CenturyGothic,Arial,sans-serif;font-size:26px;line-height:1.2;font-style:normal;font-weight:400}.women-health__list li>a{font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1.2;font-style:normal;font-weight:400}.women-psychology__container{padding:0 4.6%}.women-psychology .women-psychology__title{padding:0 4.6%}.women-world{padding-bottom:30px}.women-world__container{padding:0 4.6%}.women-world__title{margin:0;padding-left:0;font-family:CenturyGothic,Arial,sans-serif;font-size:33px;line-height:1.2;font-style:normal;font-weight:400}.container{padding:0 4.6%}}@media (min-width:768px) and (max-width:991px){.beauty__container{padding:0 5.2%}.beauty .beauty__title{padding:0 5.2%}.psychology-slider__container{padding:0 5.2%}.sport-slider__container{padding:0 5.2%}.sport-slider__link h3{font-family:CenturyGothic,Arial,sans-serif;font-size:32px;line-height:1.2;font-style:normal;font-weight:400;color:#404040}.sport-slider__link p{font-family:CenturyGothic,Arial,sans-serif;font-size:22px;line-height:1.2;font-style:normal;font-weight:400;color:#404040}.sport__container{padding:0 5.2%}.sport .sport__title{padding:0 5.2%}.women-food__container{padding:0 5.2%}.women-food .women-food__title{padding:0 5.2%}.women-food__list{padding-top:78%}.women-food__list li{margin-bottom:40px}.women-health__container{padding:0 5.2%}.women-health .women-health__title{padding:0 5.2%}.women-health__list{padding-top:75%;margin-bottom:40px}.women-psychology__container{padding:0 5.2%}.women-psychology .women-psychology__title{padding:0 5.2%}.women-world{padding-top:0;padding-bottom:50px}.women-world__container{padding:0 5.2%}.women-world__title{padding-left:0}.container{padding:0 5.2%}}@media (min-width:992px) and (max-width:1199px){.beauty__container{padding:0 35px}.beauty .beauty__title{padding:0 35px}.psychology-slider__container{padding:0 35px}.sport-slider__container{padding:0 35px}.sport-slider__content{padding:12% 0}.sport__container{padding:0 35px}.sport .sport__title{padding:0 35px}.women-food__container{padding:0 35px}.women-food .women-food__title{padding:0 35px}.women-food__text-content{padding-left:7.3333333%;padding-bottom:80px}.women-food__list{margin-bottom:60px;padding-top:41%}.women-food__list li{margin-bottom:50px}.women-health__container{padding:0 35px}.women-health .women-health__title{padding:0 35px}.women-health__text-content{padding-left:7.3333333%}.women-health__list{padding-top:25%}.women-health__list li>a span{font-family:CenturyGothic,Arial,sans-serif;font-size:30px;line-height:1.2;font-style:normal;font-weight:400}.women-health__list li>a{font-family:CenturyGothic,Arial,sans-serif;font-size:20px;line-height:1.2;font-style:normal;font-weight:400}.women-psychology__container{padding:0 35px}.women-psychology .women-psychology__title{padding:0 35px}.women-world__container{padding:0 35px}.women-world__title{padding-left:33.33333333%}.women-world__list{box-sizing:content-box;max-width:700px;padding-left:33.33333333%}.container{padding:0 35px}}@media (max-width:991px){.beauty .beauty__title::after{opacity:.3}.beauty .col-md-3,.beauty .col-md-9,.beauty .container-fluid,.beauty .row{margin:0;padding:0}.beauty__container-tab{height:auto}.beauty__inner{overflow:hidden}.beauty__inner img{display:block;height:498px;width:100%;-o-object-fit:cover;object-fit:cover}.beauty__li{margin:0;padding:0;display:table;width:100%;float:left;height:auto;position:relative}.beauty__li a{text-transform:none;height:100%;height:80px;padding:10px 15px;vertical-align:top}.beauty__li a br{display:none}.beauty__li.active:before{display:none}.psychology-slider__content{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:100%;padding:20px 15%;text-align:center;background-color:rgba(255,255,255,.6)}.psychology-slider__link h3{font-family:CenturyGothic,Arial,sans-serif;font-size:36px;line-height:1.2;font-style:normal;font-weight:400}.psychology-slider__link p{font-family:CenturyGothic,Arial,sans-serif;font-size:24px;line-height:1.2;font-style:normal;font-weight:400}.sport-slider__link{color:#404040}.sport-slider__link:hover h3{color:#404040}.sport-slider__link:hover p{color:#404040}.sport-slider__link:focus h3{color:#2e2e2e}.sport-slider__link:focus p{color:#2e2e2e}.sport .sport__title::after{opacity:.3}.women-food .women-food__title::after{opacity:.3}.women-food__text-content{padding-left:13.3333333%;padding-right:5.3333333%;padding-bottom:0}.women-health .women-health__title::after{opacity:.3}.women-psychology .women-psychology__title::after{opacity:.3}.women-world__list{margin:0 auto;padding-left:0}}@media (max-width:768px){.beauty__li{width:100%;float:none}.beauty__li a{height:auto;padding:20px 15px}}@media (max-width:1199px){.psychology-slider__content{padding:0 50px}.women-food__content{background-size:contain}}@media (max-width:480px){.psychology-slider__content{padding:10px 15%}.sport-slider__content{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:100%;padding:10px 15%;text-align:center;background-color:rgba(255,255,255,.6)}}@media (min-width:481px) and (max-width:991px){.sport-slider__content{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:100%;padding:20px 15%;text-align:center;background-color:rgba(255,255,255,.6)}}@media (min-width:768px) and (max-width:1199px){.women-health__content{background-size:contain}}
+.beauty {
+  padding-bottom: 80px;
+}
+@media (max-width: 767px) {
+  .beauty {
+    padding-bottom: 60px;
+  }
+}
+.beauty__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .beauty__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .beauty__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .beauty__container {
+    padding: 0 35px;
+  }
+}
+.beauty .beauty__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #c73b87;
+}
+.beauty .beauty__title h1,
+.beauty .beauty__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .beauty .beauty__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .beauty .beauty__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .beauty .beauty__title {
+    padding: 0 35px;
+  }
+}
+.beauty .beauty__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #f2d1df;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .beauty .beauty__title::after {
+    opacity: 0.3;
+  }
+}
+.beauty__title-content {
+  margin: 0;
+}
+.beauty__content-block {
+  position: absolute;
+  bottom: 52px;
+  left: 0;
+  width: 91.66666667%;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  padding-left: 70px;
+  padding-right: 40px;
+  background-color: rgba(255, 255, 255, 0.66);
+}
+@media (max-width: 767px) {
+  .beauty__content-block {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+    padding: 12px 4.6%;
+  }
+}
+.beauty__content-title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: bold;
+  color: #4f3b3b;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .beauty__content-title {
+    margin-bottom: 20px;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: bold;
+  }
+}
+.beauty__content-subtitle {
+  margin: 0;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #404040;
+}
+@media (max-width: 767px) {
+  .beauty__content-subtitle {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.beauty__link:hover .beauty__content-title {
+  text-decoration: underline;
+  color: #6c5151;
+}
+.beauty__link:focus .beauty__content-title {
+  text-decoration: underline;
+  color: #896767;
+}
+.beauty .nav-tabs {
+  background: #d7dfeb;
+}
+.beauty .container-fluid,
+.beauty .row,
+.beauty .col-md-9,
+.beauty .col-md-3 {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+.beauty__container-tab {
+  height: 500px;
+}
+.beauty__inner {
+  overflow: hidden;
+}
+.beauty__inner img {
+  display: block;
+  height: 498px;
+  width: 100%;
+  object-fit: cover;
+}
+.beauty__li {
+  margin: 0;
+  padding: 0;
+  height: calc(500px/3);
+  width: 100%;
+  display: table;
+  position: relative;
+}
+.beauty__li a {
+  display: table-cell;
+  vertical-align: middle;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  background: #d7dfeb;
+  color: #404040;
+  padding: 0 40px;
+  padding-right: 60px;
+  text-align: left;
+  font-size: 14px;
+  font-family: CenturyGothic;
+  transition: 0.15s ease-in;
+}
+.beauty__li a:hover {
+  background: #c73b87;
+  color: #fff;
+  text-decoration: none;
+}
+.beauty__li.active:before {
+  content: '';
+  left: -40px;
+  position: absolute;
+  border: 20px solid transparent;
+  border-right: 20px solid #c73b87;
+  z-index: 20;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.beauty__li.active a {
+  background: #c73b87;
+  color: #fff;
+  text-decoration: none;
+  cursor: default;
+}
+.beauty__li--brown a:hover {
+  background: #a39190;
+}
+.beauty__li--brown.active:before {
+  border-right: 20px solid #a39190;
+}
+.beauty__li--brown.active a {
+  background: #a39190;
+}
+@media (max-width: 991px) {
+  .beauty .container-fluid,
+  .beauty .row,
+  .beauty .col-md-9,
+  .beauty .col-md-3 {
+    margin: 0;
+    padding: 0;
+  }
+  .beauty__container-tab {
+    height: auto;
+  }
+  .beauty__inner {
+    overflow: hidden;
+  }
+  .beauty__inner img {
+    display: block;
+    height: 498px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .beauty__li {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: table;
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .beauty__li a {
+    text-transform: none;
+    height: 80px;
+    padding: 10px 15px;
+    vertical-align: top;
+  }
+  .beauty__li a br {
+    display: none;
+  }
+  .beauty__li.active:before {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .beauty__li {
+    width: 100%;
+    float: none;
+  }
+  .beauty__li a {
+    height: auto;
+    padding: 20px 15px;
+  }
+}
+@keyframes fadeEffect {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.psychology-slider {
+  margin-bottom: 30px;
+}
+.psychology-slider__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .psychology-slider__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .psychology-slider__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .psychology-slider__container {
+    padding: 0 35px;
+  }
+}
+.psychology-slider__item-1,
+.psychology-slider__item-2,
+.psychology-slider__item-3 {
+  position: relative;
+}
+.psychology-slider__img {
+  width: 100%;
+  object-fit: contain;
+}
+@media (max-width: 767px) {
+  .psychology-slider__img {
+    height: auto;
+    object-fit: contain;
+  }
+}
+.psychology-slider__content {
+  position: absolute;
+  top: 170px;
+  padding: 0 70px;
+  padding-left: 145px;
+}
+@media (max-width: 1199px) {
+  .psychology-slider__content {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 991px) {
+  .psychology-slider__content {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 20px 15%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}
+@media (max-width: 767px) {
+  .psychology-slider__content {
+    padding: 0 10%;
+  }
+}
+@media (max-width: 480px) {
+  .psychology-slider__content {
+    padding: 10px 15%;
+  }
+}
+.psychology-slider__link:focus {
+  outline: none;
+}
+.psychology-slider__link:focus > .psychology-slider__title {
+  color: #c75a9d;
+}
+.psychology-slider__link:focus > .psychology-slider__text-content {
+  color: #626565;
+}
+.psychology-slider__link h3 {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 38px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #8c2f68;
+  transition: 0.15s ease-in;
+}
+.psychology-slider__link h3:hover {
+  color: #b23c84;
+}
+.psychology-slider__link h3:active {
+  color: #c75a9d;
+}
+@media (max-width: 991px) {
+  .psychology-slider__link h3 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 767px) {
+  .psychology-slider__link h3 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.psychology-slider__link p {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #494b4b;
+}
+@media (max-width: 991px) {
+  .psychology-slider__link p {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 767px) {
+  .psychology-slider__link p {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.sport-slider {
+  margin-bottom: 30px;
+}
+.sport-slider__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .sport-slider__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .sport-slider__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sport-slider__container {
+    padding: 0 35px;
+  }
+}
+.sport-slider__item-1,
+.sport-slider__item-2,
+.sport-slider__item-3 {
+  position: relative;
+}
+.sport-slider__img {
+  width: 100%;
+  object-fit: contain;
+}
+@media (max-width: 767px) {
+  .sport-slider__img {
+    height: auto;
+    object-fit: contain;
+  }
+}
+.sport-slider__content {
+  position: absolute;
+  top: 190px;
+  padding: 0 70px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sport-slider__content {
+    padding: 12% 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 991px) {
+  .sport-slider__content {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 20px 15%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}
+@media (max-width: 480px) {
+  .sport-slider__content {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 10px 15%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}
+.sport-slider__link {
+  color: #ffffff;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 991px) {
+  .sport-slider__link {
+    color: #404040;
+  }
+}
+.sport-slider__link:focus {
+  outline: none;
+}
+.sport-slider__link:hover h3 {
+  text-decoration: underline;
+  color: #ffffff;
+}
+@media (max-width: 991px) {
+  .sport-slider__link:hover h3 {
+    color: #404040;
+  }
+}
+.sport-slider__link:hover p {
+  color: #ffffff;
+}
+@media (max-width: 991px) {
+  .sport-slider__link:hover p {
+    color: #404040;
+  }
+}
+.sport-slider__link:focus h3 {
+  text-decoration: underline;
+  color: #ededed;
+}
+@media (max-width: 991px) {
+  .sport-slider__link:focus h3 {
+    color: #2e2e2e;
+  }
+}
+.sport-slider__link:focus p {
+  color: #ededed;
+}
+@media (max-width: 991px) {
+  .sport-slider__link:focus p {
+    color: #2e2e2e;
+  }
+}
+.sport-slider__link h3 {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: 0.15s ease-in;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .sport-slider__link h3 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    color: #404040;
+  }
+}
+@media (max-width: 767px) {
+  .sport-slider__link h3 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    color: #404040;
+  }
+}
+.sport-slider__link p {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  transition: 0.15s ease-in;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .sport-slider__link p {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    color: #404040;
+  }
+}
+@media (max-width: 767px) {
+  .sport-slider__link p {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    color: #404040;
+  }
+}
+.sport__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .sport__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .sport__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sport__container {
+    padding: 0 35px;
+  }
+}
+.sport .sport__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #2ca0d6;
+}
+.sport .sport__title h1,
+.sport .sport__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .sport .sport__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .sport .sport__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sport .sport__title {
+    padding: 0 35px;
+  }
+}
+.sport .sport__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #c8e6f4;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .sport .sport__title::after {
+    opacity: 0.3;
+  }
+}
+.sport__link-wrap {
+  margin-bottom: 30px;
+}
+.women-food {
+  padding-bottom: 50px;
+}
+.women-food__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .women-food__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-food__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-food__container {
+    padding: 0 35px;
+  }
+}
+.women-food .women-food__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #abc838;
+}
+.women-food .women-food__title h1,
+.women-food .women-food__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .women-food .women-food__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-food .women-food__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-food .women-food__title {
+    padding: 0 35px;
+  }
+}
+.women-food .women-food__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #e3f6db;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .women-food .women-food__title::after {
+    opacity: 0.3;
+  }
+}
+.women-food__content {
+  margin-top: -10px;
+  background: url(pics/women-world/women-food-wp.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+@media (max-width: 1199px) {
+  .women-food__content {
+    background-size: contain;
+  }
+}
+@media (max-width: 767px) {
+  .women-food__content {
+    background: url(pics/women-world/women-food-wp-mob.jpg) 0 0 no-repeat;
+    background-size: contain;
+  }
+}
+.women-food__text-content {
+  padding-left: 8.3333333%;
+  padding-bottom: 140px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-food__text-content {
+    padding-left: 7.3333333%;
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 991px) {
+  .women-food__text-content {
+    padding-left: 13.3333333%;
+    padding-right: 5.3333333%;
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .women-food__text-content {
+    padding: 0;
+  }
+}
+.women-food__list {
+  padding-top: 260px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-food__list {
+    margin-bottom: 60px;
+    padding-top: 41%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-food__list {
+    padding-top: 78%;
+  }
+}
+@media (max-width: 767px) {
+  .women-food__list {
+    padding-top: 150%;
+  }
+}
+.women-food__list li {
+  margin-bottom: 70px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-food__list li {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-food__list li {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .women-food__list li {
+    margin-bottom: 30px;
+  }
+}
+.women-food__list li > a {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #718521;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .women-food__list li > a {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.women-food__list li > a:hover {
+  color: #94ae2b;
+  text-decoration: underline;
+}
+.women-food__list li > a:focus {
+  color: #a5c230;
+  text-decoration: underline;
+}
+.women-health {
+  padding-bottom: 60px;
+}
+.women-health__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .women-health__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-health__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-health__container {
+    padding: 0 35px;
+  }
+}
+.women-health .women-health__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #1eccca;
+}
+.women-health .women-health__title h1,
+.women-health .women-health__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .women-health .women-health__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-health .women-health__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-health .women-health__title {
+    padding: 0 35px;
+  }
+}
+.women-health .women-health__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #c7f2f1;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .women-health .women-health__title::after {
+    opacity: 0.3;
+  }
+}
+.women-health__content {
+  margin-top: -10px;
+  background: url(pics/women-world/women-health-wp.png) 0 0 no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .women-health__content {
+    background-size: contain;
+  }
+}
+@media (max-width: 767px) {
+  .women-health__content {
+    background: url(pics/women-world/women-health-wp-mob.png) 0 0 no-repeat;
+    background-size: contain;
+  }
+}
+.women-health__text-content {
+  padding-left: 13.3333333%;
+  padding-right: 5.3333333%;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-health__text-content {
+    padding-left: 7.3333333%;
+  }
+}
+@media (max-width: 767px) {
+  .women-health__text-content {
+    padding: 0;
+  }
+}
+.women-health__list {
+  margin-bottom: 60px;
+  padding-top: 105px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-health__list {
+    padding-top: 25%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-health__list {
+    padding-top: 75%;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .women-health__list {
+    padding-top: 110%;
+  }
+}
+.women-health__list li {
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .women-health__list li {
+    margin-bottom: 20px;
+  }
+}
+.women-health__list li > a {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #737373;
+  transition: 0.15s ease-in;
+}
+.women-health__list li > a span {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-health__list li > a span {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 767px) {
+  .women-health__list li > a span {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-health__list li > a {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 767px) {
+  .women-health__list li > a {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.women-health__list li > a:hover {
+  color: #5a5a5a;
+}
+.women-health__list li > a:hover span {
+  text-decoration: underline;
+}
+.women-health__list li > a:focus {
+  color: #404040;
+}
+.women-health__list li > a:focus span {
+  text-decoration: underline;
+}
+.women-psychology {
+  padding-bottom: 50px;
+}
+.women-psychology__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .women-psychology__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-psychology__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-psychology__container {
+    padding: 0 35px;
+  }
+}
+.women-psychology .women-psychology__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #f492ce;
+}
+.women-psychology .women-psychology__title h1,
+.women-psychology .women-psychology__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .women-psychology .women-psychology__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-psychology .women-psychology__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-psychology .women-psychology__title {
+    padding: 0 35px;
+  }
+}
+.women-psychology .women-psychology__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #fce3f2;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .women-psychology .women-psychology__title::after {
+    opacity: 0.3;
+  }
+}
+.women-world {
+  padding-top: 70px;
+  padding-bottom: 120px;
+  background: url(pics/women-world/women-world-wp.png) 0 0 no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-world {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .women-world {
+    padding-bottom: 30px;
+  }
+}
+.women-world__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .women-world__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-world__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-world__container {
+    padding: 0 35px;
+  }
+}
+.women-world__title {
+  padding-left: 16.6666667%;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 63px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #336799;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-world__title {
+    padding-left: 33.33333333%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .women-world__title {
+    padding-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .women-world__title {
+    margin: 0;
+    padding-left: 0;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 33px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.women-world__list {
+  padding-left: 16.6666667%;
+  text-align: center;
+}
+.women-world__list li {
+  display: inline-block;
+  vertical-align: top;
+  width: 173px;
+  text-align: center;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .women-world__list {
+    box-sizing: content-box;
+    max-width: 700px;
+    padding-left: 33.33333333%;
+  }
+}
+@media (max-width: 991px) {
+  .women-world__list {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+}
+.women-world__list-item {
+  position: relative;
+  display: block;
+  margin-top: 150px;
+  color: #646464;
+}
+.women-world__list-item:hover {
+  text-decoration: underline;
+  color: #4a4a4a;
+}
+.women-world__list-item:active {
+  text-decoration: underline;
+  color: #313131;
+}
+.women-world__list-item::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  z-index: 6;
+  transform: translateX(-50%);
+  width: 89px;
+  height: 89px;
+  border-radius: 50%;
+  transition: 0.15s ease-in;
+}
+.women-world__list-item-1::before {
+  border: 3px solid #c73b87;
+  background: url(pics/women-world/women-1.png) center no-repeat;
+}
+.women-world__list-item-1:hover::before {
+  border-color: #a12e6c;
+}
+.women-world__list-item-2::before {
+  border: 3px solid #f492ce;
+  background: url(pics/women-world/women-2.png) center no-repeat;
+}
+.women-world__list-item-2:hover::before {
+  border-color: #ef64b9;
+}
+.women-world__list-item-3::before {
+  border: 3px solid #1eccca;
+  background: url(pics/women-world/women-3.png) center no-repeat;
+}
+.women-world__list-item-3:hover::before {
+  border-color: #17a09e;
+}
+.women-world__list-item-4::before {
+  border: 3px solid #2ca0d6;
+  background: url(pics/women-world/women-4.png) center no-repeat;
+}
+.women-world__list-item-4:hover::before {
+  border-color: #2281ad;
+}
+.women-world__list-item-5::before {
+  border: 3px solid #93db74;
+  background: url(pics/women-world/women-5.png) center no-repeat;
+}
+.women-world__list-item-5:hover::before {
+  border-color: #74d14b;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding: 0 35px;
+  }
+}
+.transition {
+  transition: 0.15s ease-in;
+}
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vertical-center {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.horizontal-center {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite.sprite-item-1 {
+  background-position: -10px -10px;
+  width: 44px;
+  height: 47px;
+}
+.sprite.sprite-item-2 {
+  background-position: -74px -10px;
+  width: 53px;
+  height: 53px;
+}
+.sprite.sprite-item-3 {
+  background-position: -147px -10px;
+  width: 63px;
+  height: 63px;
+}
+.sprite.sprite-item-4 {
+  background-position: -230px -10px;
+  width: 79px;
+  height: 47px;
+}
+.sprite.sprite-item-5 {
+  background-position: -329px -10px;
+  width: 55px;
+  height: 46px;
+}
+.sprite.sprite-item-6 {
+  background-position: -404px -10px;
+  width: 61px;
+  height: 39px;
+}
+.sprite.sprite-place {
+  background-position: -485px -10px;
+  width: 23px;
+  height: 32px;
+}
+.trans-bor-col {
+  border: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 1s;
+}

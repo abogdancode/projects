@@ -1,1 +1,704 @@
-.all-articles{padding-top:10px;position:relative}.all-articles--1::before{content:"";position:absolute;top:-35px;left:0;width:100%;height:186px;background:url(pics/motherhood-childbearing/motherhood-childbearing-bg.png) 0 0 no-repeat}.all-articles--2{padding-bottom:50px}.all-articles__container{max-width:1440px;margin:0 auto;padding:0 70px}.all-articles__value{width:50%}.all-articles__list{text-align:right;font-size:0}.all-articles__list li{position:relative;display:inline-block;padding:0 12px;vertical-align:top;font-family:CenturyGothic,Arial,sans-serif;font-size:14px;line-height:1.2;font-style:normal;font-weight:400}.all-articles__list li::after{content:"";position:absolute;top:2px;right:-1px;width:1px;height:13px;background-color:#738393}.all-articles__list li:last-child::after{display:none}.all-articles__list li>a{color:#738393}.all-articles__list li>a:hover{text-decoration:underline;color:#909ca9}.all-articles__list li>a:active,.all-articles__list li>a:focus{color:#5589c3}.all-articles__article-item{padding-top:67px}.all-articles__article-item-first{padding-top:130px}.all-articles__article-item-left{margin-top:70px;margin-bottom:43px;padding-top:0}.all-articles__content{padding-left:70px}.all-articles__content time{font-family:CenturyGothic,Arial,sans-serif;font-size:12px;line-height:1.2;font-style:normal;font-weight:400;color:#738393}.all-articles__content p{position:relative}.all-articles__content p::after{content:"";position:absolute;bottom:-27px;left:0;width:61px;height:11px;background:url(pics/motherhood-childbearing/item-dec.png) 0 0 no-repeat}.all-articles__content-left{padding-top:67px;padding-left:15%}.all-articles__img-wrap{position:relative;padding-top:15px}.all-articles__img-wrap::before{content:"";position:absolute;top:-32px;left:52.5%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:408px;height:393px;background:url(pics/motherhood-childbearing/marker.png) center right no-repeat,url(pics/motherhood-childbearing/all-articles-img-d.png) 0 0 no-repeat}.all-articles__img-wrap-left::before{left:47.5%;-webkit-transform:translateX(-50%) scale(-1,1);transform:translateX(-50%) scale(-1,1)}.all-articles__img{width:290px;height:290px;margin:0 auto;border-radius:50%;overflow:hidden}.all-articles__title{position:relative;margin-top:7px;margin-bottom:30px;font-family:CenturyGothic,Arial,sans-serif;font-size:23px;line-height:1.2;font-style:normal;font-weight:400;color:#5589c3}.all-articles__title:hover{color:#7ba3d0}.all-articles__title:active,.all-articles__title:focus{color:#a0bdde}.all-articles__text-content{font-family:CenturyGothic,Arial,sans-serif;font-size:16px;line-height:1.2;font-style:normal;font-weight:400;color:#838689}.advertising{position:relative;padding-top:77px;padding-bottom:67px}.advertising::before{content:"";position:absolute;top:285px;left:0;z-index:-2;width:100%;height:7px;background-color:#f9b5eb}.advertising::after{content:"";position:absolute;top:669px;left:0;z-index:-2;width:100%;height:7px;background-color:#f9b5eb}.advertising__container{max-width:1440px;margin:0 auto;padding:0 70px}.advertising__title-wrap{text-align:right}.advertising__title{position:relative;display:inline-block;margin-bottom:43px;padding:1px 27px;padding-bottom:7px;font-family:CenturyGothic,Arial,sans-serif;font-size:30px;line-height:1.2;font-style:normal;font-weight:700;border:3px solid #86a0b7;border-radius:25px;background-color:#fff;color:#86a0b7}.advertising__title::after{content:"";position:absolute;z-index:10;bottom:-13px;left:70%;width:22px;height:22px;background-color:#fff;border-bottom:3px solid #86a0b7;border-right:3px solid #86a0b7;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.advertising__item{position:relative;padding:0}.advertising__item::before{content:"";position:absolute;z-index:-1;top:-27px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:294px;height:294px;background:url(pics/motherhood-childbearing/BG.png) 0 0 no-repeat}.advertising__img-wrap{position:relative;width:294px;margin:0 auto;margin-bottom:50px}.advertising__img-wrap::before{content:"";position:absolute;top:35%;left:-27px;width:32px;height:70px;background:url(pics/motherhood-childbearing/left.png) 0 0 no-repeat}.advertising__img-wrap::after{content:"";position:absolute;top:35%;right:-27px;width:32px;height:70px;background:url(pics/motherhood-childbearing/right.png) 0 0 no-repeat}.advertising__img{width:240px;height:240px;margin:0 auto;border-radius:50%;overflow:hidden}.advertising__content-wrap{position:relative;padding-left:20px}.advertising__text-content{display:inline-block;max-width:210px;padding-right:33px;font-family:CenturyGothic,Arial,sans-serif;font-size:13.5px;line-height:1.2;font-style:normal;font-weight:400}.advertising__text-content a{display:block;color:#782076}.advertising__text-content a:focus,.advertising__text-content a:hover{color:#c935c5;text-decoration:underline}.advertising__link{position:absolute;top:3px;right:18%;display:block;width:30px;height:30px;font-size:0;border-radius:50%;border:2px solid #f9b5eb}.advertising__link::before{content:"";position:absolute;top:12px;left:3px;width:20px;height:2px;background-color:#f9b5eb}.advertising__link::after{content:"";position:absolute;top:7px;right:4px;width:12px;height:12px;border-bottom:2px solid #f9b5eb;border-left:2px solid #f9b5eb;-webkit-transform:rotate(225deg);transform:rotate(225deg)}.paginator{margin-top:90px;padding-bottom:60px;text-align:center}.paginator li{display:inline-block;vertical-align:middle;font-size:0}.paginator__item{display:inline-block;width:35px;height:35px;margin:0 5px;padding-top:8px;font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1;font-style:normal;font-weight:400;border-radius:50%;background-color:#9e9e9e;color:#fff;-webkit-transition:.15s ease-in;transition:.15s ease-in}.paginator__item:hover{background-color:#6aa0cf;color:#fff}.paginator__arrow{font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1;font-style:normal;font-weight:400;color:#838689;-webkit-transition:.15s ease-in;transition:.15s ease-in}.paginator__arrow:hover{color:#6aa0cf}.paginator__prev{display:block;margin-right:25px}.paginator__next{display:block;margin-left:25px}.container{max-width:1440px;margin:0 auto;padding:0 70px}.transition{-webkit-transition:.15s ease-in;transition:.15s ease-in}.center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vertical-center{top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%)}.horizontal-center{left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}.sprite{background-image:url(spritesheet.png);background-repeat:no-repeat;display:block}.sprite.sprite-discovery-dec{background-position:-10px -10px;width:51px;height:51px}.sprite.sprite-history-main-menu-1{background-position:-81px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-2{background-position:-242px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-3{background-position:-10px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-4{background-position:-171px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-5{background-position:-403px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-6{background-position:-332px -171px;width:141px;height:141px}.sprite.sprite-popular-sections-1{background-position:-493px -171px;width:84px;height:92px}.sprite.sprite-popular-sections-2{background-position:-493px -283px;width:85px;height:89px}.sprite.sprite-popular-sections-3{background-position:-10px -392px;width:52px;height:89px}.sprite.sprite-popular-sections-4{background-position:-82px -392px;width:84px;height:91px}.sprite.sprite-popular-sections-5{background-position:-186px -392px;width:83px;height:79px}.trans-bor-col{border:1px solid transparent;-webkit-transition-property:border-color;transition-property:border-color;-webkit-transition-duration:1s;transition-duration:1s}@media (max-width:767px){.all-articles__container{padding:0 4.6%}.all-articles__article-item{padding-top:0;margin-bottom:63px}.all-articles__article-item-left{margin-top:0;margin-bottom:63px}.all-articles__content p::after{left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.all-articles__img-wrap{display:none}.advertising::before{display:none}.advertising::after{display:none}.advertising__container{padding:0 4.6%}.advertising__item{margin-bottom:100px}.advertising__item:last-of-type{margin-bottom:0}.advertising__img-wrap::before{display:none}.advertising__img-wrap::after{display:none}.advertising__link{top:40px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.paginator{margin-top:80px}.paginator__arrow{font-family:CenturyGothic,Arial,sans-serif;font-size:14px;line-height:1;font-style:normal;font-weight:400}.paginator__prev{margin-right:10px}.paginator__next{margin-left:10px}.container{padding:0 4.6%}}@media (min-width:768px) and (max-width:991px){.all-articles__container{padding:0 5.2%}.all-articles__article-item-first{padding-top:80px}.all-articles__article-item-left{margin-top:97px}.all-articles__img-wrap{margin-bottom:80px}.all-articles__img-wrap-left::before{left:48.5%}.advertising__container{padding:0 5.2%}.container{padding:0 5.2%}}@media (min-width:992px) and (max-width:1199px){.all-articles__container{padding:0 35px}.all-articles__content-left{padding-left:5%;padding-right:6%}.advertising__container{padding:0 35px}.container{padding:0 35px}}@media (max-width:991px){.all-articles__value{width:100%}.all-articles__content{padding-left:0}.all-articles__content-left{padding:0}.all-articles__img-wrap::before{left:50%;width:387px;background:url(pics/motherhood-childbearing/all-articles-img-d.png) 0 0 no-repeat}.advertising__link{right:15%}}@media (max-width:480px){.all-articles__list li{display:block;font-family:CenturyGothic,Arial,sans-serif;font-size:14px;line-height:1.5;font-style:normal;font-weight:400}.all-articles__list li::after{display:none}.all-articles__article-item-first{padding-top:80px}.advertising__title{padding:0 17px;padding-bottom:6px;font-family:CenturyGothic,Arial,sans-serif;font-size:22px;line-height:1.2;font-style:normal;font-weight:700}.advertising__title::after{bottom:-11px;width:18px;height:18px}.advertising__item{margin-bottom:70px}.advertising__item::before{top:-10px;width:260px;height:260px;background-size:260px 260px}.advertising__img-wrap{width:auto;margin-bottom:30px}}@media (min-width:767px) and (max-width:1199px){.advertising{padding-bottom:0}}@media (min-width:767px) and (max-width:991px){.advertising{margin-bottom:-40px}}@media (min-width:1350px){.advertising::after{display:none}.advertising__item{width:25%}}@media (min-width:768px) and (max-width:1349px){.advertising__item{margin-bottom:60px}}@media (max-width:1349px){.advertising__content-wrap{text-align:center}.advertising__text-content{padding-left:0;padding-right:33px}}
+.all-articles {
+  padding-top: 10px;
+  position: relative;
+}
+.all-articles--1::before {
+  content: "";
+  position: absolute;
+  top: -35px;
+  left: 0;
+  width: 100%;
+  height: 186px;
+  background: url(pics/motherhood-childbearing/motherhood-childbearing-bg.png) 0 0 no-repeat;
+}
+.all-articles--2 {
+  padding-bottom: 50px;
+}
+.all-articles__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .all-articles__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .all-articles__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .all-articles__container {
+    padding: 0 35px;
+  }
+}
+.all-articles__value {
+  width: 50%;
+}
+@media (max-width: 991px) {
+  .all-articles__value {
+    width: 100%;
+  }
+}
+.all-articles__list {
+  text-align: right;
+  font-size: 0;
+}
+.all-articles__list li {
+  position: relative;
+  display: inline-block;
+  padding: 0 12px;
+  vertical-align: top;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+}
+@media (max-width: 480px) {
+  .all-articles__list li {
+    display: block;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.all-articles__list li::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: -1px;
+  width: 1px;
+  height: 13px;
+  background-color: #738393;
+}
+@media (max-width: 480px) {
+  .all-articles__list li::after {
+    display: none;
+  }
+}
+.all-articles__list li:last-child::after {
+  display: none;
+}
+.all-articles__list li > a {
+  color: #738393;
+}
+.all-articles__list li > a:hover {
+  text-decoration: underline;
+  color: #909ca9;
+}
+.all-articles__list li > a:active,
+.all-articles__list li > a:focus {
+  color: #5589c3;
+}
+.all-articles__article-item {
+  padding-top: 67px;
+}
+@media (max-width: 767px) {
+  .all-articles__article-item {
+    padding-top: 0;
+    margin-bottom: 63px;
+  }
+}
+.all-articles__article-item-first {
+  padding-top: 130px;
+}
+@media (max-width: 480px) {
+  .all-articles__article-item-first {
+    padding-top: 80px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .all-articles__article-item-first {
+    padding-top: 80px;
+  }
+}
+.all-articles__article-item-left {
+  margin-top: 70px;
+  margin-bottom: 43px;
+  padding-top: 0;
+}
+@media (max-width: 767px) {
+  .all-articles__article-item-left {
+    margin-top: 0;
+    margin-bottom: 63px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .all-articles__article-item-left {
+    margin-top: 97px;
+  }
+}
+.all-articles__content {
+  padding-left: 70px;
+}
+@media (max-width: 991px) {
+  .all-articles__content {
+    padding-left: 0;
+  }
+}
+.all-articles__content time {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #738393;
+}
+.all-articles__content p {
+  position: relative;
+}
+.all-articles__content p::after {
+  content: "";
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  width: 61px;
+  height: 11px;
+  background: url(pics/motherhood-childbearing/item-dec.png) 0 0 no-repeat;
+}
+@media (max-width: 767px) {
+  .all-articles__content p::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.all-articles__content-left {
+  padding-top: 67px;
+  padding-left: 15%;
+}
+@media (max-width: 991px) {
+  .all-articles__content-left {
+    padding: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .all-articles__content-left {
+    padding-left: 5%;
+    padding-right: 6%;
+  }
+}
+.all-articles__img-wrap {
+  position: relative;
+  padding-top: 15px;
+}
+@media (max-width: 767px) {
+  .all-articles__img-wrap {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .all-articles__img-wrap {
+    margin-bottom: 80px;
+  }
+}
+.all-articles__img-wrap::before {
+  content: "";
+  position: absolute;
+  top: -32px;
+  left: 52.5%;
+  transform: translateX(-50%);
+  width: 408px;
+  height: 393px;
+  background: url(pics/motherhood-childbearing/marker.png) center right no-repeat, url(pics/motherhood-childbearing/all-articles-img-d.png) 0 0 no-repeat;
+}
+@media (max-width: 991px) {
+  .all-articles__img-wrap::before {
+    left: 50%;
+    width: 387px;
+    background: url(pics/motherhood-childbearing/all-articles-img-d.png) 0 0 no-repeat;
+  }
+}
+.all-articles__img-wrap-left::before {
+  left: 47.5%;
+  transform: translateX(-50%) scale(-1, 1);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .all-articles__img-wrap-left::before {
+    left: 48.5%;
+  }
+}
+.all-articles__img {
+  width: 290px;
+  height: 290px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.all-articles__title {
+  position: relative;
+  margin-top: 7px;
+  margin-bottom: 30px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 23px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #5589c3;
+}
+.all-articles__title:hover {
+  color: #7ba3d0;
+}
+.all-articles__title:active,
+.all-articles__title:focus {
+  color: #a0bdde;
+}
+.all-articles__text-content {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #838689;
+}
+.advertising {
+  position: relative;
+  padding-top: 77px;
+  padding-bottom: 67px;
+}
+@media (min-width: 767px) and (max-width: 1199px) {
+  .advertising {
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 767px) and (max-width: 991px) {
+  .advertising {
+    margin-bottom: -40px;
+  }
+}
+.advertising::before {
+  content: "";
+  position: absolute;
+  top: 285px;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 7px;
+  background-color: #f9b5eb;
+}
+@media (max-width: 767px) {
+  .advertising::before {
+    display: none;
+  }
+}
+.advertising::after {
+  content: "";
+  position: absolute;
+  top: 669px;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 7px;
+  background-color: #f9b5eb;
+}
+@media (max-width: 767px) {
+  .advertising::after {
+    display: none;
+  }
+}
+@media (min-width: 1350px) {
+  .advertising::after {
+    display: none;
+  }
+}
+.advertising__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .advertising__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .advertising__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .advertising__container {
+    padding: 0 35px;
+  }
+}
+.advertising__title-wrap {
+  text-align: right;
+}
+.advertising__title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 43px;
+  padding: 1px 27px;
+  padding-bottom: 7px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 700;
+  border: 3px solid #86a0b7;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: #86a0b7;
+}
+@media (max-width: 480px) {
+  .advertising__title {
+    padding: 0 17px;
+    padding-bottom: 6px;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+.advertising__title::after {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  bottom: -13px;
+  left: 70%;
+  width: 22px;
+  height: 22px;
+  background-color: #ffffff;
+  border-bottom: 3px solid #86a0b7;
+  border-right: 3px solid #86a0b7;
+  transform: rotate(45deg);
+}
+@media (max-width: 480px) {
+  .advertising__title::after {
+    bottom: -11px;
+    width: 18px;
+    height: 18px;
+  }
+}
+.advertising__item {
+  position: relative;
+  padding: 0;
+}
+@media (min-width: 1350px) {
+  .advertising__item {
+    width: 25%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1349px) {
+  .advertising__item {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .advertising__item {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .advertising__item {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .advertising__item:last-of-type {
+    margin-bottom: 0;
+  }
+}
+.advertising__item::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 294px;
+  height: 294px;
+  background: url(pics/motherhood-childbearing/BG.png) 0 0 no-repeat;
+}
+@media (max-width: 480px) {
+  .advertising__item::before {
+    top: -10px;
+    width: 260px;
+    height: 260px;
+    background-size: 260px 260px;
+  }
+}
+.advertising__img-wrap {
+  position: relative;
+  width: 294px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+@media (max-width: 480px) {
+  .advertising__img-wrap {
+    width: auto;
+    margin-bottom: 30px;
+  }
+}
+.advertising__img-wrap::before {
+  content: "";
+  position: absolute;
+  top: 35%;
+  left: -27px;
+  width: 32px;
+  height: 70px;
+  background: url(pics/motherhood-childbearing/left.png) 0 0 no-repeat;
+}
+@media (max-width: 767px) {
+  .advertising__img-wrap::before {
+    display: none;
+  }
+}
+.advertising__img-wrap::after {
+  content: "";
+  position: absolute;
+  top: 35%;
+  right: -27px;
+  width: 32px;
+  height: 70px;
+  background: url(pics/motherhood-childbearing/right.png) 0 0 no-repeat;
+}
+@media (max-width: 767px) {
+  .advertising__img-wrap::after {
+    display: none;
+  }
+}
+.advertising__img {
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.advertising__content-wrap {
+  position: relative;
+  padding-left: 20px;
+}
+@media (max-width: 1349px) {
+  .advertising__content-wrap {
+    text-align: center;
+  }
+}
+.advertising__text-content {
+  display: inline-block;
+  max-width: 210px;
+  padding-right: 33px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+}
+@media (max-width: 1349px) {
+  .advertising__text-content {
+    padding-left: 0;
+    padding-right: 33px;
+  }
+}
+.advertising__text-content a {
+  display: block;
+  color: #782076;
+}
+.advertising__text-content a:hover,
+.advertising__text-content a:focus {
+  color: #c935c5;
+  text-decoration: underline;
+}
+.advertising__link {
+  position: absolute;
+  top: 3px;
+  right: 18%;
+  display: block;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  border-radius: 50%;
+  border: 2px solid #f9b5eb;
+}
+@media (max-width: 991px) {
+  .advertising__link {
+    right: 15%;
+  }
+}
+@media (max-width: 767px) {
+  .advertising__link {
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.advertising__link::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 3px;
+  width: 20px;
+  height: 2px;
+  background-color: #f9b5eb;
+}
+.advertising__link::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 4px;
+  width: 12px;
+  height: 12px;
+  border-bottom: 2px solid #f9b5eb;
+  border-left: 2px solid #f9b5eb;
+  transform: rotate(225deg);
+}
+.paginator {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .paginator {
+    margin-top: 40px;
+  }
+}
+.paginator li {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+}
+.paginator__item {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
+  padding-top: 8px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 50%;
+  background-color: #9e9e9e;
+  color: #ffffff;
+  transition: 0.15s ease-in;
+}
+.paginator__item:hover {
+  background-color: #6aa0cf;
+  color: #ffffff;
+}
+.paginator__arrow {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  color: #838689;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .paginator__arrow {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.paginator__arrow:hover {
+  color: #6aa0cf;
+}
+.paginator__prev {
+  display: block;
+  margin-right: 25px;
+}
+@media (max-width: 767px) {
+  .paginator__prev {
+    margin-right: 10px;
+  }
+}
+.paginator__next {
+  display: block;
+  margin-left: 25px;
+}
+@media (max-width: 767px) {
+  .paginator__next {
+    margin-left: 10px;
+  }
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding: 0 35px;
+  }
+}
+.transition {
+  transition: 0.15s ease-in;
+}
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vertical-center {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.horizontal-center {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite.sprite-item-1 {
+  background-position: -10px -10px;
+  width: 44px;
+  height: 47px;
+}
+.sprite.sprite-item-2 {
+  background-position: -74px -10px;
+  width: 53px;
+  height: 53px;
+}
+.sprite.sprite-item-3 {
+  background-position: -147px -10px;
+  width: 63px;
+  height: 63px;
+}
+.sprite.sprite-item-4 {
+  background-position: -230px -10px;
+  width: 79px;
+  height: 47px;
+}
+.sprite.sprite-item-5 {
+  background-position: -329px -10px;
+  width: 55px;
+  height: 46px;
+}
+.sprite.sprite-item-6 {
+  background-position: -404px -10px;
+  width: 61px;
+  height: 39px;
+}
+.sprite.sprite-place {
+  background-position: -485px -10px;
+  width: 23px;
+  height: 32px;
+}
+.trans-bor-col {
+  border: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 1s;
+}

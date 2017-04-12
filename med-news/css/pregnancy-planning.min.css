@@ -1,1 +1,2249 @@
-.conception{padding-bottom:70px}.conception__container{max-width:1440px;margin:0 auto;padding:0 70px}.conception .conception__title{position:relative;padding-left:70px;background-color:#d67a37}.conception .conception__title h1,.conception .conception__title h2{width:50%;padding-right:2%}.conception .conception__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#f4ddcb;opacity:.8}.conception__content{padding-top:63px}.conception__items{margin-bottom:80px}.conception__item{text-align:center}.conception__item a{display:inline-block;max-width:350px;font-family:CenturyGothic,Arial,sans-serif;font-size:23px;line-height:1.2;font-style:normal;font-weight:400;color:#4f4f4f}.conception__item a:focus{text-decoration:underline;color:#1c1c1c}.conception__item:hover{cursor:pointer}.conception__item:hover .conception__img{-webkit-transform:scale(1.27);transform:scale(1.27)}.conception__item:hover a{text-decoration:underline;color:#363636}.conception__item:active{cursor:pointer}.conception__item:active .conception__img{-webkit-transform:scale(1.27);transform:scale(1.27)}.conception__item:active a{text-decoration:underline;color:#1c1c1c}.conception__img{margin:0 auto;margin-bottom:50px;border-radius:50%;overflow:hidden;-webkit-transition:.4s ease;transition:.4s ease}.diagnostics{padding-bottom:60px}.diagnostics__container{max-width:1440px;margin:0 auto;padding:0 70px}.diagnostics .diagnostics__title{position:relative;padding-left:70px;background-color:#b7ca19}.diagnostics .diagnostics__title h1,.diagnostics .diagnostics__title h2{width:50%;padding-right:2%}.diagnostics .diagnostics__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#ecf1c3;opacity:.8}.diagnostics__content{padding-top:35px;overflow:hidden}.diagnostics__usr{position:relative;padding:0;padding-right:30px}.diagnostics__blood{position:relative;margin-top:80px;padding:0;padding-left:30px}.diagnostics__usr-img{width:100%}.diagnostics__blood-img{width:100%}.diagnostics__blood-content,.diagnostics__usr-content{position:absolute;bottom:0;left:0;background-color:rgba(183,202,25,.8);padding:0 40px;-webkit-transition:.15s ease-in;transition:.15s ease-in}.diagnostics__blood-content:hover,.diagnostics__usr-content:hover{background-color:rgba(175,193,24,.8)}.diagnostics__blood-content:focus,.diagnostics__usr-content:focus{background-color:rgba(162,179,22,.8)}.diagnostics__usr-content{display:block;min-height:135px;margin-right:30px;padding-left:70px}.diagnostics__usr-content:focus .diagnostics__usr-title,.diagnostics__usr-content:hover .diagnostics__usr-title{text-decoration:underline}.diagnostics__blood-content{display:block;width:100%;min-height:135px;margin-left:30px;padding-right:70px;padding-top:45px;padding-bottom:30px}.diagnostics__blood-content:focus .diagnostics__blood-title,.diagnostics__blood-content:hover .diagnostics__blood-title{text-decoration:underline}.diagnostics__blood-title,.diagnostics__usr-title{margin:0;font-family:CenturyGothic,Arial,sans-serif;font-size:41px;line-height:1.2;font-style:normal;font-weight:400;text-transform:uppercase;color:#fff}.diagnostics__blood-text-content,.diagnostics__usr-text-content{padding:10px 0;font-family:CenturyGothic,Arial,sans-serif;font-size:20px;line-height:1.2;font-style:normal;font-weight:400;color:#fff}.eco-slider{margin-bottom:55px}.eco-slider__container{max-width:1440px;margin:0 auto;padding:0 70px}.eco-slider__item{position:relative}.eco-slider__img{width:100%;-o-object-fit:contain;object-fit:contain}.eco-slider__content{position:absolute;top:350px}.eco-slider__link{text-shadow:1px 1px 1px #117372;-webkit-transition:.15s ease-in;transition:.15s ease-in}.eco-slider__link h3{font-family:CenturyGothic,Arial,sans-serif;font-size:140px;line-height:.8;font-style:normal;font-weight:400;color:#fff;-webkit-transition:.15s ease-in;transition:.15s ease-in}.eco-slider__link p{font-family:CenturyGothic,Arial,sans-serif;font-size:40px;line-height:1;font-style:normal;font-weight:400;color:#fff;-webkit-transition:.15s ease-in;transition:.15s ease-in}.eco-slider__link:hover h3,.eco-slider__link:hover p{opacity:.9}.eco-slider__link:focus{outline:0}.eco-slider__link:focus h3,.eco-slider__link:focus p{opacity:.8}.eco__container{max-width:1440px;margin:0 auto;padding:0 70px}.eco .eco__title{position:relative;padding-left:70px;background-color:#1eccca}.eco .eco__title h1,.eco .eco__title h2{width:50%;padding-right:2%}.eco .eco__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#c5f2f1;opacity:.8}.gynecology{padding-bottom:70px}.gynecology__container{max-width:1440px;margin:0 auto;padding:0 70px}.gynecology .gynecology__title{position:relative;padding-left:70px;background-color:#b865af}.gynecology .gynecology__title h1,.gynecology .gynecology__title h2{width:50%;padding-right:2%}.gynecology .gynecology__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#edd7ea;opacity:.8}.gynecology__content{padding-top:70px}.gynecology__items{margin-bottom:60px}.gynecology__item{position:relative;text-align:center}.gynecology__item::before{content:"";position:absolute;top:-22px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:350px;height:318px;background:url(pics/pregnancy-planning/gynecology-dec.png) 0 0 no-repeat}.gynecology__item:focus,.gynecology__item:hover{cursor:pointer}.gynecology__item a{display:inline-block;max-width:350px;font-family:CenturyGothic,Arial,sans-serif;font-size:21px;line-height:1.2;font-style:normal;font-weight:400;color:#716f6f;-webkit-transition:.15s ease-in;transition:.15s ease-in}.gynecology__item a:focus{text-decoration:underline;color:#3e3c3c}.gynecology__item:hover a{text-decoration:underline;color:#575656}.gynecology__item:active a{text-decoration:underline;color:#3e3c3c}.gynecology__item:hover::before{background:url(pics/pregnancy-planning/gynecology-dec-hov.png) 0 0 no-repeat}.gynecology__item:active::before{background:url(pics/pregnancy-planning/gynecology-dec-act.png) 0 0 no-repeat}.gynecology__img{margin:0 auto;margin-bottom:45px}.gynecology__link{display:block;text-align:center;text-decoration:underline;color:#b865af;-webkit-transition:.15s ease-in;transition:.15s ease-in}.gynecology__link:hover{text-decoration:underline;color:#a04a97}.gynecology__link:focus{text-decoration:underline;color:#8f4286}.infertility-treatment__container{max-width:1440px;margin:0 auto;padding:0 70px}.infertility-treatment .infertility-treatment__title{position:relative;padding-left:70px;background-color:#a44ccc}.infertility-treatment .infertility-treatment__title h1,.infertility-treatment .infertility-treatment__title h2{width:50%;padding-right:2%}.infertility-treatment .infertility-treatment__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#e7d1f2;opacity:.8}.infertility-treatment__content{margin-top:-10px;padding-top:60px;background:url(pics/pregnancy-planning/infertility-treatment-wp.jpg) 0 0 no-repeat;background-size:cover}.infertility-treatment__list{margin-bottom:40px}.infertility-treatment__list li{margin-bottom:20px}.infertility-treatment__list li>a{position:relative;display:block;padding-left:40px;font-family:CenturyGothic,Arial,sans-serif;font-size:20px;line-height:1.2;font-style:normal;font-weight:400;color:#294d6b}.infertility-treatment__list li>a::before{content:"";position:absolute;top:5px;left:0;width:14px;height:14px;background-color:#152f3e}.infertility-treatment__list li>a:hover{text-decoration:underline;color:#305a7d}.infertility-treatment__list li>a:hover::before{background-color:#1b3d51}.infertility-treatment__list li>a:focus{text-decoration:underline;color:#376890}.infertility-treatment__list li>a:focus::before{background-color:#224c64}.infertility-treatment__link-wrap{margin-bottom:65px}.man-health{padding-bottom:10px}.man-health__container{max-width:1440px;margin:0 auto;padding:0 70px}.man-health .man-health__title{position:relative;padding-left:70px;background-color:#5b9ee9}.man-health .man-health__title h1,.man-health .man-health__title h2{width:50%;padding-right:2%}.man-health .man-health__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#d5e6f9;opacity:.8}.man-health__content{margin-top:-10px;padding-top:70px;background:url(pics/pregnancy-planning/man-health-wp.jpg) 0 0 no-repeat;background-size:cover}.man-health__list li{margin-bottom:60px}.man-health__list li>a{position:relative;display:block;font-family:CenturyGothic,Arial,sans-serif;font-size:26px;line-height:1.2;font-style:normal;font-weight:400;color:#d5e6f9;-webkit-transition:.15s ease-in;transition:.15s ease-in}.man-health__list li>a::before{content:"";position:absolute;top:50%;left:-80px;width:43px;height:43px;-webkit-transform:translateY(-50%);transform:translateY(-50%);background:url(pics/pregnancy-planning/arrow.png) 0 0 no-repeat;-webkit-transition:.15s ease-in;transition:.15s ease-in}.man-health__list li>a:hover{text-decoration:underline;color:#a8cbf3}.man-health__list li>a:hover::before{left:-75px}.man-health__list li>a:focus{text-decoration:underline;color:#7cb1ec}.man-health__list li>a:focus::before{left:-75px}.man-health__link-wrap{margin-bottom:40px}.medications{padding-bottom:30px}.medications__container{max-width:1440px;margin:0 auto;padding:0 70px}.medications .medications__title{position:relative;padding-left:70px;background-color:#52960f}.medications .medications__title h1,.medications .medications__title h2{width:50%;padding-right:2%}.medications .medications__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#d2e4c1;opacity:.8}.medications__content{padding-top:20px}.medications__content-box{position:relative;margin-bottom:50px}.medications__content-box::before{content:"";position:absolute;top:13%;left:50%;width:626px;height:362px;-webkit-transform:translateX(-50%);transform:translateX(-50%);background:url(pics/pregnancy-planning/medications-wp.png) 0 0 no-repeat}.medications__text-content-left,.medications__text-content-right{padding:0}.medications__content-title{margin-bottom:50px;font-family:CenturyGothic,Arial,sans-serif;font-size:30px;line-height:1.2;font-style:normal;font-weight:700;text-align:center;color:#1f3906}.medications__list li{margin-bottom:45px}.medications__list li>a{position:relative;display:inline-block;padding:10px 20px;padding-left:50px;font-family:CenturyGothic,Arial,sans-serif;font-size:23px;line-height:1.2;font-style:normal;font-weight:400;color:#404d34;-webkit-transition:.15s ease-in;transition:.15s ease-in}.medications__list li>a::before{content:"";position:absolute;top:20px;left:17px;width:8px;height:8px;background-color:#404d34;border-radius:50%;-webkit-transition:.15s ease-in;transition:.15s ease-in}.medications__list li>a:focus,.medications__list li>a:hover{background-color:#52960f;color:#fff}.medications__list li>a:focus::before,.medications__list li>a:hover::before{background-color:#fff}.online-services__container{max-width:1440px;margin:0 auto;padding:0 70px}.online-services .online-services__title{position:relative;padding-left:70px;background-color:#1eccca}.online-services .online-services__title h1,.online-services .online-services__title h2{width:50%;padding-right:2%}.online-services .online-services__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#c5f2f1;opacity:.8}.online-services__content{padding-top:80px;padding-bottom:70px}.online-services__calendar{margin-bottom:100px}.online-services__decipher{width:50%;margin-bottom:200px;padding-right:30px}.online-services__calendar-block{max-width:460px;margin-left:40px}.online-services__calendar-content{padding-right:30px}.online-services__decipher-content{position:relative;max-width:460px;margin-left:auto;padding-top:50px}.online-services__decipher-content::before{content:"";position:absolute;top:0;left:0;width:459px;height:318px;pointer-events:none;background:url(pics/pregnancy-planning/online-services-block.png) 0 0 no-repeat}.online-services__decipher-content::after{content:"";position:absolute;top:20px;right:-376px;width:376px;height:367px;background:url(pics/pregnancy-planning/online-services-blood.png) 0 0 no-repeat}.online-services__calendar-text{position:relative;max-width:410px;margin-left:auto;padding-top:190px;font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1.2;font-style:normal;font-weight:400;color:#6e6e6e}.online-services__calendar-text::before{content:"";position:absolute;top:-260px;left:120px;width:394px;height:473px;background:url(pics/pregnancy-planning/online-services-bg.png) 0 0 no-repeat}.online-services__calendar-block{position:relative;padding:0;padding-top:50px}.online-services__calendar-block::before{content:"";position:absolute;top:0;left:0;width:459px;height:318px;pointer-events:none;background:url(pics/pregnancy-planning/online-services-block.png) 0 0 no-repeat}.online-services__calendar-block::after{content:"";position:absolute;top:140px;right:-137px;width:137px;height:137px;background:url(pics/pregnancy-planning/online-services-dec.png) 0 0 no-repeat}.online-services__calendar-title{margin:0;width:459px;margin-bottom:15px;font-family:CenturyGothic,Arial,sans-serif;font-size:56px;line-height:1.2;font-style:normal;font-weight:400;text-align:center;color:#636363}.online-services__decipher-title{margin:0;width:459px;margin-bottom:40px;font-family:CenturyGothic,Arial,sans-serif;font-size:44px;line-height:1;font-style:normal;font-weight:400;text-align:center;color:#636363}.online-services__decipher-title span{font-family:CenturyGothic,Arial,sans-serif;font-size:72px;line-height:1;font-style:normal;font-weight:400}.online-services__calendar-link,.online-services__decipher-link{display:block;width:315px;margin:0 auto;padding-top:3px;padding-bottom:10px;font-family:CenturyGothic,Arial,sans-serif;font-size:28px;line-height:1.2;font-style:normal;font-weight:700;text-align:center;cursor:pointer;background-color:#bdd6ef;color:#fff;-webkit-transition:.15s ease-in;transition:.15s ease-in}.online-services__calendar-link:hover,.online-services__decipher-link:hover{background-color:#a8c9ea;color:#fff}.online-services__calendar-link:focus,.online-services__decipher-link:focus{background-color:#94bce5;color:#fff}.online-services__decipher-link{width:380px}.planning{padding-bottom:35px}.planning__container{max-width:1440px;margin:0 auto;padding:0 70px}.planning .planning__title{position:relative;padding-left:70px;background-color:#319997}.planning .planning__title h1,.planning .planning__title h2{width:50%;padding-right:2%}.planning .planning__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#cae5e4;opacity:.8}.planning__title-content{margin:0}.planning__content-block{position:absolute;bottom:0;left:0;width:91.66666667%;padding-top:12px;padding-bottom:15px;padding-left:70px;padding-right:40px;background-color:rgba(49,153,151,.7)}.planning__content-block p{margin:0;font-family:CenturyGothic,Arial,sans-serif;font-size:16px;line-height:1.2;font-style:normal;font-weight:400;color:#fff}.planning__link{text-decoration:underline;color:#fff}.planning__link:hover{color:#f2f2f2}.planning__link:focus{color:#e6e6e6}.planning .nav-tabs{background:#d7dfeb}.planning .col-md-3,.planning .col-md-9,.planning .container-fluid,.planning .row{margin:0;padding:0;max-width:100%}.planning__container-tab{height:500px}.planning__inner{overflow:hidden}.planning__inner img{display:block;height:498px;width:100%;-o-object-fit:cover;object-fit:cover}.planning__li{margin:0;padding:0;height:calc(500px/3);display:table;width:100%;position:relative}.planning__li a{display:table-cell;vertical-align:middle;text-align:center;border:none;border-radius:0;margin:0;background:#6eb7b6;color:#fff;padding:0 40px;padding-right:60px;text-align:left;font-family:CenturyGothic,Arial,sans-serif;font-size:20px;line-height:1.2;font-style:normal;font-weight:400;-webkit-transition:.15s ease-in;transition:.15s ease-in}.planning__li a:hover{background:#319997;color:#fff;text-decoration:none}.planning__li.active:before{content:'';left:-40px;position:absolute;border:20px solid transparent;border-right:20px solid #319997;z-index:20;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.planning__li.active a{background:#319997;color:#fff;text-decoration:none;cursor:default}.pregnancy-planning{background:url(pics/pregnancy-planning/pregnancy-planning-wp.png) 0 0 no-repeat}.pregnancy-planning__container{max-width:1440px;margin:0 auto;padding:0 70px}.pregnancy-planning__content{padding-top:25px;padding-bottom:70px}.pregnancy-planning__list{box-sizing:content-box;max-width:1000px;text-align:center}.pregnancy-planning__list li{display:inline-block;vertical-align:top;width:240px;text-align:center}.pregnancy-planning__list-item{position:relative;display:block;margin-top:150px;color:#646464}.pregnancy-planning__list-item:hover{text-decoration:underline;color:#4a4a4a}.pregnancy-planning__list-item:active{text-decoration:underline;color:#313131}.pregnancy-planning__list-item::before{content:"";position:absolute;top:-100px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:83px;height:83px;border-radius:50%;-webkit-transition:.15s ease-in;transition:.15s ease-in}.pregnancy-planning__list-item-1::before{border:3px solid #b7ca19;background:url(pics/pregnancy-planning/item-1.png) center no-repeat}.pregnancy-planning__list-item-1:hover::before{border-color:#8e9d13}.pregnancy-planning__list-item-2::before{border:3px solid #52960f;background:url(pics/pregnancy-planning/item-2.png) center no-repeat}.pregnancy-planning__list-item-2:hover::before{border-color:#39680a}.pregnancy-planning__list-item-3::before{border:3px solid #8ed5ea;background:url(pics/pregnancy-planning/item-3.png) center no-repeat}.pregnancy-planning__list-item-3:hover::before{border-color:#63c5e2}.pregnancy-planning__list-item-4::before{border:3px solid #5b9ee9;background:url(pics/pregnancy-planning/item-4.png) center no-repeat}.pregnancy-planning__list-item-4:hover::before{border-color:#2e83e3}.pregnancy-planning__list-item-5::before{border:3px solid #d67a37;background:url(pics/pregnancy-planning/item-5.png) center no-repeat}.pregnancy-planning__list-item-5:hover::before{border-color:#b56225}.pregnancy-planning__list-item-6::before{border:3px solid #b865af;background:url(pics/pregnancy-planning/item-6.png) center no-repeat}.pregnancy-planning__list-item-6:hover::before{border-color:#a04a97}.pregnancy-planning__list-item-7::before{border:3px solid #a44ccc;background:url(pics/pregnancy-planning/item-7.png) center center no-repeat}.pregnancy-planning__list-item-7:hover::before{border-color:#8a33b2}.pregnancy-planning__list-item-8::before{border:3px solid #d25245;background:url(pics/pregnancy-planning/item-8.png) center center no-repeat}.pregnancy-planning__list-item-8:hover::before{border-color:#b8392c}.pregnancy-planning__list-item-9::before{border:3px solid #2e679e;background:url(pics/pregnancy-planning/item-9.png) center center no-repeat}.pregnancy-planning__list-item-9:hover::before{border-color:#234d77}.pregnancy-planning__list-item-10::before{border:3px solid #319997;background:url(pics/pregnancy-planning/item-10.png) center center no-repeat}.pregnancy-planning__list-item-10:hover::before{border-color:#257271}.pregnancy-planning__list-item-11::before{border:3px solid #1eccca;background:url(pics/pregnancy-planning/item-11.png) center center no-repeat}.pregnancy-planning__list-item-11:hover::before{border-color:#17a09e}.pregnancy-planning__list-item-12::before{border:3px solid #7ad245;background:url(pics/pregnancy-planning/item-12.png) center center no-repeat}.pregnancy-planning__list-item-12:hover::before{border-color:#61b82c}.pregnancy-symptoms-slider__item{position:relative}.pregnancy-symptoms-slider__img{width:100%;-o-object-fit:contain;object-fit:contain}.pregnancy-symptoms-slider__link{position:absolute;top:65px;left:0;display:block;background-color:rgba(255,255,255,.45);-webkit-transition:.15s ease-in;transition:.15s ease-in}.pregnancy-symptoms-slider__link:hover .pregnancy-symptoms-slider__title{text-decoration:underline;color:#b94d29}.pregnancy-symptoms-slider__link:focus{outline:0}.pregnancy-symptoms-slider__link:focus pregnancy-symptoms-slider__title{text-decoration:underline;color:#ce562d}.pregnancy-symptoms-slider__link h3{padding:20px 100px;font-family:CenturyGothic,Arial,sans-serif;font-size:42px;line-height:1.2;font-style:normal;font-weight:400;color:#7a331b;-webkit-transition:.15s ease-in;transition:.15s ease-in}.pregnancy-symptoms-slider__link h3 span{font-family:CenturyGothic,Arial,sans-serif;font-size:50px;line-height:1.2;font-style:normal;font-weight:400}.pregnancy-symptoms{padding-bottom:20px}.pregnancy-symptoms__container{max-width:1440px;margin:0 auto;padding:0 70px}.pregnancy-symptoms .pregnancy-symptoms__title{position:relative;padding-left:70px;background-color:#8ed5ea}.pregnancy-symptoms .pregnancy-symptoms__title h1,.pregnancy-symptoms .pregnancy-symptoms__title h2{width:50%;padding-right:2%}.pregnancy-symptoms .pregnancy-symptoms__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#e2f4fa;opacity:.8}.container{max-width:1440px;margin:0 auto;padding:0 70px}.transition{-webkit-transition:.15s ease-in;transition:.15s ease-in}.center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vertical-center{top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%)}.horizontal-center{left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}.sprite{background-image:url(spritesheet.png);background-repeat:no-repeat;display:block}.sprite.sprite-discovery-dec{background-position:-10px -10px;width:51px;height:51px}.sprite.sprite-history-main-menu-1{background-position:-81px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-2{background-position:-242px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-3{background-position:-10px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-4{background-position:-171px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-5{background-position:-403px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-6{background-position:-332px -171px;width:141px;height:141px}.sprite.sprite-popular-sections-1{background-position:-493px -171px;width:84px;height:92px}.sprite.sprite-popular-sections-2{background-position:-493px -283px;width:85px;height:89px}.sprite.sprite-popular-sections-3{background-position:-10px -392px;width:52px;height:89px}.sprite.sprite-popular-sections-4{background-position:-82px -392px;width:84px;height:91px}.sprite.sprite-popular-sections-5{background-position:-186px -392px;width:83px;height:79px}.trans-bor-col{border:1px solid transparent;-webkit-transition-property:border-color;transition-property:border-color;-webkit-transition-duration:1s;transition-duration:1s}@media (max-width:991px){.conception{padding-bottom:50px}.conception .conception__title::after{opacity:.3}.conception__items{margin-bottom:0}.conception__item{margin-bottom:60px}.diagnostics .diagnostics__title::after{opacity:.3}.diagnostics__usr{max-width:691px;margin:0 auto;padding:0}.diagnostics__blood{max-width:691px;margin:0 auto;margin-top:60px;padding:0}.diagnostics__usr-content{margin-right:0;padding:10px 4.6%}.diagnostics__blood-content{margin-left:0;padding:30px 4.6%}.eco-slider__content{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:100%;padding:20px 15%;text-align:center;background-color:rgba(255,255,255,.6)}.eco .eco__title::after{opacity:.3}.gynecology .gynecology__title::after{opacity:.3}.gynecology__item{margin-bottom:80px}.infertility-treatment .infertility-treatment__title::after{opacity:.3}.man-health .man-health__title::after{opacity:.3}.man-health__list{padding-bottom:20px}.man-health__link-wrap{margin-bottom:20px}.medications .medications__title::after{opacity:.3}.medications__list li{margin-bottom:20px}.online-services .online-services__title::after{opacity:.3}.online-services__content{padding-top:50px;padding-bottom:50px}.online-services__calendar{margin-bottom:0}.online-services__decipher{width:100%;margin-bottom:60px;padding-right:0}.online-services__calendar-content{padding:0}.online-services__decipher-content{width:100%;margin:0 auto}.online-services__decipher-content::after{display:none}.online-services__calendar-text{padding:0;margin:0 auto;font-family:CenturyGothic,Arial,sans-serif;font-size:16px;line-height:1.2;font-style:normal;font-weight:400}.online-services__calendar-block::after{display:none}.planning .planning__title::after{opacity:.3}.planning .col-md-3,.planning .col-md-9,.planning .container-fluid,.planning .row{margin:0;padding:0}.planning__container-tab{height:auto}.planning__inner{overflow:hidden}.planning__inner img{display:block;height:498px;width:100%;-o-object-fit:cover;object-fit:cover}.planning__li{margin:0;padding:0;display:table;width:100%;float:left;height:auto;position:relative}.planning__li a{text-transform:none;height:100%;height:80px;padding:10px 15px;vertical-align:top;font-family:CenturyGothic,Arial,sans-serif;font-size:16px;line-height:1.2;font-style:normal;font-weight:400}.planning__li a br{display:none}.planning__li.active:before{display:none}.pregnancy-planning{background:0 0}.pregnancy-symptoms-slider__link{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:100%;padding:20px 15%;text-align:center;background-color:rgba(255,255,255,.6)}.pregnancy-symptoms .pregnancy-symptoms__title::after{opacity:.3}}@media (max-width:767px){.conception{padding-bottom:30px}.conception__container{padding:0 4.6%}.conception .conception__title{padding:0 4.6%}.diagnostics__container{padding:0 4.6%}.diagnostics .diagnostics__title{padding:0 4.6%}.diagnostics__blood-content,.diagnostics__usr-content{position:relative}.diagnostics__blood-title,.diagnostics__usr-title{font-family:CenturyGothic,Arial,sans-serif;font-size:26px;line-height:1.2;font-style:normal;font-weight:400}.diagnostics__blood-text-content,.diagnostics__usr-text-content{font-family:CenturyGothic,Arial,sans-serif;font-size:16px;line-height:1.2;font-style:normal;font-weight:400}.eco-slider__container{padding:0 4.6%}.eco-slider__img{height:auto;-o-object-fit:contain;object-fit:contain}.eco-slider__link h3{font-family:CenturyGothic,Arial,sans-serif;font-size:90px;line-height:.8;font-style:normal;font-weight:400;text-align:center}.eco-slider__link p{font-family:CenturyGothic,Arial,sans-serif;font-size:30px;line-height:1;font-style:normal;font-weight:400;text-align:center}.eco__container{padding:0 4.6%}.eco .eco__title{padding:0 4.6%}.gynecology{padding-bottom:40px}.gynecology__container{padding:0 4.6%}.gynecology .gynecology__title{padding:0 4.6%}.gynecology__items{margin-bottom:0}.infertility-treatment__container{padding:0 4.6%}.infertility-treatment .infertility-treatment__title{padding:0 4.6%}.infertility-treatment__text-content{padding:0}.infertility-treatment__link-wrap{margin-bottom:30px}.man-health__container{padding:0 4.6%}.man-health .man-health__title{padding:0 4.6%}.man-health__content{background:url(pics/pregnancy-planning/man-health-wp-mob.jpg) 0 0 no-repeat;background-size:contain}.man-health__list{padding-top:87%}.man-health__list li{margin-bottom:30px}.man-health__list li>a{color:#676666}.man-health__list li>a::before{display:none}.medications__container{padding:0 4.6%}.medications .medications__title{padding:0 4.6%}.medications__list li{margin-bottom:10px}.medications__list li>a::before{top:16px}.online-services__container{padding:0 4.6%}.online-services .online-services__title{padding:0 4.6%}.online-services__decipher-content::before{display:none}.online-services__calendar-block::before{display:none}.online-services__calendar-title{width:100%;max-width:350px;margin:0 auto;margin-bottom:40px;font-family:CenturyGothic,Arial,sans-serif;font-size:32px;line-height:1.2;font-style:normal;font-weight:400}.online-services__decipher-title{width:100%;max-width:350px;margin:0 auto;margin-bottom:40px;font-family:CenturyGothic,Arial,sans-serif;font-size:30px;line-height:1;font-style:normal;font-weight:400}.online-services__decipher-title span{font-family:CenturyGothic,Arial,sans-serif;font-size:34px;line-height:1;font-style:normal;font-weight:400}.online-services__calendar-link,.online-services__decipher-link{width:100%;max-width:350px}.online-services__decipher-link{width:100%;max-width:350px}.planning__container{padding:0 4.6%}.planning .planning__title{padding:0 4.6%}.planning__content-block{width:100%;max-width:500px;margin-bottom:30px;padding:12px 4.6%}.planning__content-block p{font-family:CenturyGothic,Arial,sans-serif;font-size:14px;line-height:1.2;font-style:normal;font-weight:400}.pregnancy-planning__container{padding:0 4.6%}.pregnancy-planning__content{padding-top:0;padding-bottom:30px;margin-top:-40px}.pregnancy-symptoms-slider__img{height:auto;-o-object-fit:contain;object-fit:contain}.pregnancy-symptoms-slider__link h3{width:100%;padding:0;font-family:CenturyGothic,Arial,sans-serif;font-size:26px;line-height:1.2;font-style:normal;font-weight:400;text-align:center}.pregnancy-symptoms-slider__link h3 span{font-family:CenturyGothic,Arial,sans-serif;font-size:30px;line-height:1.2;font-style:normal;font-weight:400}.pregnancy-symptoms__container{padding:0 4.6%}.pregnancy-symptoms .pregnancy-symptoms__title{padding:0 4.6%}.container{padding:0 4.6%}}@media (min-width:768px) and (max-width:991px){.conception__container{padding:0 5.2%}.conception .conception__title{padding:0 5.2%}.diagnostics__container{padding:0 5.2%}.diagnostics .diagnostics__title{padding:0 5.2%}.eco-slider__container{padding:0 5.2%}.eco__container{padding:0 5.2%}.eco .eco__title{padding:0 5.2%}.gynecology__container{padding:0 5.2%}.gynecology .gynecology__title{padding:0 5.2%}.infertility-treatment__container{padding:0 5.2%}.infertility-treatment .infertility-treatment__title{padding:0 5.2%}.man-health__container{padding:0 5.2%}.man-health .man-health__title{padding:0 5.2%}.medications__container{padding:0 5.2%}.medications .medications__title{padding:0 5.2%}.online-services__container{padding:0 5.2%}.online-services .online-services__title{padding:0 5.2%}.online-services__decipher-content{margin-bottom:120px}.online-services__calendar-block{margin-top:60px;margin-bottom:140px}.planning__container{padding:0 5.2%}.planning .planning__title{padding:0 5.2%}.pregnancy-planning__container{padding:0 5.2%}.pregnancy-symptoms__container{padding:0 5.2%}.pregnancy-symptoms .pregnancy-symptoms__title{padding:0 5.2%}.container{padding:0 5.2%}}@media (min-width:992px) and (max-width:1199px){.conception__container{padding:0 35px}.conception .conception__title{padding:0 35px}.conception__item a{font-family:CenturyGothic,Arial,sans-serif;font-size:20px;line-height:1.2;font-style:normal;font-weight:400}.conception__item:hover .conception__img{-webkit-transform:scale(1.08);transform:scale(1.08)}.diagnostics__container{padding:0 35px}.diagnostics .diagnostics__title{padding:0 35px}.diagnostics__usr-content{padding:10px 35px}.diagnostics__blood-content{padding:10px 35px;padding-top:30px}.diagnostics__blood-title,.diagnostics__usr-title{font-family:CenturyGothic,Arial,sans-serif;font-size:30px;line-height:1.2;font-style:normal;font-weight:400}.diagnostics__blood-text-content,.diagnostics__usr-text-content{font-family:CenturyGothic,Arial,sans-serif;font-size:16px;line-height:1.2;font-style:normal;font-weight:400}.eco-slider__container{padding:0 35px}.eco__container{padding:0 35px}.eco .eco__title{padding:0 35px}.gynecology__container{padding:0 35px}.gynecology .gynecology__title{padding:0 35px}.gynecology__img{width:100%;max-width:308px}.infertility-treatment__container{padding:0 35px}.infertility-treatment .infertility-treatment__title{padding:0 35px}.man-health__container{padding:0 35px}.man-health .man-health__title{padding:0 35px}.medications__container{padding:0 35px}.medications .medications__title{padding:0 35px}.online-services__container{padding:0 35px}.online-services .online-services__title{padding:0 35px}.online-services__decipher{width:100%}.online-services__decipher-content{margin-left:10%}.planning__container{padding:0 35px}.planning .planning__title{padding:0 35px}.pregnancy-planning__container{padding:0 35px}.pregnancy-symptoms__container{padding:0 35px}.pregnancy-symptoms .pregnancy-symptoms__title{padding:0 35px}.container{padding:0 35px}}@media (max-width:480px){.conception__item a{font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1.2;font-style:normal;font-weight:400}.conception__item:hover .conception__img{-webkit-transform:scale(1.08);transform:scale(1.08)}.conception__img{width:100%;max-width:275px;margin-bottom:30px}.eco-slider__content{padding:10px 15%}.gynecology__item{margin-bottom:50px}.gynecology__item::before{display:none}.gynecology__item a{font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1.2;font-style:normal;font-weight:400}.gynecology__img{width:100%;max-width:308px;margin-bottom:20px}.infertility-treatment__list li>a{font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1.2;font-style:normal;font-weight:400}.man-health__text-content{padding:0}.man-health__list{padding-top:80%}.man-health__list li>a{font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1.2;font-style:normal;font-weight:400}.medications__content-title{font-family:CenturyGothic,Arial,sans-serif;font-size:26px;line-height:1.2;font-style:normal;font-weight:700}.medications__list li>a{display:block;padding-left:40px;font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1.2;font-style:normal;font-weight:400}.pregnancy-symptoms-slider__link{padding:10px 15%}.pregnancy-symptoms-slider__link h3{font-family:CenturyGothic,Arial,sans-serif;font-size:22px;line-height:1.2;font-style:normal;font-weight:400}.pregnancy-symptoms-slider__link h3 span{font-family:CenturyGothic,Arial,sans-serif;font-size:24px;line-height:1.2;font-style:normal;font-weight:400}}@media (min-width:992px) and (max-width:1249px){.gynecology__item::before{display:none}}@media (max-width:1199px){.medications__content-box{padding-top:170px}.medications__content-box::before{top:-20px;width:313px;height:181px;background-size:contain}.online-services__calendar{margin-bottom:150px}.online-services__calendar-block{margin:0 auto}.online-services__calendar-text{margin:0 auto;margin-bottom:80px;padding-top:0}.online-services__calendar-text::before{display:none}.online-services__calendar-block{margin:0 auto}.pregnancy-planning__list li{width:210px}}@media (min-width:1200px) and (max-width:1350px){.online-services__calendar-block::after{display:none}}@media (max-width:768px){.planning__li{width:100%;float:none}.planning__li a{height:auto;padding:20px 15px}}
+.conception {
+  padding-bottom: 70px;
+}
+@media (max-width: 991px) {
+  .conception {
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .conception {
+    padding-bottom: 30px;
+  }
+}
+.conception__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .conception__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .conception__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .conception__container {
+    padding: 0 35px;
+  }
+}
+.conception .conception__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #d67a37;
+}
+.conception .conception__title h1,
+.conception .conception__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .conception .conception__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .conception .conception__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .conception .conception__title {
+    padding: 0 35px;
+  }
+}
+.conception .conception__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #f4ddcb;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .conception .conception__title::after {
+    opacity: 0.3;
+  }
+}
+.conception__content {
+  padding-top: 63px;
+}
+.conception__items {
+  margin-bottom: 80px;
+}
+@media (max-width: 991px) {
+  .conception__items {
+    margin-bottom: 0;
+  }
+}
+.conception__item {
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .conception__item {
+    margin-bottom: 60px;
+  }
+}
+.conception__item a {
+  display: inline-block;
+  max-width: 350px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 23px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .conception__item a {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 480px) {
+  .conception__item a {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.conception__item a:focus {
+  text-decoration: underline;
+  color: #1c1c1c;
+}
+.conception__item:hover {
+  cursor: pointer;
+}
+.conception__item:hover .conception__img {
+  transform: scale(1.27);
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .conception__item:hover .conception__img {
+    transform: scale(1.08);
+  }
+}
+@media (max-width: 480px) {
+  .conception__item:hover .conception__img {
+    transform: scale(1.08);
+  }
+}
+.conception__item:hover a {
+  text-decoration: underline;
+  color: #363636;
+}
+.conception__item:active {
+  cursor: pointer;
+}
+.conception__item:active .conception__img {
+  transform: scale(1.27);
+}
+.conception__item:active a {
+  text-decoration: underline;
+  color: #1c1c1c;
+}
+.conception__img {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.4s ease;
+}
+@media (max-width: 480px) {
+  .conception__img {
+    width: 100%;
+    max-width: 275px;
+    margin-bottom: 30px;
+  }
+}
+.diagnostics {
+  padding-bottom: 60px;
+}
+.diagnostics__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .diagnostics__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .diagnostics__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .diagnostics__container {
+    padding: 0 35px;
+  }
+}
+.diagnostics .diagnostics__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #b7ca19;
+}
+.diagnostics .diagnostics__title h1,
+.diagnostics .diagnostics__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .diagnostics .diagnostics__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .diagnostics .diagnostics__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .diagnostics .diagnostics__title {
+    padding: 0 35px;
+  }
+}
+.diagnostics .diagnostics__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #ecf1c3;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .diagnostics .diagnostics__title::after {
+    opacity: 0.3;
+  }
+}
+.diagnostics__content {
+  padding-top: 35px;
+  overflow: hidden;
+}
+.diagnostics__usr {
+  position: relative;
+  padding: 0;
+  padding-right: 30px;
+}
+@media (max-width: 991px) {
+  .diagnostics__usr {
+    max-width: 691px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+.diagnostics__blood {
+  position: relative;
+  margin-top: 80px;
+  padding: 0;
+  padding-left: 30px;
+}
+@media (max-width: 991px) {
+  .diagnostics__blood {
+    max-width: 691px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 0;
+  }
+}
+.diagnostics__usr-img {
+  width: 100%;
+}
+.diagnostics__blood-img {
+  width: 100%;
+}
+.diagnostics__blood-content,
+.diagnostics__usr-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(183, 202, 25, 0.8);
+  padding: 0 40px;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .diagnostics__blood-content,
+  .diagnostics__usr-content {
+    position: relative;
+  }
+}
+.diagnostics__blood-content:hover,
+.diagnostics__usr-content:hover {
+  background-color: rgba(175, 193, 24, 0.8);
+}
+.diagnostics__blood-content:focus,
+.diagnostics__usr-content:focus {
+  background-color: rgba(162, 179, 22, 0.8);
+}
+.diagnostics__usr-content {
+  display: block;
+  min-height: 135px;
+  margin-right: 30px;
+  padding-left: 70px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .diagnostics__usr-content {
+    padding: 10px 35px;
+  }
+}
+@media (max-width: 991px) {
+  .diagnostics__usr-content {
+    margin-right: 0;
+    padding: 10px 4.6%;
+  }
+}
+.diagnostics__usr-content:hover .diagnostics__usr-title,
+.diagnostics__usr-content:focus .diagnostics__usr-title {
+  text-decoration: underline;
+}
+.diagnostics__blood-content {
+  display: block;
+  width: 100%;
+  min-height: 135px;
+  margin-left: 30px;
+  padding-right: 70px;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .diagnostics__blood-content {
+    padding: 10px 35px;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .diagnostics__blood-content {
+    margin-left: 0;
+    padding: 30px 4.6%;
+  }
+}
+.diagnostics__blood-content:hover .diagnostics__blood-title,
+.diagnostics__blood-content:focus .diagnostics__blood-title {
+  text-decoration: underline;
+}
+.diagnostics__usr-title,
+.diagnostics__blood-title {
+  margin: 0;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 41px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .diagnostics__usr-title,
+  .diagnostics__blood-title {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 767px) {
+  .diagnostics__usr-title,
+  .diagnostics__blood-title {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.diagnostics__usr-text-content,
+.diagnostics__blood-text-content {
+  padding: 10px 0;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .diagnostics__usr-text-content,
+  .diagnostics__blood-text-content {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 767px) {
+  .diagnostics__usr-text-content,
+  .diagnostics__blood-text-content {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.eco-slider {
+  margin-bottom: 55px;
+}
+.eco-slider__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .eco-slider__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .eco-slider__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .eco-slider__container {
+    padding: 0 35px;
+  }
+}
+.eco-slider__item {
+  position: relative;
+}
+.eco-slider__img {
+  width: 100%;
+  object-fit: contain;
+}
+@media (max-width: 767px) {
+  .eco-slider__img {
+    height: auto;
+    object-fit: contain;
+  }
+}
+.eco-slider__content {
+  position: absolute;
+  top: 350px;
+}
+@media (max-width: 991px) {
+  .eco-slider__content {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 20px 15%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}
+@media (max-width: 480px) {
+  .eco-slider__content {
+    padding: 10px 15%;
+  }
+}
+.eco-slider__link {
+  text-shadow: 1px 1px 1px #117372;
+  transition: 0.15s ease-in;
+}
+.eco-slider__link h3 {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 140px;
+  line-height: 0.8;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .eco-slider__link h3 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 90px;
+    line-height: 0.8;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+.eco-slider__link p {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 40px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .eco-slider__link p {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+.eco-slider__link:hover h3,
+.eco-slider__link:hover p {
+  opacity: 0.9;
+}
+.eco-slider__link:focus {
+  outline: none;
+}
+.eco-slider__link:focus h3,
+.eco-slider__link:focus p {
+  opacity: 0.8;
+}
+.eco__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .eco__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .eco__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .eco__container {
+    padding: 0 35px;
+  }
+}
+.eco .eco__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #1eccca;
+}
+.eco .eco__title h1,
+.eco .eco__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .eco .eco__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .eco .eco__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .eco .eco__title {
+    padding: 0 35px;
+  }
+}
+.eco .eco__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #c5f2f1;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .eco .eco__title::after {
+    opacity: 0.3;
+  }
+}
+.gynecology {
+  padding-bottom: 70px;
+}
+@media (max-width: 767px) {
+  .gynecology {
+    padding-bottom: 40px;
+  }
+}
+.gynecology__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .gynecology__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .gynecology__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .gynecology__container {
+    padding: 0 35px;
+  }
+}
+.gynecology .gynecology__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #b865af;
+}
+.gynecology .gynecology__title h1,
+.gynecology .gynecology__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .gynecology .gynecology__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .gynecology .gynecology__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .gynecology .gynecology__title {
+    padding: 0 35px;
+  }
+}
+.gynecology .gynecology__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #edd7ea;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .gynecology .gynecology__title::after {
+    opacity: 0.3;
+  }
+}
+.gynecology__content {
+  padding-top: 70px;
+}
+.gynecology__items {
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .gynecology__items {
+    margin-bottom: 0;
+  }
+}
+.gynecology__item {
+  position: relative;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .gynecology__item {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 480px) {
+  .gynecology__item {
+    margin-bottom: 50px;
+  }
+}
+.gynecology__item::before {
+  content: "";
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 318px;
+  background: url(pics/pregnancy-planning/gynecology-dec.png) 0 0 no-repeat;
+}
+@media (min-width: 992px) and (max-width: 1249px) {
+  .gynecology__item::before {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .gynecology__item::before {
+    display: none;
+  }
+}
+.gynecology__item:hover,
+.gynecology__item:focus {
+  cursor: pointer;
+}
+.gynecology__item a {
+  display: inline-block;
+  max-width: 350px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 21px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #716f6f;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 480px) {
+  .gynecology__item a {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.gynecology__item a:focus {
+  text-decoration: underline;
+  color: #3e3c3c;
+}
+.gynecology__item:hover a {
+  text-decoration: underline;
+  color: #575656;
+}
+.gynecology__item:active a {
+  text-decoration: underline;
+  color: #3e3c3c;
+}
+.gynecology__item:hover::before {
+  background: url(pics/pregnancy-planning/gynecology-dec-hov.png) 0 0 no-repeat;
+}
+.gynecology__item:active::before {
+  background: url(pics/pregnancy-planning/gynecology-dec-act.png) 0 0 no-repeat;
+}
+.gynecology__img {
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .gynecology__img {
+    width: 100%;
+    max-width: 308px;
+  }
+}
+@media (max-width: 480px) {
+  .gynecology__img {
+    width: 100%;
+    max-width: 308px;
+    margin-bottom: 20px;
+  }
+}
+.gynecology__link {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  color: #b865af;
+  transition: 0.15s ease-in;
+}
+.gynecology__link:hover {
+  text-decoration: underline;
+  color: #a04a97;
+}
+.gynecology__link:focus {
+  text-decoration: underline;
+  color: #8f4286;
+}
+.infertility-treatment__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .infertility-treatment__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .infertility-treatment__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .infertility-treatment__container {
+    padding: 0 35px;
+  }
+}
+.infertility-treatment .infertility-treatment__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #a44ccc;
+}
+.infertility-treatment .infertility-treatment__title h1,
+.infertility-treatment .infertility-treatment__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .infertility-treatment .infertility-treatment__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .infertility-treatment .infertility-treatment__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .infertility-treatment .infertility-treatment__title {
+    padding: 0 35px;
+  }
+}
+.infertility-treatment .infertility-treatment__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #e7d1f2;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .infertility-treatment .infertility-treatment__title::after {
+    opacity: 0.3;
+  }
+}
+.infertility-treatment__content {
+  margin-top: -10px;
+  padding-top: 60px;
+  background: url(pics/pregnancy-planning/infertility-treatment-wp.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .infertility-treatment__text-content {
+    padding: 0;
+  }
+}
+.infertility-treatment__list {
+  margin-bottom: 40px;
+}
+.infertility-treatment__list li {
+  margin-bottom: 20px;
+}
+.infertility-treatment__list li > a {
+  position: relative;
+  display: block;
+  padding-left: 40px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #294d6b;
+}
+@media (max-width: 480px) {
+  .infertility-treatment__list li > a {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.infertility-treatment__list li > a::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background-color: #152f3e;
+}
+.infertility-treatment__list li > a:hover {
+  text-decoration: underline;
+  color: #305a7d;
+}
+.infertility-treatment__list li > a:hover::before {
+  background-color: #1b3d51;
+}
+.infertility-treatment__list li > a:focus {
+  text-decoration: underline;
+  color: #376890;
+}
+.infertility-treatment__list li > a:focus::before {
+  background-color: #224c64;
+}
+.infertility-treatment__link-wrap {
+  margin-bottom: 65px;
+}
+@media (max-width: 767px) {
+  .infertility-treatment__link-wrap {
+    margin-bottom: 30px;
+  }
+}
+.man-health {
+  padding-bottom: 10px;
+}
+.man-health__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .man-health__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .man-health__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .man-health__container {
+    padding: 0 35px;
+  }
+}
+.man-health .man-health__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #5b9ee9;
+}
+.man-health .man-health__title h1,
+.man-health .man-health__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .man-health .man-health__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .man-health .man-health__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .man-health .man-health__title {
+    padding: 0 35px;
+  }
+}
+.man-health .man-health__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #d5e6f9;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .man-health .man-health__title::after {
+    opacity: 0.3;
+  }
+}
+.man-health__content {
+  margin-top: -10px;
+  padding-top: 70px;
+  background: url(pics/pregnancy-planning/man-health-wp.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .man-health__content {
+    background: url(pics/pregnancy-planning/man-health-wp-mob.jpg) 0 0 no-repeat;
+    background-size: contain;
+  }
+}
+@media (max-width: 480px) {
+  .man-health__text-content {
+    padding: 0;
+  }
+}
+@media (max-width: 991px) {
+  .man-health__list {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .man-health__list {
+    padding-top: 87%;
+  }
+}
+@media (max-width: 480px) {
+  .man-health__list {
+    padding-top: 80%;
+  }
+}
+.man-health__list li {
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .man-health__list li {
+    margin-bottom: 30px;
+  }
+}
+.man-health__list li > a {
+  position: relative;
+  display: block;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #d5e6f9;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .man-health__list li > a {
+    color: #676666;
+  }
+}
+@media (max-width: 480px) {
+  .man-health__list li > a {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.man-health__list li > a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -80px;
+  width: 43px;
+  height: 43px;
+  transform: translateY(-50%);
+  background: url(pics/pregnancy-planning/arrow.png) 0 0 no-repeat;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .man-health__list li > a::before {
+    display: none;
+  }
+}
+.man-health__list li > a:hover {
+  text-decoration: underline;
+  color: #a8cbf3;
+}
+.man-health__list li > a:hover::before {
+  left: -75px;
+}
+.man-health__list li > a:focus {
+  text-decoration: underline;
+  color: #7cb1ec;
+}
+.man-health__list li > a:focus::before {
+  left: -75px;
+}
+.man-health__link-wrap {
+  margin-bottom: 40px;
+}
+@media (max-width: 991px) {
+  .man-health__link-wrap {
+    margin-bottom: 20px;
+  }
+}
+.medications {
+  padding-bottom: 30px;
+}
+.medications__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .medications__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .medications__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .medications__container {
+    padding: 0 35px;
+  }
+}
+.medications .medications__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #52960f;
+}
+.medications .medications__title h1,
+.medications .medications__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .medications .medications__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .medications .medications__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .medications .medications__title {
+    padding: 0 35px;
+  }
+}
+.medications .medications__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #d2e4c1;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .medications .medications__title::after {
+    opacity: 0.3;
+  }
+}
+.medications__content {
+  padding-top: 20px;
+}
+.medications__content-box {
+  position: relative;
+  margin-bottom: 50px;
+}
+@media (max-width: 1199px) {
+  .medications__content-box {
+    padding-top: 170px;
+  }
+}
+.medications__content-box::before {
+  content: "";
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  width: 626px;
+  height: 362px;
+  transform: translateX(-50%);
+  background: url(pics/pregnancy-planning/medications-wp.png) 0 0 no-repeat;
+}
+@media (max-width: 1199px) {
+  .medications__content-box::before {
+    top: -20px;
+    width: 313px;
+    height: 181px;
+    background-size: contain;
+  }
+}
+.medications__text-content-left,
+.medications__text-content-right {
+  padding: 0;
+}
+.medications__content-title {
+  margin-bottom: 50px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #1f3906;
+}
+@media (max-width: 480px) {
+  .medications__content-title {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: bold;
+  }
+}
+.medications__list li {
+  margin-bottom: 45px;
+}
+@media (max-width: 991px) {
+  .medications__list li {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .medications__list li {
+    margin-bottom: 10px;
+  }
+}
+.medications__list li > a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  padding-left: 50px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 23px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #404d34;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 480px) {
+  .medications__list li > a {
+    display: block;
+    padding-left: 40px;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.medications__list li > a::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 17px;
+  width: 8px;
+  height: 8px;
+  background-color: #404d34;
+  border-radius: 50%;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .medications__list li > a::before {
+    top: 16px;
+  }
+}
+.medications__list li > a:hover,
+.medications__list li > a:focus {
+  background-color: #52960f;
+  color: #ffffff;
+}
+.medications__list li > a:hover::before,
+.medications__list li > a:focus::before {
+  background-color: #ffffff;
+}
+.online-services__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .online-services__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .online-services__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .online-services__container {
+    padding: 0 35px;
+  }
+}
+.online-services .online-services__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #1eccca;
+}
+.online-services .online-services__title h1,
+.online-services .online-services__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .online-services .online-services__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .online-services .online-services__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .online-services .online-services__title {
+    padding: 0 35px;
+  }
+}
+.online-services .online-services__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #c5f2f1;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .online-services .online-services__title::after {
+    opacity: 0.3;
+  }
+}
+.online-services__content {
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+@media (max-width: 991px) {
+  .online-services__content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.online-services__calendar {
+  margin-bottom: 100px;
+}
+@media (max-width: 1199px) {
+  .online-services__calendar {
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 991px) {
+  .online-services__calendar {
+    margin-bottom: 0;
+  }
+}
+.online-services__decipher {
+  width: 50%;
+  margin-bottom: 200px;
+  padding-right: 30px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .online-services__decipher {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .online-services__decipher {
+    width: 100%;
+    margin-bottom: 60px;
+    padding-right: 0;
+  }
+}
+.online-services__calendar-block {
+  max-width: 460px;
+  margin-left: 40px;
+}
+@media (max-width: 1199px) {
+  .online-services__calendar-block {
+    margin: 0 auto;
+  }
+}
+.online-services__calendar-content {
+  padding-right: 30px;
+}
+@media (max-width: 991px) {
+  .online-services__calendar-content {
+    padding: 0;
+  }
+}
+.online-services__decipher-content {
+  position: relative;
+  max-width: 460px;
+  margin-left: auto;
+  padding-top: 50px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .online-services__decipher-content {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 991px) {
+  .online-services__decipher-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .online-services__decipher-content {
+    margin-bottom: 120px;
+  }
+}
+.online-services__decipher-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 459px;
+  height: 318px;
+  pointer-events: none;
+  background: url(pics/pregnancy-planning/online-services-block.png) 0 0 no-repeat;
+}
+@media (max-width: 767px) {
+  .online-services__decipher-content::before {
+    display: none;
+  }
+}
+.online-services__decipher-content::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: -376px;
+  width: 376px;
+  height: 367px;
+  background: url(pics/pregnancy-planning/online-services-blood.png) 0 0 no-repeat;
+}
+@media (max-width: 991px) {
+  .online-services__decipher-content::after {
+    display: none;
+  }
+}
+.online-services__calendar-text {
+  position: relative;
+  max-width: 410px;
+  margin-left: auto;
+  padding-top: 190px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #6e6e6e;
+}
+@media (max-width: 1199px) {
+  .online-services__calendar-text {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding-top: 0;
+  }
+}
+@media (max-width: 991px) {
+  .online-services__calendar-text {
+    padding: 0;
+    margin: 0 auto;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.online-services__calendar-text::before {
+  content: "";
+  position: absolute;
+  top: -260px;
+  left: 120px;
+  width: 394px;
+  height: 473px;
+  background: url(pics/pregnancy-planning/online-services-bg.png) 0 0 no-repeat;
+}
+@media (max-width: 1199px) {
+  .online-services__calendar-text::before {
+    display: none;
+  }
+}
+.online-services__calendar-block {
+  position: relative;
+  padding: 0;
+  padding-top: 50px;
+}
+@media (max-width: 1199px) {
+  .online-services__calendar-block {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .online-services__calendar-block {
+    margin-top: 60px;
+    margin-bottom: 140px;
+  }
+}
+.online-services__calendar-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 459px;
+  height: 318px;
+  pointer-events: none;
+  background: url(pics/pregnancy-planning/online-services-block.png) 0 0 no-repeat;
+}
+@media (max-width: 767px) {
+  .online-services__calendar-block::before {
+    display: none;
+  }
+}
+.online-services__calendar-block::after {
+  content: "";
+  position: absolute;
+  top: 140px;
+  right: -137px;
+  width: 137px;
+  height: 137px;
+  background: url(pics/pregnancy-planning/online-services-dec.png) 0 0 no-repeat;
+}
+@media (min-width: 1200px) and (max-width: 1350px) {
+  .online-services__calendar-block::after {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .online-services__calendar-block::after {
+    display: none;
+  }
+}
+.online-services__calendar-title {
+  margin: 0;
+  width: 459px;
+  margin-bottom: 15px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 56px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #636363;
+}
+@media (max-width: 767px) {
+  .online-services__calendar-title {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.online-services__decipher-title {
+  margin: 0;
+  width: 459px;
+  margin-bottom: 40px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 44px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #636363;
+}
+@media (max-width: 767px) {
+  .online-services__decipher-title {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.online-services__decipher-title span {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 72px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  .online-services__decipher-title span {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 34px;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.online-services__calendar-link,
+.online-services__decipher-link {
+  display: block;
+  width: 315px;
+  margin: 0 auto;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  background-color: #bdd6ef;
+  color: #ffffff;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .online-services__calendar-link,
+  .online-services__decipher-link {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+.online-services__calendar-link:hover,
+.online-services__decipher-link:hover {
+  background-color: #a8c9ea;
+  color: #ffffff;
+}
+.online-services__calendar-link:focus,
+.online-services__decipher-link:focus {
+  background-color: #94bce5;
+  color: #ffffff;
+}
+.online-services__decipher-link {
+  width: 380px;
+}
+@media (max-width: 767px) {
+  .online-services__decipher-link {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+.planning {
+  padding-bottom: 35px;
+}
+.planning__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .planning__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .planning__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .planning__container {
+    padding: 0 35px;
+  }
+}
+.planning .planning__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #319997;
+}
+.planning .planning__title h1,
+.planning .planning__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .planning .planning__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .planning .planning__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .planning .planning__title {
+    padding: 0 35px;
+  }
+}
+.planning .planning__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #cae5e4;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .planning .planning__title::after {
+    opacity: 0.3;
+  }
+}
+.planning__title-content {
+  margin: 0;
+}
+.planning__content-block {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 91.66666667%;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  padding-left: 70px;
+  padding-right: 40px;
+  background-color: rgba(49, 153, 151, 0.7);
+}
+@media (max-width: 767px) {
+  .planning__content-block {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+    padding: 12px 4.6%;
+  }
+}
+.planning__content-block p {
+  margin: 0;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .planning__content-block p {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.planning__link {
+  text-decoration: underline;
+  color: #ffffff;
+}
+.planning__link:hover {
+  color: #f2f2f2;
+}
+.planning__link:focus {
+  color: #e6e6e6;
+}
+.planning .nav-tabs {
+  background: #d7dfeb;
+}
+.planning .container-fluid,
+.planning .row,
+.planning .col-md-9,
+.planning .col-md-3 {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+.planning__container-tab {
+  height: 500px;
+}
+.planning__inner {
+  overflow: hidden;
+}
+.planning__inner img {
+  display: block;
+  height: 498px;
+  width: 100%;
+  object-fit: cover;
+}
+.planning__li {
+  margin: 0;
+  padding: 0;
+  height: calc(500px/3);
+  display: table;
+  width: 100%;
+  position: relative;
+}
+.planning__li a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  background: #6eb7b6;
+  color: #ffffff;
+  padding: 0 40px;
+  padding-right: 60px;
+  text-align: left;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  transition: 0.15s ease-in;
+}
+.planning__li a:hover {
+  background: #319997;
+  color: #fff;
+  text-decoration: none;
+}
+.planning__li.active:before {
+  content: '';
+  left: -40px;
+  position: absolute;
+  border: 20px solid transparent;
+  border-right: 20px solid #319997;
+  z-index: 20;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.planning__li.active a {
+  background: #319997;
+  color: #fff;
+  text-decoration: none;
+  cursor: default;
+}
+@media (max-width: 991px) {
+  .planning .container-fluid,
+  .planning .row,
+  .planning .col-md-9,
+  .planning .col-md-3 {
+    margin: 0;
+    padding: 0;
+  }
+  .planning__container-tab {
+    height: auto;
+  }
+  .planning__inner {
+    overflow: hidden;
+  }
+  .planning__inner img {
+    display: block;
+    height: 498px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .planning__li {
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%;
+    float: left;
+    height: auto;
+    position: relative;
+  }
+  .planning__li a {
+    text-transform: none;
+    height: 100%;
+    height: 80px;
+    padding: 10px 15px;
+    vertical-align: top;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .planning__li a br {
+    display: none;
+  }
+  .planning__li.active:before {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .planning__li {
+    width: 100%;
+    float: none;
+  }
+  .planning__li a {
+    height: auto;
+    padding: 20px 15px;
+  }
+}
+.pregnancy-planning {
+  background: url(pics/pregnancy-planning/pregnancy-planning-wp.png) 0 0 no-repeat;
+}
+@media (max-width: 991px) {
+  .pregnancy-planning {
+    background: none;
+  }
+}
+.pregnancy-planning__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .pregnancy-planning__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .pregnancy-planning__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pregnancy-planning__container {
+    padding: 0 35px;
+  }
+}
+.pregnancy-planning__content {
+  padding-top: 25px;
+  padding-bottom: 70px;
+}
+@media (max-width: 767px) {
+  .pregnancy-planning__content {
+    padding-top: 0;
+    padding-bottom: 30px;
+    margin-top: -40px;
+  }
+}
+.pregnancy-planning__list {
+  box-sizing: content-box;
+  max-width: 1000px;
+  text-align: center;
+}
+.pregnancy-planning__list li {
+  display: inline-block;
+  vertical-align: top;
+  width: 240px;
+  text-align: center;
+}
+@media (max-width: 1199px) {
+  .pregnancy-planning__list li {
+    width: 210px;
+  }
+}
+.pregnancy-planning__list-item {
+  position: relative;
+  display: block;
+  margin-top: 150px;
+  color: #646464;
+}
+.pregnancy-planning__list-item:hover {
+  text-decoration: underline;
+  color: #4a4a4a;
+}
+.pregnancy-planning__list-item:active {
+  text-decoration: underline;
+  color: #313131;
+}
+.pregnancy-planning__list-item::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+  transition: 0.15s ease-in;
+}
+.pregnancy-planning__list-item-1::before {
+  border: 3px solid #b7ca19;
+  background: url(pics/pregnancy-planning/item-1.png) center no-repeat;
+}
+.pregnancy-planning__list-item-1:hover::before {
+  border-color: #8e9d13;
+}
+.pregnancy-planning__list-item-2::before {
+  border: 3px solid #52960f;
+  background: url(pics/pregnancy-planning/item-2.png) center no-repeat;
+}
+.pregnancy-planning__list-item-2:hover::before {
+  border-color: #39680a;
+}
+.pregnancy-planning__list-item-3::before {
+  border: 3px solid #8ed5ea;
+  background: url(pics/pregnancy-planning/item-3.png) center no-repeat;
+}
+.pregnancy-planning__list-item-3:hover::before {
+  border-color: #63c5e2;
+}
+.pregnancy-planning__list-item-4::before {
+  border: 3px solid #5b9ee9;
+  background: url(pics/pregnancy-planning/item-4.png) center no-repeat;
+}
+.pregnancy-planning__list-item-4:hover::before {
+  border-color: #2e83e3;
+}
+.pregnancy-planning__list-item-5::before {
+  border: 3px solid #d67a37;
+  background: url(pics/pregnancy-planning/item-5.png) center no-repeat;
+}
+.pregnancy-planning__list-item-5:hover::before {
+  border-color: #b56225;
+}
+.pregnancy-planning__list-item-6::before {
+  border: 3px solid #b865af;
+  background: url(pics/pregnancy-planning/item-6.png) center no-repeat;
+}
+.pregnancy-planning__list-item-6:hover::before {
+  border-color: #a04a97;
+}
+.pregnancy-planning__list-item-7::before {
+  border: 3px solid #a44ccc;
+  background: url(pics/pregnancy-planning/item-7.png) center center no-repeat;
+}
+.pregnancy-planning__list-item-7:hover::before {
+  border-color: #8a33b2;
+}
+.pregnancy-planning__list-item-8::before {
+  border: 3px solid #d25245;
+  background: url(pics/pregnancy-planning/item-8.png) center center no-repeat;
+}
+.pregnancy-planning__list-item-8:hover::before {
+  border-color: #b8392c;
+}
+.pregnancy-planning__list-item-9::before {
+  border: 3px solid #2e679e;
+  background: url(pics/pregnancy-planning/item-9.png) center center no-repeat;
+}
+.pregnancy-planning__list-item-9:hover::before {
+  border-color: #234d77;
+}
+.pregnancy-planning__list-item-10::before {
+  border: 3px solid #319997;
+  background: url(pics/pregnancy-planning/item-10.png) center center no-repeat;
+}
+.pregnancy-planning__list-item-10:hover::before {
+  border-color: #257271;
+}
+.pregnancy-planning__list-item-11::before {
+  border: 3px solid #1eccca;
+  background: url(pics/pregnancy-planning/item-11.png) center center no-repeat;
+}
+.pregnancy-planning__list-item-11:hover::before {
+  border-color: #17a09e;
+}
+.pregnancy-planning__list-item-12::before {
+  border: 3px solid #7ad245;
+  background: url(pics/pregnancy-planning/item-12.png) center center no-repeat;
+}
+.pregnancy-planning__list-item-12:hover::before {
+  border-color: #61b82c;
+}
+.pregnancy-symptoms-slider__item {
+  position: relative;
+}
+.pregnancy-symptoms-slider__img {
+  width: 100%;
+  object-fit: contain;
+}
+@media (max-width: 767px) {
+  .pregnancy-symptoms-slider__img {
+    height: auto;
+    object-fit: contain;
+  }
+}
+.pregnancy-symptoms-slider__link {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.45);
+  transition: 0.15s ease-in;
+}
+.pregnancy-symptoms-slider__link:hover .pregnancy-symptoms-slider__title {
+  text-decoration: underline;
+  color: #b94d29;
+}
+.pregnancy-symptoms-slider__link:focus {
+  outline: none;
+}
+.pregnancy-symptoms-slider__link:focus pregnancy-symptoms-slider__title {
+  text-decoration: underline;
+  color: #ce562d;
+}
+@media (max-width: 991px) {
+  .pregnancy-symptoms-slider__link {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 20px 15%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}
+@media (max-width: 480px) {
+  .pregnancy-symptoms-slider__link {
+    padding: 10px 15%;
+  }
+}
+.pregnancy-symptoms-slider__link h3 {
+  padding: 20px 100px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 42px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #7a331b;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .pregnancy-symptoms-slider__link h3 {
+    width: 100%;
+    padding: 0;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .pregnancy-symptoms-slider__link h3 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.pregnancy-symptoms-slider__link h3 span {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 50px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  .pregnancy-symptoms-slider__link h3 span {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 480px) {
+  .pregnancy-symptoms-slider__link h3 span {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.pregnancy-symptoms {
+  padding-bottom: 20px;
+}
+.pregnancy-symptoms__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .pregnancy-symptoms__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .pregnancy-symptoms__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pregnancy-symptoms__container {
+    padding: 0 35px;
+  }
+}
+.pregnancy-symptoms .pregnancy-symptoms__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #8ed5ea;
+}
+.pregnancy-symptoms .pregnancy-symptoms__title h1,
+.pregnancy-symptoms .pregnancy-symptoms__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .pregnancy-symptoms .pregnancy-symptoms__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .pregnancy-symptoms .pregnancy-symptoms__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pregnancy-symptoms .pregnancy-symptoms__title {
+    padding: 0 35px;
+  }
+}
+.pregnancy-symptoms .pregnancy-symptoms__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #e2f4fa;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .pregnancy-symptoms .pregnancy-symptoms__title::after {
+    opacity: 0.3;
+  }
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding: 0 35px;
+  }
+}
+.transition {
+  transition: 0.15s ease-in;
+}
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vertical-center {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.horizontal-center {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite.sprite-item-1 {
+  background-position: -10px -10px;
+  width: 44px;
+  height: 47px;
+}
+.sprite.sprite-item-2 {
+  background-position: -74px -10px;
+  width: 53px;
+  height: 53px;
+}
+.sprite.sprite-item-3 {
+  background-position: -147px -10px;
+  width: 63px;
+  height: 63px;
+}
+.sprite.sprite-item-4 {
+  background-position: -230px -10px;
+  width: 79px;
+  height: 47px;
+}
+.sprite.sprite-item-5 {
+  background-position: -329px -10px;
+  width: 55px;
+  height: 46px;
+}
+.sprite.sprite-item-6 {
+  background-position: -404px -10px;
+  width: 61px;
+  height: 39px;
+}
+.sprite.sprite-place {
+  background-position: -485px -10px;
+  width: 23px;
+  height: 32px;
+}
+.trans-bor-col {
+  border: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 1s;
+}

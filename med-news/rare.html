@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Document</title>
     <link rel="stylesheet" href=css/main.min.css>
-    <link rel="stylesheet" href=css/rare.min.css>
+    <link rel="stylesheet" href=css/arare.min.css>
 </head>
 
 <body>
@@ -129,10 +129,13 @@
 	</nav>
 </header>
 
+<div class="promo">
+	<img src="img/biomed-banner.jpg" alt="promo" class="promo__img">
+</div>
+
 
 
 <main class="main" role="main">
-
     	<section class="breadcrumbs">
 		<div class="container-fluid">
 			<div class="row">
@@ -143,50 +146,31 @@
 			</div>
 		</div>
 	</section>
-
     <section class="icons">
         <div class="icons__cont">
             <div class="row">
                 <div class="col-sm-4 col-xs-6 icons__each-cont">
-                    <div class="icons__ic-cont">
-
-                    </div>
-
+                        <a href="#news" class="icons__link"><svg class="icons__icon"><use xlink:href="#icon-news"/></svg></a>
                     <div class="icons__txt">Новости</div>
                 </div>
                 <div class="col-sm-4 col-xs-6 icons__each-cont">
-                    <div class="icons__ic-cont">
-
-                    </div>
-
+                        <a href="#articles" class="icons__link"><svg class="icons__icon"><use xlink:href="#icon-statii"/></svg></svg></a>
                     <div class="icons__txt">Статьи</div>
                 </div>
                 <div class="col-sm-4 col-xs-6 icons__each-cont">
-                    <div class="icons__ic-cont">
-
-                    </div>
-
+                        <a href="#rare-encycl" class="icons__link"><svg class="icons__icon"><use xlink:href="#icon-enciklopediya"/></svg></svg></a>
                     <div class="icons__txt">Энциклопедия</div>
                 </div>
                 <div class="col-sm-4 col-xs-6 icons__each-cont">
-                    <div class="icons__ic-cont">
-
-                    </div>
-
+                        <a href="#history" class="icons__link"><svg class="icons__icon"><use xlink:href="#icon-iz_istorii"/></svg></svg></a>
                     <div class="icons__txt">Из истории</div>
                 </div>
                 <div class="col-sm-4 col-xs-6 icons__each-cont">
-                    <div class="icons__ic-cont">
-
-                    </div>
-
+                        <a href="#diagnostycs" class="icons__link"><svg class="icons__icon"><use xlink:href="#icon-diagnostika"/></svg></svg></a>
                     <div class="icons__txt">Диагностика</div>
                 </div>
                 <div class="col-sm-4 col-xs-6 icons__each-cont">
-                    <div class="icons__ic-cont">
-                        <svg class="icon-fish"><use xlink:href="#icon-home-main"/></svg>
-                    </div>
-
+                        <a href="#!" class="icons__link"><svg class="icons__icon"><use xlink:href="#icon-fondi"/></svg></svg></a>
                     <div class="icons__txt">Фонды</div>
                 </div>
 
@@ -196,50 +180,47 @@
 
     <section class="news tabs" id="news">
         <div class="news__title">
-            <h2 class="news__title-content">Красота и уход</h2>
+            <h2 class="news__title-content">Новости</h2>
         </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 col-md-push-8">
                     <div class="tabs__container-tab">
                         <ul class="nav nav-tabs _green nav-stacked" role="tablist">
-                            <li role="presentation" class="active tabs__li _green">
+                            <li role="presentation" class="active tabs__li">
                                 <a class="tabs__tab-link " href="#home" aria-controls="home" role="tab" data-toggle="tab">Компьютерный анализ ДНК поможет обнаружить редкие заболевания
                                 </a>
                             </li>
-                            <li role="presentation" class="tabs__li _green">
+                            <li role="presentation" class="tabs__li">
                                 <a class="tabs__tab-link " href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Орфанные больные могут остаться без лекарств</a>
                             </li>
-                            <li role="presentation" class="tabs__li _green">
+                            <li role="presentation" class="tabs__li">
                                 <a class="tabs__tab-link" href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Валерий Рязанский: Вопросы соцподдержки занимают особое место в работе парламента</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-8 col-md-pull-4">
-                    <div class="tab-content">
+                    <div class="tab-content _normal">
                         <div role="tabpanel" class="tabs__inner tab-pane active in fade" id="home">
                             <img src="img/rare/news/news-img.jpg" alt="">
-                            <div class="tabs__content-block _normal tabs__content-block-1">
-                                <a href="#!" class="tabs__link _normal"><h3 class="tabs__content-title _normal">Компьютерный анализ ДНК поможет обнаружить редкие заболевания </h3>
-                                    <p class="tabs__content-subtitle _normal">Компьютерное сравнение результатов генетического анализа пациентов
-                                        с имеющимися у ученых и постоянно пополняющимися базами данных
-                                        заболеваний позволит ставить точный диагноз, особенно в случае редких
-                                        болезней</p></a>
+                            <div class="tabs__content-block tabs__content-block-1">
+                                <a href="#!" class="tabs__link"><h3 class="tabs__content-title">Компьютерный анализ ДНК поможет обнаружить редкие заболевания </h3>
+                                    <div class="tabs__content-subtitle">Компьютерное сравнение результатов генетического анализа пациентов с имеющимися у ученых и постоянно пополняющимися базами данных заболеваний позволит ставить точный диагноз, особенно в случае редких болезней</div></a>
                             </div>
                         </div>
                         <div role="tabpanel" class="tabs__inner tab-pane fade" id="profile">
                             <img src="img/rare/news/news-img.jpg" alt="">
-                            <div class="tabs__content-block _normal tabs__content-block-2">
-                                <a href="#!" class="tabs__link _normal"><h3 class="tabs__content-title _normal">Медицинское образование в РФ в сфере косметологии: уровни,  стандарты, тонкости</h3>
-                                    <p class="tabs__content-subtitle _normal">В статье речь пойдет о среднем и высшем медицинском образовании в сфере эстетической медицины.</p></a>
+                            <div class="tabs__content-block tabs__content-block-2">
+                                <a href="#!" class="tabs__link"><h3 class="tabs__content-title">Медицинское образование в РФ в сфере косметологии: уровни,  стандарты, тонкости</h3>
+                                    <div class="tabs__content-subtitle">В статье речь пойдет о среднем и высшем медицинском образовании в сфере эстетической медицины.</div></a>
                             </div>
                         </div>
                         <div role="tabpanel" class="tabs__inner tab-pane fade" id="messages">
                             <img src="img/rare/news/news-img.jpg" alt="">
-                            <div class="tabs__content-block _normal tabs__content-block-3">
-                                <a href="#!" class="tabs__link _normal"><h3 class="tabs__content-title _normal">Экспериментальное обоснование  механизмов действия Meso-Eye™  С71</h3>
-                                    <p class="tabs__content-subtitle _normal">В статье речь пойдет о среднем и высшем медицинском образовании в сфере эстетической медицины.</p></a>
+                            <div class="tabs__content-block tabs__content-block-3">
+                                <a href="#!" class="tabs__link"><h3 class="tabs__content-title">Экспериментальное обоснование  механизмов действия Meso-Eye™  С71</h3>
+                                    <div class="tabs__content-subtitle">В статье речь пойдет о среднем и высшем медицинском образовании в сфере эстетической медицины.</div></a>
                             </div>
                         </div>
                     </div>
@@ -247,6 +228,243 @@
             </div>
         </div>
     </section>
+
+    <section class="articles" id="articles">
+        <div class="articles__title">
+            <h2 class="articles__title-content">Статьи</h2>
+        </div>
+
+
+        <section class="ban-right articles__ban-right">
+            <div class="ban-right__txt-cont articles__txt-cont">
+                <a href="#!" title="информация о контагиозном моллюске" class="ban-right__link">
+                    <div class="ban-right__txt articles__ban-txt">Откуда берутся</div>
+                    <div class="ban-right__txt-2 articles__ban-txt-2">ОРФАННЫЕ ЗАБОЛЕВАНИЯ?</div></a>
+            </div>
+        </section>
+
+        <section class="articles__grid">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <a href="#!" title="Три кита современной медицины" class="articles__link">
+                        <div class="articles__img-cont">
+                            <img src="img/rare/articles/articles-1.jpg" alt="Лаборант" class="articles__img">
+                        </div>
+                        <div class="articles__txt">
+                            Три кита современной медицины<br>
+                            — наука, клиника, учёба
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <a href="#!" title="Три кита современной медицины" class="articles__link">
+                        <div class="articles__img-cont">
+                            <img src="img/rare/articles/articles-2.jpg" alt="Лаборант" class="articles__img">
+                        </div>
+                        <div class="articles__txt">
+                            Неонатальный скрининг <br>
+                            новорожденных
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-sm-6 articles__col _last">
+                    <a href="#!" title="Три кита современной медицины" class="articles__link">
+                        <div class="articles__img-cont">
+                            <img src="img/rare/articles/articles-3.jpg" alt="Лаборант" class="articles__img">
+                        </div>
+                        <div class="articles__txt">
+                            Острая перемежающая<br>
+                            порфирия. Шанс на жизнь.
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="#!" class="link-arrow  link-arrow--blue">перейти в раздел</a>
+        </section>
+
+    </section>
+
+    <section class="rare-encycl" id="rare-encycl">
+        <div class="rare-encycl__title">
+            <h2 class="rare-encycl__title-content">Энциклопедия заболеваний</h2>
+        </div>
+
+        <div class="rare-encycl__cont">
+            <div class="rare-encycl__note">
+                <div class="rare-encycl__txt-1">На сегодняшний день в России принято считать редкими заболевания
+                    с распространенностью не более 10 случаев на 100 000 человек.
+                </div>
+                <div class="rare-encycl__txt-2">В список орфанных болезней России внесено 215 заболеваний</div>
+            </div>
+
+
+        <div class="rare-encycl__search-cont">
+            <div class="rare-encycl__search-txt-1">Введите название болезни</div>
+                <input class="rare-encycl__search-in" type="text">
+            <div class="rare-encycl__search-txt-2">или выберите букву:</div>
+        </div>
+
+
+
+        <section class="alphabet">
+            <div class="alphabet__container">
+                <ul class="alphabet__ul-char">
+                    <li class="alphabet__li"><a title="А" href="#!" class="alphabet__li-char">А</a></li>
+                    <li class="alphabet__li"><a title="Б" href="#!" class="alphabet__li-char">Б</a></li>
+                    <li class="alphabet__li"><a title="В" href="#!" class="alphabet__li-char">В</a></li>
+                    <li class="alphabet__li"><a title="Г" href="#!" class="alphabet__li-char">Г</a></li>
+                    <li class="alphabet__li"><a title="Д" href="#!" class="alphabet__li-char">Д</a></li>
+                    <li class="alphabet__li"><a title="Е" href="#!" class="alphabet__li-char">Е</a></li>
+                    <li class="alphabet__li"><a title="Ё" href="#!" class="alphabet__li-char">Ё</a></li>
+                    <li class="alphabet__li"><a title="Ж" href="#!" class="alphabet__li-char">Ж</a></li>
+                    <li class="alphabet__li"><a title="З" href="#!" class="alphabet__li-char">З</a></li>
+                    <li class="alphabet__li"><a title="И" href="#!" class="alphabet__li-char">И</a></li>
+                    <li class="alphabet__li"><a title="Й" href="#!" class="alphabet__li-char">Й</a></li>
+                    <li class="alphabet__li"><a title="К" href="#!" class="alphabet__li-char">К</a></li>
+                    <li class="alphabet__li"><a title="Л" href="#!" class="alphabet__li-char">Л</a></li>
+                    <li class="alphabet__li"><a title="М" href="#!" class="alphabet__li-char">М</a></li>
+                    <li class="alphabet__li"><a title="Н" href="#!" class="alphabet__li-char">Н</a></li>
+                    <li class="alphabet__li"><a title="О" href="#!" class="alphabet__li-char">О</a></li>
+                    <li class="alphabet__li"><a title="П" href="#!" class="alphabet__li-char">П</a></li>
+                    <li class="alphabet__li"><a title="Р" href="#!" class="alphabet__li-char">Р</a></li>
+                    <li class="alphabet__li"><a title="С" href="#!" class="alphabet__li-char">С</a></li>
+                    <li class="alphabet__li"><a title="Т" href="#!" class="alphabet__li-char">Т</a></li>
+                    <li class="alphabet__li"><a title="У" href="#!" class="alphabet__li-char">У</a></li>
+                    <li class="alphabet__li"><a title="Ф" href="#!" class="alphabet__li-char">Ф</a></li>
+                    <li class="alphabet__li"><a title="Х" href="#!" class="alphabet__li-char">Х</a></li>
+                    <li class="alphabet__li"><a title="Ц" href="#!" class="alphabet__li-char">Ц</a></li>
+                    <li class="alphabet__li"><a title="Ч" href="#!" class="alphabet__li-char">Ч</a></li>
+                    <li class="alphabet__li"><a title="Ш" href="#!" class="alphabet__li-char">Ш</a></li>
+                    <li class="alphabet__li"><a title="Щ" href="#!" class="alphabet__li-char">Щ</a></li>
+                    <li class="alphabet__li"><a title="Ъ" href="#!" class="alphabet__li-char">Ъ</a></li>
+                    <li class="alphabet__li"><a title="Ы" href="#!" class="alphabet__li-char">Ы</a></li>
+                    <li class="alphabet__li"><a title="Ь" href="#!" class="alphabet__li-char">Ь</a></li>
+                    <li class="alphabet__li"><a title="Э" href="#!" class="alphabet__li-char">Э</a></li>
+                    <li class="alphabet__li"><a title="Ю" href="#!" class="alphabet__li-char">Ю</a></li>
+                    <li class="alphabet__li"><a title="Я" href="#!" class="alphabet__li-char">Я</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="rare-encycl__dis-list-cont">
+            <div class="rare-encycl__char">К</div>
+            <ul>
+                <li><a title="Кабецаз синдром " href="#!">Кабецаз синдром </a></li>
+                <li><a title="Кайлера синдром (Синдром ассиметричного кричащего лица) " href="#!">Кайлера синдром (Синдром ассиметричного кричащего лица) </a></li>
+                <li><a title="Кайлера синдром (Синдром ассиметрии композиции тела) " href="#!">Кайлера синдром (Синдром ассиметрии композиции тела) </a></li>
+                <li><a title="Кальмана синдром " href="#!">Кальмана синдром </a></li>
+                <li><a title="Кальциноз сосудов головного мозга" href="#!">Кальциноз сосудов головного мозга</a></li>
+                <li><a title="Кальцификация мозга, тип Раджаб  " href="#!">Кальцификация мозга, тип Раджаб  </a></li>
+                <li><a title="Камера синдром (Пикноахондрогенез)  " href="#!">Камера синдром (Пикноахондрогенез)  </a></li>
+                <li><a title="Камптодактилия-волчья пасть-косолапость (Гордона синдром)  " href="#!">Камптодактилия-волчья пасть-косолапость (Гордона синдром)  </a></li>
+                <li><a title="Канале-Смит синдром (Аутоиммунный лимфопролиферативный синдром)  " href="#!">Канале-Смит синдром (Аутоиммунный лимфопролиферативный синдром)  </a></li>
+                <li><a title="Канталамесса-Балдини-Амбрози синдром" href="#!">Канталамесса-Балдини-Амбрози синдром</a></li>
+            </ul>
+        </div>
+
+            <ul class="paginator">
+                <li><a href="#!" class="paginator__prev paginator__arrow">назад</a></li>
+                <li><a href="#!" class="paginator__item">1</a></li>
+                <li><a href="#!" class="paginator__item">2</a></li>
+                <li><a href="#!" class="paginator__item">3</a></li>
+                <li><a href="#!" class="paginator__next paginator__arrow">вперед</a></li>
+            </ul>
+
+
+        </div>
+    </section>
+
+    <section class="diagnostycs" id="diagnostycs">
+        <div class="diagnostycs__title">
+            <h2 class="diagnostycs__title-content">Энциклопедия заболеваний</h2>
+        </div>
+
+        <div class="diagnostycs__cont">
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="#!" title="Виды диагностики" class="diagnostycs__btn btn _tran _gray">Виды диагностики</a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#!" title="Диагностические центры" class="diagnostycs__btn btn _tran _red">Диагностические центры</a>
+                </div>
+            </div>
+            <div class="diagnostycs__txt">Узнайте, какие исследования Вам нужно пройти, и к каким специалистам обратиться при определенных симптомах и заболеваниях</div>
+
+            <section class="diag-form">
+
+                <div class="diag-form__input-group">
+
+                    <input class="diag-form__input" type="text" placeholder="Выберите направление">
+
+                    <div class="dropdown diag-form__dropdown">
+                        <input class="diag-form__input" type="text" placeholder="Заболевание">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Заболевание 1</a></li>
+                            <li><a href="#">Заболевание 2</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Еще заболевания...</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="diag-form__cont">
+                    <a href="#!" title="Показать заболевание" class="btn _tran _black">Показать</a>
+
+                    <ul>
+                        <li>Необходимая диагностика</li>
+                        <li>
+                            <ol>
+                                <li><a href="#">К эндокринологу</a></li>
+                            </ol>
+                        </li>
+
+                        <li>К каким специалистам необходимо обратиться?</li>
+                        <li>
+                            <ol>
+                                <li><a href="#">Гормональное исследование крови</a></li>
+                                <li><a href="#">Биохимическое исследование крови</a></li>
+                                <li><a href="#">Рентгенологическое исследование</a></li>
+                                <li><a href="#">Компьютерная томография щитовидной железы</a></li>
+                            </ol>
+                        </li>
+
+                    </ul>
+
+                    <a href="#!" title="Показать заболевание" class="btn _tran _black">Перейти в раздел</a>
+                </div>
+
+            </section>
+
+
+        </div>
+    </section>
+
+    <section class="history" id="history">
+        <div class="history__title">
+            <h2 class="history__title-content">История:</h2>
+        </div>
+        <section class="ban-right history__ban-right">
+            <div class="ban-right__txt-cont history__txt-cont">
+                <a href="#!" title="информация о контагиозном моллюске" class="ban-right__link history__link">
+                    <div class="ban-right__txt history__ban-txt">Болезнь царской семьи:</div>
+                    <div class="ban-right__txt-2 history__ban-txt-2">Алексей Романов и гемофилия</div>
+                    <div class="history__ban-txt-3">Царская семья Романовых носила более редкую форму гемофилии чем считалось ранее</div>
+                </a>
+            </div>
+        </section>
+
+        <a href="#!" class="link-arrow">Перейти в раздел</a>
+    </section>
+
+
+
+
 
 </main>
 

@@ -129,6 +129,10 @@
 	</nav>
 </header>
 
+<div class="promo">
+	<img src="img/biomed-banner.jpg" alt="promo" class="promo__img">
+</div>
+
 
 <main class="main" role="main">
 
@@ -154,7 +158,7 @@
 			</div>
 			<div class="history-city__slider-item">
 				<div class="history-city__img-wrap">
-					<img src="http://placehold.it/345x345" alt="item" class="history-city__img">
+					<img src="img/history-city/city-msk.png" alt="item" class="history-city__img">
 				</div>
 				<h3 class="history-city__item-title">Москва</h3>
 			</div>
@@ -172,7 +176,7 @@
 			</div>
 			<div class="history-city__slider-item">
 				<div class="history-city__img-wrap">
-					<img src="http://placehold.it/345x345" alt="item" class="history-city__img">
+					<img src="img/history-city/city-msk.png" alt="item" class="history-city__img">
 				</div>
 				<h3 class="history-city__item-title">Москва</h3>
 			</div>
@@ -199,7 +203,20 @@
 
 <section class="reform">
 	<div class="reform__header">
-		<h2 class="reform__title">Эпоха великих реформ</h2>
+		<div class="reform__header-wrap">
+			<picture> 
+				<source media="(max-width: 767px)" 
+								srcset="img/history-city/reform-wp-mobile.jpg">
+					 <img src="img/history-city/reform-wp.jpg" 
+							  alt="item" 
+							  class="reform__header-img">
+			</picture>
+		</div>
+		<div class="reform__container">
+			<div class="reform__title">
+				<h2>Эпоха великих реформ</h2>
+			</div>
+		</div>
 		<div class="reform__header-content">
 			<div class="reform__container">
 				<p class="reform__header-text">Новый этап развития московского здравоохранения начался при Екатерине II. Изданное в 1775 году "Учреждение для упраления губерний" вводило в штат каждой губернии приказ общественного призрения, в функции которого входили и вопросы организации медицинской помощи. <a href="#" class="reform__header-link">читать далее></a></p>
@@ -313,6 +330,13 @@
 					</div>
 				</div>
 			</div>
+		<ul class="paginator">
+			 <li><a href="#!" class="paginator__prev paginator__arrow">назад</a></li>
+			 <li><a href="#!" class="paginator__item">1</a></li>
+			 <li><a href="#!" class="paginator__item">2</a></li>
+			 <li><a href="#!" class="paginator__item">3</a></li>
+			 <li><a href="#!" class="paginator__next paginator__arrow">вперед</a></li>
+		</ul>
 	</div>
 </section>
 
@@ -367,7 +391,7 @@
 			</div>
 		</div>
 		<div class="postpartum__link">
-			<a href="#!" class="link-arrow  link-arrow--purpur">Подробнее</a>
+			<a href="#!" class="link-arrow  link-arrow--blue">перейти в раздел</a>
 		</div>
 	</div>
 </section>

@@ -1,1 +1,479 @@
-.page-imgheader{background-size:cover;position:relative;font-family:CenturyGothic;height:500px;width:100%;margin-bottom:45px}.page-imgheader.news-innerhead{background-image:url(pics/resort_inner/news-inner.png)}.page-imgheader.resort-innerhead{background-image:url(pics/resort_inner/resort-inner.png)}.page-imgheader.news-innerhead .page-imgheader__desc{position:absolute;padding:5px 110px 5px 60px;bottom:75px;right:0;background:rgba(33,75,173,.55);max-width:600px;font-size:30px;color:#fff;font-weight:700}.page-imgheader.resort-innerhead .page-imgheader__desc{bottom:0;left:0;right:0;height:100px;position:absolute;text-align:center;line-height:100px;color:#fff;font-size:40px;font-weight:700;background:rgba(51,103,153,.6)}.resort-feed{position:relative}.resort-feed:before{content:'';position:absolute;width:87px;height:313px;left:0;bottom:0;background:url(pics/resort_inner/planes3.png) no-repeat}.resort-feed .container-fluid{position:relative}.resort-feed .container-fluid:first-child:before{content:'';position:absolute;top:-15px;right:0;height:289px;width:110px;background:url(pics/resort_inner/planes2.png) no-repeat}.resort-feed.wobefore:before{display:none}.resort-feed__p{line-height:1.4;color:#494949;font-size:16px;font-family:CenturyGothic;margin:15px 0}.resort-feed__p.subp{margin-bottom:45px;padding:0 120px 0 50px;font-size:20px;margin-top:45px;margin-bottom:70px;position:relative}.resort-feed__gallery{display:block;margin-bottom:40px}.resort-feed__gallery img{width:100%;height:auto;-o-object-fit:cover;object-fit:cover}.resort-feed__gallery.big{margin-bottom:35px}.resort-map{height:412px;margin:15px 0}.n-tours .page-header{background:#3a7dad;padding:10px 0;padding-left:70px;position:relative;margin:0;font-size:28px;color:#fff;font-family:CenturyGothic;margin-left:-15px;margin-right:-15px;margin-bottom:30px;margin-left:0!important;margin-right:0!important}.n-tours .page-header:before{content:'';position:absolute;posinter-events:none;width:50%;right:0;top:0;bottom:0;background:#93b8d2}.n-tours__el{max-height:260px;overflow:hidden;margin-bottom:40px;position:relative;display:block}.n-tours__el img{-o-object-fit:cover;object-fit:cover;height:260px;width:100%}.n-tours__desc{position:absolute;bottom:0;left:0;right:0;min-height:100px;background:rgba(51,103,153,.7);font-family:CenturyGothic;padding:15px 50px;font-size:25px;color:#fff}.resort-tours{position:relative}.resort-tours:before{content:'';position:absolute;bottom:-160px;right:0;background:url(pics/resort_inner/planes4.png) no-repeat;width:261px;height:200px}.transition{-webkit-transition:.15s ease-in;transition:.15s ease-in}.n-page-header__h1{color:#002b65;font-size:42px;margin-bottom:35px;margin-top:0;line-height:1;font-weight:400}.sprite2{background:url(pics/sprite2.png)}.container-fluid,.page-conten{max-width:1440px;margin:0 auto;padding:0 70px}button:focus,input:focus,select:focus{outline:0}.page-header{background:#45c4d2;padding:10px 0;padding-left:70px;position:relative;margin:0;font-size:28px;color:#fff;font-family:CenturyGothic;margin-left:-15px;margin-right:-15px;border-bottom:0}.page-header:before{content:'';position:absolute;posinter-events:none;width:50%;right:0;top:0;bottom:0;background:#d0f2f4}.page-header{background:#45c4d2;padding:10px 0;padding-left:70px;position:relative;margin:0;font-size:28px;color:#fff;font-family:CenturyGothic;margin-left:-15px;margin-right:-15px;border-bottom:0}.page-header:before{content:'';position:absolute;posinter-events:none;width:50%;right:0;top:0;bottom:0;background:#d0f2f4}.page-content__subhead{padding:0 70px;font-family:CenturyGothic;color:#336799;font-size:30px;margin-top:0;margin-bottom:10px}.slick-arrow{position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:10;width:30px;height:30px;opacity:.6;border-radius:100%;border:none;font-size:24px;line-height:30px;-webkit-transition:.15s ease-in;transition:.15s ease-in}.slick-arrow:hover{opacity:1}.slick-arrow.slick-next{right:25px}.slick-arrow.slick-next i{margin-left:3px}.slick-arrow.slick-prev{left:25px}.slick-arrow.slick-prev i{margin-right:3px}*{margin:0;padding:0}body,html{min-height:100%;position:relative;min-width:300px}.dropdown-menu{margin:0}.dropdown-menu li:nth-child(even){background:#ededed}@keyframes ddAnimate{from{opacity:0}to{opacity:1}}@-webkit-keyframes ddAnimate{from{opacity:0}to{opacity:1}}.container{max-width:1440px;margin:0 auto;padding:0 70px}.transition{-webkit-transition:.15s ease-in;transition:.15s ease-in}.center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vertical-center{top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%)}.horizontal-center{left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}.sprite{background-image:url(spritesheet.png);background-repeat:no-repeat;display:block}.sprite.sprite-discovery-dec{background-position:-10px -10px;width:51px;height:51px}.sprite.sprite-history-main-menu-1{background-position:-81px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-2{background-position:-242px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-3{background-position:-10px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-4{background-position:-171px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-5{background-position:-403px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-6{background-position:-332px -171px;width:141px;height:141px}.sprite.sprite-popular-sections-1{background-position:-493px -171px;width:84px;height:92px}.sprite.sprite-popular-sections-2{background-position:-493px -283px;width:85px;height:89px}.sprite.sprite-popular-sections-3{background-position:-10px -392px;width:52px;height:89px}.sprite.sprite-popular-sections-4{background-position:-82px -392px;width:84px;height:91px}.sprite.sprite-popular-sections-5{background-position:-186px -392px;width:83px;height:79px}.trans-bor-col{border:1px solid transparent;-webkit-transition-property:border-color;transition-property:border-color;-webkit-transition-duration:1s;transition-duration:1s}@media (max-width:991px){.page-imgheader.resort-innerhead .page-imgheader__desc{font-size:22px;height:70px;line-height:70px}.resort-feed{padding:0}.resort-feed__p{line-height:1.4;color:#494949;font-size:16px;font-family:CenturyGothic;margin:15px 0}.resort-feed__p.subp{margin-bottom:45px;padding:0 120px 0 50px;font-size:20px;margin-top:45px;margin-bottom:70px}.resort-feed__gallery img{width:100%;height:auto;max-height:300px;-o-object-fit:cover;object-fit:cover}.resort-feed__gallery.big{margin-bottom:35px}.resort-feed .subp{padding:0}.n-tours .page-header{font-size:16px;padding:10px 15px}.n-tours .page-header:before{opacity:.2}.n-tours__desc{font-size:16px;padding:15px;min-height:auto}.n-page-header__h1{font-size:26px}.container-fluid,.page-conten{padding:0 15px}.page-header{font-size:16px;padding:10px 15px}.page-header:before{opacity:.2}.page-header{font-size:16px;padding:10px 15px}.page-header:before{opacity:.2}}@media (max-width:640px){.resort-feed__gallery img{width:100%;height:auto;max-height:200px;-o-object-fit:cover;object-fit:cover}}@media (max-width:767px){.container{padding:0 4.6%}}@media (min-width:768px) and (max-width:991px){.container{padding:0 5.2%}}@media (min-width:992px) and (max-width:1199px){.container{padding:0 35px}}
+.page-imgheader {
+  background-size: cover;
+  position: relative;
+  font-family: CenturyGothic;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 45px;
+}
+.page-imgheader.news-innerhead {
+  background-image: url(pics/resort_inner/news-inner.png);
+}
+.page-imgheader.resort-innerhead {
+  background-image: url(pics/resort_inner/resort-inner.png);
+}
+.page-imgheader.news-innerhead .page-imgheader__desc {
+  position: absolute;
+  padding: 5px 110px 5px 60px;
+  bottom: 75px;
+  right: 0;
+  background: rgba(33, 75, 173, 0.55);
+  max-width: 600px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+.page-imgheader.resort-innerhead .page-imgheader__desc {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  background: rgba(51, 103, 153, 0.6);
+}
+@media (max-width: 991px) {
+  .page-imgheader.resort-innerhead .page-imgheader__desc {
+    font-size: 22px;
+    height: 70px;
+    line-height: 70px;
+  }
+}
+.resort-feed {
+  position: relative;
+}
+.resort-feed:before {
+  content: '';
+  position: absolute;
+  width: 87px;
+  height: 313px;
+  left: 0;
+  bottom: 0;
+  background: url(pics/resort_inner/planes3.png) no-repeat;
+}
+.resort-feed .container-fluid {
+  position: relative;
+}
+.resort-feed .container-fluid:first-child:before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  right: 0;
+  height: 289px;
+  width: 110px;
+  background: url(pics/resort_inner/planes2.png) no-repeat;
+}
+.resort-feed.wobefore:before {
+  display: none;
+}
+.resort-feed__p {
+  line-height: 1.4;
+  color: #494949;
+  font-size: 16px;
+  font-family: CenturyGothic;
+  margin: 15px 0;
+}
+.resort-feed__p.subp {
+  margin-bottom: 45px;
+  padding: 0 120px 0 50px;
+  font-size: 20px;
+  margin-top: 45px;
+  margin-bottom: 70px;
+  position: relative;
+}
+.resort-feed__gallery {
+  display: block;
+  margin-bottom: 40px;
+}
+.resort-feed__gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.resort-feed__gallery.big {
+  margin-bottom: 35px;
+}
+@media (max-width: 991px) {
+  .resort-feed {
+    padding: 0;
+  }
+  .resort-feed__p {
+    line-height: 1.4;
+    color: #494949;
+    font-size: 16px;
+    font-family: CenturyGothic;
+    margin: 15px 0;
+  }
+  .resort-feed__p.subp {
+    margin-bottom: 45px;
+    padding: 0 120px 0 50px;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 70px;
+  }
+  .resort-feed__gallery img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  .resort-feed__gallery.big {
+    margin-bottom: 35px;
+  }
+  .resort-feed .subp {
+    padding: 0;
+  }
+}
+@media (max-width: 640px) {
+  .resort-feed__gallery img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+  }
+}
+.resort-map {
+  height: 412px;
+  margin: 15px 0;
+}
+.n-tours .page-header {
+  background: #3a7dad;
+  padding: 10px 0;
+  padding-left: 70px;
+  position: relative;
+  margin: 0;
+  font-size: 28px;
+  color: #fff;
+  font-family: CenturyGothic;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 30px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+@media (max-width: 991px) {
+  .n-tours .page-header {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+.n-tours .page-header:before {
+  content: '';
+  position: absolute;
+  posinter-events: none;
+  width: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #93b8d2;
+}
+@media (max-width: 991px) {
+  .n-tours .page-header:before {
+    opacity: .2;
+  }
+}
+.n-tours__el {
+  max-height: 260px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  position: relative;
+  display: block;
+}
+.n-tours__el img {
+  object-fit: cover;
+  height: 260px;
+  width: 100%;
+}
+.n-tours__desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 100px;
+  background: rgba(51, 103, 153, 0.7);
+  font-family: CenturyGothic;
+  padding: 15px 50px;
+  font-size: 25px;
+  color: #fff;
+}
+.resort-tours {
+  position: relative;
+}
+.resort-tours:before {
+  content: '';
+  position: absolute;
+  bottom: -160px;
+  right: 0;
+  background: url(pics/resort_inner/planes4.png) no-repeat;
+  width: 261px;
+  height: 200px;
+}
+@media (max-width: 991px) {
+  .n-tours__desc {
+    font-size: 16px;
+    padding: 15px;
+    min-height: auto;
+  }
+}
+.transition {
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+.n-page-header__h1 {
+  color: #002b65;
+  font-size: 42px;
+  margin-bottom: 35px;
+  margin-top: 0;
+  line-height: 1;
+  font-weight: normal;
+}
+@media (max-width: 991px) {
+  .n-page-header__h1 {
+    font-size: 26px;
+  }
+}
+.sprite2 {
+  background: url(pics/sprite2.png);
+}
+.container-fluid,
+.page-conten {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 991px) {
+  .container-fluid,
+  .page-conten {
+    padding: 0 15px;
+  }
+}
+input:focus,
+button:focus,
+select:focus {
+  outline: 0;
+}
+.page-header {
+  background: #45c4d2;
+  padding: 10px 0;
+  padding-left: 70px;
+  position: relative;
+  margin: 0;
+  font-size: 28px;
+  color: #fff;
+  font-family: CenturyGothic;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-bottom: 0;
+}
+@media (max-width: 991px) {
+  .page-header {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+.page-header:before {
+  content: '';
+  position: absolute;
+  posinter-events: none;
+  width: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #d0f2f4;
+}
+@media (max-width: 991px) {
+  .page-header:before {
+    opacity: .2;
+  }
+}
+.page-header {
+  background: #45c4d2;
+  padding: 10px 0;
+  padding-left: 70px;
+  position: relative;
+  margin: 0;
+  font-size: 28px;
+  color: #fff;
+  font-family: CenturyGothic;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-bottom: 0;
+}
+@media (max-width: 991px) {
+  .page-header {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+.page-header:before {
+  content: '';
+  position: absolute;
+  posinter-events: none;
+  width: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #d0f2f4;
+}
+@media (max-width: 991px) {
+  .page-header:before {
+    opacity: .2;
+  }
+}
+.page-content__subhead {
+  padding: 0 70px;
+  font-family: CenturyGothic;
+  color: #336799;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  opacity: .6;
+  border-radius: 100%;
+  border: none;
+  font-size: 24px;
+  line-height: 30px;
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+.slick-arrow:hover {
+  opacity: 1;
+}
+.slick-arrow.slick-next {
+  right: 25px;
+}
+.slick-arrow.slick-next i {
+  margin-left: 3px;
+}
+.slick-arrow.slick-prev {
+  left: 25px;
+}
+.slick-arrow.slick-prev i {
+  margin-right: 3px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  min-height: 100%;
+  position: relative;
+  min-width: 300px;
+}
+.dropdown-menu {
+  margin: 0;
+}
+.dropdown-menu li:nth-child(even) {
+  background: #ededed;
+}
+@keyframes ddAnimate {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes ddAnimate {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding: 0 35px;
+  }
+}
+.transition {
+  transition: 0.15s ease-in;
+}
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vertical-center {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.horizontal-center {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite.sprite-item-1 {
+  background-position: -10px -10px;
+  width: 44px;
+  height: 47px;
+}
+.sprite.sprite-item-2 {
+  background-position: -74px -10px;
+  width: 53px;
+  height: 53px;
+}
+.sprite.sprite-item-3 {
+  background-position: -147px -10px;
+  width: 63px;
+  height: 63px;
+}
+.sprite.sprite-item-4 {
+  background-position: -230px -10px;
+  width: 79px;
+  height: 47px;
+}
+.sprite.sprite-item-5 {
+  background-position: -329px -10px;
+  width: 55px;
+  height: 46px;
+}
+.sprite.sprite-item-6 {
+  background-position: -404px -10px;
+  width: 61px;
+  height: 39px;
+}
+.sprite.sprite-place {
+  background-position: -485px -10px;
+  width: 23px;
+  height: 32px;
+}
+.trans-bor-col {
+  border: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 1s;
+}

@@ -1,1 +1,797 @@
-.paginator{margin-top:90px;padding-bottom:60px;text-align:center}.paginator li{display:inline-block;vertical-align:middle;font-size:0}.paginator__item{display:inline-block;width:35px;height:35px;margin:0 5px;padding-top:8px;font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1;font-style:normal;font-weight:400;border-radius:50%;background-color:#9e9e9e;color:#fff;-webkit-transition:.15s ease-in;transition:.15s ease-in}.paginator__item:hover{background-color:#6aa0cf;color:#fff}.paginator__arrow{font-family:CenturyGothic,Arial,sans-serif;font-size:18px;line-height:1;font-style:normal;font-weight:400;color:#838689;-webkit-transition:.15s ease-in;transition:.15s ease-in}.paginator__arrow:hover{color:#6aa0cf}.paginator__prev{display:block;margin-right:25px}.paginator__next{display:block;margin-left:25px}.alphabet{margin-bottom:50px;text-align:center}.alphabet li{display:inline-block}.alphabet__item{position:relative;z-index:10;display:block;margin:5px 0;padding:7px 12px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.4rem;line-height:1.2;font-style:normal;font-weight:400;color:#373737;-webkit-transition:.15s ease-in;transition:.15s ease-in}.alphabet__item:focus,.alphabet__item:hover{color:#fff}.alphabet__item:focus::before,.alphabet__item:hover::before{background-color:#336799}.alphabet__item::before{content:"";position:absolute;top:50%;left:50%;width:40px;height:40px;z-index:-1;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background-color:transparent;-webkit-transition:.15s ease-in;transition:.15s ease-in}.alphabet--history-faces .alphabet__item{color:#336799}.alphabet--history-faces .alphabet__item:focus,.alphabet--history-faces .alphabet__item:hover{color:#fff}.alphabet--history-faces::before{position:relative}.history-doctors{background:url(pics/history-faces/history-doctors-wp.jpg) bottom center no-repeat;background-size:contain}.history-doctors__container{max-width:1440px;margin:0 auto;padding:0 70px}.history-doctors__title{margin-bottom:70px}.history-doctors__title h2{font-family:CenturyGothic,Arial,sans-serif;font-size:1.9rem;line-height:1;font-style:normal;font-weight:700;text-align:center;color:#476fa1}.history-doctors__items{padding-bottom:70px}.history-doctors__img-wrap{position:relative;padding:0;padding-top:55px}.history-doctors__img-wrap::before{content:"";position:absolute;top:10px;left:-35px;z-index:5;width:408px;height:398px;background:url(pics/history-main/interesting-facts-dec.png) center right no-repeat}.history-doctors__img-wrap-left::before{left:auto;right:-35px;-webkit-transform:scale(-1,1);transform:scale(-1,1)}.history-doctors__img{width:310px;height:310px;border-radius:50%;overflow:hidden}.history-doctors__img--right{margin-left:auto}.history-doctors__text-content h3{font-family:CenturyGothic,Arial,sans-serif;font-size:1.9rem;line-height:1.2;font-style:normal;font-weight:400;color:#313131}.history-doctors__text-content time{display:block;margin-bottom:20px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.9rem;line-height:1;font-style:normal;font-weight:400;color:#313131}.history-doctors__text-content p{font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:1.6;font-style:normal;font-weight:400;color:#313131}.history-doctors__text-content a{text-decoration:underline;color:#63a4d4;-webkit-transition:.15s ease-in;transition:.15s ease-in}.history-doctors__text-content a:hover .history-doctors__text-content a:focus{color:#2d71a4}.history-doctors__text-content--left{text-align:right}.medicine-face{margin-bottom:90px}.medicine-face__container{height:100%;max-width:1440px;margin:0 auto;padding:0 70px}.medicine-face__title-block{position:relative;z-index:0;height:443px;background:url(pics/history-faces/medicine-face-wp.jpg) 0 0 no-repeat;background-size:cover}.medicine-face__title-content{position:relative;height:100%}.medicine-face__title{position:absolute;top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:50%}.medicine-face__title h1{font-family:CenturyGothic,Arial,sans-serif;font-size:4rem;line-height:1;font-style:normal;font-weight:400;text-align:right;color:#336799}.medicine-face__title h1 span{display:block;font-family:CenturyGothic,Arial,sans-serif;font-size:5.3rem;line-height:1;font-style:normal;font-weight:400}.medicine-face__alphabet{position:absolute;bottom:-5px;width:100%}.medicine-face__alphabet ul{margin-bottom:0}.medicine-face__block-faces{position:relative;width:66.66666667%;min-width:895px;margin:0 auto;margin-bottom:20px;padding:50px;padding-bottom:30px;background-image:-webkit-linear-gradient(right,#e7f4f8,#fff,#e7f4f8);background-image:linear-gradient(to left,#e7f4f8,#fff,#e7f4f8)}.medicine-face__block-faces::before{content:"";position:absolute;top:80%;bottom:10px;left:15px;z-index:-1;width:50%;background-color:#a8a9a9;box-shadow:0 15px 10px #a8a9a9;-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}.medicine-face__block-faces::after{content:"";position:absolute;top:80%;bottom:10px;right:15px;z-index:-1;width:50%;background-color:#a8a9a9;box-shadow:0 15px 10px #a8a9a9;-webkit-transform:rotate(2deg);transform:rotate(2deg)}.medicine-face__item{margin-bottom:25px}.medicine-face__img-wrap{float:left}.medicine-face__img{width:77px;height:77px;border-radius:50%;overflow:hidden}.medicine-face__text-content{float:right;width:calc(100% - 94px);color:#424242}.medicine-face__text-content h3{font-family:CenturyGothic,Arial,sans-serif;font-size:.9rem;line-height:1.2;font-style:normal;font-weight:400}.medicine-face__text-content span{display:block;text-transform:uppercase}.medicine-face__text-content time{font-family:CenturyGothic,Arial,sans-serif;font-size:.8rem;line-height:1.2;font-style:normal;font-weight:400}.medicine-face__text-content p{font-family:CenturyGothic,Arial,sans-serif;font-size:.7rem;line-height:1.2;font-style:normal;font-weight:400}.medicine-face__link{display:block;font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:1.2;font-style:normal;font-weight:400;text-decoration:underline;text-align:center;color:#424242}.medicine-face__items{position:relative;z-index:-1;padding-top:100px;background:url(pics/history-faces/medicine-face-bg.jpg) 0 0 no-repeat;background-size:cover}.medicine-face__portrait{margin-bottom:65px}.medicine-face__wrap-portrait{float:left}.medicine-face__text{float:right;width:calc(100% - 200px)}.medicine-face__text h2{font-family:CenturyGothic,Arial,sans-serif;font-size:1.6rem;line-height:1.6;font-style:normal;font-weight:400;color:#414141}.medicine-face__text p{font-family:CenturyGothic,Arial,sans-serif;font-size:1rem;line-height:1.2;font-style:normal;font-weight:400;color:#949494}.container{max-width:1440px;margin:0 auto;padding:0 70px}.transition{-webkit-transition:.15s ease-in;transition:.15s ease-in}.center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vertical-center{top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%)}.horizontal-center{left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}.sprite{background-image:url(spritesheet.png);background-repeat:no-repeat;display:block}.sprite.sprite-discovery-dec{background-position:-10px -10px;width:51px;height:51px}.sprite.sprite-history-main-menu-1{background-position:-81px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-2{background-position:-242px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-3{background-position:-10px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-4{background-position:-171px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-5{background-position:-403px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-6{background-position:-332px -171px;width:141px;height:141px}.sprite.sprite-popular-sections-1{background-position:-493px -171px;width:84px;height:92px}.sprite.sprite-popular-sections-2{background-position:-493px -283px;width:85px;height:89px}.sprite.sprite-popular-sections-3{background-position:-10px -392px;width:52px;height:89px}.sprite.sprite-popular-sections-4{background-position:-82px -392px;width:84px;height:91px}.sprite.sprite-popular-sections-5{background-position:-186px -392px;width:83px;height:79px}.trans-bor-col{border:1px solid transparent;-webkit-transition-property:border-color;transition-property:border-color;-webkit-transition-duration:1s;transition-duration:1s}@media (max-width:767px){.paginator{margin-top:80px}.paginator__arrow{font-family:CenturyGothic,Arial,sans-serif;font-size:14px;line-height:1;font-style:normal;font-weight:400}.paginator__prev{margin-right:10px}.paginator__next{margin-left:10px}.history-doctors__container{padding:0 4.6%}.history-doctors__title h2{font-family:CenturyGothic,Arial,sans-serif;font-size:1.4rem;line-height:1;font-style:normal;font-weight:700}.history-doctors__item{margin-bottom:80px}.history-doctors__img-wrap{margin-bottom:50px}.history-doctors__img-wrap::before{top:-30px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:269px;background:url(pics/childhood-diseases/diseases-item-dec.png) 0 0 no-repeat}.history-doctors__img{width:210px;height:210px}.history-doctors__text-content{padding:0}.history-doctors__text-content h3{font-family:CenturyGothic,Arial,sans-serif;font-size:1.4rem;line-height:1.2;font-style:normal;font-weight:400}.history-doctors__text-content time{font-family:CenturyGothic,Arial,sans-serif;font-size:1.4rem;line-height:1.2;font-style:normal;font-weight:400}.history-doctors__text-content p{font-family:CenturyGothic,Arial,sans-serif;font-size:.9rem;line-height:1.2;font-style:normal;font-weight:400}.medicine-face{margin-bottom:40px}.medicine-face__container{padding:0 4.6%}.medicine-face__title-block{background:url(pics/history-faces/medicine-face-wp-mob.jpg) 0 0 no-repeat}.medicine-face__title h1{width:100%;font-family:CenturyGothic,Arial,sans-serif;font-size:2.6rem;line-height:1;font-style:normal;font-weight:400;text-align:center}.medicine-face__title h1 span{font-family:CenturyGothic,Arial,sans-serif;font-size:3rem;line-height:1;font-style:normal;font-weight:400}.medicine-face__block-faces{padding-left:30%}.medicine-face__items{padding-top:60px;background:0 0}.medicine-face__wrap-portrait{float:none;margin-bottom:10px}.medicine-face__img-portrait{margin:0 auto}.medicine-face__text{float:none;width:100%}.medicine-face__text h2{font-family:CenturyGothic,Arial,sans-serif;font-size:1.4rem;line-height:1.2;font-style:normal;font-weight:400;text-align:center}.medicine-face__text p{font-family:CenturyGothic,Arial,sans-serif;font-size:.9rem;line-height:1.2;font-style:normal;font-weight:400}.container{padding:0 4.6%}}@media (max-width:991px){.history-doctors{background:0 0}.history-doctors__items{padding-bottom:0}.history-doctors__img-wrap{padding-top:0;margin-bottom:70px}.history-doctors__img-wrap-left::before{left:50%}.history-doctors__img{margin:0 auto}.history-doctors__img--right{margin:0 auto}.history-doctors__text-content h3{text-align:center}.history-doctors__text-content time{text-align:center}.history-doctors__text-content--left{text-align:left}.medicine-face__title{top:40px;right:50%;-webkit-transform:translateX(50%);transform:translateX(50%)}.medicine-face__block-faces{width:100%;min-width:1px;padding:40px 0}.medicine-face__text span{display:block;text-align:center}}@media (min-width:768px) and (max-width:991px){.history-doctors__container{padding:0 5.2%}.history-doctors__title{margin-bottom:100px}.history-doctors__item{margin-bottom:120px}.history-doctors__img-wrap::before{top:-38px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:387px;height:393px;background:url(pics/history-main/interesting-facts-dec-1.png) center right no-repeat}.medicine-face__container{padding:0 5.2%}.medicine-face__title h1{width:100%;font-family:CenturyGothic,Arial,sans-serif;font-size:3.2rem;line-height:1;font-style:normal;font-weight:400;text-align:center}.medicine-face__title h1 span{font-family:CenturyGothic,Arial,sans-serif;font-size:4rem;line-height:1;font-style:normal;font-weight:400}.container{padding:0 5.2%}}@media (min-width:992px) and (max-width:1199px){.history-doctors__container{padding:0 35px}.history-doctors__item{margin-bottom:100px}.medicine-face__container{padding:0 35px}.container{padding:0 35px}}@media (max-width:480px){.history-doctors__title{margin-bottom:40px}.history-doctors__item{margin-bottom:50px}.history-doctors__img-wrap{margin-bottom:30px}.history-doctors__img-wrap::before{display:none}.medicine-face__title h1{font-family:CenturyGothic,Arial,sans-serif;font-size:1.6rem;line-height:1;font-style:normal;font-weight:400}.medicine-face__title h1 span{font-family:CenturyGothic,Arial,sans-serif;font-size:2rem;line-height:1;font-style:normal;font-weight:400}.medicine-face__block-faces{padding-left:0}}
+.paginator {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .paginator {
+    margin-top: 40px;
+  }
+}
+.paginator li {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+}
+.paginator__item {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
+  padding-top: 8px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 50%;
+  background-color: #9e9e9e;
+  color: #ffffff;
+  transition: 0.15s ease-in;
+}
+.paginator__item:hover {
+  background-color: #6aa0cf;
+  color: #ffffff;
+}
+.paginator__arrow {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  color: #838689;
+  transition: 0.15s ease-in;
+}
+@media (max-width: 767px) {
+  .paginator__arrow {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.paginator__arrow:hover {
+  color: #6aa0cf;
+}
+.paginator__prev {
+  display: block;
+  margin-right: 25px;
+}
+@media (max-width: 767px) {
+  .paginator__prev {
+    margin-right: 10px;
+  }
+}
+.paginator__next {
+  display: block;
+  margin-left: 25px;
+}
+@media (max-width: 767px) {
+  .paginator__next {
+    margin-left: 10px;
+  }
+}
+.alphabet {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.alphabet li {
+  display: inline-block;
+}
+.alphabet__item {
+  position: relative;
+  z-index: 10;
+  display: block;
+  margin: 5px 0;
+  padding: 7px 12px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #373737;
+  transition: 0.15s ease-in;
+}
+.alphabet__item:hover,
+.alphabet__item:focus {
+  color: #ffffff;
+}
+.alphabet__item:hover::before,
+.alphabet__item:focus::before {
+  background-color: #336799;
+}
+.alphabet__item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  transition: 0.15s ease-in;
+}
+.alphabet--history-faces .alphabet__item {
+  color: #336799;
+}
+.alphabet--history-faces .alphabet__item:hover,
+.alphabet--history-faces .alphabet__item:focus {
+  color: #ffffff;
+}
+.alphabet--history-faces::before {
+  position: relative;
+}
+.history-doctors {
+  background: url(pics/history-faces/history-doctors-wp.jpg) bottom center no-repeat;
+  background-size: contain;
+}
+@media (max-width: 991px) {
+  .history-doctors {
+    background: none;
+  }
+}
+.history-doctors__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .history-doctors__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .history-doctors__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .history-doctors__container {
+    padding: 0 35px;
+  }
+}
+.history-doctors__title {
+  margin-bottom: 70px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .history-doctors__title {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .history-doctors__title {
+    margin-bottom: 40px;
+  }
+}
+.history-doctors__title h2 {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.9rem;
+  line-height: 1;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #476fa1;
+}
+@media (max-width: 767px) {
+  .history-doctors__title h2 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1;
+    font-style: normal;
+    font-weight: bold;
+  }
+}
+.history-doctors__items {
+  padding-bottom: 70px;
+}
+@media (max-width: 991px) {
+  .history-doctors__items {
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .history-doctors__item {
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .history-doctors__item {
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 767px) {
+  .history-doctors__item {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 480px) {
+  .history-doctors__item {
+    margin-bottom: 50px;
+  }
+}
+.history-doctors__img-wrap {
+  position: relative;
+  padding: 0;
+  padding-top: 55px;
+}
+@media (max-width: 991px) {
+  .history-doctors__img-wrap {
+    padding-top: 0;
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .history-doctors__img-wrap {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .history-doctors__img-wrap {
+    margin-bottom: 30px;
+  }
+}
+.history-doctors__img-wrap::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -35px;
+  z-index: 5;
+  width: 408px;
+  height: 398px;
+  background: url(pics/history-main/interesting-facts-dec.png) center right no-repeat;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .history-doctors__img-wrap::before {
+    top: -38px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 387px;
+    height: 393px;
+    background: url(pics/history-main/interesting-facts-dec-1.png) center right no-repeat;
+  }
+}
+@media (max-width: 767px) {
+  .history-doctors__img-wrap::before {
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 269px;
+    background: url(pics/childhood-diseases/diseases-item-dec.png) 0 0 no-repeat;
+  }
+}
+@media (max-width: 480px) {
+  .history-doctors__img-wrap::before {
+    display: none;
+  }
+}
+.history-doctors__img-wrap-left::before {
+  left: auto;
+  right: -35px;
+  transform: scale(-1, 1);
+}
+@media (max-width: 991px) {
+  .history-doctors__img-wrap-left::before {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%) scale(-1, 1);
+  }
+}
+.history-doctors__img {
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+@media (max-width: 991px) {
+  .history-doctors__img {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .history-doctors__img {
+    width: 210px;
+    height: 210px;
+  }
+}
+.history-doctors__img--right {
+  margin-left: auto;
+}
+@media (max-width: 991px) {
+  .history-doctors__img--right {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .history-doctors__text-content {
+    padding: 0;
+  }
+}
+.history-doctors__text-content h3 {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.9rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #313131;
+}
+@media (max-width: 991px) {
+  .history-doctors__text-content h3 {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .history-doctors__text-content h3 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.history-doctors__text-content time {
+  display: block;
+  margin-bottom: 20px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.9rem;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  color: #313131;
+}
+@media (max-width: 991px) {
+  .history-doctors__text-content time {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .history-doctors__text-content time {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.history-doctors__text-content p {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-style: normal;
+  font-weight: 400;
+  color: #313131;
+}
+@media (max-width: 767px) {
+  .history-doctors__text-content p {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.history-doctors__text-content a {
+  text-decoration: underline;
+  color: #63a4d4;
+  transition: 0.15s ease-in;
+}
+.history-doctors__text-content a:hover .history-doctors__text-content a:focus {
+  color: #2d71a4;
+}
+.history-doctors__text-content--left {
+  text-align: right;
+}
+@media (max-width: 991px) {
+  .history-doctors__text-content--left {
+    text-align: left;
+  }
+}
+.medicine-face {
+  margin-bottom: 90px;
+}
+@media (max-width: 767px) {
+  .medicine-face {
+    margin-bottom: 40px;
+  }
+}
+.medicine-face__container {
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .medicine-face__container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .medicine-face__container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .medicine-face__container {
+    padding: 0 35px;
+  }
+}
+.medicine-face__title-block {
+  position: relative;
+  z-index: 0;
+  height: 443px;
+  background: url(pics/history-faces/medicine-face-wp.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .medicine-face__title-block {
+    background: url(pics/history-faces/medicine-face-wp-mob.jpg) 0 0 no-repeat;
+  }
+}
+.medicine-face__title-content {
+  position: relative;
+  height: 100%;
+}
+.medicine-face__title {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 50%;
+}
+@media (max-width: 991px) {
+  .medicine-face__title {
+    top: 40px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+.medicine-face__title h1 {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 4rem;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+  color: #336799;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .medicine-face__title h1 {
+    width: 100%;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 3.2rem;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .medicine-face__title h1 {
+    width: 100%;
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 2.6rem;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .medicine-face__title h1 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.medicine-face__title h1 span {
+  display: block;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 5.3rem;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .medicine-face__title h1 span {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 4rem;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 767px) {
+  .medicine-face__title h1 span {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 3rem;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 480px) {
+  .medicine-face__title h1 span {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.medicine-face__alphabet {
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+}
+.medicine-face__alphabet ul {
+  margin-bottom: 0;
+}
+.medicine-face__block-faces {
+  position: relative;
+  width: 66.66666667%;
+  min-width: 895px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(to left, #e7f4f8, #ffffff, #e7f4f8);
+}
+@media (max-width: 991px) {
+  .medicine-face__block-faces {
+    width: 100%;
+    min-width: 1px;
+    padding: 40px 0;
+  }
+}
+@media (max-width: 767px) {
+  .medicine-face__block-faces {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .medicine-face__block-faces {
+    padding-left: 0;
+  }
+}
+.medicine-face__block-faces::before {
+  content: "";
+  position: absolute;
+  top: 80%;
+  bottom: 10px;
+  left: 15px;
+  z-index: -1;
+  width: 50%;
+  background-color: #a8a9a9;
+  box-shadow: 0 15px 10px #a8a9a9;
+  transform: rotate(-2deg);
+}
+.medicine-face__block-faces::after {
+  content: "";
+  position: absolute;
+  top: 80%;
+  bottom: 10px;
+  right: 15px;
+  z-index: -1;
+  width: 50%;
+  background-color: #a8a9a9;
+  box-shadow: 0 15px 10px #a8a9a9;
+  transform: rotate(2deg);
+}
+.medicine-face__item {
+  margin-bottom: 25px;
+}
+.medicine-face__img-wrap {
+  float: left;
+}
+.medicine-face__img {
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.medicine-face__text-content {
+  float: right;
+  width: calc(100% - 94px);
+  color: #424242;
+}
+.medicine-face__text-content h3 {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+}
+.medicine-face__text-content span {
+  display: block;
+  text-transform: uppercase;
+}
+.medicine-face__text-content time {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+}
+.medicine-face__text-content p {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+}
+.medicine-face__link {
+  display: block;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: center;
+  color: #424242;
+}
+.medicine-face__items {
+  position: relative;
+  z-index: -1;
+  padding-top: 100px;
+  background: url(pics/history-faces/medicine-face-bg.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .medicine-face__items {
+    padding-top: 60px;
+    background: none;
+  }
+}
+.medicine-face__portrait {
+  margin-bottom: 65px;
+}
+.medicine-face__wrap-portrait {
+  float: left;
+}
+@media (max-width: 767px) {
+  .medicine-face__wrap-portrait {
+    float: none;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .medicine-face__img-portrait {
+    margin: 0 auto;
+  }
+}
+.medicine-face__text {
+  float: right;
+  width: calc(100% - 200px);
+}
+@media (max-width: 767px) {
+  .medicine-face__text {
+    float: none;
+    width: 100%;
+  }
+}
+.medicine-face__text h2 {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-style: normal;
+  font-weight: 400;
+  color: #414141;
+}
+@media (max-width: 767px) {
+  .medicine-face__text h2 {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+.medicine-face__text p {
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #949494;
+}
+@media (max-width: 767px) {
+  .medicine-face__text p {
+    font-family: CenturyGothic, Arial, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 991px) {
+  .medicine-face__text span {
+    display: block;
+    text-align: center;
+  }
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding: 0 35px;
+  }
+}
+.transition {
+  transition: 0.15s ease-in;
+}
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vertical-center {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.horizontal-center {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite.sprite-item-1 {
+  background-position: -10px -10px;
+  width: 44px;
+  height: 47px;
+}
+.sprite.sprite-item-2 {
+  background-position: -74px -10px;
+  width: 53px;
+  height: 53px;
+}
+.sprite.sprite-item-3 {
+  background-position: -147px -10px;
+  width: 63px;
+  height: 63px;
+}
+.sprite.sprite-item-4 {
+  background-position: -230px -10px;
+  width: 79px;
+  height: 47px;
+}
+.sprite.sprite-item-5 {
+  background-position: -329px -10px;
+  width: 55px;
+  height: 46px;
+}
+.sprite.sprite-item-6 {
+  background-position: -404px -10px;
+  width: 61px;
+  height: 39px;
+}
+.sprite.sprite-place {
+  background-position: -485px -10px;
+  width: 23px;
+  height: 32px;
+}
+.trans-bor-col {
+  border: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 1s;
+}

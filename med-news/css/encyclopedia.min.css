@@ -1,1 +1,1352 @@
-.container{max-width:1440px;margin:0 auto;padding:0 70px}.transition{-webkit-transition:.15s ease-in;transition:.15s ease-in}.center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vertical-center{top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%)}.horizontal-center{left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}.sprite{background-image:url(spritesheet.png);background-repeat:no-repeat;display:block}.sprite.sprite-discovery-dec{background-position:-10px -10px;width:51px;height:51px}.sprite.sprite-history-main-menu-1{background-position:-81px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-2{background-position:-242px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-3{background-position:-10px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-4{background-position:-171px -171px;width:141px;height:141px}.sprite.sprite-history-main-menu-5{background-position:-403px -10px;width:141px;height:141px}.sprite.sprite-history-main-menu-6{background-position:-332px -171px;width:141px;height:141px}.sprite.sprite-popular-sections-1{background-position:-493px -171px;width:84px;height:92px}.sprite.sprite-popular-sections-2{background-position:-493px -283px;width:85px;height:89px}.sprite.sprite-popular-sections-3{background-position:-10px -392px;width:52px;height:89px}.sprite.sprite-popular-sections-4{background-position:-82px -392px;width:84px;height:91px}.sprite.sprite-popular-sections-5{background-position:-186px -392px;width:83px;height:79px}.trans-bor-col{border:1px solid transparent;-webkit-transition-property:border-color;transition-property:border-color;-webkit-transition-duration:1s;transition-duration:1s}.arrow-to-bottom{position:relative;border:6px solid #919191;border-radius:50%;width:88px;height:88px;opacity:.51;-webkit-transition-property:width,height,box-shadow;transition-property:width,height,box-shadow;-webkit-transition-duration:.3s;transition-duration:.3s}.arrow-to-bottom:hover{width:100px;height:100px;box-shadow:0 0 50px 0 rgba(0,0,0,.75)}.arrow-to-bottom__arrow{position:absolute;width:100%;height:100%;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.row{margin:0}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding:0}.alphabet{margin-bottom:50px;padding:135px 0 35px 0;text-align:center;background:url(pics/encyclopedia/alphabet/alphabet-bg.jpg) no-repeat;background-size:cover}.alphabet__ul-char{margin-bottom:65px}.alphabet__li{display:inline-block}.alphabet__li-char{position:relative;z-index:1;display:block;margin:4px 0;padding:6px 6px;font-family:CenturyGothic,Arial,sans-serif;font-size:1.4rem;line-height:1.2;font-style:normal;font-weight:400;text-decoration:none;color:#072c52;-webkit-transition:.15s ease-in;transition:.15s ease-in}.alphabet__li-char:focus,.alphabet__li-char:hover{color:#fff}.alphabet__li-char:focus::before,.alphabet__li-char:hover::before{background-color:#3b6799}.alphabet__li-char::before{content:"";position:absolute;top:50%;left:50%;width:35px;height:35px;z-index:-1;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background-color:transparent;-webkit-transition:.15s ease-in;transition:.15s ease-in}.alphabet__chos-char-circle{position:relative;width:87px;height:87px;background:#1787c7;border-radius:50%}.alphabet__chos-char-cont{position:relative;display:inline-block;height:87px;margin:auto;font-family:CenturyGothic,Arial,sans-serif;font-size:2.4rem;line-height:1.2;font-style:normal;font-weight:400;color:#104578}.alphabet__chos-char-txt{position:relative;top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);display:inline-block;float:left}.alphabet__chos-char-circle{display:inline-block;margin-left:20px;float:left}.alphabet__chos-char{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);color:#fff}.alphabet__cancel-link{color:#1787c7}.alphabet__cancel-link:hover{text-decoration:underline}main{overflow-x:hidden}.all-true{position:relative;height:450px;margin-bottom:55px;background:url(pics/encyclopedia/all-true/all-true-bg.jpg) no-repeat;background-size:cover}.all-true__txt-cont{position:absolute;top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);max-width:45%;margin-left:55%;font-size:2em}.all-true__txt{margin-bottom:10px;color:#fff;font-weight:300}.all-true__link{display:inline-block;padding:0 10px 10px 10px;color:#fff;background:#aa1a36}.diseases-list-nav{margin-bottom:100px}.diseases-list-nav__char{display:inline-block;margin-left:10%;font-size:4.5rem;line-height:55px;color:#1787c7}.diseases-list-nav__ul-links{float:right;padding-right:100px}.diseases-list-nav__li{float:left;margin:0 30px}.diseases-list-nav__link{display:block;padding:5px 15px 10px 15px;font-size:1.5rem;color:#8d8d8d;border:1px solid #1787c7;border-radius:25px}.diseases-list-nav__link._active,.diseases-list-nav__link:hover{color:#fff;background:#1787c7}.dis-list{position:relative;width:100%;padding-bottom:70px;overflow:hidden}.dis-list__cont{position:relative;min-height:200px;padding:0 5% 0 10%;margin-bottom:60px;padding-bottom:60px}.dis-list__cont_col-1{background:-webkit-linear-gradient(top,#fff,#f5f9da);background:linear-gradient(to bottom,#fff,#f5f9da)}.dis-list__cont_col-2{background:-webkit-linear-gradient(top,#fff,#e7f1d4);background:linear-gradient(to bottom,#fff,#e7f1d4)}.dis-list__cont_col-3{background:-webkit-linear-gradient(top,#fff,#e3f4de);background:linear-gradient(to bottom,#fff,#e3f4de)}.dis-list__cont_col-4{background:-webkit-linear-gradient(top,#fff,#d8f5e9);background:linear-gradient(to bottom,#fff,#d8f5e9)}.dis-list__cont_col-5{background:-webkit-linear-gradient(top,#fff,#d7e9f4);background:linear-gradient(to bottom,#fff,#d7e9f4)}.dis-list__cont_col-6{background:-webkit-linear-gradient(top,#fff,#e4f1ff);background:linear-gradient(to bottom,#fff,#e4f1ff)}.dis-list__cont h2{font-size:2rem;color:#537597}.dis-list__cont p{font-size:1.1rem;color:#537597}.dis-list__more-cont{position:absolute;left:43%;bottom:-90px;z-index:5;width:80%;height:90px;overflow:hidden}.dis-list__more-cont:before{content:'';position:absolute;left:50%;top:-24px;-webkit-transform:translate(-50%,0);transform:translate(-50%,0);width:90%;height:20px;border-radius:50%;box-shadow:0 10px 5px 0 rgba(0,0,0,.75)}.dis-list__shadow{position:absolute;height:70px;width:175px;left:50%;top:-11px;box-shadow:-3px 8px 9px 0 rgba(0,0,0,.75);-webkit-transform:translate(-50%,0) rotate(-2deg);transform:translate(-50%,0) rotate(-2deg)}.dis-list__shadow:after,.dis-list__shadow:before{content:'';position:absolute;z-index:-1;display:block;height:80px;width:80px}.dis-list__shadow:before{left:-25px;top:-25px;-webkit-transform:rotate(62deg);transform:rotate(62deg);box-shadow:-5px -1px 10px 7px rgba(0,0,0,.75)}.dis-list__shadow:after{right:-26px;top:-19px;-webkit-transform:rotate(-58deg);transform:rotate(-58deg)}.dis-list__more{position:absolute;width:175px;height:70px;top:-8px;left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0);display:block;padding-top:20px;text-align:center;font-size:1.25rem;color:#537597}.dis-list__more:hover{color:#1787c7}.dis-list__more_col-1,.dis-list__shadow_col-1,.dis-list__shadow_col-1:after,.dis-list__shadow_col-1:before{background:#f5f9da}.dis-list__more_col-2,.dis-list__shadow_col-2,.dis-list__shadow_col-2:after,.dis-list__shadow_col-2:before{background:#e7f1d4}.dis-list__more_col-3,.dis-list__shadow_col-3,.dis-list__shadow_col-3:after,.dis-list__shadow_col-3:before{background:#e3f4de}.dis-list__more_col-4,.dis-list__shadow_col-4,.dis-list__shadow_col-4:after,.dis-list__shadow_col-4:before{background:#d8f5e9}.dis-list__more_col-5,.dis-list__shadow_col-5,.dis-list__shadow_col-5:after,.dis-list__shadow_col-5:before{background:#d7e9f4}.dis-list__more_col-6,.dis-list__shadow_col-6,.dis-list__shadow_col-6:after,.dis-list__shadow_col-6:before{background:#e4f1ff}.dis-list__arrow{position:absolute;bottom:20px;left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}.advices .advices__title{position:relative;padding-left:70px;background-color:#529d9e}.advices .advices__title h1,.advices .advices__title h2{width:50%;padding-right:2%}.advices .advices__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#d2e6e6;opacity:.8}.advices__cont{padding:100px 0;background:url(pics/encyclopedia/advices/advices-bg.jpg) no-repeat;background-size:cover}.advices__img-cont{position:relative;overflow:hidden;width:280px;height:280px;margin-right:10%;float:right;border-radius:50%}.advices__img{position:absolute;max-width:400px;max-height:400px;min-width:290px;min-height:290px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.advices__txt-cont{font-size:1.25rem}.advices__surname{font-weight:600;color:#3a3a3a}.advices__name{color:#3a3a3a}.advices__post{color:#6f6f6f}.advices__address{margin-bottom:20px;color:#6f6f6f}.advices__slogan{position:relative;margin-bottom:25px;font-size:1.5rem;font-weight:600;color:#529d9e}.advices__quotes{position:absolute;left:-50px;top:-5px}.advices__link{display:inline-block;padding:10px 15px;font-size:1.125rem;color:#3a3a3a;border:1px solid #3a3a3a;-webkit-transition-property:background;transition-property:background;-webkit-transition-duration:.5s;transition-duration:.5s}.advices__link:hover{background-color:#fff}.specialties{position:relative;overflow:hidden}.specialties .specialties__title{position:relative;padding-left:70px;background-color:#c6d333}.specialties .specialties__title h1,.specialties .specialties__title h2{width:50%;padding-right:2%}.specialties .specialties__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#f0f4ca;opacity:.8}.specialties__title{z-index:1}.specialties__cont{background:url(pics/encyclopedia/specialties/specialties-bg.jpg) no-repeat;background-size:cover;background-position:right}.specialties__list-cont{position:relative;display:inline-block;padding:100px 0 150px 0;left:30%}.specialties__circle{position:absolute;left:-200px;top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);height:420px;width:450px;padding:105px 0 0 240px;font-size:176px;color:#a0ab24;background-color:#fff;border-radius:50%;box-shadow:10px 10px 24px 1px rgba(0,0,0,.36)}.specialties__ul{display:inline-block;margin-left:0}.specialties__li{margin-bottom:45px}.specialties__link{font-size:1.6rem;color:#a0ab24;border:1px solid transparent;-webkit-transition-property:border-color;transition-property:border-color;-webkit-transition-duration:1s;transition-duration:1s}.specialties__link:hover{border-bottom:1px solid #a0ab24}.specialties__arrow{position:absolute;bottom:50px;left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}.med-sec .med-sec__title{position:relative;padding-left:70px;background-color:#80b3e5}.med-sec .med-sec__title h1,.med-sec .med-sec__title h2{width:50%;padding-right:2%}.med-sec .med-sec__title::after{content:"";position:absolute;top:0;right:0;width:50%;height:100%;background-color:#deebf8;opacity:.8}.med-sec__cont{background:url(pics/encyclopedia/med-sec/med-sec-bg.jpg) no-repeat;background-size:cover;background-position:center;position:relative}.med-sec__list-cont{position:relative;left:10%;display:inline-block;margin-top:65px;padding-bottom:100px}.med-sec__ul{position:relative}.med-sec__ul:hover .med-sec__ul:after{display:block}.med-sec__li{margin-bottom:65px}.med-sec__link{position:relative;display:block;padding:5px 10px 10px 10px;font-size:2.2rem;color:#80b3e5;-webkit-transition-property:background;transition-property:background;-webkit-transition-duration:.5s;transition-duration:.5s}.med-sec__link._active,.med-sec__link:active,.med-sec__link:hover{color:#fff;background:#80b3e5}.med-sec__link._active:after,.med-sec__link:active:after,.med-sec__link:hover:after{display:block}.med-sec__link:after{content:"";position:absolute;left:100%;top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);display:none;width:15vw;height:2px;background-color:#80b3e5}.med-sec__ul:before{content:"";position:absolute;right:-15vw;top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);width:2px;height:100%;background-color:#80b3e5}.med-sec__desc-cont{position:absolute;left:55%;top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);display:none;width:40%;font-size:1.6rem}.med-sec .visible{display:block}.med-sec__desc{text-align:justify;margin-bottom:20px;color:#506c88}.med-sec__more{display:inline-block;color:#af3a9d;border-bottom:1px solid transparent;border:1px solid transparent;-webkit-transition-property:border-color;transition-property:border-color;-webkit-transition-duration:1s;transition-duration:1s}.med-sec__more:hover{border-bottom-color:#af3a9d}.med-sec__oops{position:absolute;left:55%;top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);display:none;width:40%;font-size:1.6rem}.med-sec__arrow{position:absolute;bottom:50px;left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}.diam-list__cont-1,.diam-list__cont-2,.diam-list__cont-3{position:relative;background-size:cover}.diam-list__cont-1._anatomy{background-image:url(pics/encyclopedia/anatomy/first/anatomy-bg-1.jpg)}.diam-list__cont-1._analyzes{background-image:url(pics/encyclopedia/analyzes/first/analyzes-bg-1.jpg);background-size:auto 100%;background-position:right bottom;background-repeat:no-repeat}.diam-list__cont-2{z-index:2}.diam-list__cont-2._anatomy{background-image:url(pics/encyclopedia/anatomy/second/anatomy-bg-2.jpg)}.diam-list__cont-2._analyzes{background-image:url(pics/encyclopedia/analyzes/second/analyzes-bg-2.jpg)}.diam-list__cont-3._anatomy{background-image:url(pics/encyclopedia/anatomy/third/anatomy-bg-3.jpg)}.diam-list__cont-3._analyzes{background-image:url(pics/encyclopedia/analyzes/third/analyzes-bg-3.jpg)}.diam-list__ul{position:relative;width:40%;padding:50px 0;font-size:1.6rem}.diam-list__ul._left{left:15%}.diam-list__ul._right{left:60%}.diam-list__ul._last{padding:70px 0}.diam-list__li{margin-bottom:13px}.diam-list__link{color:#303030;border-bottom:1px solid;border:1px solid transparent;-webkit-transition-property:border-color;transition-property:border-color;-webkit-transition-duration:1s;transition-duration:1s}.diam-list__link:hover{border-bottom-color:#303030}.diam-list__diam-1{left:45%;top:45%}.diam-list__anatomy-pic-1{background-image:url(pics/encyclopedia/anatomy/first/pic-1.jpg)}.diam-list__anatomy-pic-2{background-image:url(pics/encyclopedia/anatomy/first/pic-2.jpg)}.diam-list__anatomy-pic-3{background-image:url(pics/encyclopedia/anatomy/first/pic-3.jpg)}.diam-list__analyzes-pic-1{background-image:url(pics/encyclopedia/analyzes/first/pic-1.jpg)}.diam-list__analyzes-pic-2{background-image:url(pics/encyclopedia/analyzes/first/pic-2.jpg)}.diam-list__analyzes-pic-3{background-image:url(pics/encyclopedia/analyzes/first/pic-3.jpg)}.diam-list__diam-2{left:-13%;top:40%}.diam-list__anatomy-pic-4{background-image:url(pics/encyclopedia/anatomy/second/pic-1.jpg)}.diam-list__anatomy-pic-5{background-image:url(pics/encyclopedia/anatomy/second/pic-2.jpg)}.diam-list__anatomy-pic-6{background-image:url(pics/encyclopedia/anatomy/second/pic-3.jpg)}.diam-list__analyzes-pic-4{background-image:url(pics/encyclopedia/analyzes/second/pic-1.jpg)}.diam-list__analyzes-pic-5{background-image:url(pics/encyclopedia/analyzes/second/pic-2.jpg)}.diam-list__analyzes-pic-6{background-image:url(pics/encyclopedia/analyzes/second/pic-3.jpg)}.diam-list__diam-3{left:45%;top:50%}.diam-list__anatomy-pic-7{background-image:url(pics/encyclopedia/anatomy/third/pic-1.jpg)}.diam-list__anatomy-pic-8{background-image:url(pics/encyclopedia/anatomy/third/pic-2.jpg)}.diam-list__anatomy-pic-9{background-image:url(pics/encyclopedia/anatomy/third/pic-3.jpg)}.diam-list__analyzes-pic-7{background-image:url(pics/encyclopedia/analyzes/third/pic-1.jpg)}.diam-list__analyzes-pic-8{background-image:url(pics/encyclopedia/analyzes/third/pic-2.jpg)}.diam-list__analyzes-pic-9{background-image:url(pics/encyclopedia/analyzes/third/pic-3.jpg)}.diamonds{position:absolute;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.diamonds__pics-cont{position:relative}.diamonds__pic-1,.diamonds__pic-2,.diamonds__pic-3{position:absolute;background-size:100% 100%;background-position:center;background-repeat:no-repeat}.diamonds__pic-1{left:240px;top:0;z-index:1;width:260px;height:260px}.diamonds__pic-1._opacity{opacity:.7}.diamonds__pic-2{left:250px;top:260px;z-index:2;width:340px;height:340px}.diamonds__pic-2._border{border:7px solid rgba(255,255,255,.5)}.diamonds__pic-2._opacity{opacity:.7}.diamonds__pic-2:before{content:'';position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);display:block;height:106.5%;width:106.5%;background-image:-webkit-linear-gradient(left,#3581b6 160px,transparent 160px),-webkit-linear-gradient(left,#3581b6 160px,transparent 160px),-webkit-linear-gradient(top,#3581b6 160px,transparent 160px),-webkit-linear-gradient(top,#3581b6 160px,transparent 160px);background-image:linear-gradient(to right,#3581b6 160px,transparent 160px),linear-gradient(to right,#3581b6 160px,transparent 160px),linear-gradient(to bottom,#3581b6 160px,transparent 160px),linear-gradient(to bottom,#3581b6 160px,transparent 160px);background-size:100% 5px,100% 5px,5px 100%,5px 100%;background-position:-80px 0,-80px 100%,0 -80px,100% -80px;background-repeat:repeat-x,repeat-x,repeat-y,repeat-y}.diamonds__pic-3{left:0;top:245px;z-index:1;width:260px;height:260px}.diamonds__pic-3._opacity{opacity:.7}@media (max-width:767px){.container{padding:0 4.6%}.alphabet{padding:50px 0 35px 0;background:url(pics/encyclopedia/alphabet/alphabet-bg-sm.jpg) no-repeat;background-size:cover}.alphabet__ul-char{width:90%;margin:auto}.alphabet__chos-char-txt{position:static;-webkit-transform:none;transform:none;float:none}.alphabet__chos-char-circle{float:none;margin:auto}.all-true{background:url(pics/encyclopedia/all-true/all-true-bg-sm.jpg) no-repeat;background-size:cover}.diseases-list-nav__char{display:block;text-align:center;margin-bottom:15px;margin-left:0}.diseases-list-nav__ul-links{float:none}.diseases-list-nav__li{width:80%;float:none;margin:5px auto;text-align:center}.dis-list{padding-bottom:130px}.dis-list__more-cont:before{width:110%}.dis-list__more-cont{left:0;width:100%}.advices .advices__title{padding:0 4.6%}.advices__cont{background:#f4f9f9}.advices__txt-cont{text-align:center}.specialties .specialties__title{padding:0 4.6%}.specialties__list-cont{left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0);padding:130px 0 150px 0}.specialties__circle{top:-180px;left:50%;-webkit-transform:translate(-50%,0);transform:translate(-50%,0);z-index:0;height:350px;width:320px;padding:210px 0 0 120px;font-size:128px;box-shadow:0 10px 24px 1px rgba(0,0,0,.36)}.specialties__ul{text-align:center}.med-sec .med-sec__title{padding:0 4.6%}.med-sec__li{margin-bottom:15px}.med-sec__link._active:after,.med-sec__link:active:after,.med-sec__link:hover:after{display:none}.med-sec__ul:before{display:none}.med-sec__desc-cont{position:static;-webkit-transform:none;transform:none;width:90%;margin:auto;padding-bottom:20px;text-align:center}.med-sec__arrow{bottom:20px}}@media (min-width:768px) and (max-width:991px){.container{padding:0 5.2%}.advices .advices__title{padding:0 5.2%}.specialties .specialties__title{padding:0 5.2%}.med-sec .med-sec__title{padding:0 5.2%}}@media (min-width:992px) and (max-width:1199px){.container{padding:0 35px}.advices .advices__title{padding:0 35px}.specialties .specialties__title{padding:0 35px}.med-sec .med-sec__title{padding:0 35px}}@media (max-width:1199px) and (min-width:768px){.alphabet__ul-char{width:80%;margin:0 auto 65px auto}.all-true__txt-cont{max-width:55%;margin-left:40%}.diseases-list-nav__li{margin:0 10px}.med-sec__link:after{width:5vw}.med-sec__ul:before{right:-5vw}}@media (max-width:991px){.all-true__txt-cont{text-align:center;max-width:none;width:90%;margin:0;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.diseases-list-nav__link{font-size:1.2rem}.dis-list__cont{padding-bottom:10px}.dis-list__cont h2{text-align:center;line-height:30px;font-size:1.7rem}.dis-list__cont p{text-align:justify;font-size:1rem}.advices .advices__title::after{opacity:.3}.specialties .specialties__title::after{opacity:.3}.specialties__cont{background:url(pics/encyclopedia/specialties/specialties-bg-md.jpg) no-repeat;background-size:cover;background-position:right}.med-sec .med-sec__title::after{opacity:.3}.med-sec__link{font-size:1.6rem}.med-sec__desc-cont{font-size:1rem}.diam-list{padding-bottom:20px}.diam-list__cont-1:before,.diam-list__cont-2:before,.diam-list__cont-3:before{content:'';position:absolute;left:0;top:0;width:100%;height:100%;display:block;background-color:rgba(255,255,255,.5)}.diam-list__cont-1{height:auto;background-size:auto 100%}.diam-list__ul{width:90%;margin:auto;text-align:center;padding:20px 0}.diam-list__ul._left{left:0}.diam-list__ul._right{left:0}.diam-list__ul._last{padding:20px 0}.diam-list__link{font-size:20px}.diamonds{display:none}}@media (max-width:1199px) and (min-width:992px){.diseases-list-nav__char{margin-left:5%}.diam-list__ul{width:50%}.diam-list__ul._left{left:5%}.diam-list__ul._right{left:50%}.diam-list__diam-2{left:-40%;top:50%}}@media (max-width:1199px){.diseases-list-nav__ul-links{padding-right:0}}@media (max-width:991px) and (min-width:768px){.dis-list__more-cont{left:25%;width:90%}.specialties__list-cont{left:40%}}@media (min-width:1441px){.diam-list__ul._left{left:25%}.diam-list__diam-2{left:0}}@media (max-width:1440px) and (min-width:1200px){.diam-list__diam-1{left:40%}.diam-list__diam-2{left:-15%;top:50%}.diam-list__diam-3{left:40%}}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding: 0 35px;
+  }
+}
+.transition {
+  transition: 0.15s ease-in;
+}
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vertical-center {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.horizontal-center {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite.sprite-item-1 {
+  background-position: -10px -10px;
+  width: 44px;
+  height: 47px;
+}
+.sprite.sprite-item-2 {
+  background-position: -74px -10px;
+  width: 53px;
+  height: 53px;
+}
+.sprite.sprite-item-3 {
+  background-position: -147px -10px;
+  width: 63px;
+  height: 63px;
+}
+.sprite.sprite-item-4 {
+  background-position: -230px -10px;
+  width: 79px;
+  height: 47px;
+}
+.sprite.sprite-item-5 {
+  background-position: -329px -10px;
+  width: 55px;
+  height: 46px;
+}
+.sprite.sprite-item-6 {
+  background-position: -404px -10px;
+  width: 61px;
+  height: 39px;
+}
+.sprite.sprite-place {
+  background-position: -485px -10px;
+  width: 23px;
+  height: 32px;
+}
+.trans-bor-col {
+  border: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 1s;
+}
+.arrow-to-bottom {
+  position: relative;
+  border: 6px solid #919191;
+  border-radius: 50%;
+  width: 88px;
+  height: 88px;
+  opacity: 0.51;
+  transition-property: width, height, box-shadow;
+  transition-duration: 0.3s;
+}
+.arrow-to-bottom:hover {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.75);
+}
+.arrow-to-bottom__arrow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.row {
+  margin: 0;
+}
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  padding: 0;
+}
+.alphabet {
+  margin-bottom: 50px;
+  padding: 135px 0 35px 0;
+  text-align: center;
+  background: url(pics/encyclopedia/alphabet/alphabet-bg.jpg) no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .alphabet {
+    padding: 50px 0 35px 0;
+    background: url(pics/encyclopedia/alphabet/alphabet-bg-sm.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+.alphabet__ul-char {
+  margin-bottom: 65px;
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .alphabet__ul-char {
+    width: 80%;
+    margin: 0 auto 65px auto;
+  }
+}
+@media (max-width: 767px) {
+  .alphabet__ul-char {
+    width: 90%;
+    margin: auto;
+  }
+}
+.alphabet__li {
+  display: inline-block;
+}
+.alphabet__li-char {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 4px 0;
+  padding: 6px 6px;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: #072c52;
+  transition: 0.15s ease-in;
+}
+.alphabet__li-char:hover,
+.alphabet__li-char:focus {
+  color: #ffffff;
+}
+.alphabet__li-char:hover::before,
+.alphabet__li-char:focus::before {
+  background-color: #3b6799;
+}
+.alphabet__li-char::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 35px;
+  height: 35px;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  transition: 0.15s ease-in;
+}
+.alphabet__chos-char-circle {
+  position: relative;
+  width: 87px;
+  height: 87px;
+  background: #1787c7;
+  border-radius: 50%;
+}
+.alphabet__chos-char-cont {
+  position: relative;
+  display: inline-block;
+  height: 87px;
+  margin: auto;
+  font-family: CenturyGothic, Arial, sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  color: #104578;
+}
+.alphabet__chos-char-txt {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: inline-block;
+  float: left;
+}
+@media (max-width: 767px) {
+  .alphabet__chos-char-txt {
+    position: static;
+    transform: none;
+    float: none;
+  }
+}
+.alphabet__chos-char-circle {
+  display: inline-block;
+  margin-left: 20px;
+  float: left;
+}
+@media (max-width: 767px) {
+  .alphabet__chos-char-circle {
+    float: none;
+    margin: auto;
+  }
+}
+.alphabet__chos-char {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+.alphabet__cancel-link {
+  color: #1787c7;
+}
+.alphabet__cancel-link:hover {
+  text-decoration: underline;
+}
+main {
+  overflow-x: hidden;
+}
+.all-true {
+  position: relative;
+  height: 450px;
+  margin-bottom: 55px;
+  background: url(pics/encyclopedia/all-true/all-true-bg.jpg) no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .all-true {
+    background: url(pics/encyclopedia/all-true/all-true-bg-sm.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+.all-true__txt-cont {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  max-width: 45%;
+  margin-left: 55%;
+  font-size: 2em;
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .all-true__txt-cont {
+    max-width: 55%;
+    margin-left: 40%;
+  }
+}
+@media (max-width: 991px) {
+  .all-true__txt-cont {
+    text-align: center;
+    max-width: none;
+    width: 90%;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.all-true__txt {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.all-true__link {
+  display: inline-block;
+  padding: 0 10px 10px 10px;
+  color: #ffffff;
+  background: #aa1a36;
+}
+.diseases-list-nav {
+  margin-bottom: 100px;
+}
+.diseases-list-nav__char {
+  display: inline-block;
+  margin-left: 10%;
+  font-size: 4.5rem;
+  line-height: 55px;
+  color: #1787c7;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .diseases-list-nav__char {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 767px) {
+  .diseases-list-nav__char {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+}
+.diseases-list-nav__ul-links {
+  float: right;
+  padding-right: 100px;
+}
+@media (max-width: 1199px) {
+  .diseases-list-nav__ul-links {
+    padding-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .diseases-list-nav__ul-links {
+    float: none;
+  }
+}
+.diseases-list-nav__li {
+  float: left;
+  margin: 0 30px;
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .diseases-list-nav__li {
+    margin: 0 10px;
+  }
+}
+@media (max-width: 767px) {
+  .diseases-list-nav__li {
+    width: 80%;
+    float: none;
+    margin: 5px auto;
+    text-align: center;
+  }
+}
+.diseases-list-nav__link {
+  display: block;
+  padding: 5px 15px 10px 15px;
+  font-size: 1.5rem;
+  color: #8d8d8d;
+  border: 1px solid #1787c7;
+  border-radius: 25px;
+}
+.diseases-list-nav__link:hover,
+.diseases-list-nav__link._active {
+  color: #ffffff;
+  background: #1787c7;
+}
+@media (max-width: 991px) {
+  .diseases-list-nav__link {
+    font-size: 1.2rem;
+  }
+}
+.dis-list {
+  position: relative;
+  width: 100%;
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .dis-list {
+    padding-bottom: 130px;
+  }
+}
+.dis-list__cont {
+  position: relative;
+  min-height: 200px;
+  padding: 0 5% 0 10%;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+}
+.dis-list__cont_col-1 {
+  background: linear-gradient(to bottom, #ffffff, #f5f9da);
+}
+.dis-list__cont_col-2 {
+  background: linear-gradient(to bottom, #ffffff, #e7f1d4);
+}
+.dis-list__cont_col-3 {
+  background: linear-gradient(to bottom, #ffffff, #e3f4de);
+}
+.dis-list__cont_col-4 {
+  background: linear-gradient(to bottom, #ffffff, #d8f5e9);
+}
+.dis-list__cont_col-5 {
+  background: linear-gradient(to bottom, #ffffff, #d7e9f4);
+}
+.dis-list__cont_col-6 {
+  background: linear-gradient(to bottom, #ffffff, #e4f1ff);
+}
+.dis-list__cont h2 {
+  font-size: 2rem;
+  color: #537597;
+}
+.dis-list__cont p {
+  font-size: 1.1rem;
+  color: #537597;
+}
+@media (max-width: 991px) {
+  .dis-list__cont {
+    padding-bottom: 10px;
+  }
+  .dis-list__cont h2 {
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.7rem;
+  }
+  .dis-list__cont p {
+    text-align: justify;
+    font-size: 1rem;
+  }
+}
+.dis-list__more-cont {
+  position: absolute;
+  left: 43%;
+  bottom: -90px;
+  z-index: 5;
+  width: 80%;
+  height: 90px;
+  overflow: hidden;
+}
+.dis-list__more-cont:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: -24px;
+  transform: translate(-50%, 0);
+  width: 90%;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.75);
+}
+@media (max-width: 767px) {
+  .dis-list__more-cont:before {
+    width: 110%;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .dis-list__more-cont {
+    left: 25%;
+    width: 90%;
+  }
+}
+@media (max-width: 767px) {
+  .dis-list__more-cont {
+    left: 0;
+    width: 100%;
+  }
+}
+.dis-list__shadow {
+  position: absolute;
+  height: 70px;
+  width: 175px;
+  left: 50%;
+  top: -11px;
+  box-shadow: -3px 8px 9px 0 rgba(0, 0, 0, 0.75);
+  transform: translate(-50%, 0) rotate(-2deg);
+}
+.dis-list__shadow:after,
+.dis-list__shadow:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 80px;
+  width: 80px;
+}
+.dis-list__shadow:before {
+  left: -25px;
+  top: -25px;
+  transform: rotate(62deg);
+  box-shadow: -5px -1px 10px 7px rgba(0, 0, 0, 0.75);
+}
+.dis-list__shadow:after {
+  right: -26px;
+  top: -19px;
+  transform: rotate(-58deg);
+}
+.dis-list__more {
+  position: absolute;
+  width: 175px;
+  height: 70px;
+  top: -8px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: block;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #537597;
+}
+.dis-list__more:hover {
+  color: #1787c7;
+}
+.dis-list__shadow_col-1,
+.dis-list__shadow_col-1:before,
+.dis-list__shadow_col-1:after,
+.dis-list__more_col-1 {
+  background: #f5f9da;
+}
+.dis-list__shadow_col-2,
+.dis-list__shadow_col-2:before,
+.dis-list__shadow_col-2:after,
+.dis-list__more_col-2 {
+  background: #e7f1d4;
+}
+.dis-list__shadow_col-3,
+.dis-list__shadow_col-3:before,
+.dis-list__shadow_col-3:after,
+.dis-list__more_col-3 {
+  background: #e3f4de;
+}
+.dis-list__shadow_col-4,
+.dis-list__shadow_col-4:before,
+.dis-list__shadow_col-4:after,
+.dis-list__more_col-4 {
+  background: #d8f5e9;
+}
+.dis-list__shadow_col-5,
+.dis-list__shadow_col-5:before,
+.dis-list__shadow_col-5:after,
+.dis-list__more_col-5 {
+  background: #d7e9f4;
+}
+.dis-list__shadow_col-6,
+.dis-list__shadow_col-6:before,
+.dis-list__shadow_col-6:after,
+.dis-list__more_col-6 {
+  background: #e4f1ff;
+}
+.dis-list__arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.advices .advices__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #529d9e;
+}
+.advices .advices__title h1,
+.advices .advices__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .advices .advices__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .advices .advices__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .advices .advices__title {
+    padding: 0 35px;
+  }
+}
+.advices .advices__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #d2e6e6;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .advices .advices__title::after {
+    opacity: 0.3;
+  }
+}
+.advices__cont {
+  padding: 100px 0;
+  background: url(pics/encyclopedia/advices/advices-bg.jpg) no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .advices__cont {
+    background: #f4f9f9;
+  }
+}
+.advices__img-cont {
+  position: relative;
+  overflow: hidden;
+  width: 280px;
+  height: 280px;
+  margin-right: 10%;
+  float: right;
+  border-radius: 50%;
+}
+.advices__img {
+  position: absolute;
+  max-width: 400px;
+  max-height: 400px;
+  min-width: 290px;
+  min-height: 290px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.advices__txt-cont {
+  font-size: 1.25rem;
+}
+@media (max-width: 767px) {
+  .advices__txt-cont {
+    text-align: center;
+  }
+}
+.advices__surname {
+  font-weight: 600;
+  color: #3a3a3a;
+}
+.advices__name {
+  color: #3a3a3a;
+}
+.advices__post {
+  color: #6f6f6f;
+}
+.advices__address {
+  margin-bottom: 20px;
+  color: #6f6f6f;
+}
+.advices__slogan {
+  position: relative;
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #529d9e;
+}
+.advices__quotes {
+  position: absolute;
+  left: -50px;
+  top: -5px;
+}
+.advices__link {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1.125rem;
+  color: #3a3a3a;
+  border: 1px solid #3a3a3a;
+  transition-property: background;
+  transition-duration: .5s;
+}
+.advices__link:hover {
+  background-color: #ffffff;
+}
+.specialties {
+  position: relative;
+  overflow: hidden;
+}
+.specialties .specialties__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #c6d333;
+}
+.specialties .specialties__title h1,
+.specialties .specialties__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .specialties .specialties__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .specialties .specialties__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .specialties .specialties__title {
+    padding: 0 35px;
+  }
+}
+.specialties .specialties__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #f0f4ca;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .specialties .specialties__title::after {
+    opacity: 0.3;
+  }
+}
+.specialties__title {
+  z-index: 1;
+}
+.specialties__cont {
+  background: url(pics//encyclopedia/specialties/specialties-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+@media (max-width: 991px) {
+  .specialties__cont {
+    background: url(pics//encyclopedia/specialties/specialties-bg-md.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+}
+.specialties__list-cont {
+  position: relative;
+  display: inline-block;
+  padding: 100px 0 150px 0;
+  left: 30%;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .specialties__list-cont {
+    left: 40%;
+  }
+}
+@media (max-width: 767px) {
+  .specialties__list-cont {
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 130px 0 150px 0;
+  }
+}
+.specialties__circle {
+  position: absolute;
+  left: -200px;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 420px;
+  width: 450px;
+  padding: 105px 0 0 240px;
+  font-size: 176px;
+  color: #a0ab24;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 10px 10px 24px 1px rgba(0, 0, 0, 0.36);
+}
+@media (max-width: 767px) {
+  .specialties__circle {
+    top: -180px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 0;
+    height: 350px;
+    width: 320px;
+    padding: 210px 0 0 120px;
+    font-size: 128px;
+    box-shadow: 0 10px 24px 1px rgba(0, 0, 0, 0.36);
+  }
+}
+.specialties__ul {
+  display: inline-block;
+  margin-left: 0;
+}
+@media (max-width: 767px) {
+  .specialties__ul {
+    text-align: center;
+  }
+}
+.specialties__li {
+  margin-bottom: 45px;
+}
+.specialties__link {
+  font-size: 1.6rem;
+  color: #a0ab24;
+  border: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 1s;
+}
+.specialties__link:hover {
+  border-bottom: 1px solid #a0ab24;
+}
+.specialties__arrow {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.med-sec .med-sec__title {
+  position: relative;
+  padding-left: 70px;
+  background-color: #80b3e5;
+}
+.med-sec .med-sec__title h1,
+.med-sec .med-sec__title h2 {
+  width: 50%;
+  padding-right: 2%;
+}
+@media (max-width: 767px) {
+  .med-sec .med-sec__title {
+    padding: 0 4.6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .med-sec .med-sec__title {
+    padding: 0 5.2%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .med-sec .med-sec__title {
+    padding: 0 35px;
+  }
+}
+.med-sec .med-sec__title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #deebf8;
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .med-sec .med-sec__title::after {
+    opacity: 0.3;
+  }
+}
+.med-sec__cont {
+  background: url(pics/encyclopedia/med-sec/med-sec-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.med-sec__list-cont {
+  position: relative;
+  left: 10%;
+  display: inline-block;
+  margin-top: 65px;
+  padding-bottom: 100px;
+}
+.med-sec__ul {
+  position: relative;
+}
+.med-sec__ul:hover .med-sec__ul:after {
+  display: block;
+}
+.med-sec__li {
+  margin-bottom: 65px;
+}
+@media (max-width: 767px) {
+  .med-sec__li {
+    margin-bottom: 15px;
+  }
+}
+.med-sec__link {
+  position: relative;
+  display: block;
+  padding: 5px 10px 10px 10px;
+  font-size: 2.2rem;
+  color: #80b3e5;
+  transition-property: background;
+  transition-duration: .5s;
+}
+.med-sec__link:hover,
+.med-sec__link:active,
+.med-sec__link._active {
+  color: #ffffff;
+  background: #80b3e5;
+}
+.med-sec__link:hover:after,
+.med-sec__link:active:after,
+.med-sec__link._active:after {
+  display: block;
+}
+@media (max-width: 767px) {
+  .med-sec__link:hover:after,
+  .med-sec__link:active:after,
+  .med-sec__link._active:after {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .med-sec__link {
+    font-size: 1.6rem;
+  }
+}
+.med-sec__link:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: none;
+  width: 15vw;
+  height: 2px;
+  background-color: #80b3e5;
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .med-sec__link:after {
+    width: 5vw;
+  }
+}
+.med-sec__ul:before {
+  content: "";
+  position: absolute;
+  right: -15vw;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 2px;
+  height: 100%;
+  background-color: #80b3e5;
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .med-sec__ul:before {
+    right: -5vw;
+  }
+}
+@media (max-width: 767px) {
+  .med-sec__ul:before {
+    display: none;
+  }
+}
+.med-sec__desc-cont {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: none;
+  width: 40%;
+  font-size: 1.6rem;
+}
+@media (max-width: 991px) {
+  .med-sec__desc-cont {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .med-sec__desc-cont {
+    position: static;
+    transform: none;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+.med-sec .visible {
+  display: block;
+}
+.med-sec__desc {
+  text-align: justify;
+  margin-bottom: 20px;
+  color: #506c88;
+}
+.med-sec__more {
+  display: inline-block;
+  color: #af3a9d;
+  border-bottom: 1px solid transparent;
+  border: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 1s;
+}
+.med-sec__more:hover {
+  border-bottom-color: #af3a9d;
+}
+.med-sec__oops {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: none;
+  width: 40%;
+  font-size: 1.6rem;
+}
+.med-sec__arrow {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 767px) {
+  .med-sec__arrow {
+    bottom: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .diam-list {
+    padding-bottom: 20px;
+  }
+  .diam-list__cont-1:before,
+  .diam-list__cont-2:before,
+  .diam-list__cont-3:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+.diam-list__cont-1,
+.diam-list__cont-2,
+.diam-list__cont-3 {
+  position: relative;
+  background-size: cover;
+}
+.diam-list__cont-1._anatomy {
+  background-image: url(pics/encyclopedia/anatomy/first/anatomy-bg-1.jpg);
+}
+.diam-list__cont-1._analyzes {
+  background-image: url(pics/encyclopedia/analyzes/first/analyzes-bg-1.jpg);
+  background-size: auto 100%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+@media (max-width: 991px) {
+  .diam-list__cont-1 {
+    height: auto;
+    background-size: auto 100%;
+  }
+}
+.diam-list__cont-2 {
+  z-index: 2;
+}
+.diam-list__cont-2._anatomy {
+  background-image: url(pics/encyclopedia/anatomy/second/anatomy-bg-2.jpg);
+}
+.diam-list__cont-2._analyzes {
+  background-image: url(pics/encyclopedia/analyzes/second/analyzes-bg-2.jpg);
+}
+.diam-list__cont-3._anatomy {
+  background-image: url(pics/encyclopedia/anatomy/third/anatomy-bg-3.jpg);
+}
+.diam-list__cont-3._analyzes {
+  background-image: url(pics/encyclopedia/analyzes/third/analyzes-bg-3.jpg);
+}
+.diam-list__ul {
+  position: relative;
+  width: 40%;
+  padding: 50px 0;
+  font-size: 1.6rem;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .diam-list__ul {
+    width: 50%;
+  }
+}
+@media (max-width: 991px) {
+  .diam-list__ul {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+.diam-list__ul._left {
+  left: 15%;
+}
+@media (min-width: 1441px) {
+  .diam-list__ul._left {
+    left: 25%;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .diam-list__ul._left {
+    left: 5%;
+  }
+}
+@media (max-width: 991px) {
+  .diam-list__ul._left {
+    left: 0;
+  }
+}
+.diam-list__ul._right {
+  left: 60%;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .diam-list__ul._right {
+    left: 50%;
+  }
+}
+@media (max-width: 991px) {
+  .diam-list__ul._right {
+    left: 0;
+  }
+}
+.diam-list__ul._last {
+  padding: 70px 0;
+}
+@media (max-width: 991px) {
+  .diam-list__ul._last {
+    padding: 20px 0;
+  }
+}
+.diam-list__li {
+  margin-bottom: 13px;
+}
+.diam-list__link {
+  color: #303030;
+  border-bottom: 1px solid;
+  border: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 1s;
+}
+.diam-list__link:hover {
+  border-bottom-color: #303030;
+}
+@media (max-width: 991px) {
+  .diam-list__link {
+    font-size: 20px;
+  }
+}
+.diam-list__diam-1 {
+  left: 45%;
+  top: 45%;
+}
+@media (max-width: 1440px) and (min-width: 1200px) {
+  .diam-list__diam-1 {
+    left: 40%;
+  }
+}
+.diam-list__anatomy-pic-1 {
+  background-image: url(pics/encyclopedia/anatomy/first/pic-1.jpg);
+}
+.diam-list__anatomy-pic-2 {
+  background-image: url(pics/encyclopedia/anatomy/first/pic-2.jpg);
+}
+.diam-list__anatomy-pic-3 {
+  background-image: url(pics/encyclopedia/anatomy/first/pic-3.jpg);
+}
+.diam-list__analyzes-pic-1 {
+  background-image: url(pics/encyclopedia/analyzes/first/pic-1.jpg);
+}
+.diam-list__analyzes-pic-2 {
+  background-image: url(pics/encyclopedia/analyzes/first/pic-2.jpg);
+}
+.diam-list__analyzes-pic-3 {
+  background-image: url(pics/encyclopedia/analyzes/first/pic-3.jpg);
+}
+.diam-list__diam-2 {
+  left: -13%;
+  top: 40%;
+}
+@media (min-width: 1441px) {
+  .diam-list__diam-2 {
+    left: 0;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1200px) {
+  .diam-list__diam-2 {
+    left: -15%;
+    top: 50%;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .diam-list__diam-2 {
+    left: -40%;
+    top: 50%;
+  }
+}
+.diam-list__anatomy-pic-4 {
+  background-image: url(pics/encyclopedia/anatomy/second/pic-1.jpg);
+}
+.diam-list__anatomy-pic-5 {
+  background-image: url(pics/encyclopedia/anatomy/second/pic-2.jpg);
+}
+.diam-list__anatomy-pic-6 {
+  background-image: url(pics/encyclopedia/anatomy/second/pic-3.jpg);
+}
+.diam-list__analyzes-pic-4 {
+  background-image: url(pics/encyclopedia/analyzes/second/pic-1.jpg);
+}
+.diam-list__analyzes-pic-5 {
+  background-image: url(pics/encyclopedia/analyzes/second/pic-2.jpg);
+}
+.diam-list__analyzes-pic-6 {
+  background-image: url(pics/encyclopedia/analyzes/second/pic-3.jpg);
+}
+.diam-list__diam-3 {
+  left: 45%;
+  top: 50%;
+}
+@media (max-width: 1440px) and (min-width: 1200px) {
+  .diam-list__diam-3 {
+    left: 40%;
+  }
+}
+.diam-list__anatomy-pic-7 {
+  background-image: url(pics/encyclopedia/anatomy/third/pic-1.jpg);
+}
+.diam-list__anatomy-pic-8 {
+  background-image: url(pics/encyclopedia/anatomy/third/pic-2.jpg);
+}
+.diam-list__anatomy-pic-9 {
+  background-image: url(pics/encyclopedia/anatomy/third/pic-3.jpg);
+}
+.diam-list__analyzes-pic-7 {
+  background-image: url(pics/encyclopedia/analyzes/third/pic-1.jpg);
+}
+.diam-list__analyzes-pic-8 {
+  background-image: url(pics/encyclopedia/analyzes/third/pic-2.jpg);
+}
+.diam-list__analyzes-pic-9 {
+  background-image: url(pics/encyclopedia/analyzes/third/pic-3.jpg);
+}
+.diamonds {
+  position: absolute;
+  transform: rotate(-45deg);
+}
+@media (max-width: 991px) {
+  .diamonds {
+    display: none;
+  }
+}
+.diamonds__pics-cont {
+  position: relative;
+}
+.diamonds__pic-1,
+.diamonds__pic-2,
+.diamonds__pic-3 {
+  position: absolute;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.diamonds__pic-1 {
+  left: 240px;
+  top: 0;
+  z-index: 1;
+  width: 260px;
+  height: 260px;
+}
+.diamonds__pic-1._opacity {
+  opacity: 0.7;
+}
+.diamonds__pic-2 {
+  left: 250px;
+  top: 260px;
+  z-index: 2;
+  width: 340px;
+  height: 340px;
+}
+.diamonds__pic-2._border {
+  border: 7px solid rgba(255, 255, 255, 0.5);
+}
+.diamonds__pic-2._opacity {
+  opacity: 0.7;
+}
+.diamonds__pic-2:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  height: 106.5%;
+  width: 106.5%;
+  background-image: linear-gradient(to right, #3581b6 160px, transparent 160px), linear-gradient(to right, #3581b6 160px, transparent 160px), linear-gradient(to bottom, #3581b6 160px, transparent 160px), linear-gradient(to bottom, #3581b6 160px, transparent 160px);
+  background-size: 100% 5px, 100% 5px, 5px 100%, 5px 100%;
+  background-position: -80px 0, -80px 100%, 0 -80px, 100% -80px;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+}
+.diamonds__pic-3 {
+  left: 0;
+  top: 245px;
+  z-index: 1;
+  width: 260px;
+  height: 260px;
+}
+.diamonds__pic-3._opacity {
+  opacity: 0.7;
+}
+/*
+
+.declaration-order {
+  !* Positioning *!
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+
+  !* Box-model *!
+  display: block;
+  float: right;
+  width: 100px;
+  height: 100px;
+
+  !* Typography *!
+  font: normal 13px "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+
+  !* Visual *!
+  background-color: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+
+  !* Misc *!
+  opacity: 1;
+}*/
