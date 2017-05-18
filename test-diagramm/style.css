@@ -1,0 +1,22 @@
+.diag-set{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: block;
+    list-style: none;
+}
+.diagrammCanvas{
+    position: absolute;
+}
+.li{
+    position: absolute;
+    text-align: center;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+}
+.diag-set__percents_1{
+    display: block;
+    font-size: 1.5rem;
+}

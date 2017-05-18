@@ -4,19 +4,23 @@
     <!-- Load the Paper.js library -->
     <script type="text/javascript" src="paper-full.js"></script>
     <!-- Load external PaperScript and associate it with myCanvas -->
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<canvas id="myCanvas" width="500" height="500" resize></canvas>
 
 
-<ul class="diagram-settings">
-    <li class="li"><span data-hover-color="black" data-color="green"   class="diagram-settings__percents_1">20</span></li>
-    <li class="li"><span data-hover-color="black" data-color="red"     class="diagram-settings__percents_1">20</span></li>
-    <li class="li"><span data-hover-color="black" data-color="brown"   class="diagram-settings__percents_1">20</span></li>
-    <li class="li"><span data-hover-color="black" data-color="purple"  class="diagram-settings__percents_1">20</span></li>
-    <li class="li"><span data-hover-color="black"   data-color="pink"  class="diagram-settings__percents_1">20</span></li>
+
+<ul class="diag-set">
+    <canvas id="myCanvas0" class="diagrammCanvas" width="500" height="500" resize></canvas>
+    <li class="li"><a href="#!" class="link"><span data-hover-color="black" data-color="#a3b995"   class="diag-set__percents_1">20</span>percents</a></li>
+    <li class="li"><a href="#!" class="link"><span data-hover-color="black" data-color="#98d6d6"   class="diag-set__percents_1">15</span>percents</a></li>
+    <li class="li"><a href="#!" class="link"><span data-hover-color="black" data-color="#63aec2"   class="diag-set__percents_1">25</span>percents</a></li>
+    <li class="li"><a href="#!" class="link"><span data-hover-color="black" data-color="#00b2b8"   class="diag-set__percents_1">25</span>percents</a></li>
+    <li class="li"><a href="#!" class="link"><span data-hover-color="black" data-color="#eecd71" class="diag-set__percents_1">15</span>percents</a></li>
 </ul>
 
-<script type="text/paperscript" src="myScript.js" canvas="myCanvas"></script>
+<!--<script type="text/paperscript" src="myScript.js" canvas="myCanvas"></script>-->
+<script src="includeCanvases.js"></script>
 </body>
+
+
