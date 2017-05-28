@@ -1,0 +1,35 @@
+.header{
+  &__grid{
+    margin-top: 5px;
+    font-size: 0;
+    text-align-last:center;
+  }
+  &__col{
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    font-size: 16px;
+    &._1{width: 100%;}
+    &._2{width: 100%;}
+    &._3{width: 100%;}
+    @media(min-width: 768px){
+      &._1{width: 50%;}
+      &._2{width: 50%;}
+      &._3{width: 40%;}
+    }
+    @media(min-width: 992px){
+      &._1{width: 20%;}
+      &._2{width: 40%;}
+      &._3{width: 40%;}
+    }
+  }
+  &__logo{
+    margin: auto;
+    @media(min-width: 768px)and(max-width: 991px){
+      margin-left: auto;
+      margin-right: 20px;
+    }
+  }
+}
+
+

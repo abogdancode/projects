@@ -1,0 +1,48 @@
+.contacts{
+  &__grid{
+    font-size: 0;
+    max-width: 350px;
+    margin: auto;
+    @media(min-width: 992px){
+      max-width: 160px;
+      margin: 0;
+    }
+  }
+  &__col{
+    display: inline-block;
+    width: 16.6666%;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: top;
+    font-size: 16px;
+    @media(min-width: 992px){
+      width: 33.33333%;
+    }
+  }
+  &__icon{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    transition-property: transform,fill;
+    transition-duration: .5s;
+    &._1{fill:#1c7dc1}
+    &._2{fill:#4c99bf}
+    &._3{fill:#89cfbb}
+    &._4{fill:#89cfbb}
+    &._5{fill:#4c99bf}
+    &._6{fill:#1c7dc1}
+    @media(min-width: 992px){
+      &._1, &._2, &._3, &._4, &._5, &._6{
+        fill:#1c7dc1;
+      }
+    }
+    &._1, &._2, &._3, &._4, &._5, &._6{
+      &:hover{
+        transform: translateY(-4px);
+        fill:#18245e;
+      }
+    }
+  }
+}
