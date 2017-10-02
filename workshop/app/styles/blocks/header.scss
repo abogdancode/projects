@@ -1,0 +1,38 @@
+
+.header__logo{
+    position: absolute;
+    padding:15px;
+    font-size:18px;
+    color: #777;
+  text-transform: uppercase;
+  }
+  @media (min-width:768px) {
+    .header__logo{
+      position: static;
+      height: 60px;
+      padding: 0;
+      text-align: center;
+      font-size: 70px;
+      line-height: 73px;
+      color:#fff;
+     background-image: url("../images/header/logo-bg.jpg")
+    }
+  }
+  @media (min-width:992px) {
+    .header__logo{
+      height: 60px;
+      font-size: 83px;
+      line-height: 63px;
+    }
+
+  }
+  @media (min-width:1200px) {
+    .header__logo{
+      height: 80px;
+      font-size: 111px;
+      line-height: 85px;
+    }
+
+  }
+
+

@@ -1,0 +1,58 @@
+.about{
+  &__container{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: #56504d;
+  }
+  &__underline{
+
+    margin-top: 0;
+    margin-bottom:10px;
+    &._1{
+      width: 100%;
+    }
+    &._2{
+      width: 90%;
+      @media (min-width:768px){
+        width: 70%;
+      }
+      @media (min-width:992px){
+        width: 60%;
+      }
+    }
+  }
+  &__list{
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+  }
+  &__li{
+    position: relative;
+    margin-bottom: 40px;
+    @media (min-width:992px){
+      font-size: 18px;
+    }
+
+    &:after{
+      content: '';
+      position: absolute;
+      left: -25px;
+      top: calc(50% + 27px);
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: url("../images/about/down-arrow.svg") no-repeat;
+    }
+    &:last-child:after{
+      display: none;
+    }
+  }
+  &__li-svg{
+    height: 30px;
+    position: absolute;
+    left: -35px;
+    top:50%;
+    transform: translate(0,-50%);
+  }
+}

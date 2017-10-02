@@ -1,0 +1,56 @@
+.delivery{
+  padding-bottom:40px;
+  text-align: center;
+  color:rgb(236, 236, 236);
+  background-color: #706865;
+  &:before{
+    border-color: transparent transparent #706865 transparent;
+  }
+  &__container{
+
+  }
+
+  &__header{
+
+  }
+
+  &__underline {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background: linear-gradient(to left, rgba(0,0,0,0), #ececec,rgba(0,0,0,0));
+  }
+  .col-md-4{
+    border-bottom: 1px solid #838383;
+    &:last-child{
+      border-bottom: none;
+    }
+  }
+
+
+
+  &__cost-num{
+    margin-right: 7px;
+    font-size: 20px;
+    font-weight:300;
+    color: #fff;
+  }
+
+  &__cost-txt{
+    font-size: 20px;
+    font-weight:200;
+  }
+
+
+  @media (min-width: 992px) {
+    .col-md-4{
+      border-bottom: none;
+    }
+    &__header-3{
+      height: 55px;
+    }
+    &__underline._2{
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+$icon-font-path: '../fonts/';
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/slick-carousel/slick/slick.scss";
+// endbower
+
+
+@import "../fonts/roboto/roboto.css";
+@import "blocks/underline.scss";
+@import "blocks/triangle-above.scss";
+@import "blocks/header.scss";
+@import "blocks/navbar.scss";
+@import "blocks/main-slider.scss";
+@import "blocks/about.scss";
+@import "blocks/delivery.scss";
+@import "blocks/contacts.scss";
+@import "blocks/footer.scss";
+/* Space out content a bit */
+html{
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+  @media(min-width: 768px){
+    padding-top: 20px;
+  }
+  a:hover,a:focus{
+    text-decoration: none;
+  }
+}
+.container{
+  margin: auto;
+}
+
