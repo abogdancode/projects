@@ -1,0 +1,136 @@
+.contacts{
+  margin-bottom: 20px;
+  text-align: center;
+  color: #56504d;
+  &:before{
+    border-color: transparent transparent #fff transparent;
+  }
+
+
+  &__underline {
+    margin-top: 0;
+
+    background: linear-gradient(to left, rgba(0,0,0,0), #56504d,rgba(0,0,0,0));
+    &._1{
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    &._2{
+      width: 80%;
+      margin-bottom: 10px;
+    }
+    &._3{
+      width: 80%;
+      margin-bottom: 30px;
+    }
+    &._4{
+      width: 100%;
+      margin-bottom: 15px;
+      background: linear-gradient(to left, rgba(0,0,0,0), #e2e2e2 ,rgba(0,0,0,0));
+    }
+    &._5,&._6{
+      width: 80%;
+      margin-bottom: 0px;
+    }
+  }
+
+  &__header{
+    margin-bottom: 0;
+  }
+
+  &__txt{
+   font-size: 16px;
+    &._phone{
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__phone-container{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #838383;
+  }
+
+  &__email-container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  &__link{
+    color: #ad5800;
+
+    &._social{
+      display: block;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      border-bottom: 1px solid #838383;
+    }
+
+    &._telegram{
+      border-bottom: none;
+    }
+
+    &._phone{
+      font-size: 18px;
+    }
+    &._email{
+    font-size: 18px;
+    }
+  }
+
+  &__call-me{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 200;
+    color: #e2e2e2;
+    background-color: rgb(73, 64, 58);
+    &:before{
+      left: 0;
+      border-color: transparent transparent rgb(73, 64, 58) transparent;
+      border-width: 0 calc(50vw - 15px) 11px calc(50vw - 15px);
+    }
+
+      &:after{
+        content: '';
+        position: absolute;
+        bottom:0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 0;
+        border-style: solid;
+        border-color: transparent transparent #fff transparent;
+        border-width: 0 calc(50vw - 15px) 11px calc(50vw - 15px);
+      }
+      @media (min-width: 768px) {
+        &:after,&:before{
+          border-width: 0 360px 20px 360px;
+        }
+      }
+      @media (min-width: 992px) {
+        &:after,&:before{
+          border-width: 0 154.16px 10px 154.16px;
+        }
+        &:before{
+        top: -9px;
+        }
+      }
+    @media (min-width: 992px) {
+      &:after,&:before{
+        border-width: 0 187.5px 10px 187.5px;
+      }
+    }
+  }
+
+  &__btn{
+    color: rgb(73, 64, 58);
+  }
+
+
+  &__svg{
+    height: 30px;
+    vertical-align: middle;
+  }
+}
+
