@@ -41,3 +41,11 @@ code {
     monospace;
 }
 
+.absolute {
+  
+}
+
+.fixed_right{
+  position: absolute;
+  right:0;
+}
