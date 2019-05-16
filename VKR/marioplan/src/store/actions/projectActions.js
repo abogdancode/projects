@@ -34,3 +34,17 @@ export const deleteProject = (project) => {
   }
 };
 
+export const updateProject = (project, props) => {
+  return (dispatch, getState, { getFirebase, getFirestore }) => {
+    // make async call to database
+    const firestore = getFirestore();
+    const projectId = props.match.params.id;
+    firestore.update({ collection: 'projects', doc: projectId }, project).then(() => {
+      dispatch({ type: 'UPDATE_PROJECT', project });
+    }).catch((err) => {
+      dispatch({ type: 'UPDATE_PROJECT_ERROR', err });
+    })
+
+  }
+};
+

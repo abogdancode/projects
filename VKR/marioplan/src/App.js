@@ -10,6 +10,7 @@ import CreateProject from './components/projects/CreateProject'
 
 
 class App extends Component {
+  
   render() {
     return (
       <BrowserRouter>
@@ -17,10 +18,12 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path='/' component={Dashboard} />
-            <Route path='/project/:id' component={ProjectDetails} />
+            <Route path='/type/:id' component={ProjectDetails} />
             <Route path='/signIn' component={SignIn} />
             <Route path='/signup' component={SignUp} />
             <Route path='/create' component={CreateProject} />
+            <Route path='/updateType/:id' component={CreateProject} />
+
           </Switch>
         </div>
       </BrowserRouter>
