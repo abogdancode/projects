@@ -15,7 +15,7 @@ exports.projectCreated = functions.firestore
 
     const project = doc.data();
     const notification = {
-      content: 'Добавил новое СЗИ',
+      content: 'Добавил новоый тип СЗИ',
       user: `${project.authorFirstName} ${project.authorLastName}`,
       time: admin.firestore.FieldValue.serverTimestamp()
     }
@@ -37,6 +37,33 @@ exports.userJoined = functions.auth.user()
         }
 
         return createNotification(notification);
-
       })
   })
+
+
+exports.projectDeleted = functions.firestore
+  .document('projects/{projectId}')
+  .onDelete(doc => {
+
+    const project = doc.data();
+    const notification = {
+      content: 'Удалил тип СЗИ',
+      user: `${project.authorFirstName} ${project.authorLastName}`,
+      time: admin.firestore.FieldValue.serverTimestamp()
+    }
+
+    return createNotification(notification)
+  })
+
+exports.projectChanged = functions.firestore
+  .document('projects/{projectId}')
+  .onUpdate((change, context) => {
+    const project = change.after.data();
+    const notification = {
+      content: 'Изменил тип СЗИ',
+      user: `${project.authorFirstName} ${project.authorLastName}`,
+      time: admin.firestore.FieldValue.serverTimestamp()
+    }
+    return createNotification(notification)
+
+  });
