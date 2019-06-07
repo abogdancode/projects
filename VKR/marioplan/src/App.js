@@ -35,10 +35,11 @@ class App extends Component {
             <Route path='/signIn' component={SignIn} />
             <Route path='/signup' component={SignUp} />
             <Route path='/create/:systemId' component={CreateProject} />
-            <Route path='/updateType/:id' component={CreateProject} />
+            <Route path='/updateType/:systemId/:id' component={CreateProject} />
+            <Route path='/copyType/:systemId/:id' component={CreateProject} />
             <Route exact path='/AddSecurityTool/:toolTypeId' component={AddSecurityTool} />
-            <Route path='/AddSecurityTool/:toolTypeId/:toolId' component={AddSecurityTool} />
-            <Route path='/AddSecurityTool' component={AddSecurityTool} />
+            <Route exact path='/AddSecurityToolItems/:toolTypeId/:toolId' component={AddSecurityTool} />
+            {/* <Route exact path='/AddSecurityTool' component={AddSecurityTool} /> */}
             <Route path='/systemDesigner' component={SystemDesigner} />
             
             <Route path='/report/:systemId/:toolTypeId' component={DataProcesor} />

@@ -35,8 +35,11 @@ export const createTool = (item, itemType, thisOfComponent) => {
 
     }).then((docRef) => {
         thisOfComponent.setState({
-          toolId: docRef.id
+          toolId: docRef.id,
+          showPopupList: true,
+          buttonType: 'CLOSE'
       })
+      thisOfComponent.props.history.push('/AddSecurityToolItems/' + item.toolTypeId + '/' + docRef.id);
       firestore.collection(itemType).doc(docRef.id).set({
         toolId: docRef.id
       }, { merge: true });
@@ -88,6 +91,19 @@ export const updateTool = (item, itemType, itemId) => {
       dispatch({ type: 'UPDATE_' + itemType.toUpperCase() + '_ERROR', err, itemType});
     })
 
+  }
+};
+
+export const setProperty = (item, items, itemType, propertyName, itemId) => {
+  return (dispatch, getState, { getFirebase, getFirestore }) => {
+    const firestore = getFirestore();
+    firestore.collection(itemType).doc(itemId).set({
+      [propertyName]: [...items]
+    }, { merge: true }).then(() => {
+      dispatch({ type: 'UPDATE_' + itemType.toUpperCase(), items, itemType });
+    }).catch((err) => {
+      dispatch({ type: 'UPDATE_' + itemType.toUpperCase() + '_ERROR', err, itemType });
+    })
   }
 };
 
